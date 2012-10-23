@@ -8,15 +8,16 @@ footer: true
 toc: true
 ---
 
+under the name *Joseph Chang* or *Joseph Z. Chang*.
+
 Conference Papers
 -----------------
-
 
 {% bibtex %}
 @inproceedings{chang-chang-jang:2012:ACL2012,
   author    = {Chang, Joseph Z.  and  Chang, Jason S.  and  Jang, Roger Jyh-Shing},
   title     = {Learning to Find Translations and Transliterations on the Web},
-  booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (Volume 2)},  
+  booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (acceptance rate: 21%)},  
   month     = {July},
   year      = {2012},
   address   = {Jeju Island, Korea},
@@ -49,6 +50,20 @@ Conference Papers
   address   = {Taichung, Taiwan},
   publisher = {The Association for Computational Linguistics and Chinese Language Processing},
   url       = {http://aclweb.org/anthology-new/O/O09/}
+}
+{% endbibtex %}
+
+Demo Papers
+-----------------
+
+{% bibtex %}
+@InProceedings{Chang-EtAl:2012:COLING2012,
+  author    = {Joseph Z. Chang and Jason S. Chang},
+  title     = {Word Root Finder: a morphological segmentor based on CRF},
+  booktitle = {Proceedings of the 24th International Conference on Computational Linguistics},
+  year      = {2012},
+  month     = {December},
+  address   = {Bombay, Mumbai, India},
 }
 {% endbibtex %}
 
