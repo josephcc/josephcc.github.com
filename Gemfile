@@ -13,6 +13,9 @@ group :development do
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
   gem 'liquid', '~> 2.3.0'
+  gem 'redcarpet', '~> 2.2.2'
+  gem 'bibtex-ruby', '~> 2.1.1'
+  gem 'citeproc-ruby', '~> 0.0.6'
 end
 
 gem 'sinatra', '~> 1.3.2'
