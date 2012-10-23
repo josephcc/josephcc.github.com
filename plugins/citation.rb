@@ -37,13 +37,16 @@ module Jekyll
       @config = context.registers[:site].config['citation'] || {}
       @config['citation_style'] ||= 'apa'
       @config['citation_locale'] ||= 'en'
-      out = BibTeX.parse(content, :include => [:meta_content]).map do |b|
+      bib = BibTeX.parse(content, :include => [:meta_content])
+      out = bib.map do |b|
         if b.respond_to?(:to_citeproc)
           CiteProc.process b.to_citeproc, :style => @config['citation_style'], :locale => @config['citation_locale'], :format => 'html'
         else
             b.is_a?(BibTeX::MetaContent) ? b.to_s : ''
         end
       end
+      key = bib[1].key
+      out[1] = "#{out[1]}<br/><a id='#{key}' class='bibtex' bibtex='#{bib[1]}'>[bibtex]</a>"
       out
     end
   end
