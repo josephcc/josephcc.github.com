@@ -5,6 +5,7 @@ date: 2012-10-23 14:39
 comments: true
 sharing: true
 footer: true
+toc: true
 ---
 
 Conference Papers

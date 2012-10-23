@@ -1,13 +1,14 @@
-function generateTOC(insertBefore, heading) {
-  var container = jQuery("<div id='tocBlock'></div>");
+function generateTOC(insertHead, target, heading) {
+  var container = jQuery("<section id='tocBlock'></section>");
   var div = jQuery("<ul id='toc'></ul>");
-  var content = $(insertBefore).first();
+  var content = $(target).first();
 
   if (heading != undefined && heading != null) {
-    container.append('<span class="tocHeading">' + heading + '</span>');
+    container.append('<h1>' + heading + '</h1>');
   }
 
   div.tableOfContents(content);
+  div = div.children('li').first().children('ul').first();
   container.append(div);
-  container.insertBefore(insertBefore);
+  $(insertHead).prepend(container);
 }
