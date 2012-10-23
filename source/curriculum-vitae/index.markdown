@@ -29,7 +29,7 @@ Please see [Publications Page](/publications) for detail.
 - Android application development in C and Java.
 - Google App Engine application development.
 - Developed the open source Android benchmarking platform *0xBench*. 
-  - used by major companies worldwide and ships with Taxes Instrument's devboards. 
+  - used by major companies worldwide and ships with Taxes Instrument devboards. 
 
 Please refer to the [Projects Page](/projects) for detail.
 
@@ -46,18 +46,20 @@ Please see [Projects Page](/projects) for both my open source and school project
 #### National Tsing Hua University (2010~2012)
 - Master, Information System and Applications, Computer Science
 - Research focused on Natural Language Processing and Information Retrieval
-  - Cross-lingual Information Retrieval/Extraction, Grammatical Error Correction, Machine Translation, Wikipedia, Google Web1T, Hadoop.
+  - Cross-lingual Information Retrieval/Extraction, Grammatical Error Correction
+  - Machine Translation, Wikipedia, Google Web1T, Hadoop
 - Extensive mobile app development experiences
-  - Android, iOS, Windows Phone 7, BlackBerry Android runtime.
+  - Android, iOS, Windows Phone 7, BlackBerry Android runtime
 
 #### Yuan Ze University (2006~2010)
 - Undergraduate, Computer Science and Engineering (Overall GPA 3.6/4.0)
-- Joined EDA Lab, studied FPGA Architecture/Synthesis and design partitioning for 3D IC.
+- Joined EDA Lab
+  - FPGA Architecture/Synthesis and design partitioning for 3D IC.
 
 ### Selected Awards and Honors
-- Third Award out of 160 teams (~10%), National IC/CAD Programming Contest for Graduate and Undergraduate Students, Ministry of Education, 2009.
-- Second Place out of 67 teams, The 11th Trend Micro Programming Contest, Trend Micro.
-- First Place, Fun Taipei Mobile Application Development Contest, Taipei City Government.
+- Third Award out of 160 teams (~10%), National IC/CAD Programming Contest, Ministry of Education, 2009.
+- Second Place out of 67 teams, The 11th Trend Programming Contest, Trend Micro.
+- First Place, Fun Taipei Mobile App Development Contest, Taipei City Government.
 - 2012 Scholarship from The Association for Computational Linguistics and Chinese Language Processing.
 - Third Place out of 149 teams, National Information Security Contest, Industrial Technology Research Institute and Ministry of Education, 2010.
 - Best Student Project, Mobile Hero, UI Design Contest.
