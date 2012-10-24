@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Joseph Z. Chang 張至"
+title: "Curriculum Vitae"
 date: 2012-10-23 19:18
 comments: true
 sharing: true
@@ -9,6 +9,7 @@ toc: true
 ---
 
 ### Contact 
+> - Joseph Z. Chang (張至)
 > - Phone: +886 975 192 075 (mobile)
 > - Email: joseph.nthu.tw _AT_ gmail.com
 
