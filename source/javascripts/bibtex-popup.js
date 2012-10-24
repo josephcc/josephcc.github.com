@@ -9,7 +9,7 @@ function bindBibtexQtips() {
 			style: {
 				width: 600,
 				name: 'green',
-				tip: 'leftTop',
+				tip: 'topLeft',
 			},
 
 			position: {

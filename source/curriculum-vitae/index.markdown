@@ -58,15 +58,15 @@ Please see [Projects Page](/projects) for both my open source and school project
 >   - FPGA Architecture/Synthesis and design partitioning for 3D IC.
 
 ### Selected Awards and Honors
-> - National IC/CAD Programming Contest 2009, *Ministry of Education*.
+> - National IC/CAD Programming Contest, *Ministry of Education*.
 >   - Third Award out of 160 teams (~10%)
 > - The 11th Trend Programming Contest, *Trend Micro*.
 >   - Second Place out of 67 teams 
 > - Fun Taipei Mobile App Development Contest, *Taipei City Government*.
 >   - First Place, see [Projects Page](/projects) for detail.
-> - 2012 Scholarship and Travel Grant
+> - Scholarship and Travel Grant
 >   - The Association for Computational Linguistics and Chinese Language Processing.
-> - 2010 National Information Security Contest, *Industrial Technology Research Institute*.
+> - National Information Security Contest, *Industrial Technology Research Institute*.
 >   - Third Place out of 149 teams
 > - Mobile Hero UI Design Contest, *Ministry of Economic Affairs*.
 >   - Best Student Project
@@ -77,12 +77,12 @@ Please see [Projects Page](/projects) for both my open source and school project
 
 ### Skills & Expertise
 > - Python, nltk, scipy  ( *6 years* )
-> - Hadoop MapReduce programming ( *5 year* )
-> - Java / Android SDK/NDK application development ( *3 year* )
+> - Hadoop MapReduce programming ( *5 years* )
+> - Java / Android SDK/NDK application development ( *3 years* )
 > - Objective-C / iOS application development ( *1 year* )
 > - Linux server administration ( *8 years* )
 > - Google App Engine, Heroku ( *1 year* )
-> - C++ / STL ( *8 years* )
+> - C / C++ / STL ( *8 years* )
 > - Matlab ( *1 year* )
 
 ### Exams
