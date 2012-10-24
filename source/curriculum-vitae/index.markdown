@@ -12,6 +12,7 @@ toc: true
 > - Joseph Z. Chang (張至)
 > - Phone: +886 975 192 075 (mobile)
 > - Email: joseph.nthu.tw _AT_ gmail.com
+> - Url: http://bizkit.github.com or http://joseph.nlpweb.org
 
 ### Publications
 Three conference papers (ACL, PACLIC, ROCLING), one demo paper (COLING), and participated in two conference tasks (NAACL, NTCIR).
@@ -52,7 +53,7 @@ Please see [Projects Page](/projects) for both my open source and school project
 >   - Android, iOS, Windows Phone 7, BlackBerry Android runtime
 
 #### Yuan Ze University (2006~2010)
-> - Undergraduate, Computer Science and Engineering (Overall GPA 3.6/4.0)
+> - Undergraduate, Computer Science and Engineering (Overall GPA 3.6/4.0, Major 3.8/4.0)
 > - Joined EDA Lab
 >   - FPGA Architecture/Synthesis and design partitioning for 3D IC.
 
