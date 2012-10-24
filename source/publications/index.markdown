@@ -11,7 +11,7 @@ toc: true
 under the name *Joseph Chang* or *Joseph Z. Chang*.
 
 Conference Papers
-===================
+------------
 
 {% bibtex %}
 @inproceedings{chang-chang-jang:2012:ACL2012,
@@ -54,7 +54,7 @@ Conference Papers
 {% endbibtex %}
 
 Demo Papers
-===================
+------------
 
 {% bibtex %}
 @InProceedings{Chang-EtAl:2012:COLING2012,
@@ -68,7 +68,7 @@ Demo Papers
 {% endbibtex %}
 
 Task Papers
-===================
+------------
 
 {% bibtex %}
 @InProceedings{wu-EtAl:2012:BEA,
