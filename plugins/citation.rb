@@ -46,7 +46,9 @@ module Jekyll
         end
       end
       key = bib[1].key
-      out[1] = "#{out[1]}<br/><a id='#{key}' class='bibtex' bibtex='#{bib[1]}'>[bibtex]</a>"
+      link = /http.*/.match(out[1])
+      out[1] = out[1].gsub(/Retrieved from .*/, '')
+      out[1] = "#{out[1]} <br/>&nbsp;-&nbsp;<a id='#{key}' class='bibtex' bibtex='#{bib[1]}'>[bibtex]</a> Permalink: #{link}"
       out
     end
   end

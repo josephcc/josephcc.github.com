@@ -14,8 +14,8 @@ function bindBibtexQtips() {
 
 			position: {
 				corner: {
-					target: 'topRight',
-					tooltip: 'leftTop'
+                    target: 'topRight',
+                    tooltip: 'leftTop'
 				}
 			}
 		});
