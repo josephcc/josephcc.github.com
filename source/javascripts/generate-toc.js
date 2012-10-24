@@ -9,7 +9,7 @@ function generateTOC(insertHead, target, heading) {
 
   div.tableOfContents(content);
   div = div.children('li').first().children('ul').first();
-  div2 = jQuery("<ol style='margin-left: 1.3em;'></ol>")
+  div2 = jQuery("<ol></ol>")
   div2.append(div.html());
   container.append(div2);
   $(insertHead).prepend(container);
