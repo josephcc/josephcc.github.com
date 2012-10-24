@@ -10,14 +10,14 @@ toc: true
 
 under the name *Joseph Chang* or *Joseph Z. Chang*.
 
-Conference Papers
+Conference Papers (Oral)
 ------------
 
 {% bibtex %}
 @inproceedings{chang-chang-jang:2012:ACL2012,
   author    = {Chang, Joseph Z.  and  Chang, Jason S.  and  Jang, Roger Jyh-Shing},
   title     = {Learning to Find Translations and Transliterations on the Web},
-  booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (acceptance rate: 21%)},  
+  booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (acceptance rate: 20%, Top Conf. in NLP)},  
   month     = {July},
   year      = {2012},
   address   = {Jeju Island, Korea},
@@ -31,7 +31,7 @@ Conference Papers
 @InProceedings{Chang-EtAl:2009:PACLIC2009,
   author    = {Joseph Chang and Richard Tzong-Han Tsai and Jason S. Chang},
   title     = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
-  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation},
+  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (acceptance rate: 25%)},
   year      = {2009},
   month     = {December},
   address   = {Hong Kong, China},
@@ -60,7 +60,7 @@ Demo Papers
 @InProceedings{Chang-EtAl:2012:COLING2012,
   author    = {Joseph Z. Chang and Jason S. Chang},
   title     = {Word Root Finder: a morphological segmentor based on CRF},
-  booktitle = {Proceedings of the 24th International Conference on Computational Linguistics},
+  booktitle = {(to appear) Proceedings of the 24th International Conference on Computational Linguistics (Top Conf. in NLP)},
   year      = {2012},
   month     = {December},
   address   = {Bombay, Mumbai, India},
@@ -76,11 +76,11 @@ Task Papers
 @InProceedings{wu-EtAl:2012:BEA,
   author    = {Wu, Jian-Cheng  and  Chang, Joseph  and  Chen, Yi-Chun  and  Huang, Shih-Ting  and  Chen, Mei-Hua  and  Chang, Jason S.},
   title     = {Helping Our Own: NTHU NLPLAB System Description},
-  booktitle = {Proceedings of the Seventh Workshop on Building Educational Applications Using NLP},
+  booktitle = {Proceedings of the Seventh Workshop on Building Educational Applications Using NLP (Workshop of Top Conf. in NLP)},
   month     = {June},
   year      = {2012},
   address   = {Montreal, Canada},
-  publisher = {Association for Computational Linguistics},
+  publisher = {North American Chapter of the Association for Computational Linguistics},
   pages     = {295--301},
   url       = {http://www.aclweb.org/anthology/W12-2035}
 }
@@ -97,3 +97,4 @@ Task Papers
   publisher = {National Institute of Informatics, Japan},
 }
 {% endbibtex %}
+
