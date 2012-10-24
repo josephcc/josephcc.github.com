@@ -35,7 +35,7 @@ Please see [Publications Page](/publications) for detail.
 Please refer to the [Projects Page](/projects) for detail.
 
 #### Cluster Administrator - *National Tsing Hua University 2007~2012*
-> - [Hadoop cluster administration](http://nlp0.cs.nthu.edu.tw)
+> - [Hadoop cluster administration](http://hadoop.nlpweb.org/)
 > - Hadoop MapReduce programming training.
 
 ### Projects
@@ -58,20 +58,22 @@ Please see [Projects Page](/projects) for both my open source and school project
 
 ### Selected Awards and Honors
 > - National IC/CAD Programming Contest, *Ministry of Education*.
->   - Third Award out of 160 teams (~10%)
+>   - *Third Award* out of 160 teams (~10%)
 > - The 11th Trend Programming Contest, *Trend Micro*.
->   - Second Place out of 67 teams 
+>   - *Second Place* out of 67 teams 
 > - Fun Taipei Mobile App Development Contest, *Taipei City Government*.
->   - First Place, see [Projects Page](/projects) for detail.
+>   - *First Place* 
 > - Scholarship and Travel Grant
 >   - The Association for Computational Linguistics and Chinese Language Processing.
 > - National Information Security Contest, *Industrial Technology Research Institute*.
->   - Third Place out of 149 teams
+>   - *Third Place* out of 149 teams
 > - Mobile Hero UI Design Contest, *Ministry of Economic Affairs*.
->   - Best Student Project
+>   - *Best Student Project*
 > - Mobile Application Development Contest, *Chuang Hua Telecom*.
->   - Honorable Mention 
+>   - *Honorable Mention*
 > - Best Undergraduate Research Paper, *YuanZe University*.
+
+Please see [Projects Page](/projects) for detail.
 
 ### Skills & Expertise
 > - Python, nltk, scipy  ( *6 years* )
