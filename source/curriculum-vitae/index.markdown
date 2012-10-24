@@ -8,6 +8,10 @@ footer: true
 toc: true
 ---
 
+<div style="float: right; position:relative; top: -110px; margin-bottom: -130px;">
+	<img src="/images/me.jpg" width="230">
+</div>
+
 Contact 
 -----------------
 > - Joseph Z. Chang (張至)
