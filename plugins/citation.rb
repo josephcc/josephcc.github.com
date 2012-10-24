@@ -47,6 +47,9 @@ module Jekyll
       end
       key = bib[1].key
       link = /http.*/.match(out[1])
+      if link == '' or link == nil
+          link = '(to be announced)'
+      end
       out[1] = out[1].gsub(/Retrieved from .*/, '')
       out[1] = "#{out[1]} <br/>&nbsp;-&nbsp;<a id='#{key}' class='bibtex' bibtex='#{bib[1]}'>[bibtex]</a> Permalink: #{link}"
       out

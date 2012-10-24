@@ -95,6 +95,7 @@ Task Papers
   year      = {2011},
   address   = {Tokyo, Japan},
   publisher = {National Institute of Informatics, Japan},
+  url       = {http://aclweb.org/portal/content/patent-machine-translation-task-patentmt-ntcir-9}
 }
 {% endbibtex %}
 
