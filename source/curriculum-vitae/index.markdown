@@ -57,23 +57,32 @@ Please see [Projects Page](/projects) for both my open source and school project
 >   - FPGA Architecture/Synthesis and design partitioning for 3D IC.
 
 ### Selected Awards and Honors
-> - Third Award out of 160 teams (~10%), National IC/CAD Programming Contest, Ministry of Education, 2009.
-> - Second Place out of 67 teams, The 11th Trend Programming Contest, Trend Micro.
-> - First Place, Fun Taipei Mobile App Development Contest, Taipei City Government.
-> - 2012 Scholarship from The Association for Computational Linguistics and Chinese Language Processing.
-> - Third Place out of 149 teams, National Information Security Contest, Industrial Technology Research Institute and Ministry of Education, 2010.
-> - Best Student Project, Mobile Hero, UI Design Contest.
-> - Honorable Mention, Mobile Application Development Contest, Chuang Hua Telecom.
-> - Best Undergraduate Research Paper, YuanZe University.
+> - National IC/CAD Programming Contest 2009, *Ministry of Education*.
+>   - Third Award out of 160 teams (~10%)
+> - The 11th Trend Programming Contest, *Trend Micro*.
+>   - Second Place out of 67 teams 
+> - Fun Taipei Mobile App Development Contest, *Taipei City Government*.
+>   - First Place, see [Projects Page](/projects) for detail.
+> - 2012 Scholarship and Travel Grant
+>   - The Association for Computational Linguistics and Chinese Language Processing.
+> - 2010 National Information Security Contest, *Industrial Technology Research Institute*.
+>   - Third Place out of 149 teams
+> - Mobile Hero UI Design Contest, *Ministry of Economic Affairs*.
+>   - Best Student Project
+> - Mobile Application Development Contest, *Chuang Hua Telecom*.
+>   - Honorable Mention 
+> - Best Undergraduate Research Paper, *YuanZe University*.
+
 
 ### Skills & Expertise
-> - Python (nltk, scipy)
-> - Hadoop MapReduce programmer
-> - Java / Android SDK/NDK application development
-> - Objective-C / iOS application development
-> - Linux server administration (8 years)
-> - C++ / STL
-> - Matlab
+> - Python, nltk, scipy  ( *6 years* )
+> - Hadoop MapReduce programming ( *5 year* )
+> - Java / Android SDK/NDK application development ( *3 year* )
+> - Objective-C / iOS application development ( *1 year* )
+> - Linux server administration ( *8 years* )
+> - Google App Engine, Heroku ( *1 year* )
+> - C++ / STL ( *8 years* )
+> - Matlab ( *1 year* )
 
 ### Exams
 > - ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28)
