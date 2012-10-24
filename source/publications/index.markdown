@@ -67,6 +67,8 @@ Demo Papers
 }
 {% endbibtex %}
 
+Please refer to the [Projects Page](/projects) for detail.
+
 Task Papers
 ------------
 

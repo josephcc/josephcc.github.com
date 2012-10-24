@@ -19,25 +19,24 @@ Please see [Publications Page](/publications) for detail.
 
 ### Work Experience
 
-#### Contractor/Freelance Developer - *OpenMoko, 2012 (2 months)*
-> - Developed a highly complexed social network Android client application.
+#### Contractor/Freelance Developer - *[OpenMoko](http://www.openmoko.com/), 2012 (2 months)*
+> - Developed a highly complexed social network Android client application for [bitmarq.com](http://www.bitmarq.com).
 
-#### Research Assistant - *Academia Sinica, Dec. 2009~Feb. 2011*
+#### Research Assistant - *[Academia Sinica](http://home.sinica.edu.tw/en/about/history_and_mission.html), Dec. 2009~Feb. 2011*
 > - Expectation-Maximization based method for cross-lingual ontology mapping.
 > - Implemented an EM algorithm on Hadoop MapReduce.
 
-#### Software Engineer Intern - *0xlab May 2010~Sept. 2010*
+#### Software Engineer Intern - *[0xlab](http://0xlab.org) May 2010~Sept. 2010*
 > - Android application development in C and Java.
-> - Google App Engine application development.
-> - Developed the open source Android benchmarking platform *0xBench*. 
->   - used by major companies worldwide and ships with Taxes Instrument devboards. 
+> - Developed the [open source](http://code.google.com/p/0xbench/) Android benchmarking platform [0xBench](https://play.google.com/store/apps/details?id=org.zeroxlab.zeroxbenchmark). 
+>   - used by major companies worldwide and ships with [Taxes Instrument devboards](http://processors.wiki.ti.com/index.php/Android_Comparative_Benchmarks#RowboPERF:_0xBench). 
+> - Google App Engine application development for [server-side visualization](http://0xbenchmark.appspot.com).
 
 Please refer to the [Projects Page](/projects) for detail.
 
 #### Cluster Administrator - *National Tsing Hua University 2007~2012*
-> - Hadoop cluster administration.
+> - [Hadoop cluster administration](http://nlp0.cs.nthu.edu.tw)
 > - Hadoop MapReduce programming training.
-
 
 ### Projects
 Please see [Projects Page](/projects) for both my open source and school projects involving head tracking, Android, iOS and more.
@@ -74,7 +73,6 @@ Please see [Projects Page](/projects) for both my open source and school project
 >   - Honorable Mention 
 > - Best Undergraduate Research Paper, *YuanZe University*.
 
-
 ### Skills & Expertise
 > - Python, nltk, scipy  ( *6 years* )
 > - Hadoop MapReduce programming ( *5 years* )
@@ -85,6 +83,6 @@ Please see [Projects Page](/projects) for both my open source and school project
 > - C / C++ / STL ( *8 years* )
 > - Matlab ( *1 year* )
 
-### Exams
+### Exam Scores
 > - ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28)
 > - ETS TOEIC: 865/990
