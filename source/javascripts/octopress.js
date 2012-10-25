@@ -23,6 +23,12 @@ function addSidebarToggler() {
       } else {
         $('body').addClass('collapse-sidebar');
       }
+      
+      var toc = $('#tocBlock');
+      if (toc && toc.css('display') != 'none')
+        toc.css('display', 'none');
+      else if (toc && toc.css('display') == 'none')
+        toc.css('display', 'block');
     });
   }
   var sections = $('aside.sidebar > section');
