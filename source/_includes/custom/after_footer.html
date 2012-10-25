@@ -9,8 +9,19 @@
 
   <script type="text/javascript">
   jQuery(document).ready(function() {
-    // Put a TOC right before the entry content.
-    generateTOC('.sidebar', "article[role='article']", 'Table of Contents');
+	// Put a TOC right before the entry content.
+	generateTOC('.sidebar', "article[role='article']", 'Table of Contents');
+	
+	jQuery(window).scroll(function () { 
+		var mainOffset = jQuery('#main').position().top;
+		var scrollTop = jQuery(window).scrollTop();
+
+		if (scrollTop >= mainOffset +48)
+			jQuery('#tocBlock').css('top', -28);
+		else
+			jQuery('#tocBlock').css('top', mainOffset - scrollTop+20);
+
+	});
   });
   </script>
 
