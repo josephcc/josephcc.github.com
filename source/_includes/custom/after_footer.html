@@ -22,7 +22,16 @@
 			jQuery('#tocBlock').css('top', mainOffset - scrollTop+20);
 
 	});
+
+	jQuery(window).resize(function () { 
+        var aside = jQuery('aside');
+        if( aside.css('float') == 'none')
+			jQuery('#tocBlock').css('display', 'none');
+        else
+			jQuery('#tocBlock').css('display', 'block');
+    });
   });
+
   </script>
 
 {% endif %}
