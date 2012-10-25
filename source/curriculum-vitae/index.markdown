@@ -27,16 +27,16 @@ Please see [Publications Page](/publications) for detail.
 Work Experience
 -----------------
 
-### Contractor/Freelance Developer
+#### Contractor/Freelance Developer
 > - *[OpenMoko](http://www.openmoko.com/), 2012 (2 months)*
 > - Developed a highly complex social network Android client application for [bitmarq.com](http://www.bitmarq.com).
 
-### Research Assistant
+#### Research Assistant
 > - *[Academia Sinica](http://home.sinica.edu.tw/en/about/history_and_mission.html), Dec. 2009~Feb. 2011*
 > - Expectation-Maximization based method for cross-lingual ontology mapping.
 > - Implemented an EM algorithm on Hadoop MapReduce.
 
-### Software Engineer Intern
+#### Software Engineer Intern
 > - *[0xlab](http://0xlab.org) May 2010~Sept. 2010*
 > - Android application development in C and Java.
 > - Developed the [open source](http://code.google.com/p/0xbench/) Android benchmarking platform [0xBench](https://play.google.com/store/apps/details?id=org.zeroxlab.zeroxbenchmark). 
@@ -45,7 +45,7 @@ Work Experience
 
 Please refer to the [Projects Page](/projects) for detail.
 
-### Cluster Administrator
+#### Cluster Administrator
 > - *National Tsing Hua University 2007~2012*
 > - [Hadoop cluster administration](http://hadoop.nlpweb.org/)
 > - Hadoop MapReduce programming training.
@@ -57,15 +57,13 @@ Please see [Projects Page](/projects) for both my open source and school project
 Education
 -----------------
 
-### National Tsing Hua University ('10~'12)
+#### National Tsing Hua University ('10~'12)
 > - Master, Information System and Applications, Computer Science
 > - Research focused on Natural Language Processing and Information Retrieval
 >   - Cross-lingual Information Retrieval/Extraction, Grammatical Error Correction
 >   - Machine Translation, Wikipedia, Google Web1T, Hadoop
-> - Extensive mobile app development experiences
->   - Android, iOS, Windows Phone 7, BlackBerry Android runtime
 
-### Yuan Ze University ('06~'10)
+#### Yuan Ze University ('06~'10)
 > - Undergraduate, Computer Science and Engineering (Overall GPA 3.6/4.0)
 > - Joined EDA Lab
 >   - FPGA Architecture/Synthesis and design partitioning for 3D IC.
@@ -73,43 +71,43 @@ Education
 Selected Awards and Honors
 -----------------
 
-### National IC/CAD Programming Contest
+#### National IC/CAD Programming Contest
 > - held by Ministry of Education.
 > - *Third Award* out of 160 teams (~10%)
 > - 3D-IC partitioning algorithm in C++/STL, 3000+ lines of code
 
-### The 11th Trend Programming Contest
+#### The 11th Trend Programming Contest
 > - held by [Trend Micro Inc](http://www.trendmicro.com).
 > - *Second Place* out of 67 teams 
 
-### Fun Taipei Development Contest
+#### Fun Taipei Development Contest
 > - held by Taipei City Government
 > - *First Place* 
 > - written Taipei Fever, a Taipei City tour guide app for iOS, Android, and WindowsPhone7.
 >   - see [Projects Page](/projects) for detail.
 
-### Received Scholarships / Travel Grants from
+#### Received Scholarships / Travel Grants from
 > - The Association for Computational Linguistics and Chinese Language Processing
 > - Department of Information System and Applications, National Tsing Hua University
 > - Department of Computer Science and Engineering, National Yuan Ze University
 > - Industrial Technology Research Institute
 
-### National Information Security Contest 
+#### National Information Security Contest 
 > - held by Industrial Technology Research Institute and Ministry of Education
 > - *Third Place* out of 149 teams
 > - written test and on-site war game
 
-### Mobile Hero Mobile UI Contest
+#### Mobile Hero Mobile UI Contest
 > - held by Ministry of Economic Affairs
 > - *Best Student Project*
 > - written Paper Piano, a augmented reality, virtual instrument for Android
 >   - see [Projects Page](/projects) for detail.
 
-### Mobile App Development Contest
+#### Mobile App Development Contest
 > - held by [Chuang Hua Telecom Inc](http://www.cht.com.tw/en/)
 > - *Honorable Mention*
 
-### Best Undergraduate Research Paper
+#### Best Undergraduate Research Paper
 > - given by YuanZe University
 
 Skills & Expertise
