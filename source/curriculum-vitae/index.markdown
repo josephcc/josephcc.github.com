@@ -88,8 +88,11 @@ Selected Awards and Honors
 > - written Taipei Fever, a Taipei City tour guide app for iOS, Android, and WindowsPhone7.
 >   - see [Projects Page](/projects) for detail.
 
-### Scholarship and Travel Grant
+### Received Scholarships / Travel Grants from
 > - The Association for Computational Linguistics and Chinese Language Processing
+> - Department of Information System and Applications, National Tsing Hua University
+> - Department of Computer Science and Engineering, National Yuan Ze University
+> - Industrial Technology Research Institute
 
 ### National Information Security Contest 
 > - held by Industrial Technology Research Institute and Ministry of Education
