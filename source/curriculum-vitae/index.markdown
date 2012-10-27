@@ -125,3 +125,4 @@ Exam Scores
 -----------------
 > - ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28)
 > - ETS TOEIC: 865/990
+> - IELTS: 8.0 (R:8.5, L:8.5, S:8.5, W:7.0)
