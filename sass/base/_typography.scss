@@ -88,8 +88,8 @@ article h2, article h3, article header h1{
 
 p, blockquote, ul, ol { margin-bottom: 1.5em; }
 
-blockquote ul {
-  font-style: normal;
+blockquote {
+  font-style: normal !important;
 }
 
 ul { list-style-type: disc;
