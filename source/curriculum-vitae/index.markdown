@@ -40,7 +40,7 @@ Work Experience
 > Developed in C and Java the [open source](http://code.google.com/p/0xbench/) Android benchmarking
 > platform [0xBench](https://play.google.com/store/apps/details?id=org.zeroxlab.zeroxbenchmark) and its
 > [server-side visualization](http://0xbenchmark.appspot.com) hosted on Google App Engine. 0xBench is
-> now being used by major companies worldwide and ships with [Taxes Instrument's devboards](http://processors.wiki.ti.com/index.php/Android_Comparative_Benchmarks#RowboPERF:_0xBench). 
+> now being used by major companies worldwide and ships with [Texas Instrument's devboards](http://processors.wiki.ti.com/index.php/Android_Comparative_Benchmarks#RowboPERF:_0xBench). 
 > 0xlab is a startup company founded by a group of enthusiastic developers who actively contribute to
 > various open source projects including the Android Open Source Project.
 
@@ -81,22 +81,22 @@ Selected Awards and Honors
 #### The 11th Trend Micro Programming Contest, *[Trend Micro Inc](http://www.trendmicro.com)*
 > won *Second Place* out of 67 teams 
 
-#### Fun Taipei Development Contest, *Taipei City Governmen*
+#### Fun Taipei Mobile App Contest, *Taipei City Government*
 > won *First Place*     
-> written Taipei Fever, a Taipei City tour guide app for iOS, Android, and WindowsPhone7.    
+> developed Taipei Fever, a Taipei City tour guide app for iOS, Android, and WindowsPhone7.    
 
 #### National Information Security Contest, *Industrial Technology Research Institute*
 > won *Third Place* out of 149 teams
 
-#### Mobile Hero Mobile UI Contest, *Ministry of Economic Affair*
+#### Mobile Hero UI Contest, *Ministry of Economic Affair*
 > won *Best Student Project*    
-> written Paper Piano, a augmented reality, virtual instrument for Android    
+> developed Paper Piano, an augmented reality instrument for Android.
 
-#### Mobile App Development Contest, *[Chuang Hua Telecom Inc](http://www.cht.com.tw/en/)*
+#### Mobile App Development Contest, *[Chuang Hua Telecom](http://www.cht.com.tw/en/)*
 > *Honorable Mention*
 
 #### Best Undergraduate Research Paper
-> awarded by YuanZe University
+> awarded by Yuan Ze University
 
 Exam Scores
 -----------------
