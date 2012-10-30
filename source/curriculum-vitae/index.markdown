@@ -21,49 +21,47 @@ Contact
 
 Publications
 -----------------
-Three conference papers (ACL, PACLIC, ROCLING), one demo paper (COLING), and participated in two conference tasks (NAACL, NTCIR).
+Published three conference papers (ACL, PACLIC, ROCLING), one demo paper (COLING), and participated in two conference tasks (NAACL, NTCIR).
 Please see [Publications Page](/publications) for detail.
 
 Work Experience
 -----------------
 
-#### Contractor/Freelance Developer
-> - *[OpenMoko](http://www.openmoko.com/), 2012 (2 months)*
-> - Developed a highly complex social network Android client application for [bitmarq.com](http://www.bitmarq.com).
+#### Contractor/Freelance Developer, *[OpenMoko](http://www.openmoko.com/)* - April 2012~June 2012 
+> Developed a highly complex social network Android client application for the [bitmarq.com](http://www.bitmarq.com) website, 
+> from OpenMoko, the startup company that sponsored the Openmoko Project to create open source mobile phones in 2007.
 
-#### Research Assistant
-> - *[Academia Sinica](http://home.sinica.edu.tw/en/about/history_and_mission.html), Dec. 2009~Feb. 2011*
-> - Expectation-Maximization based method for cross-lingual ontology mapping.
-> - Implemented an EM algorithm on Hadoop MapReduce.
+#### Research Assistant, *[Academia Sinica](http://home.sinica.edu.tw/en/about/history_and_mission.html)* - Dec. 2009~Feb. 2011
+> Develop an Expectation-Maximization based method for cross-lingual ontology mapping, namely mapping
+> EHowNet and the Princeton WordNet. The algorithm was implemented on the Hadoop MapReduce platform for
+> efficiency.
 
-#### Software Engineer Intern
-> - *[0xlab](http://0xlab.org) May 2010~Sept. 2010*
-> - Android application development in C and Java.
-> - Developed the [open source](http://code.google.com/p/0xbench/) Android benchmarking platform [0xBench](https://play.google.com/store/apps/details?id=org.zeroxlab.zeroxbenchmark). 
->   - used by major companies worldwide and ships with [Taxes Instrument devboards](http://processors.wiki.ti.com/index.php/Android_Comparative_Benchmarks#RowboPERF:_0xBench). 
-> - Google App Engine application development for [server-side visualization](http://0xbenchmark.appspot.com).
+#### Software Engineer Intern, *[0xlab](http://0xlab.org)* - May 2010~Sept. 2010
+> Developed in C and Java the [open source](http://code.google.com/p/0xbench/) Android benchmarking
+> platform [0xBench](https://play.google.com/store/apps/details?id=org.zeroxlab.zeroxbenchmark) and its
+> [server-side visualization](http://0xbenchmark.appspot.com) hosted on Google App Engine. 0xBench is
+> now being used by major companies worldwide and ships with [Taxes Instrument's devboards](http://processors.wiki.ti.com/index.php/Android_Comparative_Benchmarks#RowboPERF:_0xBench). 
+> 0xlab is a startup company founded by a group of enthusiastic developers who actively contribute to
+> various open source projects including the Android Open Source Project.
 
-Please refer to the [Projects Page](/projects) for detail.
-
-#### Cluster Administrator
-> - *National Tsing Hua University 2007~2012*
-> - [Hadoop cluster administration](http://hadoop.nlpweb.org/)
-> - Hadoop MapReduce programming training.
+#### Cluster Administrator, *National Tsing Hua University* - 2007~2012
+> In charge of [Hadoop cluster administration](http://hadoop.nlpweb.org/) and MapReduce programming training.
 
 Projects
 -----------------
 Please see [Projects Page](/projects) for both my open source and school projects involving head tracking, Android, iOS and more.
 
+
 Education
 -----------------
 
-#### National Tsing Hua University ('10~'12)
+#### National Tsing Hua University (2010~2012)
 > - Master, Information System and Applications, Computer Science
 > - Research focused on Natural Language Processing and Information Retrieval
 >   - Cross-lingual Information Retrieval/Extraction, Grammatical Error Correction
 >   - Machine Translation, Wikipedia, Google Web1T, Hadoop
 
-#### Yuan Ze University ('06~'10)
+#### Yuan Ze University (2006~2010)
 > - Undergraduate, Computer Science and Engineering (Overall GPA 3.6/4.0)
 > - Joined EDA Lab
 >   - FPGA Architecture/Synthesis and design partitioning for 3D IC.
@@ -71,44 +69,40 @@ Education
 Selected Awards and Honors
 -----------------
 
-#### National IC/CAD Programming Contest
-> - held by Ministry of Education.
-> - *Third Award* out of 160 teams (~10%)
-> - 3D-IC partitioning algorithm in C++/STL, 3000+ lines of code
+#### Scholarships / Travel Grants
+> - The Association for Computational Linguistics and Chinese Language Processing    
+> - Department of Information System and Applications, National Tsing Hua University    
+> - Department of Computer Science and Engineering, National Yuan Ze University    
 
-#### The 11th Trend Programming Contest
-> - held by [Trend Micro Inc](http://www.trendmicro.com).
-> - *Second Place* out of 67 teams 
+#### National IC/CAD Programming Contest, *Ministry of Education*
+> won *Bronze Medal* out of 160 teams     
+> developed a 3D-IC partitioning algorithm, implemented in 3000+ lines of C++/STL code
 
-#### Fun Taipei Development Contest
-> - held by Taipei City Government
-> - *First Place* 
-> - written Taipei Fever, a Taipei City tour guide app for iOS, Android, and WindowsPhone7.
->   - see [Projects Page](/projects) for detail.
+#### The 11th Trend Micro Programming Contest, *[Trend Micro Inc](http://www.trendmicro.com)*
+> won *Second Place* out of 67 teams 
 
-#### Received Scholarships / Travel Grants from
-> - The Association for Computational Linguistics and Chinese Language Processing
-> - Department of Information System and Applications, National Tsing Hua University
-> - Department of Computer Science and Engineering, National Yuan Ze University
-> - Industrial Technology Research Institute
+#### Fun Taipei Development Contest, *Taipei City Governmen*
+> won *First Place*     
+> written Taipei Fever, a Taipei City tour guide app for iOS, Android, and WindowsPhone7.    
 
-#### National Information Security Contest 
-> - held by Industrial Technology Research Institute and Ministry of Education
-> - *Third Place* out of 149 teams
-> - written test and on-site war game
+#### National Information Security Contest, *Industrial Technology Research Institute*
+> won *Third Place* out of 149 teams
 
-#### Mobile Hero Mobile UI Contest
-> - held by Ministry of Economic Affairs
-> - *Best Student Project*
-> - written Paper Piano, a augmented reality, virtual instrument for Android
->   - see [Projects Page](/projects) for detail.
+#### Mobile Hero Mobile UI Contest, *Ministry of Economic Affair*
+> won *Best Student Project*    
+> written Paper Piano, a augmented reality, virtual instrument for Android    
 
-#### Mobile App Development Contest
-> - held by [Chuang Hua Telecom Inc](http://www.cht.com.tw/en/)
-> - *Honorable Mention*
+#### Mobile App Development Contest, *[Chuang Hua Telecom Inc](http://www.cht.com.tw/en/)*
+> *Honorable Mention*
 
 #### Best Undergraduate Research Paper
-> - given by YuanZe University
+> awarded by YuanZe University
+
+Exam Scores
+-----------------
+> - ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28) out of 120
+> - ETS TOEIC: 950 out of 990
+> - IELTS: 8.0 (R:8.5, L:8.5, S:8.5, W:7.0) out of 9.0
 
 Skills & Expertise
 -----------------
@@ -121,8 +115,3 @@ Skills & Expertise
 > - C / C++ / STL ( *8 years* )
 > - Matlab ( *1 year* )
 
-Exam Scores
------------------
-> - ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28)
-> - ETS TOEIC: 865/990
-> - IELTS: 8.0 (R:8.5, L:8.5, S:8.5, W:7.0)
