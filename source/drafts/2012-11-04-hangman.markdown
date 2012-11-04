@@ -4,69 +4,154 @@ title: "A NLP Approach to the Hangman Game"
 date: 2012-11-04 21:14
 comments: true
 published: false
+toc: true
 categories: 
 ---
 
 I've recently wrote a program for solving sentence-based hangman game automatically. Here's a post
-explaining how I did it with the [srilm](http://www.speech.sri.com/projects/srilm/) language model and
-hidden Markov model.
+explaining how I did it with the British National Corpus, [srilm](http://www.speech.sri.com/projects/srilm/) 
+language model and hidden Markov model.
 
 The Hangman Game
-===================
+-------------------
 Last week, my friend [Zero Cho](http://itszero.github.com) was asked to write a program that solves the
 game of hangman automatically. For people who are not familiar with the hangman game, the rules are
-simple: the questions are short sentences or phrases containing 3 to 8 words with their characters
-concealed, replaced with underscore while spaces and punctuations are revealed as they are. The solving
+simple: the questions are short sentences or phrases with their characters
+concealed, i.e. replaced with a underscore, while spaces and punctuations are revealed. The solving
 process is an interactive process in which the solver program will guess a letter, and the question
-system will reveal the locations of that letter in the question. If you guessed 3 letters that are not
-in the answer, you failed the question.
+system will reveal the locations of that letter. If you guessed 3 letters that are not in the sentence, 
+you fail the question.
 
-For example, the initial question for the answer "it's a sunny day" is "\_\_'\_ \_ \_\_\_\_\_ \_\_\_",
-if solver program guesses the letter "y", the system will respond with "\_\_'\_ \_ \_\_\_\_y \_\_y".
+For example, the initial hint for the answer `it's a sunny day` is `__'_ _ _____ ___`,
+if a solver program guesses `y`, the system will respond with `__'_ _ ____y __y`.
 
-He used a statistical approach that first guesses vows with highest frequencies until the first correct
-guess. With one vow revealed, he then recursively chooses the word with the most portion revealed to
-attack. His approach to attacking of a single half-revealed word is also statistical, namely to find the
-most frequent English word that matches the pattern, and guess its characters.  His method is explained
+My friend Zero used a statistical approach that first guesses vows with highest frequencies until the first correct
+guess. With one vow revealed, he then repeatedly choose the word with the most portion revealed to
+guess. His approach to guessing a single half-revealed word is also statistical, namely to find the
+most frequent English word that matches the pattern.  His method is explained
 in detail in his recent [blog post](http://itszero.github.com/blog/2012/10/29/my-way-to-write-a-hangman-ai/).
 
-The shortcoming of this approach is that it lack consideration for correlations between words in the
-sentences. For example, the word "sunny" is likely to go before "day", while the word "sorry" with a
-higher frequency is unlikely to appear before "day". In my approach, I will train a [Language
-Model](http://en.wikipedia.org/wiki/Language_model) to capture such phenomenons, and use [Hidden Markov
-Model](http://en.wikipedia.org/wiki/Hidden_Markov_model) to guess every word in the sentence
+The shortcoming of this approach is that it lacks consideration for correlations between words in the
+sentences. For example, the word `sunny` is likely to go before `day`, while the word `sorry` with a
+higher frequency is unlikely to appear before `day`. In my approach, I trained a 
+[Language Model](http://en.wikipedia.org/wiki/Language_model) to capture such correlations, and use 
+[hidden Markov model](http://en.wikipedia.org/wiki/Hidden_Markov_model) to guess every word in the sentence
 simultaneously.
 
 Language Model
-===================
+-------------------
+I use the state-of-the-art [srilm](http://www.speech.sri.com/projects/srilm/) package to train my language 
+model on a portion of the British National Corpus (BNC). My parameters include order-5, Kneser-Ney discount, 
+and interpolation. I use SWIG to integrate srilm (in C) with my main program written in Python. 
 
+A language model is a statistical model that defines the probability of a sequence of words using 
+probability distribution trained on a free text corpus.
+
+For example, given a sequence of words $w_1, w_2, w_3, ..., w_n$, the unigram (one-word) language model 
+calculates the probability of such sequence as 
+$$P(w_{1}w_{2}w_{3}...w_{n}) := P(w_1) * P(w_2) * P(w_3) * ... * P(w_n)$$
+this is sometimes called an order-1 language model. The word probability can be calculated by counting 
+its appearances in the corpus:
+$$P(w) := count(w) \  / \ |\ corpus\ | $$
+An order-2 language model, or bigram language model, defines the sequence probability using conditional 
+probability:
+$$P(w_{1}w_{2}w_{3}...w_{n}) := P(w_1) * P(w_2|w_1) * P(w_3|w_2) * ... * P(w_n|w_{n-1})$$
+intuitively, conditional probability can be calculated as:
+$$P(w_a|w_b) := count(w_{b}w_{a}) / count(w_b)$$
+Generally, higher order produces better results but also suffers more severely on the out-of-vocabulary problem 
+and therefore sometimes needs to fall back to lower order conditional probabilities. Many theories have been 
+proposed to improve the performance of language models, including absolute discount estimation, good turing, 
+Kneser-Ney smoothing. Formal definition of language model can be found on 
+[Wikipedia](http://en.wikipedia.org/wiki/Language_model).
 
 Hidden Markov Model
-===================
+-------------------
+Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of 
+observations, state transition probability distribution, and emission probability distribution. In our case,
+the hidden states are the English words in the answer sentences, e.g., `it's`, `a`, `sunny`, `day`, and the observations
+are the half-revealed sequence, e.g., `__'s`, `_`, `s_nny`, `__y`. The state transition probability is calculated by the
+trained language model, e.g., $P(day | sunny)$ in a order-1 language model. I define the emission probability as the 
+normalize probability of all the English words that matches the half-revealed pattern, 
+e.g., normalized $P(day), P(pay), P(gay), P(hey), ..., etc$. for `__y`, and zero otherwise. With the transition and 
+emission probabilities defined, we then use the Viterbi dynamic programming algorithm to calculate the optimal state sequence.
 
+Formal definition and more informations on HMM can be found on 
+Wikipedia pages [here](http://en.wikipedia.org/wiki/Hidden_Markov_model) and 
+[here](http://en.wikipedia.org/wiki/Viterbi_algorithm), or in a slide I made for a NLP course 
+[here](http://hadoop.nlpweb.org/~bizkit/lab3/vtb_example/) (in Chinese).
 
 Algorithm
-===================
-It is obvious that to run the hidden Markov model on a fully concealed sentence will yield bad results.
-Therefore, at stage one my solver will also start by guessing high frequency letters. Instead of
+-------------------
+It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
+Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
 guessing vows only, I also use consonants, hoping that revealing some consonants will help the second
-stage. The guessing priorities are e, a, i, s, r, n, t, o, l, c, d, u, m, j, g, ..., etc. The guessing
-process stop until I made two mistakes or have revealed more than five letters. 
+stage. The sorted list begins with `e, a, i, s, r, n, t, o`, ..., etc. This 
+process stops until it had made one or two wrong guesses or have revealed more than four letters. 
 
 At the second stage, the trained hidden Markov model will tag the half-revealed words with English word
-sequence that yield the highest language model probability. The program will then guess the letter that
-appears in most words. This process repeats until all characters are revealed, and the number of failed
-guesses are recorded.
+sequence that yield the highest language model probability and word frequencies. The solver will then 
+guess the letter that appears in most words. This process repeats until all characters are 
+revealed, and the number of failed guesses are recorded.
 
 Results
-===================
+-------------------
+
+## "it is not intelligent"
+
+stage	|errors	|hint	| predict	| guess
+-----	|-------	|----	|-------	| -----
+1	|0	|`__ __ ___ ___________`	| N/A	| e
+1	|0	|`__ __ ___ ___e____e__`	| N/A	| a
+2	|1	|`__ __ ___ ___e____e__`	| N/A	| i
+2	|1	|`i_ i_ ___ i__e__i_e__`	| it is too intelligent 	| t
+2	|1	|`it i_ __t i_te__i_e_t`	| __it is not intelligent__ 	| nsolg
+2	|1	|it is not intelligent	| 	|
+
+
+## "and with regard to this game"
+
+stage	|errors	|hint	| predict	| guesses
+-----	|-------	|----	|-------	| -----
+1	|0	|`___ ____ ______ __ ____ ____`	| N/A	| eai
+1	|0	|`a__ _i__ _e_a__ __ __i_ _a_e`	| N/A	| srt
+2	|0	|`a__ _it_ re_ar_ t_ t_is _a_e`	| __and with regard to this game__	|dnohgmw 
+2	|0	|`and with regard to this game`	| 	|
+
+## "jim told me to come along"
+
+stage	|errors	|hint	| predict	| guesses
+-----	|-------	|----	|-------	| -----
+1	|0	|`___ ____ __ __ ____ _____`	| N/A	| eai 
+1	|0	|`_i_ ____ _e __ ___e a____`	| N/A	| s
+2	|1	|`_i_ ____ _e __ ___e a____`	| him from me to come along 	| o
+2	|1	|`_i_ _o__ _e _o _o_e a_o__`	| tim told me to come along	| t
+2	|1	|`_i_ to__ _e to _o_e a_o__`	| did told me to come along	| l
+2	|1	|`_i_ tol_ _e to _o_e alo__`	| did told me to come along	| dmnch
+2	|1	|`_im told me to come alon_`	| __jim told me to come along__	| jg
+2	|1	|`jim told me to come along`	| 	|
+
+This one shows HMM produces different results as more characters are revealed, finally obtaining the answer.
+
+
+## "members of the supreme court"
+
+stage	|errors	|hint	| predict	| guesses
+-----	|-------	|----	|-------	| -----
+1	|0	|`_______ __ ___ _______ _____`	| N/A	| e
+1	|0	|`_e__e__ __ __e ____e_e _____`	| N/A	| a
+2	|1	|`_e__e__ __ __e ____e_e _____`	| __members of the supreme court__	| rstoumchpbf 
+2	|1	|`members of the supreme court`	| 	| 
+
+This last one really shows the power of language model. With only `e` revealed, the HMM process was able to guess the correct result.
+
+
 
 
 Improvements
-===================
-For stage one, instead of using just highest frequency letters, conditional probability can also be a
-factor for choosing the next letter to guess. For example, if "s" is revealed as the second to last
-character in some words, "t" may be likely to be the last.
+-------------------
+For stage one, instead of using just the highest frequency letters, conditional probability can also be a
+factor for choosing the next letter. For example, if `s` is revealed as the second to last
+character in some words, `t` and `e` may likely to be the last letter of such words.
 
 For the two stages, we can decide to advance from stage 1 to 2 base on different factors instead of
 heuristically. These may include the confident of the HMM results, the percentage of letters revealed,
