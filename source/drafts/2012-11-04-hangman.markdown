@@ -75,7 +75,7 @@ normalize probability of all the English words that matches the half-revealed pa
 e.g., normalized $P(day), P(pay), P(gay), P(hey), ..., etc$. for `__y`, and zero otherwise. With the transition and 
 emission probabilities defined, we then use the Viterbi dynamic programming algorithm to calculate the optimal state sequence.
 
-Formal definition and more informations on HMM can be found on 
+Formal definition and more information on HMM can be found on 
 Wikipedia pages [here](http://en.wikipedia.org/wiki/Hidden_Markov_model) and 
 [here](http://en.wikipedia.org/wiki/Viterbi_algorithm), or in a slide I made for a NLP course 
 [here](http://hadoop.nlpweb.org/~bizkit/lab3/vtb_example/) (in Chinese).
