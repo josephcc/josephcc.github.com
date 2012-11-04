@@ -7,10 +7,35 @@ published: false
 categories: 
 ---
 
+I've recently wrote a program for solving sentence-based hangman game automatically. Here's a post
+explaining how I did it with the [srilm](http://www.speech.sri.com/projects/srilm/) language model and
+hidden Markov model.
 
 The Hangman Game
 ===================
+Last week, my friend [Zero Cho](http://itszero.github.com) was asked to write a program that solves the
+game of hangman automatically. For people who are not familiar with the hangman game, the rules are
+simple: the questions are short sentences or phrases containing 3 to 8 words with their characters
+concealed, replaced with underscore while spaces and punctuations are revealed as they are. The solving
+process is an interactive process in which the solver program will guess a letter, and the question
+system will reveal the locations of that letter in the question. If you guessed 3 letters that are not
+in the answer, you failed the question.
 
+For example, the initial question for the answer "it's a sunny day" is "\_\_'\_ \_ \_\_\_\_\_ \_\_\_",
+if solver program guesses the letter "y", the system will respond with "\_\_'\_ \_ \_\_\_\_y \_\_y".
+
+He used a statistical approach that first guesses vows with highest frequencies until the first correct
+guess. With one vow revealed, he then recursively chooses the word with the most portion revealed to
+attack. His approach to attacking of a single half-revealed word is also statistical, namely to find the
+most frequent English word that matches the pattern, and guess its characters.  His method is explained
+in detail in his recent [blog post](http://itszero.github.com/blog/2012/10/29/my-way-to-write-a-hangman-ai/).
+
+The shortcoming of this approach is that it lack consideration for correlations between words in the
+sentences. For example, the word "sunny" is likely to go before "day", while the word "sorry" with a
+higher frequency is unlikely to appear before "day". In my approach, I will train a [Language
+Model](http://en.wikipedia.org/wiki/Language_model) to capture such phenomenons, and use [Hidden Markov
+Model](http://en.wikipedia.org/wiki/Hidden_Markov_model) to guess every word in the sentence
+simultaneously.
 
 Language Model
 ===================
@@ -20,9 +45,18 @@ Hidden Markov Model
 ===================
 
 
-Strategies
+Algorithm
 ===================
+It is obvious that to run the hidden Markov model on a fully concealed sentence will yield bad results.
+Therefore, at stage one my solver will also start by guessing high frequency letters. Instead of
+guessing vows only, I also use consonants, hoping that revealing some consonants will help the second
+stage. The guessing priorities are e, a, i, s, r, n, t, o, l, c, d, u, m, j, g, ..., etc. The guessing
+process stop until I made two mistakes or have revealed more than five letters. 
 
+At the second stage, the trained hidden Markov model will tag the half-revealed words with English word
+sequence that yield the highest language model probability. The program will then guess the letter that
+appears in most words. This process repeats until all characters are revealed, and the number of failed
+guesses are recorded.
 
 Results
 ===================
@@ -30,4 +64,13 @@ Results
 
 Improvements
 ===================
+For stage one, instead of using just highest frequency letters, conditional probability can also be a
+factor for choosing the next letter to guess. For example, if "s" is revealed as the second to last
+character in some words, "t" may be likely to be the last.
+
+For the two stages, we can decide to advance from stage 1 to 2 base on different factors instead of
+heuristically. These may include the confident of the HMM results, the percentage of letters revealed,
+the before mentioned conditional probabilities and more. Global optimization approaches can be used to
+find good parameters to determine the timing to start stage two.  Alternatively, we can treat the two
+stages as different strategies and use genetic algorithm to apply them alternately.
 
