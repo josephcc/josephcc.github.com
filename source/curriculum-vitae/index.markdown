@@ -21,7 +21,9 @@ Contact
 
 Publications
 -----------------
-Published three conference papers (ACL, PACLIC, ROCLING), one demo paper (COLING), and participated in two conference tasks (NAACL, NTCIR).
+Published in top conferences including ACL, COLING, PACLIC, and ROCLING.
+Participated in two conference tasks (NAACL, NTCIR).
+
 Please see [Publications Page](/publications) for detail.
 
 Work Experience

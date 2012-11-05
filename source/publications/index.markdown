@@ -10,7 +10,7 @@ toc: true
 
 under the name *Joseph Chang* or *Joseph Z. Chang*.
 
-Conference Papers (Oral)
+Conference Papers
 ------------
 
 {% bibtex %}
@@ -53,9 +53,6 @@ Conference Papers (Oral)
 }
 {% endbibtex %}
 
-Demo Papers
-------------
-
 {% bibtex %}
 @InProceedings{Chang-EtAl:2012:COLING2012,
   author    = {Joseph Z. Chang and Jason S. Chang},
@@ -66,8 +63,6 @@ Demo Papers
   address   = {Bombay, Mumbai, India},
 }
 {% endbibtex %}
-
-Please refer to the [Projects Page](/projects) for detail.
 
 Task Papers
 ------------
