@@ -1,4 +1,5 @@
 .highlight, html .gist .gist-file .gist-syntax .gist-highlight {
+  table {width:96%;}
   table td.code { width: 100%; }
   .line-numbers {
     text-align: right;
@@ -14,7 +15,7 @@
       text-shadow: darken($base02, 10) 0 -1px;
     }
     span { color: $base01 !important; }
-    padding: .8em !important;
+    padding: .0em !important;
     @include border-radius(0);
   }
   border: 1px solid $pre-border !important;
