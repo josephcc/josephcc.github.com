@@ -17,6 +17,8 @@ were looking for a way to display in real-time our commit tree on a big screen. 
 NerdTool to render the commit tree. Not only did the result looks pretty cool, it has also proven to be
 quite helpful when trying to rebase/merge different branches.
 
+<!-- more -->
+
 這幾天和 ftt 跟 傑洛 聚在一起 hackthon ， 想了一個方法用大螢幕即時顯示 git 的 commit
 tree，看起來很有趣， 在 merge 不同 branch 的時候也十分實用。 我們用的程式是 NerdTool，它跟 GeekTool
 類似， 是一個可以把任一 command 的 output 顯示在桌面上。 我最早是在 LifeHacker 發現的， 最大的差別在

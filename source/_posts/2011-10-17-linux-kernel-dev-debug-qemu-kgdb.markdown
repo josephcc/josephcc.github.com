@@ -1,11 +1,22 @@
 ---
 layout: post
-title: "Linux Kernel Dev: Debugging with QEMU and KGDB"
+title: "Linux Kernel: Debugging with QEMU and kgdb"
 date: 2011-10-17 7:49
 toc: true
 comments: true
 categories: [linux, kernel]
 ---
+
+This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
+the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and
+KGDB for real-time kernel debugging.
+
+<!-- more -->
+
+這篇文章是這幾天摸索的心得，其實還沒包含如何去玩 kernel debugging ，因為我還不會XD。
+文章分成三個部份：1. 設定與安裝 Debian 於 QEMU 虛擬機器、2. 編譯 Linux 支援 kgdb 的核心以及 initrd、3.
+使用 gdb/kgdb 做核心除錯。
+
 
 There are many online tutorials that boot a pre-compiled kernel image with busybox to boot in QEMU.
 However, my school project requires me to examine the physical memory while running Firefox, a more
@@ -13,14 +24,6 @@ complete operating system is needed.
 
 網路上許多 kgdb 的教學都是拿編好的 kernel image 搭配 busybox 來載入 QEMU
 開機，但這次學校作業內容包含執行 Firefox，所以需要跑在一個較完整的作業系統上。
-
-This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
-the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and
-KGDB for real-time kernel debugging.
-
-這篇文章是這幾天摸索的心得，其實還沒包含如何去玩 kernel debugging ，因為我還不會XD。
-文章分成三個部份：1. 設定與安裝 Debian 於 QEMU 虛擬機器、2. 編譯 Linux 支援 kgdb 的核心以及 initrd、3.
-使用 gdb/kgdb 做核心除錯。
 
 
 Setup QEMU VM

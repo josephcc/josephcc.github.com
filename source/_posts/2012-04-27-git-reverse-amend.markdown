@@ -11,6 +11,8 @@ A lot of times we use `git commit --amend` to add the files that we have forgott
 commit (usually HEAD), or simply to fix typos in its commit message. However, you can't remove, or un-add,
 committed files from the latest commit with `git commit --amend`. Here's how:
 
+<!-- more -->
+
 - Point your HEAD to the commit prior to the latest commit, without touching the index nor the working
 tree: 
 
