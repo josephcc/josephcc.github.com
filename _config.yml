@@ -4,7 +4,7 @@
 
 url: http://bizkit.github.com
 title: 
-subtitle: good coders code, great steal.
+subtitle: $\forall \  s \lt t \ \ \mathbb{P}(X_t \in A |\mathcal{F}_s) = \mathbb{P}(X_t \in A| X_s)$ 
 author: Joseph Chang
 simple_search: http://google.com/search
 description:
