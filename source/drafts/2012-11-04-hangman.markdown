@@ -17,9 +17,9 @@ The Hangman Game
 Last week, my friend [Zero Cho](http://itszero.github.com) was asked to write a program that solves the
 game of hangman automatically. For people who are not familiar with the hangman game, the rules are
 simple: the questions are short sentences or phrases with their characters
-concealed, i.e. replaced with a underscore, while spaces and punctuations are revealed. The solving
+concealed, i.e. replaced with an underscore, while spaces and punctuations are revealed. The solving
 process is an interactive process in which the solver program will guess a letter, and the question
-system will reveal the locations of that letter. If you guessed 3 letters that are not in the sentence, 
+system will reveal its locations. If you guessed 3 letters that are not in the sentence, 
 you fail the question.
 
 For example, the initial hint for the answer `it's a sunny day` is `__'_ _ _____ ___`,
@@ -27,22 +27,23 @@ if a solver program guesses `y`, the system will respond with `__'_ _ ____y __y`
 
 My friend Zero used a statistical approach that first guesses vows with highest frequencies until the first correct
 guess. With one vow revealed, he then repeatedly choose the word with the most portion revealed to
-guess. His approach to guessing a single half-revealed word is also statistical, namely to find the
+continue guessing. His approach to guessing a half-revealed word is also statistical, namely to find the
 most frequent English word that matches the pattern.  His method is explained
 in detail in his recent [blog post](http://itszero.github.com/blog/2012/10/29/my-way-to-write-a-hangman-ai/).
 
 The shortcoming of this approach is that it lacks consideration for correlations between words in the
-sentences. For example, the word `sunny` is likely to go before `day`, while the word `sorry` with a
-higher frequency is unlikely to appear before `day`. In my approach, I trained a 
+sentences. For example, even the word `sorry` has a higher frequency than `sunny`, the latter is more
+likely to appear before the word `day`. In my attempt, I trained a 
 [Language Model](http://en.wikipedia.org/wiki/Language_model) to capture such correlations, and use 
 [hidden Markov model](http://en.wikipedia.org/wiki/Hidden_Markov_model) to guess every word in the sentence
 simultaneously.
 
 Language Model
 -------------------
-I use the state-of-the-art [srilm](http://www.speech.sri.com/projects/srilm/) package to train my language 
-model on a portion of the British National Corpus (BNC). My parameters include order-5, Kneser-Ney discount, 
-and interpolation. I use SWIG to integrate srilm (in C) with my main program written in Python. 
+I use the state-of-the-art [srilm](http://www.speech.sri.com/projects/srilm/) package to train my
+language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
+the parameters I've used include order-5, Kneser-Ney discount, and interpolation. I use SWIG to
+integrate srilm (in C) with my main program written in Python. 
 
 A language model is a statistical model that defines the probability of a sequence of words using 
 probability distribution trained on a free text corpus.
@@ -66,14 +67,21 @@ Kneser-Ney smoothing. Formal definition of language model can be found on
 
 Hidden Markov Model
 -------------------
-Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of 
-observations, state transition probability distribution, and emission probability distribution. In our case,
-the hidden states are the English words in the answer sentences, e.g., `it's`, `a`, `sunny`, `day`, and the observations
-are the half-revealed sequence, e.g., `__'s`, `_`, `s_nny`, `__y`. The state transition probability is calculated by the
-trained language model, e.g., $P(day | sunny)$ in a order-1 language model. I define the emission probability as the 
-normalize probability of all the English words that matches the half-revealed pattern, 
-e.g., normalized $P(day), P(pay), P(gay), P(hey), ..., etc$. for `__y`, and zero otherwise. With the transition and 
-emission probabilities defined, we then use the Viterbi dynamic programming algorithm to calculate the optimal state sequence.
+Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
+observations, state transition probability distribution, and emission probability distribution. For
+example, in speech recognition, the recorded audio speech is the observation, the actual text are the
+hidden states. Another example is the optical character recognition (OCR) where the scanned images are
+the observations. Emission probability distribution indicates the probability from state to observation,
+i.e., from text to audio or image. Language model is usually used for state transition probability
+distribution.
+
+In our case, the hidden states are the English words in the answer sentences, e.g., `it's`, `a`,
+`sunny`, `day`, and the observations are some half-revealed sequences, e.g., `__'s`, `_`, `s_nny`, `__y`.
+The state transition probability is calculated by the trained language model, e.g., $P(day | sunny)$ in
+a order-1 language model. I define the emission probability as the normalize probability of all the
+English words that matches the half-revealed pattern, e.g., normalized $P(day), P(pay), P(gay), P(hey),
+..., etc$. for state `__y`, and zero otherwise. With the transition and emission probabilities defined, we
+can use the Viterbi dynamic programming algorithm to calculate the optimal state sequence.
 
 Formal definition and more information on HMM can be found on 
 Wikipedia pages [here](http://en.wikipedia.org/wiki/Hidden_Markov_model) and 
@@ -145,13 +153,11 @@ stage	|errors	|hint	| predict	| guesses
 This last one really shows the power of language model. With only `e` revealed, the HMM process was able to guess the correct result.
 
 
-
-
 Improvements
 -------------------
-For stage one, instead of using just the highest frequency letters, conditional probability can also be a
-factor for choosing the next letter. For example, if `s` is revealed as the second to last
-character in some words, `t` and `e` may likely to be the last letter of such words.
+For stage one, instead of using just the highest frequency letters, conditional probability can also be
+a factor for choosing the next letter. For example, if `s` is revealed as the second to last character
+in some words, `t` and `e` may likely to be the last letter of such words.
 
 For the two stages, we can decide to advance from stage 1 to 2 base on different factors instead of
 heuristically. These may include the confident of the HMM results, the percentage of letters revealed,
