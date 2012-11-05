@@ -8,8 +8,6 @@ footer: true
 toc: true
 ---
 
-Under construction.
-
 Open source projects
 --------------------
 
