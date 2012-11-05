@@ -3,9 +3,8 @@ layout: post
 title: "A NLP Approach to the Hangman Game"
 date: 2012-11-04 21:14
 comments: true
-published: false
 toc: true
-categories: 
+categories: [NLP, AI, HMM, Language Model, Game]
 ---
 
 
