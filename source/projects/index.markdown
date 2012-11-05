@@ -2,8 +2,8 @@
 layout: page
 title: "Projects"
 date: 2012-10-24 13:24
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 toc: true
 ---
