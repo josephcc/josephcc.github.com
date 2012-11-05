@@ -25,6 +25,8 @@ you fail the question.
 For example, the initial hint for the answer `it's a sunny day` is `__'_ _ _____ ___`,
 if a solver program guesses `y`, the system will respond with `__'_ _ ____y __y`.
 
+<!--more-->
+
 My friend Zero used a statistical approach that first guesses vows with highest frequencies until the first correct
 guess. With one vow revealed, he then repeatedly choose the word with the most portion revealed to
 continue guessing. His approach to guessing a half-revealed word is also statistical, namely to find the

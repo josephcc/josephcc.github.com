@@ -2,8 +2,8 @@
 layout: page
 title: "Curriculum Vitae"
 date: 2012-10-23 19:18
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 toc: true
 ---
