@@ -8,6 +8,7 @@ toc: true
 categories: 
 ---
 
+
 I've recently wrote a program for solving sentence-based hangman game automatically. Here's a post
 explaining how I did it with the British National Corpus, [srilm](http://www.speech.sri.com/projects/srilm/) 
 language model and hidden Markov model.
@@ -55,12 +56,12 @@ calculates the probability of such sequence as
 $$P(w_{1}w_{2}w_{3}...w_{n}) := P(w_1) * P(w_2) * P(w_3) * ... * P(w_n)$$
 this is sometimes called an order-1 language model. The word probability can be calculated by counting 
 its appearances in the corpus:
-$$P(w) := count(w) \  / \ |\ corpus\ | $$
+$$ P(w) := \frac { count(w) } { |\ corpus\ | } $$
 An order-2 language model, or bigram language model, defines the sequence probability using conditional 
 probability:
 $$P(w_{1}w_{2}w_{3}...w_{n}) := P(w_1) * P(w_2|w_1) * P(w_3|w_2) * ... * P(w_n|w_{n-1})$$
 intuitively, conditional probability can be calculated as:
-$$P(w_a|w_b) := count(w_{b}w_{a}) / count(w_b)$$
+$$ P(w_a|w_b) := \frac { count(w_{b}w_{a}) } { count(w_b) } $$
 Generally, higher order produces better results but also suffers more severely on the out-of-vocabulary problem 
 and therefore sometimes needs to fall back to lower order conditional probabilities. Many theories have been 
 proposed to improve the performance of language models, including absolute discount estimation, good turing, 
@@ -106,46 +107,47 @@ revealed, and the number of failed guesses are recorded.
 Results
 -------------------
 
-## "it is not intelligent"
+Here are three examples and results. The interactive guessing progress and some internal states are
+shown in the three tables below.
 
-stage	|errors	|hint	| predict	| guess
+### "describe what is needed"
+
+stage	|errors	|hint	| HMM predicts	| guess
 -----	|-------	|----	|-------	| -----
-1	|0	|`__ __ ___ ___________`	| N/A	| e
-1	|0	|`__ __ ___ ___e____e__`	| N/A	| a
-2	|1	|`__ __ ___ ___e____e__`	| N/A	| i
-2	|1	|`i_ i_ ___ i__e__i_e__`	| it is too intelligent 	| t
-2	|1	|`it i_ __t i_te__i_e_t`	| __it is not intelligent__ 	| nsolg
-2	|1	|it is not intelligent	| 	|
+1	|0	|`________ ____ __ ______`	| N/A	| e
+1	|0	|`_e_____e ____ __ _ee_e_`	| N/A	| a
+1	|0	|`_e_____e __a_ __ _ee_e_`	| N/A	| i
+1	|0	|`_e___i_e __a_ i_ _ee_e_`	| N/A	| s
+1	|0	|`_es__i_e __a_ is _ee_e_`	| N/A	| r
+2	|0	|`_es_ri_e __a_ is _ee_e_`	| __describe what is needed__ 	| d
+2	|0	|`des_ri_e __a_ is _eeded`	| __describe what is needed__ 	| n
+2	|0	|`des_ri_e __a_ is needed`	| __describe what is needed__ 	| t
+2	|0	|`des_ri_e __at is needed`	| __describe what is needed__ 	| t
+2	|0	|`descri_e __at is needed`	| __describe what is needed__ 	| hbw (abrv.)
+2	|0	|`describe what is needed`	| (solved)	|
+<br/>
 
 
-## "and with regard to this game"
+### "an honor roll of online options"
 
-stage	|errors	|hint	| predict	| guesses
+
+stage	|errors	|hint	| HMM predicts	| guesses
 -----	|-------	|----	|-------	| -----
-1	|0	|`___ ____ ______ __ ____ ____`	| N/A	| eai
-1	|0	|`a__ _i__ _e_a__ __ __i_ _a_e`	| N/A	| srt
-2	|0	|`a__ _it_ re_ar_ t_ t_is _a_e`	| __and with regard to this game__	|dnohgmw 
-2	|0	|`and with regard to this game`	| 	|
+1	|0	|`__ _____ ____ __ ______ _______`	|N/A	| eaisr
+2	|0	|`a_ ____r r___ __ ___i_e ___i__s`	|at honor roll of police options 	| o
+2	|0	|`a_ _o_or ro__ o_ o__i_e o__io_s`	|at honor roll of office options	| n
+2	|0	|`an _onor ro__ o_ on_ine o__ions`	|__an honor roll of online options__	| l
+2	|0	|`an _onor roll o_ online o__ions`	|__an honor roll of online options__	| t
+2	|0	|`an _onor roll o_ online o_tions`	|__an honor roll of online options__	| hpf
+2	|0	|`an honor roll of online options`	|(solved)	| 
 
-## "jim told me to come along"
-
-stage	|errors	|hint	| predict	| guesses
------	|-------	|----	|-------	| -----
-1	|0	|`___ ____ __ __ ____ _____`	| N/A	| eai 
-1	|0	|`_i_ ____ _e __ ___e a____`	| N/A	| s
-2	|1	|`_i_ ____ _e __ ___e a____`	| him from me to come along 	| o
-2	|1	|`_i_ _o__ _e _o _o_e a_o__`	| tim told me to come along	| t
-2	|1	|`_i_ to__ _e to _o_e a_o__`	| did told me to come along	| l
-2	|1	|`_i_ tol_ _e to _o_e alo__`	| did told me to come along	| dmnch
-2	|1	|`_im told me to come alon_`	| __jim told me to come along__	| jg
-2	|1	|`jim told me to come along`	| 	|
-
-This one shows HMM produces different results as more characters are revealed, finally obtaining the answer.
+This one shows HMM produces different results as more characters are revealed.
+<br/>
 
 
-## "members of the supreme court"
+### "members of the supreme court"
 
-stage	|errors	|hint	| predict	| guesses
+stage	|errors	|hint	| HMM predicts	| guesses
 -----	|-------	|----	|-------	| -----
 1	|0	|`_______ __ ___ _______ _____`	| N/A	| e
 1	|0	|`_e__e__ __ __e ____e_e _____`	| N/A	| a
