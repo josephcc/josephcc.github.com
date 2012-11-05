@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "introducing-0xbench"
+title: "Introducing 0xbench"
 date: 2011-08-13 21:38
 comments: true
 categories: [android, mobile, app, 0xbench, 0xlab]
