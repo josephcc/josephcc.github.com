@@ -74,20 +74,20 @@ observations, state transition probability distribution, and emission probabilit
 example, in speech recognition, the recorded audio speech is the observation, the actual text are the
 hidden states. Another example is the optical character recognition (OCR) where the scanned images are
 the observations. Emission probability distribution indicates the probability from state to observation,
-i.e., from text to audio or image. Language model is usually used for state transition probability
+i.e., from text to audio or image. Language model is commonly used for state transition probability
 distribution.
 
-In our case, the hidden states are the English words in the answer sentences, e.g., `it's`, `a`,
+In the case solving the Hangman game, the hidden states are the English words in the answer sentences, e.g., `it's`, `a`,
 `sunny`, `day`, and the observations are some half-revealed sequences, e.g., `__'s`, `_`, `s_nny`, `__y`.
 The state transition probability is calculated by the trained language model, e.g., $P(day | sunny)$ in
 a order-1 language model. I define the emission probability as the normalize probability of all the
-English words that matches the half-revealed pattern, e.g., normalized $P(day), P(pay), P(gay), P(hey),
-..., etc$. for state `__y`, and zero otherwise. With the transition and emission probabilities defined, we
+English words that matches the half-revealed pattern, e.g., normalized $P(day), P(pay), P(bay), P(hey),
+P(may), ..., etc$. for state `__y`, and zero otherwise. With the transition and emission probabilities defined, we
 can use the Viterbi dynamic programming algorithm to calculate the optimal state sequence.
 
 Formal definition and more information on HMM can be found on 
 Wikipedia pages [here](http://en.wikipedia.org/wiki/Hidden_Markov_model) and 
-[here](http://en.wikipedia.org/wiki/Viterbi_algorithm), or in a slide I made for a NLP course 
+[here](http://en.wikipedia.org/wiki/Viterbi_algorithm), or in a slide I made when I was TA for a NLP course 
 [here](http://hadoop.nlpweb.org/~bizkit/lab3/vtb_example/) (in Chinese).
 
 Algorithm
@@ -96,9 +96,9 @@ It is obvious that to run the hidden Markov model on a fully concealed sequence 
 Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
 guessing vows only, I also use consonants, hoping that revealing some consonants will help the second
 stage. The sorted list begins with `e, a, i, s, r, n, t, o`, ..., etc. This 
-process stops until it had made one or two wrong guesses or have revealed more than four letters. 
+process stops until it had made one wrong guesses or have revealed more than four letters. 
 
-At the second stage, the trained hidden Markov model will tag the half-revealed words with English word
+In the second stage, the trained hidden Markov model will tag the half-revealed words with English word
 sequence that yield the highest language model probability and word frequencies. The solver will then 
 guess the letter that appears in most words. This process repeats until all characters are 
 revealed, and the number of failed guesses are recorded.
@@ -111,7 +111,7 @@ shown in the three tables below.
 
 ### "describe what is needed"
 
-stage	|errors	|hint	| HMM predicts	| guess
+stage	|errors	|hint	| HMM prediction| guess
 -----	|-------	|----	|-------	| -----
 1	|0	|`________ ____ __ ______`	| N/A	| e
 1	|0	|`_e_____e ____ __ _ee_e_`	| N/A	| a
@@ -130,7 +130,7 @@ stage	|errors	|hint	| HMM predicts	| guess
 ### "an honor roll of online options"
 
 
-stage	|errors	|hint	| HMM predicts	| guesses
+stage	|errors	|hint	| HMM prediction| guesses
 -----	|-------	|----	|-------	| -----
 1	|0	|`__ _____ ____ __ ______ _______`	|N/A	| eaisr
 2	|0	|`a_ ____r r___ __ ___i_e ___i__s`	|at honor roll of police options 	| o
@@ -146,7 +146,7 @@ This one shows HMM produces different results as more characters are revealed.
 
 ### "members of the supreme court"
 
-stage	|errors	|hint	| HMM predicts	| guesses
+stage	|errors	|hint	| HMM prediction| guesses
 -----	|-------	|----	|-------	| -----
 1	|0	|`_______ __ ___ _______ _____`	| N/A	| e
 1	|0	|`_e__e__ __ __e ____e_e _____`	| N/A	| a
