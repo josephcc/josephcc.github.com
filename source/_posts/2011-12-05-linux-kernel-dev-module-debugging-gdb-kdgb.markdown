@@ -4,7 +4,7 @@ title: "Linux Kernel: Module debugging with gdb"
 date: 2011-12-05 21:12
 comments: true
 toc: false
-categories: [linux, kernel]
+categories: ['linux', 'kernel']
 ---
 
 This is post continues my previous post on 

@@ -4,7 +4,7 @@ title: "Git: Remove (un-add) files from last commit"
 date: 2012-04-27 03:07
 comments: true
 toc: false
-categories: [git]
+categories: ['git']
 ---
 
 A lot of times we use `git commit --amend` to add the files that we have forgotten to the last

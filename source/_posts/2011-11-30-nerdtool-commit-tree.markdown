@@ -4,7 +4,7 @@ title: "Git: Displaying commit tree with NerdTool"
 date: 2011-11-30 17:26
 comments: true
 toc: false
-categories: [git, mac]
+categories: ['git', 'mac']
 ---
 
 <a href="http://www.flickr.com/photos/bizkit/6291809011/" title="P1030408 by bizkit@tw, on Flickr"><img

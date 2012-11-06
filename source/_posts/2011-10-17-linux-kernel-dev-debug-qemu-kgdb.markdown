@@ -4,7 +4,7 @@ title: "Linux Kernel: Debugging with QEMU and kgdb"
 date: 2011-10-17 7:49
 toc: true
 comments: true
-categories: [linux, kernel]
+categories: ['linux', 'kernel']
 ---
 
 This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
