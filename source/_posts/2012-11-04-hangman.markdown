@@ -4,6 +4,7 @@ title: "A NLP Approach to the Hangman Game"
 date: 2012-11-04 21:14
 comments: true
 toc: true
+lsi: true
 categories: ['NLP', 'AI', 'HMM', 'Language Model', 'Game']
 ---
 

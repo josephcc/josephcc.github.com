@@ -4,6 +4,7 @@ title: "Git: Remove (un-add) files from last commit"
 date: 2012-04-27 03:07
 comments: true
 toc: false
+lsi: true
 categories: ['git']
 ---
 

@@ -4,6 +4,7 @@ title: "Git: Displaying commit tree with NerdTool"
 date: 2011-11-30 17:26
 comments: true
 toc: false
+lsi: true
 categories: ['git', 'mac']
 ---
 

@@ -47,7 +47,8 @@ Work Experience
 > various open source projects including the Android Open Source Project.
 
 #### Cluster Administrator, *National Tsing Hua University* - 2007~2012
-> In charge of [Hadoop cluster administration](http://hadoop.nlpweb.org/) and MapReduce programming training.
+> In charge of [Hadoop cluster](http://hadoop.nlpweb.org/) administration, MapReduce programming
+> training, and TA for the 2011 natural language processing course.
 
 Projects
 -----------------

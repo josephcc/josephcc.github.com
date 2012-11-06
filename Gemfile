@@ -16,6 +16,7 @@ group :development do
   gem 'redcarpet', '~> 2.2.2'
   gem 'bibtex-ruby', '~> 2.1.1'
   gem 'citeproc-ruby', '~> 0.0.6'
+  gem 'gsl', '~> 1.14.7'
 end
 
 gem 'sinatra', '~> 1.3.2'

@@ -4,6 +4,7 @@ title: "Linux Kernel: Hooking System Calls on 2.6+"
 date: 2011-10-23 22:03
 toc: true
 comments: true
+lsi: true
 categories: ['linux', 'kernel']
 ---
 

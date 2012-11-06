@@ -4,6 +4,7 @@ title: "Linux Kernel: Debugging with QEMU and kgdb"
 date: 2011-10-17 7:49
 toc: true
 comments: true
+lsi: true
 categories: ['linux', 'kernel']
 ---
 
