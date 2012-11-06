@@ -12,6 +12,9 @@ toc: true
 	<img src="/images/me.jpg" width="230">
 </div>
 
+Download the [PDF Version](/curriculum-vitae/latex/cv.pdf)    
+without the Projects section.
+
 Contact 
 -----------------
 > - Joseph Z. Chang (張至)
