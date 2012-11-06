@@ -57,13 +57,13 @@ Please see [Projects Page](/projects) for both my open source and school project
 Education
 -----------------
 
-#### National Tsing Hua University (2010~2012)
+#### National Tsing Hua University, Taiwan (2010~2012)
 > - Master, Information System and Applications, Computer Science
 > - Research focused on Natural Language Processing and Information Retrieval
 >   - Cross-lingual Information Retrieval/Extraction, Grammatical Error Correction
 >   - Machine Translation, Wikipedia, Google Web1T, Hadoop
 
-#### Yuan Ze University (2006~2010)
+#### Yuan Ze University, Taiwan (2006~2010)
 > - Undergraduate, Computer Science and Engineering (Overall GPA 3.6/4.0)
 > - Joined EDA Lab
 >   - FPGA Architecture/Synthesis and design partitioning for 3D IC.
@@ -110,6 +110,7 @@ Skills & Expertise
 -----------------
 > - Python, nltk, scipy  ( *6 years* )
 > - Hadoop MapReduce programming ( *5 years* )
+> - Machine Learning: EM, HMM, CRF, ME, ME/MM, SVM ( *4 years* )
 > - Java / Android SDK/NDK application development ( *3 years* )
 > - Objective-C / iOS application development ( *1 year* )
 > - Linux server administration ( *8 years* )
