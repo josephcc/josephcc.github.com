@@ -110,5 +110,5 @@ module Jekyll
 
 end
 
-Liquid::Template.register_tag('category_cloud', Jekyll::CategoryCloud)
+Liquid::Template.register_tag('category_list_cloud', Jekyll::CategoryCloud)
 Liquid::Template.register_tag('category_list', Jekyll::CategoryList)
