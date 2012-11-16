@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://bizkit.github.com
+url: http://joseph.nlpweb.org
 title: 
 subtitle: $\forall \  s \lt t \ \ \mathbb{P}(X_t \in A |\mathcal{F}_s) = \mathbb{P}(X_t \in A| X_s)$ 
 author: Joseph Chang
