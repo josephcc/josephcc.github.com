@@ -2,14 +2,18 @@
 layout: noaside
 ---
 
-<div class="portfolio">
+<div class="portfolio" id="portfolio">
 
     <h1>Portfolio</h1>
 
     <h2>OPEN SOURCE PROJECTS</h2>
 
+    {% for i in (0..5) %}
+
     <div class="project">
-        <img class="snapshot" src="https://lh5.ggpht.com/yi5mTvtvoQl0U4Zg-lj2D6SN7h3ZZ1ypdzJzjtga1fQR86i6i7nnfld9flreZBjhSho">
+        <div class="img_container">
+            <img class="snapshot" src="https://lh5.ggpht.com/yi5mTvtvoQl0U4Zg-lj2D6SN7h3ZZ1ypdzJzjtga1fQR86i6i7nnfld9flreZBjhSho"/>
+        </div>
 
         <div class="content">
             <div class="project_head">
@@ -23,7 +27,34 @@ layout: noaside
                 worldwide, and it even ships with Texas Instrument's devboards.
             </div>
         </div>
+
+        <br/>
+
+        <div class="full_description">
+            <p><img
+            src="https://lh5.ggpht.com/yi5mTvtvoQl0U4Zg-lj2D6SN7h3ZZ1ypdzJzjtga1fQR86i6i7nnfld9flreZBjhSho">
+            <img
+            src="https://lh4.ggpht.com/FZKTxBk7Mfrw5yYIT38jPNj6d97YABvOt0F7Qk7lK7tnq3yZ1zGZ9sSOrvGa2yMDumk"></p>
+            
+            <p>You can find binary, source code, and documentation in following links: </p>
+
+            <ul>
+                <li><a href="http://code.google.com/p/0xbench/w/list">Documentation on Google Code
+                    wiki</a></li>
+                <li><a href="http://gitorious.org/0xbench/0xbench">Project page on Gitorius</a></li>
+                <li><a href="http://code.google.com/p/0xbench/">Project page on Google Code</a></li>
+                <li><a href="http://0xbenchmark.appspot.com/">0xBenchWeb on Google App
+                    Engine</a></li>
+                <li><a href="http://0xbenchmark.appspot.com/run/bizkit.tw@gmail.com/Demo">Comparison
+                    between HTC Hero, HTC Desire, Google Nexus One</a></li>
+                <li><a href="http://www.youtube.com/watch?v=8JwFaNBrBaM">Video of me announcing code
+                    release</a> at <a href="http://octopress.org">COSCUP</a>, the largest open
+                source conference in Asia (in Chinese)</li>
+            </ul>
+        </div>
     </div>
+
+    {% endfor %}
 
     <h2>SMART PHONE APPS</h2>
 
@@ -31,4 +62,19 @@ layout: noaside
 
 
 </div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        max_height = jQuery(".project").css("max-height");
+        jQuery(".full_description").hide();
+        jQuery(".project").click( function() {
+            if (jQuery(this).css("max-height") != max_height)
+                return;
+            jQuery(".full_description").hide();
+            jQuery(".project").css("max-height", max_height);
+            jQuery(this).children(".full_description").show();
+            jQuery(this).animate({"max-height": 1000}, 1000);
+        });
+    });
+</script>
 
