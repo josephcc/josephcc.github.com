@@ -62,6 +62,8 @@ layout: noaside
 </div>
 
 <script type="text/javascript">
+    var api;
+
     jQuery(document).ready(function() {
         jQuery(".full_description").hide();
         jQuery("#mask").hide();
@@ -74,10 +76,16 @@ layout: noaside
             jQuery("#reader").html(content);
             jQuery("#mask").fadeIn()
             jQuery("#reader_container").scrollTop(0);
-            //TODO
             jQuery("#reader_container").css("top", jQuery(window).height() + 40);
             jQuery("#reader_container").show();
-            jQuery("#reader_container").animate({"top": 0});
+            jQuery("#reader_container").animate({"top": 0}, 400, "linear", function() {
+                api = jQuery("#reader_container").jScrollPane().data("jsp");
+                track = jQuery(".jspTrack");
+                drag = jQuery(".jspDrag");
+                track.css("height", track.height() - 40);
+                drag.css("height", drag.height() - 40);
+                track.css("margin-top", "20px");
+            });
             jQuery("body").css("overflow", "hidden");
             jQuery("html").css("overflow", "hidden");
         });
@@ -87,6 +95,7 @@ layout: noaside
             jQuery("#reader_container").animate({"top": jQuery(window).height() + 40}, 400, "linear", function() {
                 jQuery("#reader").html("");
                 jQuery("#reader_container").scrollTop(0);
+                api.scrollToY(0);
                 jQuery("#reader_container").hide();
             });
 
