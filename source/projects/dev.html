@@ -28,14 +28,12 @@ layout: noaside
             </div>
         </div>
 
-        <br/>
-
         <div class="full_description">
             <p><img
             src="https://lh5.ggpht.com/yi5mTvtvoQl0U4Zg-lj2D6SN7h3ZZ1ypdzJzjtga1fQR86i6i7nnfld9flreZBjhSho">
             <img
             src="https://lh4.ggpht.com/FZKTxBk7Mfrw5yYIT38jPNj6d97YABvOt0F7Qk7lK7tnq3yZ1zGZ9sSOrvGa2yMDumk"></p>
-            
+
             <p>You can find binary, source code, and documentation in following links: </p>
 
             <ul>
@@ -65,16 +63,38 @@ layout: noaside
 
 <script type="text/javascript">
     jQuery(document).ready(function() {
-        max_height = jQuery(".project").css("max-height");
         jQuery(".full_description").hide();
+        jQuery("#mask").hide();
+        jQuery("#reader_container").hide();
+
         jQuery(".project").click( function() {
-            if (jQuery(this).css("max-height") != max_height)
-                return;
-            jQuery(".full_description").hide();
-            jQuery(".project").css("max-height", max_height);
-            jQuery(this).children(".full_description").show();
-            jQuery(this).animate({"max-height": 1000}, 1000);
+            content = jQuery(this).children(".content").html();
+            content += "<br/>";
+            content += jQuery(this).children(".full_description").html();
+            jQuery("#reader").html(content);
+            jQuery("#mask").fadeIn()
+            jQuery("#reader_container").scrollTop(0);
+            //TODO
+            jQuery("#reader_container").css("top", jQuery(window).height() + 40);
+            jQuery("#reader_container").show();
+            jQuery("#reader_container").animate({"top": 0});
+            jQuery("body").css("overflow", "hidden");
+            jQuery("html").css("overflow", "hidden");
+        });
+
+        jQuery("#mask").click( function() {
+
+            jQuery("#reader_container").animate({"top": jQuery(window).height() + 40}, 400, "linear", function() {
+                jQuery("#reader").html("");
+                jQuery("#reader_container").scrollTop(0);
+                jQuery("#reader_container").hide();
+            });
+
+            jQuery("#mask").fadeOut();
+            jQuery("body").css("overflow", "");
+            jQuery("html").css("overflow", "");
         });
     });
+
 </script>
 
