@@ -8,7 +8,7 @@ layout: noaside
 
     <h2>OPEN SOURCE PROJECTS</h2>
 
-    {% for i in (0..5) %}
+    {% for i in (0..3) %}
 
     <div class="project">
         <div class="img_container">
@@ -18,7 +18,7 @@ layout: noaside
         <div class="content">
             <div class="project_head">
                 <span class="title">0xBench</span>
-                <span class="tech">Android C Java GoogleAppEngine</span>
+                <span class="tech">C Java <span class="lsf">android</span> <span class="lsf">globe</span></span>
             </div>
             <div class="description">
                 0xBench is an open source Android app and website I developed using Java and C for 0xlab
@@ -27,6 +27,8 @@ layout: noaside
                 worldwide, and it even ships with Texas Instrument's devboards.
             </div>
         </div>
+        <div class="lsf-icon zoom" title="zoom">see detail </div>
+
 
         <div class="full_description">
             <p><img
@@ -114,6 +116,14 @@ layout: noaside
         }
 
 
+        jQuery(".zoom").hide();
+        jQuery(".project").hover( function() {
+            jQuery(this).children(".zoom").fadeIn();
+        }, function() {
+            jQuery(this).children(".zoom").hide();
+        });
+
+        jQuery("#close").hide();
 
         jQuery(".project").click( function() {
             content = jQuery(this).children(".content").html();
@@ -132,9 +142,11 @@ layout: noaside
             });
             jQuery("body").css("overflow", "hidden");
             jQuery("html").css("overflow", "hidden");
+            jQuery("#close").fadeIn();
         });
 
         jQuery(window).resize( function() {
+                jQuery("#close").fadeOut();
                 init();
                 api = jQuery("#reader_container").jScrollPane().data("jsp");
                 adjust();
@@ -154,8 +166,9 @@ layout: noaside
                 }
         });
 
-        jQuery("#mask").click( function() {
+        jQuery("#mask, #close").click( function() {
             readMode = false;
+            jQuery("#close").fadeOut();
             jQuery("#reader_container").animate({"top": jQuery(window).height() + 40}, 400, "linear", function() {
                 jQuery("#reader").html("");
                 jQuery("#reader_container").scrollTop(0);
