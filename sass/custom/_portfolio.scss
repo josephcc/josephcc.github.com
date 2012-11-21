@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|Unica+One|Droid+Sans);
 
 $white: #fafafa;
+$blue: darken(#043c78, 0);
 $reader-margin: 20px;
 
 .portfolio {
     color: white;
-    background-color:#043c78;
+    background-color:$blue;
     padding: 14px;
 
     border-width: 2px;
@@ -43,8 +44,11 @@ $reader-margin: 20px;
     max-height: 154px;
     overflow: hidden;
 
-    color: white;
-    background-color: darken(#043c78, 0);
+//    color: white;
+//    background-color: $blue;
+
+    color: black;
+    background-color: darken( rgba(255,255,255, 1.0), 10);
 
     border-style: solid;
     border-color: rgba(255,255,255,.6);
@@ -71,7 +75,6 @@ $reader-margin: 20px;
         margin: 6px;
 
         border-style: solid;
-        border-color: white;
         border-width: 2px;
     }
 
@@ -92,7 +95,8 @@ $reader-margin: 20px;
     .tech {
         float: right;
         font-size: 1em;
-        color: rgba(255,255,255,0.6);
+        //color: rgba(255,255,255,0.6);
+        color: rgba(0,0,0,0.5);
     }
 }
 
@@ -100,10 +104,10 @@ $reader-margin: 20px;
     position: fixed;
     top: 0px;
     bottom: 0px;
-    left: 17%;
+    left: auto;
     right: auto;
 
-    width: 66%;
+    //width: 66%;
 
     overflow: auto;
     overflow-y: auto;
@@ -115,22 +119,23 @@ $reader-margin: 20px;
 }
 
 #reader {
-    width: 92%;
+    //width: 92%;
 
     margin-top: $reader-margin;
     margin-bottom: $reader-margin;
 
-    margin-left: auto;
-    margin-right: auto;
+    //margin-left: auto;
+    //margin-right: auto;
 
     background-color: $white;
 
-    padding: 30px 20px;
-
+    padding: 80px 60px;
+/*
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     -khtml-border-radius: 6px;
     border-radius: 6px;
+    */
 
     z-index: 101;
 
@@ -161,6 +166,10 @@ $reader-margin: 20px;
     right: 0px;
     background-color: rgba(0,0,0,.5);
 
+}
+
+.jspContainer {
+    border-width: 0px !important;
 }
 
 .jspVerticalBar {

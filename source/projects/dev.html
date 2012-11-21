@@ -63,11 +63,57 @@ layout: noaside
 
 <script type="text/javascript">
     var api;
+    var readMode = false;
 
     jQuery(document).ready(function() {
         jQuery(".full_description").hide();
         jQuery("#mask").hide();
         jQuery("#reader_container").hide();
+
+
+        function init() {
+            cont = jQuery("#reader_container");
+            reader = jQuery("#reader");
+            ww = jQuery(window).width();
+            wh = jQuery(window).height();
+
+            if (ww >= 1440)
+                tw = 950;
+            else if (ww >= 1280)
+                tw = 875;
+            else
+                tw = 825;
+
+            if (ww < tw + 100) {
+                tw = ww -40 -20;
+            }
+
+            left = (ww - tw) / 2;
+            cont.css("width", tw);
+            cont.css("left", left);
+        }
+
+        function adjust() {
+
+            init();
+
+            jspcont = jQuery(".jspContainer");
+            jsppane = jQuery(".jspPane");
+
+            jsppane.css("width", tw-1);
+            jspcont.css("width", tw-1);
+            jspcont.width(tw-1);
+            reader.css("width", tw - 145);
+
+            track = jQuery(".jspTrack");
+            drag = jQuery(".jspDrag");
+            track.css("height", wh-40);
+            track.css("margin-top", "20px");
+            drag.css("height", drag.height() - 40);
+
+        }
+
+
 
         jQuery(".project").click( function() {
             content = jQuery(this).children(".content").html();
@@ -78,24 +124,44 @@ layout: noaside
             jQuery("#reader_container").scrollTop(0);
             jQuery("#reader_container").css("top", jQuery(window).height() + 40);
             jQuery("#reader_container").show();
+            init();
             jQuery("#reader_container").animate({"top": 0}, 400, "linear", function() {
                 api = jQuery("#reader_container").jScrollPane().data("jsp");
-                track = jQuery(".jspTrack");
-                drag = jQuery(".jspDrag");
-                track.css("height", track.height() - 40);
-                drag.css("height", drag.height() - 40);
-                track.css("margin-top", "20px");
+                adjust();
+                readMode = true;
             });
             jQuery("body").css("overflow", "hidden");
             jQuery("html").css("overflow", "hidden");
         });
 
-        jQuery("#mask").click( function() {
+        jQuery(window).resize( function() {
+                init();
+                api = jQuery("#reader_container").jScrollPane().data("jsp");
+                adjust();
+                drag = jQuery(".jspDrag");
+                drag.css("height", drag.height() + 40);
+                if (readMode == true) {
+                    jQuery("#reader").html("");
+                    jQuery("#reader_container").scrollTop(0);
+                    api.scrollToY(0);
+                    drag = jQuery(".jspDrag");
+                    drag.css("height", drag.height() + 40);
+                    jQuery("#reader_container").hide();
+                    jQuery("#mask").hide();
+                    jQuery("body").css("overflow", "");
+                    jQuery("html").css("overflow", "");
+                    readMode = false;
+                }
+        });
 
+        jQuery("#mask").click( function() {
+            readMode = false;
             jQuery("#reader_container").animate({"top": jQuery(window).height() + 40}, 400, "linear", function() {
                 jQuery("#reader").html("");
                 jQuery("#reader_container").scrollTop(0);
                 api.scrollToY(0);
+                drag = jQuery(".jspDrag");
+                drag.css("height", drag.height() + 40);
                 jQuery("#reader_container").hide();
             });
 
