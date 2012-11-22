@@ -93,7 +93,20 @@ layout: noaside
             left = (ww - tw) / 2;
             cont.css("width", tw);
             cont.css("left", left);
+            reader.css("width", tw - 145);
+
+            if (ww < 600) {
+                jQuery(".img_container").hide();
+                jQuery("#reader").css("padding", "60px 20px");
+                cont.css("width", tw + 80);
+                reader.css("width", tw - 145 + 80);
+            } else {
+                jQuery(".img_container").show();
+                jQuery("#reader").css("padding", "80px 60px");
+            }
         }
+
+        init();
 
         function adjust() {
 
@@ -105,7 +118,6 @@ layout: noaside
             jsppane.css("width", tw-1);
             jspcont.css("width", tw-1);
             jspcont.width(tw-1);
-            reader.css("width", tw - 145);
 
             track = jQuery(".jspTrack");
             drag = jQuery(".jspDrag");
@@ -164,6 +176,7 @@ layout: noaside
                     jQuery("html").css("overflow", "");
                     readMode = false;
                 }
+
         });
 
         jQuery("#mask, #close").click( function() {

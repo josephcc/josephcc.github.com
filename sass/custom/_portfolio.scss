@@ -143,6 +143,8 @@ $reader-margin: 20px;
 #reader {
     //width: 92%;
 
+    overflow-x: hidden;
+
     margin-top: $reader-margin;
     margin-bottom: $reader-margin;
 
@@ -194,7 +196,6 @@ $reader-margin: 20px;
 }
 
 .jspVerticalBar {
-
     background: rgba(0,0,0,0) !important;
 
 
@@ -228,9 +229,13 @@ $reader-margin: 20px;
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#999a99',GradientType=1 ); /* IE6-9 */
 
     }
-
-
 }
+
+.jspHorizontalBar {
+    display: none;
+    background: rgba(0,0,0,0) !important;
+}
+
 
 #close {
     position: fixed;
