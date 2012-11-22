@@ -365,7 +365,7 @@ layout: noaside
 
         function init() {
             cont = jQuery("#reader_container");
-            reader = jQuery("#reader");
+            rdr = jQuery("#reader");
             ww = jQuery(window).width();
             wh = jQuery(window).height();
 
@@ -383,13 +383,13 @@ layout: noaside
             left = (ww - tw) / 2;
             cont.css("width", tw);
             cont.css("left", left);
-            reader.css("width", tw - 145);
+            rdr.css("width", tw - 145);
 
             if (ww < 600) {
                 jQuery(".img_container").hide();
                 jQuery("#reader").css("padding", "60px 20px");
                 cont.css("width", tw + 80);
-                reader.css("width", tw - 145 + 80);
+                rdr.css("width", tw - 145 + 80);
             } else {
                 jQuery(".img_container").show();
                 jQuery("#reader").css("padding", "80px 60px");
