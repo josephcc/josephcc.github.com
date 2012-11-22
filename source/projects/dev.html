@@ -6,9 +6,8 @@ layout: noaside
 
     <h1>Portfolio</h1>
 
-    <h2>OPEN SOURCE PROJECTS</h2>
+    <h2 style="margin-bottom: 29px;">OPEN SOURCE PROJECTS</h2>
 
-    {% for i in (0..3) %}
 
     <div class="project">
         <div class="img_container">
@@ -18,48 +17,339 @@ layout: noaside
         <div class="content">
             <div class="project_head">
                 <span class="title">0xBench</span>
-                <span class="tech">C Java <span class="lsf">android</span> <span class="lsf">globe</span></span>
+                <span class="tech">C Java <span class="lsf">globe</span> <span class="lsf">android</span></span>
             </div>
             <div class="description">
-                0xBench is an open source Android app and website I developed using Java and C for 0xlab
-                Inc. during my four-month part-time internship. It is designed to be an open platform
-                for benchmarking Android on a system level. 0xBench is now being used by major companies
-                worldwide, and it even ships with Texas Instrument's devboards.
+                0xBench is an open source Android app with a backend website developed in Java and C
+                when interning at the start-up company 0xLab. 
+                Designed to be an open platform for benchmarking Android on the system level, 0xBench is
+                now being used by major companies worldwide, and has been shipped with Texas
+                Instrument's devboards. 
             </div>
         </div>
         <div class="lsf-icon zoom" title="zoom">see detail </div>
-
-
         <div class="full_description">
+            <p> 
+            0xBench benchmarking results is cited in many Texas Instrument's <a
+                href="http://processors.wiki.ti.com/index.php/Android_Comparative_Benchmarks">
+                document pages</a>, and in the following video you can also find 0xBench being used by
+                Linaro to demo their system.
+
+                <iframe width="560" height="315"
+                    src="http://www.youtube.com/embed/F_NR_goi6iA?rel=0&amp;start=130"
+                    frameborder="0" allowfullscreen></iframe>
+             </p>
+
+
+            <p>
+            The open source project page is hosted on <a
+                href="http://code.google.com/p/0xbench/">Google Code</a>. You can find binary,
+            source code, and documentation in following links:
+            <ul>
+                <li><a href="http://code.google.com/p/0xbench/w/list">Documentation on Google Code
+                    wiki</a></li>
+                <li><a href="http://0xbenchmark.appspot.com/public">0xBenchWeb on Google App
+                    Engine</a></li>
+                <li><a href="http://www.youtube.com/watch?v=8JwFaNBrBaM">Code
+                    release announcement</a> at <a href="http://coscup.org">COSCUP</a>, the largest open
+                source conference in Asia (in Chinese)</li>
+            </ul>
+            </p>
+
             <p><img
             src="https://lh5.ggpht.com/yi5mTvtvoQl0U4Zg-lj2D6SN7h3ZZ1ypdzJzjtga1fQR86i6i7nnfld9flreZBjhSho">
             <img
             src="https://lh4.ggpht.com/FZKTxBk7Mfrw5yYIT38jPNj6d97YABvOt0F7Qk7lK7tnq3yZ1zGZ9sSOrvGa2yMDumk"></p>
-
-            <p>You can find binary, source code, and documentation in following links: </p>
-
-            <ul>
-                <li><a href="http://code.google.com/p/0xbench/w/list">Documentation on Google Code
-                    wiki</a></li>
-                <li><a href="http://gitorious.org/0xbench/0xbench">Project page on Gitorius</a></li>
-                <li><a href="http://code.google.com/p/0xbench/">Project page on Google Code</a></li>
-                <li><a href="http://0xbenchmark.appspot.com/">0xBenchWeb on Google App
-                    Engine</a></li>
-                <li><a href="http://0xbenchmark.appspot.com/run/bizkit.tw@gmail.com/Demo">Comparison
-                    between HTC Hero, HTC Desire, Google Nexus One</a></li>
-                <li><a href="http://www.youtube.com/watch?v=8JwFaNBrBaM">Video of me announcing code
-                    release</a> at <a href="http://octopress.org">COSCUP</a>, the largest open
-                source conference in Asia (in Chinese)</li>
-            </ul>
         </div>
     </div>
 
-    {% endfor %}
+    <div class="project">
+        <div class="img_container"  style="height: 100%;">
+            <img class="snapshot"
+            src="/images/portfolio/kerker_banner.png"/>
+        </div>
 
-    <h2>SMART PHONE APPS</h2>
+        <div class="content">
+            <div class="project_head">
+                <span class="title">KERKER IME</span>
+                <span class="tech">Java Python NLP <span class="lsf">android</span></span>
+            </div>
+            <div class="description">
+                The KerKer Input Method is an open source Chinese input method framework for Android,
+                and likely the first Chinese input methods ever implemented for the Android platform.
+                Main contribution is on improving precision of character selection for phonics-based
+                input and next-word-prediction using n-gram language model.
+            </div>
+        </div>
+        <div class="lsf-icon zoom" title="zoom">see detail </div>
+        <div class="full_description">
+            <p> 
+            The open source project page is hosted on <a
+                href="https://github.com/bizkit/KerKerInput">Github</a>.
+             </p>
 
-    <h2>SCHOOL PROJECTS</h2>
+            <p>
+                <img
+                src="/images/portfolio/kerkerinput.jpg" style="max-width: 500;">
+            </p>
 
+        </div>
+    </div>
+
+    <h2 style="margin-bottom: 24px;">SMART PHONE APPS</h2>
+
+
+    <div class="project">
+        <div class="img_container"  style="height: 100%;">
+            <img class="snapshot"
+            src="/images/portfolio/paperpiano.png"/>
+        </div>
+
+        <div class="content">
+            <div class="project_head">
+                <span class="title">PAPER PIANO</span>
+                <span class="tech">C Java AR <span class="lsf">android</span></span>
+            </div>
+            <div class="description">
+                Paper Piano is an Android app that allows the user to play on a piano keyboard printed
+                on a piece of paper in real time. Supports different sounds effects. Core effects engine
+                and software mixer are coded in C using the Android NDK.
+            </div>
+        </div>
+        <div class="lsf-icon zoom" title="zoom">see detail </div>
+        <div class="full_description">
+
+            <p>
+                <img
+                src="/images/portfolio/paperpiano_hand.png" style="width: 90%;">
+            </p>
+
+            <p>
+                Demo Video:
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/kfnd2wnb1Ec?rel=0"
+                    frameborder="0" allowfullscreen></iframe>
+
+            </p>
+
+            <p> 
+                This app won Best Student Project in the Mobile Hero UI Contest, sponsored by the Ministry
+                of Economic Affairs in Taiwan. 
+             </p>
+
+            <p>
+                <img
+                src="/images/portfolio/paperpiano_system.png" style="width: 80%;">
+            </p>
+
+
+        </div>
+    </div>
+    <div class="project">
+        <div class="img_container"  style="height: 100%;">
+            <img class="snapshot"
+            src="/images/portfolio/rephrase.jpg"/>
+        </div>
+
+        <div class="content">
+            <div class="project_head">
+                <span class="title">REPHRASE</span>
+                <span class="tech">Obj-C Hadoop NLP <span class="lsf">iphone</span></span>
+            </div>
+            <div class="description">
+                RePhrase is an app designed to help writers find alternative expressions for a given
+                phrase. It works like a contextual-aware thesaurus. It provides more
+                than 8,810,629 phrases, and 53,575 examples mined from the Web to show collocation
+                patterns and idiomatic usages.
+            </div>
+        </div>
+        <div class="lsf-icon zoom" title="zoom">see detail </div>
+        <div class="full_description">
+
+            <p>
+            Enter a phrase with or without wildcards, the system will show a list of paraphrases.  You
+            can then adjust your query by choosing specific word(s) that you would like to find
+            alternatives. 
+            </p>
+
+            <p>
+                You can download and install RePhease on your iPhone in the <a
+                    href="https://itunes.apple.com/tr/app/rephrase/id558833442?mt=8">App Store</a>.
+            </p>
+
+            <p>
+                <img src="/images/portfolio/rephrase_shot1.jpg">
+                <img src="/images/portfolio/rephrase_shot2.jpg">
+            </p>
+
+            <p>
+                The research project that spurred this app is sponsored by the National Science Council to
+                explore the idea of Big Data as a Service. It is presented at the Microsoft Research Asia
+                Taiwan Academic Forum.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <div class="img_container"  style="height: 100%;">
+            <img class="snapshot"
+            src="/images/portfolio/sidekick.png"/>
+        </div>
+
+        <div class="content">
+            <div class="project_head">
+                <span class="title">SIDEKICK</span>
+                <span class="tech">Obj-C Hadoop <span class="lsf">iphone</span></span>
+            </div>
+            <div class="description">
+                Sidekick is an iPhone app that solves the popular game Draw Something. It games the
+                system by scanning the screenshot, recognizing the candidate letters, and generating a
+                list of possible answers ranked by probability. Trained on various dictionaries,
+                Wikipedia titles and redirects for high precision and coverage. 
+            </div>
+        </div>
+        <div class="lsf-icon zoom" title="zoom">see detail </div>
+        <div class="full_description">
+
+            <p>
+                Sidekick is available on the <a
+                    href="https://itunes.apple.com/gb/app/sidekick-lite-helper-for-draw/id519705865?mt=8">App Store</a>
+                Checkout the online demo video to see the app in action:
+                <iframe width="420" height="315" src="http://www.youtube.com/embed/g3_TMp7IJB0?rel=0"
+                    frameborder="0" allowfullscreen></iframe>
+            </p>
+
+            <p>
+                Scanning and result screenshots: 
+            </p>
+
+            <p>
+                <img src="/images/portfolio/sidekick_shot1.jpg">
+                <img src="/images/portfolio/sidekick_shot2.jpg">
+            </p>
+
+
+        </div>
+    </div>
+    <div class="project">
+        <div class="img_container"  style="height: 100%;">
+            <img class="snapshot"
+            src="/images/portfolio/taipeifever.png"/>
+        </div>
+
+        <div class="content">
+            <div class="project_head">
+                <span class="title">TAIPEI FEVER</span>
+                <span class="tech">Java C# Obj-C  <span class="lsf">globe</span> <span
+                        class="lsf">windows</span> <span class="lsf">iphone</span> <span
+                        class="lsf">android</span></span>
+            </div>
+            <div class="description">
+                Available on Android, iPhone, Windows Phone and BlackBerry, Taipei Fever is a
+                comprehensive Taipei City tour guide app with a stunning UI, rich information, offline
+                maps, and offline Wikipedia.  This app is awarded the best app in the Fun Taipei Mobile
+                App Competition, sponsored by the Taipei City Government, a contest similar to New York City's Big App competition.
+            </div>
+        </div>
+        <div class="lsf-icon zoom" title="zoom">see detail </div>
+        <div class="full_description">
+
+            <p>
+                Checkout the <a href="http://taipei.zfever.tw">promotion website</a> hosted on Heroku cloud platform.
+            </p>
+
+            <p>
+                Screenshots: 
+            </p>
+
+            <p>
+                <img src="/images/portfolio/taipeifever_shot1.jpg">
+                <img src="/images/portfolio/taipeifever_shot2.jpg">
+            </p>
+
+
+        </div>
+    </div>
+
+    <h2 style="margin-bottom: 24px;">SCHOOL PROJECTS</h2>
+
+    <div class="project">
+        <div class="img_container"  style="height: 100%;">
+            <img class="snapshot"
+            src="/images/portfolio/headtracking.png"/>
+        </div>
+
+        <div class="content">
+            <div class="project_head">
+                <span class="title">HEADTRACKING</span>
+                <span class="tech">Python OpenGL OpenCV <span class="lsf">game</span> </span>
+            </div>
+            <div class="description">
+                I made an infrared filter out of different cellophanes for my webcam, and mounted two
+                infrared LEDs on a hat. Using OpenCV to track the position and distance between the two
+                LEDs, the user's 3D location can be calculated. With this knowledge, we can use the
+                screen to simulate a virtual reality display or build a natural user interface for
+                games.
+            </div>
+        </div>
+        <div class="lsf-icon zoom" title="zoom">see detail </div>
+        <div class="full_description">
+
+            <p>
+                Please see the demo videos to see how  these projects work.
+            </p>
+
+            <p>
+                Head tracking for virtual reality display:
+                <iframe width="420" height="315" src="http://www.youtube.com/embed/YURdunvmSHA?rel=0"
+                    frameborder="0" allowfullscreen></iframe>
+            </p>
+
+            <p>
+                Head tracking for gaming control:
+                <iframe width="420" height="315" src="http://www.youtube.com/embed/i9fHj52ZnBw?rel=0"
+                    frameborder="0" allowfullscreen></iframe>
+            </p>
+
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="img_container"  style="height: 100%;">
+            <img class="snapshot"
+            src="/images/portfolio/lbie.jpg"/>
+        </div>
+
+        <div class="content">
+            <div class="project_head">
+                <span class="title">LBIE</span>
+                <span class="tech">Java Matlab <span class="lsf">camera</span> <span
+                        class="lsf">image</span> <span class="lsf">android</span></span>
+            </div>
+            <div class="description">
+                The Location Based Image Enhancement system (LBIE) system is my final project for the
+                Advance Image Processing course. It enhances photos taken on Android phones base on
+                high quality flickr images and its locations.
+            </div>
+        </div>
+        <div class="lsf-icon zoom" title="zoom">see detail </div>
+        <div class="full_description">
+            <p>
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/LUIUlL-4pBc?rel=0"
+                    frameborder="0" allowfullscreen></iframe>
+            </p>
+
+
+            <p>
+                The LBIE system works as follows:
+                <ol>
+                    <li>User takes photo on smartphone.</li>
+                    <li>System finds high quality photo on flickr with geotag near user’s location.</li>
+                    <li>System calculates SURF-features to match the most similar photo.</li>
+                    <li>Apply enhancement algorithm on user's photo based on the flickr photo.</li>
+                </ol>
+            </p>
+
+        </div>
+    </div>
 
 </div>
 
