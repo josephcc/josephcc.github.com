@@ -68,7 +68,9 @@ $(function(){
   var $container = $('#post-container');
   $container.imagesLoaded(function(){
     $container.masonry({
-      itemSelector : '.span4'
+      itemSelector : '.span4',
+      columnWidth: 1,
+      isAnimated: true
     });
   });
 
