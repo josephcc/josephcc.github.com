@@ -10,12 +10,17 @@ categories: ['linux', 'kernel']
 
 
 This post explains how to add, or override, system calls by loading custom
-kernel modules using system call hooking techniques. The mechanism is not
+kernel modules using system call hooking techniques. This
+is sometimes called system call hijacking, and is used by viruses and rootkits.
+
+<!-- more -->
+
+ The mechanism is not
 difficult to understand, you basically need to find the location of the kernel
 system call table, override an entry with a function inside your kernel module.
 At the end of you function you call the original system call and return with its
-returned value, so that user-space processes is not aware of any changes. This
-is sometimes called system call hijacking, and is used by viruses and rootkits.
+returned value, so that user-space processes is not aware of any changes.
+
 This is a very dangerous technique since every process running on the machine
 will be effected. So obviously Linux kernel does not reveal the location of the
 call table to kernel modules. This post is not intended to explain how to
@@ -24,8 +29,6 @@ the kernel once to reveal the location for an alternative development process.
 With the ability to hook system calls, you won't need to recompile and reboot
 the kernel every time you want to change something, you can simply reload the
 kernel module.
-
-<!-- more -->
 
 What I actually did was that I added a new system call to the kernel first,
 expose the system call table, and dynamically hooking my system call by loading
