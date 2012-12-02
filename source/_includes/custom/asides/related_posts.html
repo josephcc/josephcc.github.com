@@ -1,14 +1,17 @@
-{% if page.toc != true and site.related_posts %}
 
-<section>
-    <h1>Related Posts</h1>
-    <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-        <li class="related">
-        <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-        </li>
-    {% endfor %}
-    </ul>
-</section>
+{% if site.related_posts %}
+
+<h2>related</h2>
+<ul class="posts">
+{% for post in site.related_posts limit:5 %}
+    <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+
+{% else %}
+
+{% include custom/asides/recent_posts.html %}
 
 {% endif %}
