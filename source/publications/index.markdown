@@ -2,7 +2,7 @@
 layout: page
 title: "publications"
 date: 2012-10-23 14:39
-comments: false
+comments: true
 sharing: false
 footer: true
 toc: true
