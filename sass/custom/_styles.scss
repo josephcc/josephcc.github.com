@@ -1,2 +1,28 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+.button {
+    color: black !important;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+
+.button a, .button a:hover {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.button h2, .button p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button:hover {
+    color: #0088cc;
+    background: #afdfff;
+    cursor: pointer;
+    cursor: hand;
+}
