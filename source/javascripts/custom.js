@@ -74,6 +74,8 @@ $(function(){
         isAnimated: true
       });
     });
-  }
+  } else {
+      $('.article-format').css('background-color', '#ffffff');
+  };
 
 });
