@@ -1,7 +1,7 @@
 function bindBibtexQtips() {
- jQuery('.bibtex').each(function(){
-  jQuery(this).qtip({
-   content: jQuery(this).attr("bibtex"),
+ $('.bibtex').each(function(){
+  $(this).qtip({
+   content: $(this).attr("bibtex"),
    show: 'click',
    hide: { when: { event: 'unfocus' } },
 
