@@ -65,7 +65,7 @@ $(function(){
     }
   });
 
-  if ( ! ($.browser.msie  && parseInt($.browser.version, 10) === 8 ) ) {
+  if ( ! ($.browser.msie  && parseInt($.browser.version, 10) <= 8 ) ) {
     var $container = $('#post-container');
     $container.imagesLoaded(function(){
       $container.masonry({
