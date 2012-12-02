@@ -41,9 +41,18 @@ $reader-margin: 20px;
     @include clearfix;
 }
 
-.project:hover{
+.project {
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+
+.project:hover {
     cursor:pointer;
     cursor:hand;
+    background: #afdfff;
 }
 
 .project {
@@ -111,7 +120,7 @@ $reader-margin: 20px;
 
     .tech {
         float: right;
-        font-size: 1.5em;
+        font-size: 1em;
         //color: rgba(255,255,255,0.6);
         color: rgba(0,0,0,0.5);
     }
