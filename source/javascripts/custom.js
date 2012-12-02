@@ -65,13 +65,15 @@ $(function(){
     }
   });
 
-  var $container = $('#post-container');
-  $container.imagesLoaded(function(){
-    $container.masonry({
-      itemSelector : 'article',
-      columnWidth: 1,
-      isAnimated: true
+  if ( ! ($.browser.msie  && parseInt($.browser.version, 10) === 8 ) ) {
+    var $container = $('#post-container');
+    $container.imagesLoaded(function(){
+      $container.masonry({
+        itemSelector : 'article',
+        columnWidth: 1,
+        isAnimated: true
+      });
     });
-  });
+  }
 
 });
