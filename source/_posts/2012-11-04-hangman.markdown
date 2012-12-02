@@ -6,6 +6,7 @@ comments: true
 toc: true
 lsi: true
 categories: ['NLP', 'AI', 'HMM', 'Language Model', 'Game']
+span: 8
 ---
 
 
