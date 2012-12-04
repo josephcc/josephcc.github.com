@@ -10,11 +10,12 @@
 
 \usepackage{multibib}
 
-\newcites{conf,demo,task}%
+\newcites{conf,demo,task,journal}%
 {
     Conference Papers (oral),%
     Demo Papers,%
-    Task Papers
+    Task Papers,%
+    Journal Papers (in review process)
 }
 
 % moderncv themes
@@ -39,7 +40,7 @@
 \address{CS Dept., NTHU, }{Kuang-Fu Rd, Hsinchu, Taiwan}
 \mobile{+886~(9)~75~192~075}
 \email{joseph.nthu.tw@gmail.com}
-\homepage{http://joseph.nlpweb.org}
+\homepage{joseph.nlpweb.org}
 %\extrainfo{additional information}
 \photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
 %\quote{Some quote (optional)}                 % optional, remove the line if not wanted
@@ -83,6 +84,10 @@ IC. Published two IR, NLP related conference papers.
 \cvitemwithcomment{English}{Fluent}{ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28)}
 
 \section{Work Experience}
+
+\cventry{standing offers}{Engineer or Research Intern}{Trend Micro, Synology, Microsoft Research Asia}{}{}{
+}%
+
 \cventry{April--June 2012}{Freelance Developer}{OpenMoko Inc.}{}{}{
 Developed a highly complex Android client application of the social network website www.bitmarq.com for
 OpenMoko, the startup company that initiated the Openmoko Project to create open source mobile phones in
@@ -106,8 +111,16 @@ Project.
 \end{itemize}
 }
 
-\cventry{2007--2012}{Cluster Administrator}{National Tsing Hua University}{}{}{
-In charge of Hadoop cluster administration (hadoop.nlpweb.org) and MapReduce programming training.
+\cventry{Aug.--Dec. 2011}{Teaching Assistant}{CS Dept.}{National Tsing Hua University}{}{
+Teaching Assistant for the 2011 graduate level Natural Language Processing Course.
+}
+
+\cventry{2007--2012}{Cluster Administrator}{NLP Lab}{National Tsing Hua University}{}{
+In charge of Hadoop cluster administration and MapReduce programming training.
+}
+
+\cventry{Aug.--Dec. 2008}{Teaching Assistant}{CS Dept.}{Yuan Ze University}{}{
+Teaching Assistant for the 2008 undergraduate level Computer Architecture Course.
 }
 
 % Publications from a BibTeX file without multibib
@@ -119,12 +132,15 @@ In charge of Hadoop cluster administration (hadoop.nlpweb.org) and MapReduce pro
 \nociteconf{*}
 \nocitedemo{*}
 \nocitetask{*}
+\nocitejournal{*}
 \bibliographystyleconf{plain}
 \bibliographystyledemo{plain}
 \bibliographystyletask{plain}
+\bibliographystylejournal{plain}
 \bibliographyconf{conf}
 \bibliographydemo{demo}
 \bibliographytask{task}
+\bibliographyjournal{journal}
 
 % Publications from a BibTeX file using the multibib package
 %\section{Publications}
@@ -134,8 +150,6 @@ In charge of Hadoop cluster administration (hadoop.nlpweb.org) and MapReduce pro
 %\nocitemisc{misc1,misc2,misc3}
 %\bibliographystylemisc{plain}
 %\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
-
-
 
 \section{Programming Skill}
 \cvitemwithcomment{Python}{nltk, scipy, twisted and more}{6 years}
