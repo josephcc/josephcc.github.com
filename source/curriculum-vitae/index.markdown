@@ -49,14 +49,15 @@ Work Experience
 > 0xlab is a startup company founded by a group of enthusiastic developers who actively contribute to
 > various open source projects including the Android Open Source Project.
 
+#### Teaching Assistant, *CS Dept., National Tsing Hua University* - Aug. 2011~Dec. 2011
+> Teaching Assistant for the 2011 graduate level Natural Language Processing Course.
+
 #### Cluster Administrator, *National Tsing Hua University* - 2007~2012
-> In charge of [Hadoop cluster](http://hadoop.nlpweb.org/) administration, MapReduce programming
-> training, and TA for the 2011 natural language processing course.
+> In charge of Hadoop Cluster administration iand MapReduce programming training.
 
 Projects
 -----------------
-Please see [Projects Page](/projects) for both my open source and school projects involving head tracking, Android, iOS and more.
-
+Please see my [Portfolio](/portfolio) for both my open source and school projects involving head tracking, Android, iOS and more.
 
 Education
 -----------------
