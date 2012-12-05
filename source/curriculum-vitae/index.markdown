@@ -17,15 +17,20 @@ without the Projects section.
 
 Contact 
 -----------------
-> - Joseph Z. Chang (張至)
-> - Phone: +886 975 192 075 (mobile)
-> - Email: joseph.nthu.tw _AT_ gmail.com
-> - Url: http://bizkit.github.com or http://joseph.nlpweb.org
+> Joseph Z. Chang (張至)    
+> Phone: +886 975 192 075 (mobile)    
+> Email: joseph.nthu.tw _AT_ gmail.com    
+> Url: http://bizkit.github.com or http://joseph.nlpweb.org    
+
+Languages
+----------------
+> Chinese: Native.    
+> English: Fluent. ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28)    
 
 Publications
 -----------------
 Published in top conferences including ACL, COLING, PACLIC, and ROCLING.
-Participated in two conference tasks (NAACL, NTCIR).
+Participated in two competitive shared tasks in NAACL and NTCIR. Journal paper in review process.
 
 Please see [Publications Page](/publications) for detail.
 
@@ -63,23 +68,21 @@ Education
 -----------------
 
 #### National Tsing Hua University, Taiwan (2010~2012)
-> - Master, Information System and Applications, Computer Science
-> - Research focused on Natural Language Processing and Information Retrieval
->   - Cross-lingual Information Retrieval/Extraction, Grammatical Error Correction
->   - Machine Translation, Wikipedia, Google Web1T, Hadoop
+> \- Master, Information System and Applications, Computer Science    
+> \- Research focused on Natural Language Processing and Information Retrieval, Cross-lingual
+> Information Retrieval/Extraction, Grammatical Error Correction, Machine Translation, Wikipedia, Google Web1T, Hadoop.
 
 #### Yuan Ze University, Taiwan (2006~2010)
-> - Undergraduate, Computer Science and Engineering (Overall GPA 3.6/4.0)
-> - Joined EDA Lab
->   - FPGA Architecture/Synthesis and design partitioning for 3D IC.
+> \- Undergraduate, Computer Science and Engineering (Overall GPA 3.6/4.0)    
+> \- Joined EDA Lab focusing on FPGA Architecture, Technology Synthesis and design partitioning for 3D IC. 
 
 Selected Awards and Honors
 -----------------
 
 #### Scholarships / Travel Grants
-> - The Association for Computational Linguistics and Chinese Language Processing    
-> - Department of Information System and Applications, National Tsing Hua University    
-> - Department of Computer Science and Engineering, National Yuan Ze University    
+> \- The Association for Computational Linguistics and Chinese Language Processing    
+> \- Department of Information System and Applications, National Tsing Hua University    
+> \- Department of Computer Science and Engineering, National Yuan Ze University    
 
 #### National IC/CAD Programming Contest, *Ministry of Education*
 > won *Bronze Medal* out of 160 teams     
@@ -105,13 +108,15 @@ Selected Awards and Honors
 #### Best Undergraduate Research Paper
 > awarded by Yuan Ze University
 
+<!--
 Exam Scores
 -----------------
 > - ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28) out of 120
 > - ETS TOEIC: 950 out of 990
 > - IELTS: 8.0 (R:8.5, L:8.5, S:8.5, W:7.0) out of 9.0
+-->
 
-Skills & Expertise
+Technical Skills
 -----------------
 > - Python, nltk, scipy  ( *6 years* )
 > - Hadoop MapReduce programming ( *5 years* )
