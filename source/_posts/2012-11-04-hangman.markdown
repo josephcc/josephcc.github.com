@@ -11,13 +11,13 @@ span: 8
 
 
 I've recently wrote a program for solving sentence-based hangman game automatically. Here's a post
-explaining how I did it with the British National Corpus, [srilm](http://www.speech.sri.com/projects/srilm/) 
+explaining my approach using the British National Corpus, [srilm](http://www.speech.sri.com/projects/srilm/) 
 language model and hidden Markov model.
 
 The Hangman Game
 -------------------
 Last week, my friend [Zero Cho](http://itszero.github.com) was asked to write a program that solves the
-game of hangman automatically. For people who are not familiar with the hangman game, the rules are
+game of hangman automatically. The rules are
 simple: the questions are short sentences or phrases with their characters
 concealed, i.e. replaced with an underscore, while spaces and punctuations are revealed. The solving
 process is an interactive process in which the solver program will guess a letter, and the question
