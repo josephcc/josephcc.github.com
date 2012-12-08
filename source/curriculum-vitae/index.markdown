@@ -120,14 +120,6 @@ Selected Awards and Honors
 #### Best Undergraduate Research Paper
 > awarded by Yuan Ze University
 
-<!--
-Exam Scores
------------------
-> - ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28) out of 120
-> - ETS TOEIC: 950 out of 990
-> - IELTS: 8.0 (R:8.5, L:8.5, S:8.5, W:7.0) out of 9.0
--->
-
 Technical Skills
 -----------------
 > - Python, nltk, scipy  ( *6 years* )
