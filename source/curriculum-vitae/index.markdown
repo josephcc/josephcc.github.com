@@ -34,6 +34,10 @@ Participated in two competitive shared tasks in NAACL and NTCIR. Journal paper i
 
 Please see [Publications Page](/publications) for detail.
 
+Projects
+-----------------
+Please see my [Portfolio](/portfolio) for both my open source and school projects involving head tracking, Android, iOS and more.
+
 Work Experience
 -----------------
 
@@ -54,15 +58,23 @@ Work Experience
 > 0xlab is a startup company founded by a group of enthusiastic developers who actively contribute to
 > various open source projects including the Android Open Source Project.
 
+Teaching and Presentation Experience
+-----------------
+
 #### Teaching Assistant, *CS Dept., National Tsing Hua University* - Aug. 2011~Dec. 2011
 > Teaching Assistant for the 2011 graduate level Natural Language Processing Course.
 
-#### Cluster Administrator, *National Tsing Hua University* - 2007~2012
+#### Cluster Admin/MapReduce Lecturer, *National Tsing Hua University* - 2007~2012
 > In charge of Hadoop Cluster administration iand MapReduce programming training.
 
-Projects
------------------
-Please see my [Portfolio](/portfolio) for both my open source and school projects involving head tracking, Android, iOS and more.
+#### Teaching Assistant, *CS Dept., Yuan Ze University* - Aug. 2008~Dec. 2008
+> Teaching Assistant for the 2008 undergraduate level Computer Architecture Course.
+
+#### Presenter, *Conference for Open Source Coders, Users and Promoters* - 8 Aug. 2011
+> Presented Project 0xBench in one of the largest OSS conference in Asia with over 1,200 participants.
+
+#### Lecturer, *PCLab, Yuan Ze University* - 2008~2009
+> Gave talks on Python and MapReduce for the student organized PCLab Programming Club.
 
 Education
 -----------------
