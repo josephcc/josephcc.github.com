@@ -83,10 +83,10 @@ Task Papers
 {% endbibtex %}
 
 {% bibtex %}
-@article{isajoseph,
+@InProceedings{isajoseph,
   author   = {Chang, Joseph and Huang, Shih-ting and Yen, Ho-ching and Jiang, Ming-Jhuan and Huang, Chung-chi and Chang, Jason S. and Yang, Ping-che},
-  title     = {PatentMT: Summary Report of Team III_CYUT_NTHU},
-  booktitle = {Patent Machine Translation Task at NTCIR-9},
+  booktitle = {Patent Machine Translation Task at {NTCIR-9}},
+  title     = {{PatentMT}: Summary Report of Team {III\_CYUT\_NTHU}},
   month     = {December},
   year      = {2011},
   address   = {Tokyo, Japan},
