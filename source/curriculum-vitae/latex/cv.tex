@@ -10,12 +10,11 @@
 
 \usepackage{multibib}
 
-\newcites{conf,demo,task,journal}%
+\newcites{conf,task,journal}%
 {
-    Conference Papers (oral),%
-    Demo Papers,%
+    Conference Papers,%
     Task Papers,%
-    Journal Papers (in review process)
+    Journal Papers (in review)
 }
 
 % moderncv themes
@@ -66,8 +65,9 @@
 \section{Education}
 \cventry{2010--2012}{M.S., Computer Science}{National Tsing Hua University}{}{\textit{GPA 4.23/4.30}}{
 Research focused on Natural Language Processing and Information Retrieval, including cross-lingual
-information retrieval and extraction, grammatical error correction, machine translation, Wikipedia,
-Google Web1T, and Hadoop MapReduce programming.
+information extraction, grammatical error correction, machine translation, Wikipedia,
+Google Web1T, and Hadoop MapReduce. Published two research papers in top NLP conferences,
+participated in two competitive shared tasks, and one journal paper in review.
 }  % arguments 3 to 6 can be left empty
 \cventry{2006--2010}{B.S., Computer Science}{Yuan Ze University}{}{\textit{GPA 3.6/4.0}}{
 Joined EDA Lab and studied FPGA architectures, FPGA technology mapping, and design partitioning for 3D
@@ -85,12 +85,12 @@ IC. Published two IR, NLP related conference papers.
 
 \section{Work Experience}
 
-\cventry{standing offers}{Software Engineer}{Trend Micro and Synology}{}{}{
+\cventry{Standing offers}{Software Engineer}{Trend Micro and Synology}{}{}{
 }%
 
 \cventry{April--June 2012}{Freelance Developer}{OpenMoko Inc.}{}{}{
 Developed a highly complex Android client application of the social network website www.bitmarq.com for
-OpenMoko, the startup company that initiated the Openmoko Project to create open source mobile phones in
+OpenMoko, the startup company that initiated the Openmoko Project for building a open source mobile phones in
 2007.  }%
 
 \cventry{2010--2011}{Research Assistant}{Academia Sinica}{}{}{
@@ -99,7 +99,7 @@ the Princeton WordNet. The algorithm was implemented on the Hadoop MapReduce pla
 }
 
 \cventry{May--Sept. 2010}{Software Engineer Intern}{0xlab Inc.}{}{}{
-Developed in C and Java the open source Android benchmarking platform 0xBench and server-side
+Developed 0xBench in C and Java, the open source Android benchmarking platform and server-side
 visualization hosted on Google App Engine. 0xBench is now being used by major companies worldwide and
 ships with Texas Instrument's development boards. 0xlab is a startup company founded by enthusiastic
 developers who actively contribute to various open source projects including the Android Open Source
@@ -113,24 +113,24 @@ Project.
 
 \section{Teaching and Presentation Experience}
 
-\cventry{Aug.--Dec. 2011}{Teaching Assistant}{CS Dept.}{National Tsing Hua University}{}{
-Teaching Assistant for the 2011 graduate level Natural Language Processing Course.
+\cventry{Aug.--Dec. 2011}{Teaching Assistant}{}{CS Dept.}{National Tsing Hua University}{
+The 2011 graduate level Natural Language Processing Course.
 }
 
-\cventry{2007--2012}{Cluster Admin/MapReduce Lecturer}{NLP Lab}{National Tsing Hua University}{}{
+\cventry{2007--2012}{Cluster Admin/MapReduce Lecturer}{}{NLP Lab}{National Tsing Hua University}{
 In charge of Hadoop cluster administration and MapReduce programming training.
 }
 
-\cventry{Aug.--Dec. 2008}{Teaching Assistant}{CS Dept.}{Yuan Ze University}{}{
-Teaching Assistant for the 2008 undergraduate level Computer Architecture Course.
+\cventry{Aug.--Dec. 2008}{Teaching Assistant}{}{CS Dept.}{Yuan Ze University}{
+The 2008 undergraduate level Computer Architecture Course.
 }
 
-\cventry{8 Aug. 2011}{Presenter}{Conference for Open Source Coders, Users and Promoters}{}{}{
-Presented project 0xBench in one of the largest OSS conf in Asia.(over 1200 participants)
+\cventry{8 Aug. 2011}{Presenter}{Conference for Open Source Coders, Users and Promoters (COSCUP)}{}{}{
+Presented project 0xBench in one of the largest OSS conference in Asia. (attendance: 1200)
 }
 
-\cventry{2008--2009}{Lecturer}{PCLab}{Yuan Ze University}{}{
-Gave talks on Python and MapReduce for the student organized PCLab Programming Club.
+\cventry{2008--2009}{Lecturer}{}{PCLab}{Yuan Ze University}{
+Gave talks on Python and MapReduce for the Student Programming Club.
 }
 
 % Publications from a BibTeX file without multibib
@@ -140,15 +140,12 @@ Gave talks on Python and MapReduce for the student organized PCLab Programming C
 \section{Publications}
 
 \nociteconf{*}
-\nocitedemo{*}
 \nocitetask{*}
 \nocitejournal{*}
 \bibliographystyleconf{plain}
-\bibliographystyledemo{plain}
 \bibliographystyletask{plain}
 \bibliographystylejournal{plain}
 \bibliographyconf{conf}
-\bibliographydemo{demo}
 \bibliographytask{task}
 \bibliographyjournal{journal}
 
@@ -162,23 +159,26 @@ Gave talks on Python and MapReduce for the student organized PCLab Programming C
 %\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
 
 \section{Technical Skills}
-\cvitemwithcomment{Python}{nltk, scipy, twisted and more}{6 years}
+\cvitemwithcomment{Reseach tools}{Moses, BerkeleyAligner, SriLM, HMM, EM, CRF, ME, SVM}{1-4 years}
 \cvitemwithcomment{Hadoop}{MapReduce programming}{5 years}
-\cvitemwithcomment{Reseach}{Moses, BerkeleyAligner, SriLM, HMM, EM, CRF, ME, SVM}{1-4 years}
+\cvitemwithcomment{C, C++, STL}{Electronic design automation and more}{8 years}
+\cvitemwithcomment{Python}{nltk, scipy, twisted and more}{6 years}
 \cvitemwithcomment{Java}{Android app development}{3 years}
 \cvitemwithcomment{Objective-C}{iPhone app development}{1 year}
-\cvitemwithcomment{Linux}{Desktop and server administration}{8 years}
-\cvitemwithcomment{Cloud}{Google App Engine, Heroku}{1 year}
-\cvitemwithcomment{C, C++, STL}{Electronic design automation and more}{8 years}
 \cvitemwithcomment{Matlab}{Audio signal processing}{1 year}
+\cvitemwithcomment{Linux}{Desktop and server administration}{8 years}
+\cvitemwithcomment{Web platform}{Google App Engine, Heroku, Amazon EC2}{1 year}
 
 \section{Selected Awards and Honors}
-\cventry{}{Scholarships and Travel Grants}{}{}{}{
+\cventry{Scholarship}{Travel Grants}{}{}{}{
     \begin{itemize}%
         \item{The Association for Computational Linguistics and Chinese Language Processing}{}
         \item{Department of Information System and Applications, National Tsing Hua University}{}
         \item{Department of Computer Science and Engineering, National Yuan Ze University}{}
     \end{itemize}
+}
+
+\cventry{First Place}{Undergraduate Research Paper Award}{Yuan Ze University}{}{}{
 }
 
 \cventry{Bronze Medal}{National IC/CAD Programming Contest}{Ministry of Education}{}{}{
@@ -197,7 +197,7 @@ Gave talks on Python and MapReduce for the student organized PCLab Programming C
 }
 
 \cventry{Third Place}{National Information Security Contest}{Industrial Technology Research Institute}{}{}{
-    Out of 149 teams that participated.
+    Won third place out of 149 teams that participated.
 }
 
 \cventry{Best Student Project}{Mobile Hero UI Contest}{Ministry of Economic Affair}{}{}{
@@ -207,9 +207,6 @@ Gave talks on Python and MapReduce for the student organized PCLab Programming C
 
 \cventry{Honorable Mention}{Mobile App Development Contest}{Chuang Hua Telecom}{}{}{
     Developed \emph{beFriend}, a business card management app for Android.  
-}
-
-\cventry{First Place}{Undergraduate Research Paper Award}{Yuan Ze University}{}{}{
 }
 
 
