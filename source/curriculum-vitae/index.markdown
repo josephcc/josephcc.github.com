@@ -122,14 +122,14 @@ Selected Awards and Honors
 
 Technical Skills
 -----------------
-> - Python, nltk, scipy  ( *6 years* )
-> - Hadoop MapReduce programming ( *5 years* )
-> - Machine Learning: EM, HMM, CRF, ME, ME/MM, SVM ( *4 years* )
-> - Machine Translation: Moses, BerkeleyAligner, SriLM, Joshua ( *1 years* )
-> - Java / Android SDK/NDK application development ( *3 years* )
-> - Objective-C / iOS application development ( *1 year* )
-> - Linux server administration ( *8 years* )
-> - Google App Engine, Heroku ( *1 year* )
-> - C / C++ / STL ( *8 years* )
-> - Matlab ( *1 year* )
+> Python, nltk, scipy  ( *6 years* )    
+> Hadoop MapReduce programming ( *5 years* )    
+> Machine Learning: EM, HMM, CRF, ME, ME/MM, SVM ( *4 years* )    
+> Machine Translation: Moses, BerkeleyAligner, SriLM, Joshua ( *1 years* )    
+> Java / Android SDK/NDK application development ( *3 years* )    
+> Objective-C / iOS application development ( *1 year* )    
+> Linux server administration ( *8 years* )    
+> Google App Engine, Heroku ( *1 year* )    
+> C / C++ / STL ( *8 years* )    
+> Matlab ( *1 year* )    
 

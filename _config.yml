@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://joseph.nlpweb.org
-title: 
-subtitle: $\forall \  s \lt t \ \ \mathbb{P}(X_t \in A |\mathcal{F}_s) = \mathbb{P}(X_t \in A| X_s)$ 
+title: "I'm Joseph Chang"
+subtitle: "a researcher/developer from Taiwan."
 author: Joseph Chang
 simple_search: http://google.com/search
 description:
@@ -115,3 +115,5 @@ facebook_like: true
 citation:
     citation_style: apa
     citation_locale: en
+
+hide_design_credits: true
