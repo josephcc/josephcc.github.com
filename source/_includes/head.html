@@ -24,7 +24,6 @@
       {% endif %}
     {% endcapture %}
   {% endif %}
-  <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -40,7 +39,6 @@
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="{{ site.title }}" />
   <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta name="og:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" />
   <meta name="og:url" content="{{ site.url }}{{ page.url }}"/>
   <meta name="url" content="{{ site.url }}{{ page.url }}">
   {% if page.categories %}
