@@ -25,10 +25,6 @@ tree，看起來很有趣， 在 merge 不同 branch 的時候也十分實用。
 類似， 是一個可以把任一 command 的 output 顯示在桌面上。 我最早是在 LifeHacker 發現的， 最大的差別在
 NerdTool 可以正確的顯示 ASCII colors。
 
-<a href="http://www.flickr.com/photos/bizkit/6291810655/" title="P1030409 by bizkit@tw, on Flickr"><img
-src="http://farm7.staticflickr.com/6219/6291810655_0dbd160a39.jpg" width="500" height="375"
-alt="P1030409"></a>
-
 [NerdTool](http://mutablecode.com/apps/nerdtool) is an application that allows you to display shell
 script output on your desktop, and unlike the popular
 [GeekTool](http://projects.tynsoe.org/en/geektool/), NerdTool support ASCII colors.
