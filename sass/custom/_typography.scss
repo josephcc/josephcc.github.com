@@ -35,3 +35,12 @@
 * + table ol {
     list-style: decimal !important;
 }
+
+body {
+    word-spacing: 1px;
+}
+
+.masonry-brick .article-format .entry-content {
+    text-align: justify;
+    text-justify: inner-ideograph;
+}
