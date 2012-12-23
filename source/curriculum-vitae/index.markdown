@@ -98,7 +98,7 @@ Selected Awards and Honors
 
 #### National IC/CAD Programming Contest, *Ministry of Education*
 > won *Bronze Medal* out of 160 teams     
-> developed a 3D-IC partitioning algorithm, implemented in 3000+ lines of C++/STL code
+> developed a 3D-IC partitioning algorithm, implemented in 4000+ lines of C++/STL code
 
 #### The 11th Trend Micro Programming Contest, *[Trend Micro Inc](http://www.trendmicro.com)*
 > won *Second Place* out of 67 teams 
