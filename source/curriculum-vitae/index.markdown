@@ -12,10 +12,10 @@ toc: true
 	<img src="/images/me.jpg" width="230">
 </div>
 
-Download the [PDF Version](/curriculum-vitae/latex/cv.pdf)    
+Download the <a href="/curriculum-vitae/latex/cv.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">PDF Version</a>
 without the Projects section.
 
-Contact 
+Contact
 -----------------
 > Joseph Z. Chang (張至)    
 > Phone: +886 975 192 075 (mobile)    
