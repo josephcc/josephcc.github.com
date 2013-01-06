@@ -8,8 +8,6 @@ footer: true
 toc: true
 ---
 
-*Joseph Chang* or *Joseph Z. Chang*.
-
 Conference Papers
 ------------
 
@@ -39,7 +37,7 @@ Conference Papers
   url       = {http://www.aclweb.org/anthology/Y09-1009}
 }
 {% endbibtex %}
-[[resource download](/wikisense)]
+[[resource download]](/wikisense)
 
 {% bibtex %}
 @InProceedings{Chang-EtAl:2009:ROCLING2009,
