@@ -89,6 +89,7 @@ $(document).ready(function() {
         $("body").css("overflow", "hidden");
         $("html").css("overflow", "hidden");
         $("#close").fadeIn();
+        _gaq.push(['_trackEvent', 'Portfolio', 'Project View', $(this).attr("id")]);
     });
 
     $(window).resize( function() {
