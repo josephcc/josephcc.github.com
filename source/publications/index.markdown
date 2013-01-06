@@ -67,7 +67,7 @@ Task Papers
 ------------
 
 {% bibtex %}
-@InProceedings{wu-EtAl:2012:BEA,
+@InProceedings{wu-EtAl:2012:BEA:NAACL2012,
   author    = {Wu, Jian-Cheng  and  Chang, Joseph  and  Chen, Yi-Chun  and  Huang, Shih-Ting  and  Chen, Mei-Hua  and  Chang, Jason S.},
   title     = {Helping Our Own: NTHU NLPLAB System Description},
   booktitle = {Proceedings of the Seventh Workshop on Building Educational Applications Using NLP (NAACL)},
@@ -81,7 +81,7 @@ Task Papers
 {% endbibtex %}
 
 {% bibtex %}
-@InProceedings{isajoseph,
+@InProceedings{chang-etal:2012:NTCIR-9:NII-JAPAN,
   author   = {Chang, Joseph and Huang, Shih-ting and Yen, Ho-ching and Jiang, Ming-Jhuan and Huang, Chung-chi and Chang, Jason S. and Yang, Ping-che},
   booktitle = {Patent Machine Translation Task at {NTCIR-9}},
   title     = {{PatentMT}: Summary Report of Team {III\_CYUT\_NTHU}},
