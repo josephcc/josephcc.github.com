@@ -96,7 +96,7 @@ Task Papers
 
 Journal Papers 
 ------------
-(in review process)
+(in review process, conditionally accepted)
 
 Chang, J. Z., Chang, J. S., & Jang, R. J.-S. (2012). Learning to Find Translations and Transliterations
 on the Web based on Conditional Random Fields. International Journal of Computational Linguistics and
