@@ -14,7 +14,7 @@
 {
     Conference Papers,%
     Task Papers,%
-    Journal Papers (in review{,} conditionally accepted)
+    Journal Papers
 }
 
 % moderncv themes
@@ -36,9 +36,9 @@
 \firstname{Joseph}
 \familyname{Chang}
 \title{Curriculum Vitae}
-\address{CS Dept., NTHU, }{Kuang-Fu Rd, Hsinchu, Taiwan}
-\mobile{+886~(9)~75~192~075}
-\email{joseph.nthu.tw@gmail.com}
+\address{Language Technologies Institute, Carnegie Mellon University}{5000 Forbes Ave, Pittsburgh, PA 15213}
+\mobile{650-877-2009}
+\email{josephcc@cmu.edu}
 \homepage{joseph.nlpweb.org}
 %\extrainfo{additional information}
 %\photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
@@ -63,11 +63,17 @@
 \renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
 
 \section{Education}
+\cventry{2013--2015 (exp.)}{Graduate Research Assistant}{Computer Science}{Carnegie Mellon University}{}{
+In the MLT program. Research focused on Human-Computer Interaction, Natural Language Processing and
+Machine Learning.  Developed a complex crowd-sourcing pipeline web application
+using Ruby on Rails.  Won competition projects for two courses:
+\emph{Algorithms for NLP} and \emph{Language and Statistics}.
+}  % arguments 3 to 6 can be left empty
 \cventry{2010--2012}{M.S., Computer Science}{National Tsing Hua University}{}{\textit{GPA 4.23/4.30}}{
 Research focused on Natural Language Processing and Information Retrieval, including cross-lingual
 information extraction, grammatical error correction, machine translation, Wikipedia,
 Google Web1T, and Hadoop MapReduce. Published two research papers in top NLP conferences,
-participated in two competitive shared tasks, and one journal paper in review (conditionally accepted).
+participated in two competitive shared tasks, and one journal paper.
 }  % arguments 3 to 6 can be left empty
 \cventry{2006--2010}{B.S., Computer Science}{Yuan Ze University}{}{\textit{GPA 3.6/4.0}}{
 Joined EDA Lab and studied FPGA architectures, FPGA technology mapping, and design partitioning for 3D
@@ -79,26 +85,32 @@ IC. Published two IR, NLP related conference papers.
 %\cvitem{supervisors}{Supervisors}
 %\cvitem{description}{Short thesis abstract}
 
-\section{Languages}
-\cvitemwithcomment{Chinese}{Native}{}
-\cvitemwithcomment{English}{Fluent}{ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28)}
+%\section{Languages}
+%\cvitemwithcomment{Chinese}{Native}{}
+%\cvitemwithcomment{English}{Fluent}{ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28)}
 
 \section{Work Experience}
 
-\cventry{Standing offers}{Software Engineer}{Trend Micro and Synology}{}{}{
+%\cventry{Standing offers}{Software Engineer}{Trend Micro and Synology}{}{}{
+%}%
+
+\cventry{April--July 2013}{Search Engineer, APAC}{Yahoo Taiwan Inc}{}{}{
+Worked as an engineer for the Yahoo knowledge graph. Including search log
+mining, database integration, and a web-based backstage interface.
 }%
 
-\cventry{April--June 2012}{Freelance Developer}{OpenMoko Inc.}{}{}{
-Developed a highly complex Android client application of the social network website www.bitmarq.com for
-OpenMoko, the startup company that initiated the Openmoko Project for building a open source mobile phones in
-2007.  }%
+\cventry{April--June 2012}{Freelance Developer}{OpenMoko Inc}{}{}{
+Developed a comprehensive Android client for the social network
+https://intelligencia.io for OpenMoko, the startup company that initiated the
+Openmoko Project for building a open source mobile phones in 2007.
+}%
 
-\cventry{2010--2011}{Research Assistant}{Academia Sinica}{}{}{
+\cventry{2010--2011}{Research Assistant}{Academia Sinica (national academy)}{}{}{
 Developed an Expectation-Maximization based method for cross-lingual ontology mapping, from EHowNet to
 the Princeton WordNet. The algorithm was implemented on the Hadoop MapReduce platform for efficiency.
 }
 
-\cventry{May--Sept. 2010}{Software Engineer Intern}{0xlab Inc.}{}{}{
+\cventry{May--Sept. 2010}{Software Engineer Intern}{0xlab Inc}{}{}{
 Developed 0xBench in C and Java, the open source Android benchmarking platform and server-side
 visualization hosted on Google App Engine. 0xBench is now being used by major companies worldwide and
 ships with Texas Instrument's development boards. 0xlab is a startup company founded by enthusiastic
@@ -111,63 +123,19 @@ Project.
 \end{itemize}
 }
 
-\section{Teaching and Presentation Experience}
+\clearpage
 
-\cventry{Aug.--Dec. 2011}{Teaching Assistant}{}{CS Dept.}{National Tsing Hua University}{
-The 2011 graduate level Natural Language Processing Course.
-}
-
-\cventry{2007--2012}{Cluster Admin/MapReduce Lecturer}{}{NLP Lab}{National Tsing Hua University}{
-In charge of Hadoop cluster administration and MapReduce programming training.
-}
-
-\cventry{Aug.--Dec. 2008}{Teaching Assistant}{}{CS Dept.}{Yuan Ze University}{
-The 2008 undergraduate level Computer Architecture Course.
-}
-
-\cventry{8 Aug. 2011}{Presenter}{Conference for Open Source Coders, Users and Promoters (COSCUP)}{}{}{
-Presented project 0xBench in one of the largest OSS conference in Asia. (attendance: 1200)
-}
-
-\cventry{2008--2009}{Lecturer}{}{PCLab}{Yuan Ze University}{
-Gave talks on Python and MapReduce for the Student Programming Club.
-}
-
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-
-\section{Publications}
-
-\nociteconf{*}
-\nocitetask{*}
-\nocitejournal{*}
-\bibliographystyleconf{plain}
-\bibliographystyletask{plain}
-\bibliographystylejournal{plain}
-\bibliographyconf{conf}
-\bibliographytask{task}
-\bibliographyjournal{journal}
-
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}              % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
-
-\section{Technical Skills}
-\cvitemwithcomment{Reseach tools}{Moses, BerkeleyAligner, SriLM, HMM, EM, CRF, ME, SVM}{1-4 years}
+\section{Technical Skills and Experiences}
 \cvitemwithcomment{Hadoop}{MapReduce programming}{5 years}
 \cvitemwithcomment{C, C++, STL}{Electronic design automation and more}{8 years}
 \cvitemwithcomment{Python}{nltk, scipy, twisted and more}{6 years}
 \cvitemwithcomment{Java}{Android app development}{3 years}
+\cvitemwithcomment{Ruby}{Ruby on Rails, web dev for Amazon Mechanical Turk}{1 years}
 \cvitemwithcomment{Objective-C}{iPhone app development}{1 year}
 \cvitemwithcomment{Matlab}{Audio signal processing}{1 year}
 \cvitemwithcomment{Linux}{Desktop and server administration}{8 years}
 \cvitemwithcomment{Web platform}{Google App Engine, Heroku, Amazon EC2}{1 year}
+\cvitemwithcomment{Reseach tools}{Moses, BerkeleyAligner, SriLM, HMM, EM, CRF, ME, SVM}{1-4 years}
 
 \section{Selected Awards and Honors}
 \cventry{Scholarship}{Travel Grants}{}{}{}{
@@ -208,6 +176,55 @@ Gave talks on Python and MapReduce for the Student Programming Club.
 \cventry{Honorable Mention}{Mobile App Development Contest}{Chuang Hua Telecom}{}{}{
     Developed \emph{beFriend}, a business card management app for Android.  
 }
+
+
+
+\section{Teaching and Presentation Experience}
+
+\cventry{8 Aug. 2011}{Presenter}{Conference for Open Source Coders, Users and Promoters (COSCUP)}{}{}{
+Presented project 0xBench in one of the largest OSS conference in Asia. (attendance: 1200)
+}
+
+\cventry{Aug.--Dec. 2011}{Teaching Assistant}{}{CS Dept.}{National Tsing Hua University}{
+The 2011 graduate level Natural Language Processing Lab Course.
+}
+
+\cventry{2007--2012}{Cluster Admin/MapReduce Lecturer}{}{NLP Lab}{National Tsing Hua University}{
+In charge of Hadoop cluster administration and MapReduce programming training.
+}
+
+\cventry{Aug.--Dec. 2008}{Teaching Assistant}{}{CS Dept.}{Yuan Ze University}{
+The 2008 undergraduate level Computer Architecture Course.
+}
+
+\cventry{2008--2009}{Lecturer}{}{PCLab}{Yuan Ze University}{
+Gave talks on Python and MapReduce for the Student Programming Club.
+}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+
+\section{Publications}
+
+\nociteconf{*}
+\nocitetask{*}
+\nocitejournal{*}
+\bibliographystyleconf{plain}
+\bibliographystyletask{plain}
+\bibliographystylejournal{plain}
+\bibliographyconf{conf}
+\bibliographytask{task}
+\bibliographyjournal{journal}
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
 
 
 
