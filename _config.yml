@@ -68,16 +68,16 @@ lsi: true # required by related_posts
 # ----------------------- #
 
 # LinkedIn
-linkedin_user: josephchangtw
+linkedin_user: josephcheechang
 
 # Github repositories
-github_user: bizkit
+github_user: josephcc
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: bizkit
+twitter_user: josephcc
 twitter_tweet_count: 4
 twitter_show_replies: true
 twitter_follow_button: true
