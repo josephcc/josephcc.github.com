@@ -23,7 +23,6 @@
   <link rel="canonical" href="http://joseph.nlpweb.org/blog/2011/10/23/linux-kernel-dev-hooking-system-calls-2-dot-6/">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Fredericka+the+Great|Unica+One' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Hi! I'm Joseph Chang" type="application/atom+xml">
   <meta name="og:type" content="website" />
@@ -39,7 +38,6 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Fredericka+the+Great|Unica+One' rel='stylesheet' type='text/css'>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -177,7 +175,7 @@ module 中的某個 function，該 function 最後會再去呼叫正常的 syste
 hijack，不知道會不會是很沒有道理開發模式。
 這是篇是今晚的筆記，雖然內容不多，但在精神不濟的時刻，相信我更需要做點筆記。:p</p>
 
-<h2 id="toc_73">Adding a new system call</h2>
+<h2 id="toc_192">Adding a new system call</h2>
 
 <p>There are already many tutorials that explain how to add system calls to the
 kernel. The ones I read are <a href="http://140.120.13.13/%7Es9356048/OSLab/">the tutorial from Advance Defence Lab</a> in
@@ -192,7 +190,7 @@ module」或許聽起來很嚇人，但其實不難入門。當然真正難的�
 ，大概了解一下狀況，後來參考 The Linux Kernel Module
 Programming Guide <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">2</a> 寫了一個簡單的 hello world 模組。</p>
 
-<h2 id="toc_74">Exposing the system call table</h2>
+<h2 id="toc_193">Exposing the system call table</h2>
 
 <p>Even though starting from 2.6, the kernel no longer exposes <code>sys_call_table</code> to
 modules, there are probably techniques you can use <a href="http://www.epanastasi.com/?page_id=52">exploits</a> to find it. On
@@ -224,7 +222,7 @@ make sure you also have the following in your kernel <code>.config</code> file.<
 </pre></td><td class='code'><pre><code class='c'><span class='line'><span class="n">CONFIG_DEBUG_RODATA</span><span class="o">=</span><span class="n">n</span>
 </span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_75">System call hooking</h2>
+<h2 id="toc_194">System call hooking</h2>
 
 <p>Finally, the actual syscall hooking process is done in a kernel module with the
 following code:</p>
@@ -250,7 +248,7 @@ on system call hooking can be found on <a href="http://www.linuxjournal.com/arti
 結束前呼叫備份的 original_sys_exit 便完成 hooking 的動作。詳細的 System call
 hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http://www.linuxjournal.com/article/4378">4</a>中找到。</p>
 
-<h2 id="toc_76">References</h2>
+<h2 id="toc_195">References</h2>
 
 <ol>
 <li><a href="http://140.120.13.13/%7Es9356048/OSLab/">http://140.120.13.13/~s9356048/OSLab/</a></li>
@@ -359,6 +357,10 @@ posted in
 <ul class="posts">
 
     <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
+    <a href="/blog/2011/10/23/linux-kernel-dev-hooking-system-calls-2-dot-6/">Linux Kernel: Hooking System Calls on 2.6+</a>
+    </li>
+
+    <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
     <a href="/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Linux Kernel: Debugging with QEMU and kgdb</a>
     </li>
 
@@ -372,10 +374,6 @@ posted in
 
     <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
     <a href="/blog/2012/04/27/git-reverse-amend/">Git: Remove (un-add) files from last commit</a>
-    </li>
-
-    <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
-    <a href="/blog/2011/08/04/cli-android-dev/">Commend Line Android Development with VIM and Eclim</a>
     </li>
 
 </ul>
