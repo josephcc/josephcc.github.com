@@ -10,13 +10,6 @@
 
 \usepackage{multibib}
 
-\newcites{conf,task,journal}%
-{
-    Conference Papers,%
-    Task Papers,%
-    Journal Papers
-}
-
 % moderncv themes
 \moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
@@ -62,22 +55,23 @@
 
 \renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
 
+
+\section{Technical Keywords}
+\cvitemwithcomment{Proficient}{Java/Android, Python, C/C++, JavaScript, Web}{}
+\cvitemwithcomment{Intermediate}{Ruby, Ruby on Rails, Objective-C/iOS, Matlab}{}
+
 \section{Education}
-\cventry{2013--2015 (exp.)}{Graduate Research Assistant}{Computer Science}{Carnegie Mellon University}{}{
-In the MLT program. Research focused on Human-Computer Interaction, Natural Language Processing and
-Machine Learning.  Developed a complex crowd-sourcing pipeline web application
-using Ruby on Rails.  Won competition projects for two courses:
-\emph{Algorithms for NLP} and \emph{Language and Statistics}.
+\cventry{2013--2015 (exp.)}{Master in Language Technologies}{Computer Science}{Carnegie Mellon University}{}{
+Focus on \textbf{Human-Computer Interaction} and \textbf{Natural Language
+	Processing}. Won course project competitions for \emph{Algorithms for NLP}
+and \emph{Language and Statistics}.
 }  % arguments 3 to 6 can be left empty
 \cventry{2010--2012}{M.S., Computer Science}{National Tsing Hua University}{}{\textit{GPA 4.23/4.30}}{
-Research focused on Natural Language Processing and Information Retrieval, including cross-lingual
-information extraction, grammatical error correction, machine translation, Wikipedia,
-Google Web1T, and Hadoop MapReduce. Published two research papers in top NLP conferences,
-participated in two competitive shared tasks, and one journal paper.
+Focus on \textbf{Natural Language Processing} and \textbf{Machine Learning}.
+Published in tier-1 NLP conferences (ACL, NAACL, COLING.)
 }  % arguments 3 to 6 can be left empty
 \cventry{2006--2010}{B.S., Computer Science}{Yuan Ze University}{}{\textit{GPA 3.6/4.0}}{
-Joined EDA Lab and studied FPGA architectures, FPGA technology mapping, and design partitioning for 3D
-IC. Published two IR, NLP related conference papers.
+Special Project: IC design automation (FPGA technology mapping).
 }
 
 %\section{Master thesis}
@@ -89,55 +83,49 @@ IC. Published two IR, NLP related conference papers.
 %\cvitemwithcomment{Chinese}{Native}{}
 %\cvitemwithcomment{English}{Fluent}{ETS TOEFL-iBT: 115 (R:29, L:29, S:29, W:28)}
 
-\section{Work Experience}
+\section{Selected Work Experience}
 
 %\cventry{Standing offers}{Software Engineer}{Trend Micro and Synology}{}{}{
 %}%
 
-\cventry{April--July 2013}{Search Engineer, APAC}{Yahoo Taiwan Inc}{}{}{
-Worked as an engineer for the Yahoo knowledge graph. Including search log
-mining, database integration, and a web-based backstage interface.
+\cventry{April--July 2013}{Full-time Search Engineer, Asia-Pacific}{Yahoo Taiwan Inc}{}{}{
+Yahoo knowledge graph backend and data analysis. Including search log mining,
+database integration, and a web-based backstage interface. (Python, Hadoop,
+Web)
 }%
 
-\cventry{April--June 2012}{Freelance Developer}{OpenMoko Inc}{}{}{
-Developed a comprehensive Android client for the social network
-https://intelligencia.io for OpenMoko, the startup company that initiated the
-Openmoko Project for building a open source mobile phones in 2007.
+\cventry{April--June 2012}{Contractor}{OpenMoko Inc}{}{}{
+Developed a Android client for the social network https://intelligencia.io.
+(Java, Android)
 }%
-
-\cventry{2010--2011}{Research Assistant}{Academia Sinica (national academy)}{}{}{
-Developed an Expectation-Maximization based method for cross-lingual ontology mapping, from EHowNet to
-the Princeton WordNet. The algorithm was implemented on the Hadoop MapReduce platform for efficiency.
-}
 
 \cventry{May--Sept. 2010}{Software Engineer Intern}{0xlab Inc}{}{}{
-Developed 0xBench in C and Java, the open source Android benchmarking platform and server-side
-visualization hosted on Google App Engine. 0xBench is now being used by major companies worldwide and
-ships with Texas Instrument's development boards. 0xlab is a startup company founded by enthusiastic
-developers who actively contribute to various open source projects including the Android Open Source
-Project.
-\begin{itemize}%
-    \item project page: http://code.google.com/p/0xbench/
-    \item android app:  https://play.google.com/store/apps/details?id=org.zeroxlab.zeroxbenchmark
-    \item server-side:  http://0xbenchmark.appspot.com 
-\end{itemize}
+Developed an open source Android benchmarking platform and server-side
+visualization called 0xBench, which is used by major smartphone companies and
+ships with Texas Instrument's development boards.
 }
 
-\clearpage
+\section{Selected Honors and Hackathon Awards}
 
-\section{Technical Skills and Experiences}
-\cvitemwithcomment{Hadoop}{MapReduce programming}{5 years}
-\cvitemwithcomment{C, C++, STL}{Electronic design automation and more}{8 years}
-\cvitemwithcomment{Python}{nltk, scipy, twisted and more}{6 years}
-\cvitemwithcomment{Java}{Android app development}{3 years}
-\cvitemwithcomment{Ruby}{Ruby on Rails, web dev for Amazon Mechanical Turk}{1 years}
-\cvitemwithcomment{Objective-C}{iPhone app development}{1 year}
-\cvitemwithcomment{Matlab}{Audio signal processing}{1 year}
-\cvitemwithcomment{Linux}{Desktop and server administration}{8 years}
-\cvitemwithcomment{Web platform}{Google App Engine, Heroku, Amazon EC2}{1 year}
-\cvitemwithcomment{Reseach tools}{Moses, BerkeleyAligner, SriLM, HMM, EM, CRF, ME, SVM}{1-4 years}
+\cventry{8 Aug. 2011}{Presenter}{Conference for Open Source Coders, Users and Promoters (COSCUP)}{}{}{
+Presented project 0xBench in one of the largest OSS conference in Asia. (attendance: 1200)
+}
 
-\section{Selected Awards and Honors}
+\cventry{First Place}{Fun Taipei Mobile App Contest}{Taipei City Government}{}{}{
+    Developed \emph{Taipei Fever}, a Taipei City tour guide app for iOS, Android, and WindowsPhone7.    
+    (http://taipei.zfever.tw) 
+}
+
+\cventry{Bronze Medal}{National IC/CAD Programming Contest}{Ministry of Education}{}{}{
+    Developed a 3D-IC partitioning algorithm, and implemented in 3000+ lines of C++/STL code. A total of 160
+    teams participated to compete on runtime and algorithm performance.
+}
+
+\cventry{Best Student Project}{Mobile Hero UI Contest}{Ministry of Economic Affair}{}{}{
+    Developed \emph{Paper Piano}, an augmented reality virtual instrument for Android.  
+    (http://www.youtube.com/watch?v=kfnd2wnb1Ec)
+}
+
 \cventry{Scholarship}{Travel Grants}{}{}{}{
     \begin{itemize}%
         \item{The Association for Computational Linguistics and Chinese Language Processing}{}
@@ -146,76 +134,26 @@ Project.
     \end{itemize}
 }
 
-\cventry{First Place}{Undergraduate Research Paper Award}{Yuan Ze University}{}{}{
-}
-
-\cventry{Bronze Medal}{National IC/CAD Programming Contest}{Ministry of Education}{}{}{
-    Developed a 3D-IC partitioning algorithm, and implemented in 3000+ lines of C++/STL code. A total of 160
-    teams participated to compete on runtime and algorithm performance.
-}
-
 
 \cventry{Second Place}{The 11$^{th}$ Trend Micro Programming Contest}{Trend Micro Inc.}{}{}{
     Out of 67 teams that participated.
-}
-
-\cventry{First Place}{Fun Taipei Mobile App Contest}{Taipei City Government}{}{}{
-    Developed \emph{Taipei Fever}, a Taipei City tour guide app for iOS, Android, and WindowsPhone7.    
-    (http://taipei.zfever.tw) 
 }
 
 \cventry{Third Place}{National Information Security Contest}{Industrial Technology Research Institute}{}{}{
     Won third place out of 149 teams that participated.
 }
 
-\cventry{Best Student Project}{Mobile Hero UI Contest}{Ministry of Economic Affair}{}{}{
-    Developed \emph{Paper Piano}, an augmented reality virtual instrument for Android.  
-    (http://www.youtube.com/watch?v=kfnd2wnb1Ec)
-}
 
-\cventry{Honorable Mention}{Mobile App Development Contest}{Chuang Hua Telecom}{}{}{
-    Developed \emph{beFriend}, a business card management app for Android.  
-}
-
-
-
-\section{Teaching and Presentation Experience}
-
-\cventry{8 Aug. 2011}{Presenter}{Conference for Open Source Coders, Users and Promoters (COSCUP)}{}{}{
-Presented project 0xBench in one of the largest OSS conference in Asia. (attendance: 1200)
-}
-
-\cventry{Aug.--Dec. 2011}{Teaching Assistant}{}{CS Dept.}{National Tsing Hua University}{
-The 2011 graduate level Natural Language Processing Lab Course.
-}
-
-\cventry{2007--2012}{Cluster Admin/MapReduce Lecturer}{}{NLP Lab}{National Tsing Hua University}{
-In charge of Hadoop cluster administration and MapReduce programming training.
-}
-
-\cventry{Aug.--Dec. 2008}{Teaching Assistant}{}{CS Dept.}{Yuan Ze University}{
-The 2008 undergraduate level Computer Architecture Course.
-}
-
-\cventry{2008--2009}{Lecturer}{}{PCLab}{Yuan Ze University}{
-Gave talks on Python and MapReduce for the Student Programming Club.
-}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
 
-\section{Publications}
+\section{Selected Publications}
 
-\nociteconf{*}
-\nocitetask{*}
-\nocitejournal{*}
-\bibliographystyleconf{plain}
-\bibliographystyletask{plain}
-\bibliographystylejournal{plain}
-\bibliographyconf{conf}
-\bibliographytask{task}
-\bibliographyjournal{journal}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}
 
 % Publications from a BibTeX file using the multibib package
 %\section{Publications}
