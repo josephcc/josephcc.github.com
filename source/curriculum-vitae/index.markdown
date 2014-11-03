@@ -17,10 +17,10 @@ without the Projects section.
 
 Contact
 -----------------
-> Joseph Z. Chang (張至)    
-> Phone: +886 975 192 075 (mobile)    
-> Email: joseph.nthu.tw _AT_ gmail.com    
-> Url: http://bizkit.github.com or http://joseph.nlpweb.org    
+> Joseph Chee Chang (張至)    
+> Phone: 412-980-8551
+> Email: josephcc _AT_ cmu.edu
+> Url: http://joseph.nlpweb.org    
 
 Languages
 ----------------
