@@ -73,8 +73,9 @@ $(document).ready(function() {
 
     $(".project").click( function() {
         content = $(this).children(".content").html();
-        content += "<br/>";
+        content += "<br/><div class='_full_description'>";
         content += $(this).children(".full_description").html();
+        content += "</div>";
         $("#reader").html(content);
         $("#mask").fadeIn()
         $("#reader_container").scrollTop(0);
@@ -114,7 +115,7 @@ $(document).ready(function() {
 
     });
 
-    $("#mask, #close").click( function() {
+	function close_reader() {
         readMode = false;
         $("#close").fadeOut();
         $("#reader_container").animate({"top": $(window).height() + 40}, 400, "linear", function() {
@@ -129,6 +130,13 @@ $(document).ready(function() {
         $("#mask").fadeOut();
         $("body").css("overflow", "");
         $("html").css("overflow", "");
-    });
+	}
+
+    $("#mask, #close").click( close_reader );
+	$(document).keydown(function(e){
+		if(e.which == 27){
+			close_reader();
+		}
+	});
 });
 
