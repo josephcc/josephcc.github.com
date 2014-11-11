@@ -12,8 +12,7 @@ $reader-margin: 20px;
     background-color:$blue;
     padding: 14px;
 
-    border-width: 2px;
-    border-color: rgba(255,255,255,.5);
+    border-right: 2px solid rgba(255,255,255,.4);
 
     h1 {
         font-family: 'Fredericka the Great', cursive;
@@ -29,16 +28,23 @@ $reader-margin: 20px;
         margin-top: 28px;
     }
 
-    @include background-image(
-    linear-gradient(rgba(255,255,255,.4) 2px, transparent 2px),
-    linear-gradient(0deg, rgba(255,255,255,.4) 2px, transparent 2px),
-    linear-gradient(rgba(255,255,255,.2) 1px, transparent 1px),
-    linear-gradient(0deg, rgba(255,255,255,.2) 1px, transparent 1px)
-    );
-    $major: 130px;
-    $minor: 26px;
-    background-size:$major $major, $major $major, $minor $minor, $minor $minor;
-    //  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+	
+    $major-grid-size: 138.3px;
+    $minor-grid-size: 27.6px;
+	$major-grid-color: rgba(255,255,255,.4);
+	$minor-grid-color: rgba(255,255,255,.2);
+	$major-grid-weight: 2px;
+	$minor-grid-weight: 1px;
+
+
+	background-size: $major-grid-size $major-grid-size;
+	background-image:
+		repeating-linear-gradient(0deg, $major-grid-color, $major-grid-color $major-grid-weight, transparent $major-grid-weight, transparent $major-grid-size),
+		repeating-linear-gradient(-90deg, $major-grid-color, $major-grid-color $major-grid-weight, transparent $major-grid-weight, transparent $major-grid-size),
+		repeating-linear-gradient(0deg, $minor-grid-color, $minor-grid-color $minor-grid-weight, transparent $minor-grid-weight, transparent $minor-grid-size),
+		repeating-linear-gradient(-90deg, $minor-grid-color, $minor-grid-color $minor-grid-weight, transparent $minor-grid-weight, transparent $minor-grid-size);
+	background-position: 2px 2px;
+
     @include clearfix;
 }
 
