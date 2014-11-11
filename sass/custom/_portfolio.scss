@@ -19,6 +19,8 @@ $reader-margin: 20px;
         font-size: 4em;
         font-weight: normal !important;
         text-transform: capitalize !important;
+        margin-top: 28px;
+		margin-left: 28px;
     }
 
     h2 {
@@ -26,12 +28,13 @@ $reader-margin: 20px;
         font-size: 3em;
         text-transform: capitalize !important;
         margin-top: 28px;
+		margin-left: 28px;
     }
 
 	
     $major-grid-size: 138.3px;
     $minor-grid-size: 27.6px;
-	$major-grid-color: rgba(255,255,255,.4);
+	$major-grid-color: rgba(255,255,255,.25);
 	$minor-grid-color: rgba(255,255,255,.2);
 	$major-grid-weight: 2px;
 	$minor-grid-weight: 1px;
@@ -49,11 +52,11 @@ $reader-margin: 20px;
 }
 
 .project {
-    -webkit-transition: background 0.5s linear;
-    -moz-transition: background 0.5s linear;
-    -ms-transition: background 0.5s linear;
-    -o-transition: background 0.5s linear;
-    transition: background 0.5s linear;
+    -webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -ms-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
 }
 
 .project:hover {
@@ -78,10 +81,10 @@ $reader-margin: 20px;
     border-color: rgba(255,255,255,.5);
     border-width: 1px;
 
-    margin-left: 12px;
-    margin-right: 6px;
+    margin-left: 16px;
+    margin-right: 10px;
     margin-top: 0px;
-    margin-bottom: 24px;
+    margin-bottom: 38px;
     padding: 0px;
 
     .img_container {
