@@ -74,7 +74,6 @@ $reader-margin: 20px;
 //    color: white;
 //    background-color: $blue;
 
-    font-size: 1.25em;
 
     color: rgba(255,255,255,0.825);
     //background-color: darken( rgba(255,255,255, 1.0), 0.5 );
@@ -116,6 +115,10 @@ $reader-margin: 20px;
         padding-top: 14px;
     }
 
+	.content .description p {
+		font-size: 1.25em;
+	}
+
     .description, ._full_description p {
         font-family: 'Droid Sans', sans-serif;
         font-weight: normal !important;
@@ -123,17 +126,17 @@ $reader-margin: 20px;
     }
 
     .project_head {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .title {
-        font-size: 2.2em;
+        font-size: 3.0em;
         font-family: 'Unica One', cursive;
     }
 
     .tech {
         float: right;
-        font-size: 1em;
+        font-size: 1.25em;
         //color: rgba(255,255,255,0.6);
         //color: rgba(0,0,0,0.5);
 		color: rgba(255,255,255,0.825);
