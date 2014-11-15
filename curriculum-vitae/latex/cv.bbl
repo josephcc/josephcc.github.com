@@ -1,11 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{isajoseph}
-Joseph Chang, Shih-ting Huang, Ho-ching Yen, Ming-Jhuan Jiang, Chung-chi Huang,
-  Jason~S. Chang, and Ping-che Yang.
-\newblock Patentmt: Summary report of team iii\_cyut\_nthu.
-\newblock December 2011.
-
 \bibitem{Chang-EtAl:2009:PACLIC2009}
 Joseph Chang, Richard Tzong-Han Tsai, and Jason~S. Chang.
 \newblock Wikisense: Supersense tagging of wikipedia named entities based
@@ -25,25 +19,14 @@ Joseph Chang, Tzu-Hsi Yan, and Richard Tzong-Han Tsai.
 \bibitem{Chang-EtAl:2012:COLING2012}
 Joseph~Z. Chang and Jason~S. Chang.
 \newblock Word root finder: a morphological segmentor based on crf.
-\newblock In {\em (to appear) Proceedings of the 24th International Conference
-  on Computational Linguistics (Top Conf. in NLP)}, Bombay, Mumbai, India,
-  December 2012.
+\newblock In {\em Proceedings of the 24th International Conference on
+  Computational Linguistics}, Bombay, Mumbai, India, December 2012.
 
 \bibitem{chang-chang-jang:2012:ACL2012}
 Joseph~Z. Chang, Jason~S. Chang, and Roger Jyh-Shing Jang.
 \newblock Learning to find translations and transliterations on the web.
 \newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
-  Computational Linguistics (acceptance rate: 20\%, Top Conf. in NLP)}, pages
-  130--134, Jeju Island, Korea, July 2012. Association for Computational
-  Linguistics.
-
-\bibitem{wu-EtAl:2012:BEA}
-Jian-Cheng Wu, Joseph Chang, Yi-Chun Chen, Shih-Ting Huang, Mei-Hua Chen, and
-  Jason~S. Chang.
-\newblock Helping our own: Nthu nlplab system description.
-\newblock In {\em Proceedings of the Seventh Workshop on Building Educational
-  Applications Using NLP (Workshop of Top Conf. in NLP)}, pages 295--301,
-  Montreal, Canada, June 2012. North American Chapter of the Association for
-  Computational Linguistics.
+  Computational Linguistics (acceptance rate: 20\%)}, pages 130--134, Jeju
+  Island, Korea, July 2012. Association for Computational Linguistics.
 
 \end{thebibliography}
