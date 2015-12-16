@@ -52,7 +52,7 @@ module Jekyll
       end
       out[1] = out[1].gsub(/Retrieved from .*/, '')
       out[1] = "#{out[1]} <br/>&nbsp;-&nbsp;<a id='#{key}' class='bibtex' bibtex='#{bib[1]}'>[bibtex]</a> "
-      out[1] = out[1] +  " <a href='#{link}' onclick=\"_gaq.push(['_trackEvent', 'Publication', 'Permalink', '#{key}']);\">[aclweb permalink]</a>"
+#      out[1] = out[1] +  " <a href='#{link}' onclick=\"_gaq.push(['_trackEvent', 'Publication', 'Permalink', '#{key}']);\">[aclweb permalink]</a>"
       out
     end
   end
