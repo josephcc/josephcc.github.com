@@ -15,7 +15,7 @@ Conference Papers
 @inproceedings{alloy,
   title={Alloy: Clustering with Crowds and Computation},
   author={Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
-  booktitle={Conference on Human Factors in Computing Systems ({CHI}, acceptance rate: 23\%)},
+  booktitle={Conference on Human Factors in Computing Systems (CHI, acceptance rate: 23%)},
   year={2016}
 }
 {% endbibtex %}
@@ -24,7 +24,7 @@ Conference Papers
 @inproceedings{ka,
   title={The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
   author={Hahn, Nathan and Chang, Joseph Chee and Kim, Ji Eun and Kittur, Aniket},
-  booktitle={Conference on Human Factors in Computing Systems ({CHI}, acceptance rate: 23\%)},
+  booktitle={Conference on Human Factors in Computing Systems (CHI, acceptance rate: 23%)},
   year={2016}
 }
 {% endbibtex %}
@@ -33,7 +33,7 @@ Conference Papers
 @inproceedings{chang-chang-jang:2012:ACL2012,
   author    = {Chang, Joseph Z.  and  Chang, Jason S.  and  Jang, Roger Jyh-Shing},
   title     = {Learning to Find Translations and Transliterations on the Web},
-  booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (ACL 2012 <20\%)},  
+  booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (ACL 2012 <20%)},  
   month     = {July},
   year      = {2012},
   address   = {Jeju Island, Korea},
