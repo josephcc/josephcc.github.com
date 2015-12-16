@@ -31,7 +31,7 @@ Conference Papers
 
 {% bibtex %}
 @inproceedings{chang-chang-jang:2012:ACL2012,
-  author    = {Chang, Joseph Z.  and  Chang, Jason S.  and  Jang, Roger Jyh-Shing},
+  author    = {Chang, Joseph and  Chang, Jason S.  and  Jang, Roger Jyh-Shing},
   title     = {Learning to Find Translations and Transliterations on the Web},
   booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (ACL 2012 <20%)},  
   month     = {July},
@@ -72,7 +72,7 @@ Conference Papers
 
 {% bibtex %}
 @InProceedings{Chang-EtAl:2012:COLING2012,
-  author    = {Joseph Z. Chang and Jason S. Chang},
+  author    = {Joseph Chang and Jason S. Chang},
   title     = {Word Root Finder: a morphological segmentor based on CRF},
   booktitle = {Proceedings of the 24th International Conference on Computational Linguistics (COLING)},
   year      = {2012},
@@ -114,17 +114,12 @@ Task Papers
 
 Journal Papers 
 ------------
-(in review process, conditionally accepted)
 
-Chang, J. Z., Chang, J. S., & Jang, R. J.-S. (2012). Learning to Find Translations and Transliterations
-on the Web based on Conditional Random Fields. International Journal of Computational Linguistics and
-Chinese Language Processing (IJCLCLP). 
-
-<!---
+{% bibtex %}
 @article{chang-chang-jang:2012:IJCLCLP2012,
   title = {Learning to Find Translations and Transliterations on the Web based on Conditional Random Fields},
   journal = {International Journal of Computational Linguistics and Chinese Language Processing (IJCLCLP)},
-  author = {Chang, Joseph Z.  and  Chang, Jason S.  and  Jang, Roger Jyh-Shing},
+  author = {Chang, Joseph and  Chang, Jason S.  and  Jang, Roger Jyh-Shing},
   year = {2012},
 }
--->
+{% endbibtex %}
