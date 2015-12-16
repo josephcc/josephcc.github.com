@@ -1,47 +1,38 @@
 \begin{thebibliography}{1}
 
-\bibitem{isajoseph}
-Joseph Chang, Shih-ting Huang, Ho-ching Yen, Ming-Jhuan Jiang, Chung-chi Huang,
-  Jason~S. Chang, and Ping-che Yang.
-\newblock {PatentMT}: Summary report of team {III\_CYUT\_NTHU}.
-\newblock In {\em Patent Machine Translation Task at {NTCIR-9}}, Tokyo, Japan,
-  December 2011. National Institute of Informatics, Japan.
+\bibitem{chang-chang-jang:2012:ACL2012}
+Joseph Chang, Jason~S. Chang, and Roger Jyh-Shing Jang.
+\newblock Learning to find translations and transliterations on the web.
+\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
+  Computational Linguistics ({ACL}, acceptance rate: 20\%)}, Jeju Island,
+  Korea, July 2012.
 
 \bibitem{Chang-EtAl:2009:PACLIC2009}
 Joseph Chang, Richard Tzong-Han Tsai, and Jason~S. Chang.
 \newblock Wikisense: Supersense tagging of wikipedia named entities based
   wordnet.
 \newblock In {\em Proceedings of the 23rd Pacific Asia Conference on Language,
-  Information and Computation (acceptance rate: 25\%)}, pages 72--81, Hong
-  Kong, China, December 2009.
-
-\bibitem{Chang-EtAl:2009:ROCLING2009}
-Joseph Chang, Tzu-Hsi Yan, and Richard Tzong-Han Tsai.
-\newblock Minimally supervised question classification and answering based on
-  wordnet and wikipedia.
-\newblock In {\em Proceedings of the 21st Conference on Computational
-  Linguistics and Speech Processing}, Taichung, Taiwan, August 2009. The
-  Association for Computational Linguistics and Chinese Language Processing.
+  Information and Computation (acceptance rate: 25\%)}, Hong Kong, China,
+  December 2009.
 
 \bibitem{alloy}
-Joseph~Chee Chang, Aniket Kittur, Nathan Hahn, and Andrew Peters.
-\newblock Alloy: Combining crowds and computation to extract concepts and
-  categories.
-\newblock In {\em Submission to CHI'15}, 2014.
+Joseph~Chee Chang, Aniket Kittur, and Nathan Hahn.
+\newblock Alloy: Clustering with crowds and computation.
+\newblock In {\em Conference on Human Factors in Computing Systems ({CHI},
+  acceptance rate: 23\%)}, 2016.
 
-\bibitem{chang-chang-jang:2012:ACL2012}
-Joseph~Z. Chang, Jason~S. Chang, and Roger Jyh-Shing Jang.
-\newblock Learning to find translations and transliterations on the web.
-\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
-  Computational Linguistics (acceptance rate: 20\%)}, pages 130--134, Jeju
-  Island, Korea, July 2012.
+\bibitem{ka}
+Nathan Hahn, Joseph~Chee Chang, Ji~Eun Kim, and Aniket Kittur.
+\newblock The knowledge accelerator: Big picture thinking in small pieces.
+\newblock In {\em Conference on Human Factors in Computing Systems ({CHI},
+  acceptance rate: 23\%)}, 2016.
 
 \bibitem{wu-EtAl:2012:BEA}
 Jian-Cheng Wu, Joseph Chang, Yi-Chun Chen, Shih-Ting Huang, Mei-Hua Chen, and
   Jason~S. Chang.
 \newblock {Helping Our Own}: {NTHU NLPLAB} system description.
 \newblock In {\em Proceedings of the Seventh Workshop on Building Educational
-  Applications Using {NLP}}, pages 295--301, Montreal, Canada, June 2012. North
-  American Chapter of the Association for Computational Linguistics ({NAACL}).
+  Applications Using {NLP}}, Montreal, Canada, June 2012. North American
+  Chapter of the Association for Computational Linguistics ({NAACL}).
 
 \end{thebibliography}
