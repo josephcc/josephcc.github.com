@@ -3,36 +3,38 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cv.aux
 The style file: plain.bst
 Database file #1: publications.bib
+Warning--empty year in alloy
+Warning--empty year in ka
 You've used 5 entries,
             2118 wiz_defined-function locations,
-            526 strings with 5315 characters,
-and the built_in function-call counts, 1686 in all, are:
-= -- 145
+            525 strings with 5348 characters,
+and the built_in function-call counts, 1688 in all, are:
+= -- 143
 > -- 110
 < -- 0
 + -- 44
 - -- 38
-* -- 118
-:= -- 296
+* -- 122
+:= -- 294
 add.period$ -- 16
 call.type$ -- 5
 change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 5
+cite$ -- 7
 duplicate$ -- 70
 empty$ -- 135
 format.name$ -- 38
-if$ -- 347
+if$ -- 345
 int.to.chr$ -- 0
 int.to.str$ -- 5
 missing$ -- 5
 newline$ -- 28
 num.names$ -- 10
-pop$ -- 53
+pop$ -- 57
 preamble$ -- 1
 purify$ -- 29
 quote$ -- 0
-skip$ -- 29
+skip$ -- 27
 stack$ -- 0
 substring$ -- 26
 swap$ -- 7
@@ -40,7 +42,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 20
-warning$ -- 0
+warning$ -- 2
 while$ -- 10
 width$ -- 6
-write$ -- 56
+write$ -- 54
+(There were 2 warnings)
