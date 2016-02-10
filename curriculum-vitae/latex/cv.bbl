@@ -1,38 +1,35 @@
 \begin{thebibliography}{1}
 
-\bibitem{chang-chang-jang:2012:ACL2012}
-Joseph Chang, Jason~S. Chang, and Roger Jyh-Shing Jang.
-\newblock Learning to find translations and transliterations on the web.
-\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
-  Computational Linguistics ({ACL}, acceptance rate: 20\%)}, Jeju Island,
-  Korea, July 2012.
-
-\bibitem{Chang-EtAl:2009:PACLIC2009}
-Joseph Chang, Richard Tzong-Han Tsai, and Jason~S. Chang.
-\newblock Wikisense: Supersense tagging of wikipedia named entities based
-  wordnet.
-\newblock In {\em Proceedings of the 23rd Pacific Asia Conference on Language,
-  Information and Computation (acceptance rate: 25\%)}, Hong Kong, China,
-  December 2009.
-
 \bibitem{alloy}
-Joseph~Chee Chang, Aniket Kittur, and Nathan Hahn.
+\underline{Joseph Chee Chang}, Aniket Kittur, and Nathan Hahn.
 \newblock Alloy: Clustering with crowds and computation.
-\newblock In {\em Conference on Human Factors in Computing Systems, 2016
-  (acceptance rate: 23\%) \textbf{Best Paper Honorable Mention}}.
+\newblock In {\em Proceedings of the Conference on Human Factors in Computing
+  Systems (rate: 23\%, \textbf{Honorable Mention})}, 2016.
 
 \bibitem{ka}
-Nathan Hahn, Joseph~Chee Chang, Ji~Eun Kim, and Aniket Kittur.
+Nathan Hahn, \underline{Joseph Chee Chang}, Ji~Eun Kim, and Aniket Kittur.
 \newblock The knowledge accelerator: Big picture thinking in small pieces.
-\newblock In {\em Conference on Human Factors in Computing Systems, 2016
-  (acceptance rate: 23\%) \textbf{Best Paper Honorable Mention}}.
+\newblock In {\em Proceedings of the Conference on Human Factors in Computing
+  Systems (rate: 23\%, \textbf{Honorable Mention})}, 2016.
+
+\bibitem{chang-chang-jang:2012:ACL2012}
+\underline{Joseph Chang}, Jason~S. Chang, and Roger Jyh-Shing Jang.
+\newblock Learning to find translations and transliterations on the web.
+\newblock In {\em Proceedings of the Annual Meeting of the Association for
+  Computational Linguistics (rate: 20\%)}, 2012.
+
+\bibitem{Chang-EtAl:2009:PACLIC2009}
+\underline{Joseph Chang}, Richard Tzong-Han Tsai, and Jason~S. Chang.
+\newblock Wikisense: Supersense tagging of wikipedia named entities based
+  wordnet.
+\newblock In {\em Proceedings of the Pacific Asia Conference on Language,
+  Information and Computation (rate: 25\%)}, 2009.
 
 \bibitem{wu-EtAl:2012:BEA}
-Jian-Cheng Wu, Joseph Chang, Yi-Chun Chen, Shih-Ting Huang, Mei-Hua Chen, and
-  Jason~S. Chang.
-\newblock {Helping Our Own}: {NTHU NLPLAB} system description.
+Jian-Cheng Wu, \underline{Joseph Chang}, Yi-Chun Chen, Shih-Ting Huang, Mei-Hua
+  Chen, and Jason~S. Chang.
+\newblock {NTHU NLPLAB} system description.
 \newblock In {\em Proceedings of the Seventh Workshop on Building Educational
-  Applications Using {NLP}}, Montreal, Canada, June 2012. North American
-  Chapter of the Association for Computational Linguistics ({NAACL}).
+  Applications Using {NLP}}, 2012.
 
 \end{thebibliography}

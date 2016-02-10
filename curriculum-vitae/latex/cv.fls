@@ -69,8 +69,8 @@ INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/bigfoot/suffix.sty
 INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/bigfoot/suffix.sty
 INPUT tweaklist.sty
 INPUT tweaklist.sty
-INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/multibib/multibib.sty
-INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/multibib/multibib.sty
+INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/cite/cite.sty
 INPUT moderncvstyleclassic.sty
 INPUT moderncvstyleclassic.sty
 INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/lm/lmodern.sty
