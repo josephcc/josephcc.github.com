@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A NLP Approach to the Hangman Game"
+title: "A Hangman Game Solver based on Language Models"
 date: 2012-11-04 21:14
 comments: true
 toc: true
