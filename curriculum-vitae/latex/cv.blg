@@ -3,50 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cv.aux
 The style file: unsrt.bst
 Database file #1: publications.bib
-Illegal end of database file---line 39 of file publications.bib
+Illegal end of database file---line 46 of file publications.bib
  : 
  : 
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 5 entries,
+You've used 6 entries,
             1791 wiz_defined-function locations,
-            470 strings with 4736 characters,
-and the built_in function-call counts, 1032 in all, are:
-= -- 60
-> -- 67
+            474 strings with 4972 characters,
+and the built_in function-call counts, 1224 in all, are:
+= -- 72
+> -- 78
 < -- 0
-+ -- 24
-- -- 19
-* -- 55
-:= -- 171
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 5
++ -- 28
+- -- 22
+* -- 64
+:= -- 201
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 60
-empty$ -- 126
-format.name$ -- 19
-if$ -- 234
+cite$ -- 6
+duplicate$ -- 72
+empty$ -- 151
+format.name$ -- 22
+if$ -- 279
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 5
-newline$ -- 28
-num.names$ -- 5
-pop$ -- 35
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 33
+num.names$ -- 6
+pop$ -- 42
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 15
+skip$ -- 18
 stack$ -- 0
 substring$ -- 0
-swap$ -- 10
+swap$ -- 12
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 6
-write$ -- 52
+while$ -- 6
+width$ -- 7
+write$ -- 62
 (There was 1 error message)
