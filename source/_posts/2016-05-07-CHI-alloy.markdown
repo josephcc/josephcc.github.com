@@ -14,9 +14,9 @@ project: true
 <img src="/images/projects/alloy.png" style='width: 100%;'/>
 
 
-Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. CHI2016.
+Joseph Chee Chang, Aniket Kittur, and Nathan Hahn.
 
-***BEST PAPER NOMINATION***
+***CHI 2016 BEST PAPER NOMINATION***
 
 Alloy is a crowd clustering pipeline that combines the deep semantic knowledge
 from human computation and the scalability of machine learning models to create

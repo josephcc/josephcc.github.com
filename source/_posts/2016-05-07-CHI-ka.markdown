@@ -6,7 +6,7 @@ date: 2016-05-07 08:00
 comments: true
 toc: true
 lsi: true
-categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Information Retrieval']
+categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Information Retrieval', 'Information Foraging']
 span: 6
 project: true
 ---
@@ -14,9 +14,9 @@ project: true
 <img src="/images/projects/ka.png" style='width: 100%;'/>
 
 
-Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. CHI2016.
+Nathan Hahn, Joseph Chee Chang, and Aniket Kittur.
 
-***BEST PAPER NOMINATION***
+***CHI 2016 BEST PAPER NOMINATION***
 
 The Knowledge Accelerator uses crowdworkers to synthesize different
 information sources on the web in response to a query. We prototyped this

@@ -1,0 +1,104 @@
+---
+layout: post
+title: "WikiSense"
+subtitle: "Supersense Tagging Named Entities on Wikipedia"
+date: 2009-12-03 08:00
+comments: true
+toc: true
+lsi: true
+categories: ['PACLIC', 'NLP', 'Information Extraction', 'Machine Learning']
+span: 6
+project: true
+---
+
+
+Joseph Chee Chang, Richard Tsai, and Jason S. Chang.
+
+***PACLIC 2009***
+
+
+We introduced a method for classifying named-entities into broad semantic
+categories in WordNet. We extracted rich features from Wikipedia, allowing us
+to classify named-entities with high precision and coverage. The result is a
+large scale named-entity semantic database with 1.2 million entries and over
+95% accuracy, covering 80% of all named-entities found on Wikipedia.
+
+<!--more-->
+
+Abstract
+----------------------
+In this paper, we introduce a minimally supervised method for learning to
+classify named-entity titles in a given encyclopedia into broad semantic
+categories in an existing ontology. Our main idea involves using overlapping
+entries in the encyclopedia and ontology and a small set of 30 handed tagged
+parenthetic explanations to automatically generate the training data. The
+proposed method involves automatically recognizing whether a title is a named
+entity, automatically generating two sets of training data, and automatically
+building a classification model for training a classification model based on
+textual and non-textual features. We present WikiSense, an implementation of
+the proposed method for extending the named entity coverage of WordNet by sense
+tagging Wikipedia titles. Experimental results show WikiSense achieves accuracy
+of over 95% and near 80% applicability for all NE titles in Wikipedia.
+WikiSense cleanly produces over 1.2 million of NEs tagged with broad
+categories, based on the lexicographers’ files of WordNet, effectively
+extending WordNet to form a very large scale semantic category, a potentially
+useful resource for many natural language related tasks.
+
+Demo
+----------------------
+
+```
+WikiID    Supersense     PE          NE                                   Note
+----------------------------------------------------------------------------------------------
+11983070  person         None        Johnny Cash                          singer
+203407    person         None        Celine Dion                          singer
+2773076   group          None        Guns N' Roses                        band
+
+945778    location       None        Hsinchu Science and Industrial Park
+951038    location       None        Linbian, Pingtung                    name of city
+
+19299838  communication  None        Cape No. 7                           movie
+543675    person         None        Jay Chou                             singer
+
+1374293   group          None        National Chung Hsing University
+2012972   group          None        Yuan Ze University
+
+412376    animal         butterfly   Queen                                namd of speices
+42010     group          band        Queen                                name of band
+10309519  communication  magazine    Queen                                name of maagazine
+559004    artifcact      automobile  Queen                                car model name
+718750    communication  album       Queen                                music album
+570546    person         Snow White  Queen                                fictional character
+130425    artifcact      TTC         Queen                                subway station
+----------------------------------------------------------------------------------------------
+```
+
+PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.
+
+Download
+----------------------
+
+Citation
+----------------------
+
+```
+Chang, J., Tsai, R. T.-H., & Chang, J. S. (2009).
+WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
+In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
+Hong Kong, China. 
+```
+
+Bibtex
+----------------------
+```
+@inproceedings{Chang-EtAl:2009:PACLIC2009,
+  author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
+  title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
+  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)},
+  year = {2009},
+  month = {dec},
+  address = {Hong Kong, China},
+  pages = {72--81},
+  url = {http://www.aclweb.org/anthology/Y09-1009}
+}
+```
