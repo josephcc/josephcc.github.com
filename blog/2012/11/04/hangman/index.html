@@ -108,7 +108,7 @@ MathJax.Hub.Config({
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
 language model and hidden Markov model.</p>
 
-<h2 id="toc_131">The Hangman Game</h2>
+<h2 id="toc_199">The Hangman Game</h2>
 
 <p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
 game of hangman automatically. The rules are
@@ -136,7 +136,7 @@ likely to appear before the word <code>day</code>. In my attempt, I trained a
 <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model</a> to guess every word in the sentence
 simultaneously.</p>
 
-<h2 id="toc_132">Language Model</h2>
+<h2 id="toc_200">Language Model</h2>
 
 <p>I use the state-of-the-art <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> package to train my
 language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
@@ -163,7 +163,7 @@ proposed to improve the performance of language models, including absolute disco
 Kneser-Ney smoothing. Formal definition of language model can be found on 
 <a href="http://en.wikipedia.org/wiki/Language_model">Wikipedia</a>.</p>
 
-<h2 id="toc_133">Hidden Markov Model</h2>
+<h2 id="toc_201">Hidden Markov Model</h2>
 
 <p>Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
 observations, state transition probability distribution, and emission probability distribution. For
@@ -186,7 +186,7 @@ Wikipedia pages <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">here<
 <a href="http://en.wikipedia.org/wiki/Viterbi_algorithm">here</a>, or in a slide I made when I was TA for a NLP course 
 <a href="http://hadoop.nlpweb.org/%7Ebizkit/lab3/vtb_example/">here</a> (in Chinese).</p>
 
-<h2 id="toc_134">Algorithm</h2>
+<h2 id="toc_202">Algorithm</h2>
 
 <p>It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
 Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
@@ -199,12 +199,12 @@ sequence that yield the highest language model probability and word frequencies.
 guess the letter that appears in most words. This process repeats until all characters are 
 revealed, and the number of failed guesses are recorded.</p>
 
-<h2 id="toc_135">Results</h2>
+<h2 id="toc_203">Results</h2>
 
 <p>Here are three examples and results. The interactive guessing progress and some internal states are
 shown in the three tables below.</p>
 
-<h3 id="toc_136">&quot;describe what is needed&quot;</h3>
+<h3 id="toc_204">&quot;describe what is needed&quot;</h3>
 
 <table><thead>
 <tr>
@@ -296,7 +296,7 @@ shown in the three tables below.</p>
 
 <p><br/></p>
 
-<h3 id="toc_137">&quot;an honor roll of online options&quot;</h3>
+<h3 id="toc_205">&quot;an honor roll of online options&quot;</h3>
 
 <table><thead>
 <tr>
@@ -361,7 +361,7 @@ shown in the three tables below.</p>
 <p>This one shows HMM produces different results as more characters are revealed.
 <br/></p>
 
-<h3 id="toc_138">&quot;members of the supreme court&quot;</h3>
+<h3 id="toc_206">&quot;members of the supreme court&quot;</h3>
 
 <table><thead>
 <tr>
@@ -404,7 +404,7 @@ shown in the three tables below.</p>
 
 <p>This last one really shows the power of language model. With only <code>e</code> revealed, the HMM process was able to guess the correct result.</p>
 
-<h2 id="toc_139">Improvements</h2>
+<h2 id="toc_207">Improvements</h2>
 
 <p>For stage one, instead of using just the highest frequency letters, conditional probability can also be
 a factor for choosing the next letter. For example, if <code>s</code> is revealed as the second to last character
@@ -497,34 +497,14 @@ stages as different strategies and use genetic algorithm to apply them alternate
 
   </div>
   <div class="span7">
-    
-
-
-<h2>related</h2>
-<ul class="posts">
-
-    <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
-    <a href="/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Linux Kernel: Debugging with QEMU and kgdb</a>
-    </li>
-
-    <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
-    <a href="/blog/2011/10/23/linux-kernel-dev-hooking-system-calls-2-dot-6/">Linux Kernel: Hooking System Calls on 2.6+</a>
-    </li>
-
-    <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
-    <a href="/blog/2011/12/05/linux-kernel-dev-module-debugging-gdb-kdgb/">Linux Kernel: Module debugging with gdb</a>
-    </li>
-
-    <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
-    <a href="/blog/2016/05/07/CHI-alloy/">Alloy</a>
-    </li>
-
-    <li class="related" style='font-size: 1.2em; margin-bottom:12px;'>
-    <a href="/blog/2011/08/04/cli-android-dev/">Commend Line Android Development with VIM and Eclim</a>
-    </li>
-
-</ul>
-
+    <h2>recent activities</h2>
+<table class='activity'>
+  <tr><th>October 30, 2016.</th><th>HCOMP invited paper at Austin, Texas.</th></tr>
+  <tr><th>October 16, 2016.</th><th>UIST presentation at Tokyo, Japan.</th></tr>
+  <tr><th>May 16, 2016.</th><th>Microsoft Research Internship at Seattle, Washington.</th></tr>
+  <tr><th>May 7, 2016.</th><th>SIGCHI presentation at San Jose, California.</th></tr>
+  <tr><th>March 13 2016.</th><th>CHIIR SV at Chapel Hill, North Carolina.</th></tr>
+</table>
 
 
   </div>

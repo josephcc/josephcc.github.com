@@ -4,7 +4,7 @@
   <title><![CDATA[Category: NLP | Hi! I'm Joseph Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-10-19T07:14:57+09:00</updated>
+  <updated>2016-10-19T08:09:01+09:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chang]]></name>
@@ -22,7 +22,7 @@
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
 language model and hidden Markov model.</p>
 
-<h2 id="toc_22">The Hangman Game</h2>
+<h2 id="toc_5">The Hangman Game</h2>
 
 <p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
 game of hangman automatically. The rules are
@@ -50,7 +50,7 @@ likely to appear before the word <code>day</code>. In my attempt, I trained a
 <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model</a> to guess every word in the sentence
 simultaneously.</p>
 
-<h2 id="toc_23">Language Model</h2>
+<h2 id="toc_6">Language Model</h2>
 
 <p>I use the state-of-the-art <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> package to train my
 language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
@@ -77,7 +77,7 @@ proposed to improve the performance of language models, including absolute disco
 Kneser-Ney smoothing. Formal definition of language model can be found on 
 <a href="http://en.wikipedia.org/wiki/Language_model">Wikipedia</a>.</p>
 
-<h2 id="toc_24">Hidden Markov Model</h2>
+<h2 id="toc_7">Hidden Markov Model</h2>
 
 <p>Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
 observations, state transition probability distribution, and emission probability distribution. For
@@ -100,7 +100,7 @@ Wikipedia pages <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">here<
 <a href="http://en.wikipedia.org/wiki/Viterbi_algorithm">here</a>, or in a slide I made when I was TA for a NLP course 
 <a href="http://hadoop.nlpweb.org/%7Ebizkit/lab3/vtb_example/">here</a> (in Chinese).</p>
 
-<h2 id="toc_25">Algorithm</h2>
+<h2 id="toc_8">Algorithm</h2>
 
 <p>It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
 Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
@@ -113,12 +113,12 @@ sequence that yield the highest language model probability and word frequencies.
 guess the letter that appears in most words. This process repeats until all characters are 
 revealed, and the number of failed guesses are recorded.</p>
 
-<h2 id="toc_26">Results</h2>
+<h2 id="toc_9">Results</h2>
 
 <p>Here are three examples and results. The interactive guessing progress and some internal states are
 shown in the three tables below.</p>
 
-<h3 id="toc_27">&quot;describe what is needed&quot;</h3>
+<h3 id="toc_10">&quot;describe what is needed&quot;</h3>
 
 <table><thead>
 <tr>
@@ -210,7 +210,7 @@ shown in the three tables below.</p>
 
 <p><br/></p>
 
-<h3 id="toc_28">&quot;an honor roll of online options&quot;</h3>
+<h3 id="toc_11">&quot;an honor roll of online options&quot;</h3>
 
 <table><thead>
 <tr>
@@ -275,7 +275,7 @@ shown in the three tables below.</p>
 <p>This one shows HMM produces different results as more characters are revealed.
 <br/></p>
 
-<h3 id="toc_29">&quot;members of the supreme court&quot;</h3>
+<h3 id="toc_12">&quot;members of the supreme court&quot;</h3>
 
 <table><thead>
 <tr>
@@ -318,7 +318,7 @@ shown in the three tables below.</p>
 
 <p>This last one really shows the power of language model. With only <code>e</code> revealed, the HMM process was able to guess the correct result.</p>
 
-<h2 id="toc_30">Improvements</h2>
+<h2 id="toc_13">Improvements</h2>
 
 <p>For stage one, instead of using just the highest frequency letters, conditional probability can also be
 a factor for choosing the next letter. For example, if <code>s</code> is revealed as the second to last character
@@ -329,6 +329,152 @@ heuristically. These may include the confident of the HMM results, the percentag
 the before mentioned conditional probabilities and more. Global optimization approaches can be used to
 find good parameters to determine the timing to start stage two.  Alternatively, we can treat the two
 stages as different strategies and use genetic algorithm to apply them alternately.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TermMine]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine/"/>
+    <updated>2012-07-08T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine</id>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Jason S. Chang, and Roger Jang.</p>
+
+<p><strong><em>ACL 2012</em></strong></p>
+
+<p>TermMine is an information extraction system that can automatically mine
+translation pairs of terms from the web. We used a small set of terms and
+translations to gather mixed-code text from the web to train a CRF model that
+can identify translation pairs at run-time.</p>
+
+<!--more-->
+
+<h2 id="toc_14">Abstract</h2>
+
+<p>In this paper, we present a new method for learning to finding translations and
+transliterations on the Web for a given term. The approach involves using a
+small set of terms and translations to obtain mixed-code snippets from a search
+engine, and automatically annotating the snippets with tags and features for
+training a conditional random field model. At run-time, the model is used to
+extracting translation candidates for a given term. Preliminary experiments and
+evaluation show our method cleanly combining various features, resulting in a
+system that outperforms previous work.</p>
+
+<h2 id="toc_15">Citation</h2>
+<div class="highlight"><pre><code class="text">Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
+Learning to find translations and transliterations on the web.
+In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL &#39;12), Vol. 2.
+Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
+</code></pre>
+</div>
+
+<h2 id="toc_16">Bibtex</h2>
+<div class="highlight"><pre><code class="text">@inproceedings{Chang:2012:LFT:2390665.2390698,
+ author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
+ title = {Learning to Find Translations and Transliterations on the Web},
+ booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2},
+ series = {ACL &#39;12},
+ year = {2012},
+ location = {Jeju Island, Korea},
+ pages = {130--134},
+ numpages = {5},
+ url = {http://dl.acm.org/citation.cfm?id=2390665.2390698},
+ acmid = {2390698},
+ publisher = {Association for Computational Linguistics},
+ address = {Stroudsburg, PA, USA},
+} 
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WikiSense]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2009/12/03/wikisense/"/>
+    <updated>2009-12-03T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2009/12/03/wikisense</id>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Richard Tsai, and Jason S. Chang.</p>
+
+<p><strong><em>PACLIC 2009</em></strong></p>
+
+<p>We introduced a method for classifying named-entities into broad semantic
+categories in WordNet. We extracted rich features from Wikipedia, allowing us
+to classify named-entities with high precision and coverage. The result is a
+large scale named-entity semantic database with 1.2 million entries and over
+95% accuracy, covering 80% of all named-entities found on Wikipedia.</p>
+
+<!--more-->
+
+<h2 id="toc_17">Abstract</h2>
+
+<p>In this paper, we introduce a minimally supervised method for learning to
+classify named-entity titles in a given encyclopedia into broad semantic
+categories in an existing ontology. Our main idea involves using overlapping
+entries in the encyclopedia and ontology and a small set of 30 handed tagged
+parenthetic explanations to automatically generate the training data. The
+proposed method involves automatically recognizing whether a title is a named
+entity, automatically generating two sets of training data, and automatically
+building a classification model for training a classification model based on
+textual and non-textual features. We present WikiSense, an implementation of
+the proposed method for extending the named entity coverage of WordNet by sense
+tagging Wikipedia titles. Experimental results show WikiSense achieves accuracy
+of over 95% and near 80% applicability for all NE titles in Wikipedia.
+WikiSense cleanly produces over 1.2 million of NEs tagged with broad
+categories, based on the lexicographers’ files of WordNet, effectively
+extending WordNet to form a very large scale semantic category, a potentially
+useful resource for many natural language related tasks.</p>
+
+<h2 id="toc_18">Demo</h2>
+<div class="highlight"><pre><code class="text">WikiID    Supersense     PE          NE                                   Note
+----------------------------------------------------------------------------------------------
+11983070  person         None        Johnny Cash                          singer
+203407    person         None        Celine Dion                          singer
+2773076   group          None        Guns N&#39; Roses                        band
+
+945778    location       None        Hsinchu Science and Industrial Park
+951038    location       None        Linbian, Pingtung                    name of city
+
+19299838  communication  None        Cape No. 7                           movie
+543675    person         None        Jay Chou                             singer
+
+1374293   group          None        National Chung Hsing University
+2012972   group          None        Yuan Ze University
+
+412376    animal         butterfly   Queen                                namd of speices
+42010     group          band        Queen                                name of band
+10309519  communication  magazine    Queen                                name of maagazine
+559004    artifcact      automobile  Queen                                car model name
+718750    communication  album       Queen                                music album
+570546    person         Snow White  Queen                                fictional character
+130425    artifcact      TTC         Queen                                subway station
+----------------------------------------------------------------------------------------------
+</code></pre>
+</div>
+
+<p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
+
+<h2 id="toc_19">Download</h2>
+
+<h2 id="toc_20">Citation</h2>
+<div class="highlight"><pre><code class="text">Chang, J., Tsai, R. T.-H., &amp; Chang, J. S. (2009).
+WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
+In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
+Hong Kong, China. 
+</code></pre>
+</div>
+
+<h2 id="toc_21">Bibtex</h2>
+<div class="highlight"><pre><code class="text">@inproceedings{Chang-EtAl:2009:PACLIC2009,
+  author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
+  title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
+  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)},
+  year = {2009},
+  month = {dec},
+  address = {Hong Kong, China},
+  pages = {72--81},
+  url = {http://www.aclweb.org/anthology/Y09-1009}
+}
+</code></pre>
+</div>
 ]]></content>
   </entry>
   

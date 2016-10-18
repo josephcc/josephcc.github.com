@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Translation | Hi! I'm Joseph Chang]]></title>
+  <link href="http://joseph.nlpweb.org/blog/categories/translation/atom.xml" rel="self"/>
+  <link href="http://joseph.nlpweb.org/"/>
+  <updated>2016-10-19T08:09:01+09:00</updated>
+  <id>http://joseph.nlpweb.org/</id>
+  <author>
+    <name><![CDATA[Joseph Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[TermMine]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine/"/>
+    <updated>2012-07-08T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine</id>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Jason S. Chang, and Roger Jang.</p>
+
+<p><strong><em>ACL 2012</em></strong></p>
+
+<p>TermMine is an information extraction system that can automatically mine
+translation pairs of terms from the web. We used a small set of terms and
+translations to gather mixed-code text from the web to train a CRF model that
+can identify translation pairs at run-time.</p>
+
+<!--more-->
+
+<h2 id="toc_67">Abstract</h2>
+
+<p>In this paper, we present a new method for learning to finding translations and
+transliterations on the Web for a given term. The approach involves using a
+small set of terms and translations to obtain mixed-code snippets from a search
+engine, and automatically annotating the snippets with tags and features for
+training a conditional random field model. At run-time, the model is used to
+extracting translation candidates for a given term. Preliminary experiments and
+evaluation show our method cleanly combining various features, resulting in a
+system that outperforms previous work.</p>
+
+<h2 id="toc_68">Citation</h2>
+<div class="highlight"><pre><code class="text">Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
+Learning to find translations and transliterations on the web.
+In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL &#39;12), Vol. 2.
+Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
+</code></pre>
+</div>
+
+<h2 id="toc_69">Bibtex</h2>
+<div class="highlight"><pre><code class="text">@inproceedings{Chang:2012:LFT:2390665.2390698,
+ author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
+ title = {Learning to Find Translations and Transliterations on the Web},
+ booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2},
+ series = {ACL &#39;12},
+ year = {2012},
+ location = {Jeju Island, Korea},
+ pages = {130--134},
+ numpages = {5},
+ url = {http://dl.acm.org/citation.cfm?id=2390665.2390698},
+ acmid = {2390698},
+ publisher = {Association for Computational Linguistics},
+ address = {Stroudsburg, PA, USA},
+} 
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

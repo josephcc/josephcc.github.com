@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Information Extraction | Hi! I'm Joseph Chang]]></title>
+  <link href="http://joseph.nlpweb.org/blog/categories/information-extraction/atom.xml" rel="self"/>
+  <link href="http://joseph.nlpweb.org/"/>
+  <updated>2016-10-19T08:09:01+09:00</updated>
+  <id>http://joseph.nlpweb.org/</id>
+  <author>
+    <name><![CDATA[Joseph Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[TermMine]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine/"/>
+    <updated>2012-07-08T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine</id>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Jason S. Chang, and Roger Jang.</p>
+
+<p><strong><em>ACL 2012</em></strong></p>
+
+<p>TermMine is an information extraction system that can automatically mine
+translation pairs of terms from the web. We used a small set of terms and
+translations to gather mixed-code text from the web to train a CRF model that
+can identify translation pairs at run-time.</p>
+
+<!--more-->
+
+<h2 id="toc_22">Abstract</h2>
+
+<p>In this paper, we present a new method for learning to finding translations and
+transliterations on the Web for a given term. The approach involves using a
+small set of terms and translations to obtain mixed-code snippets from a search
+engine, and automatically annotating the snippets with tags and features for
+training a conditional random field model. At run-time, the model is used to
+extracting translation candidates for a given term. Preliminary experiments and
+evaluation show our method cleanly combining various features, resulting in a
+system that outperforms previous work.</p>
+
+<h2 id="toc_23">Citation</h2>
+<div class="highlight"><pre><code class="text">Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
+Learning to find translations and transliterations on the web.
+In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL &#39;12), Vol. 2.
+Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
+</code></pre>
+</div>
+
+<h2 id="toc_24">Bibtex</h2>
+<div class="highlight"><pre><code class="text">@inproceedings{Chang:2012:LFT:2390665.2390698,
+ author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
+ title = {Learning to Find Translations and Transliterations on the Web},
+ booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2},
+ series = {ACL &#39;12},
+ year = {2012},
+ location = {Jeju Island, Korea},
+ pages = {130--134},
+ numpages = {5},
+ url = {http://dl.acm.org/citation.cfm?id=2390665.2390698},
+ acmid = {2390698},
+ publisher = {Association for Computational Linguistics},
+ address = {Stroudsburg, PA, USA},
+} 
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WikiSense]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2009/12/03/wikisense/"/>
+    <updated>2009-12-03T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2009/12/03/wikisense</id>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Richard Tsai, and Jason S. Chang.</p>
+
+<p><strong><em>PACLIC 2009</em></strong></p>
+
+<p>We introduced a method for classifying named-entities into broad semantic
+categories in WordNet. We extracted rich features from Wikipedia, allowing us
+to classify named-entities with high precision and coverage. The result is a
+large scale named-entity semantic database with 1.2 million entries and over
+95% accuracy, covering 80% of all named-entities found on Wikipedia.</p>
+
+<!--more-->
+
+<h2 id="toc_25">Abstract</h2>
+
+<p>In this paper, we introduce a minimally supervised method for learning to
+classify named-entity titles in a given encyclopedia into broad semantic
+categories in an existing ontology. Our main idea involves using overlapping
+entries in the encyclopedia and ontology and a small set of 30 handed tagged
+parenthetic explanations to automatically generate the training data. The
+proposed method involves automatically recognizing whether a title is a named
+entity, automatically generating two sets of training data, and automatically
+building a classification model for training a classification model based on
+textual and non-textual features. We present WikiSense, an implementation of
+the proposed method for extending the named entity coverage of WordNet by sense
+tagging Wikipedia titles. Experimental results show WikiSense achieves accuracy
+of over 95% and near 80% applicability for all NE titles in Wikipedia.
+WikiSense cleanly produces over 1.2 million of NEs tagged with broad
+categories, based on the lexicographers’ files of WordNet, effectively
+extending WordNet to form a very large scale semantic category, a potentially
+useful resource for many natural language related tasks.</p>
+
+<h2 id="toc_26">Demo</h2>
+<div class="highlight"><pre><code class="text">WikiID    Supersense     PE          NE                                   Note
+----------------------------------------------------------------------------------------------
+11983070  person         None        Johnny Cash                          singer
+203407    person         None        Celine Dion                          singer
+2773076   group          None        Guns N&#39; Roses                        band
+
+945778    location       None        Hsinchu Science and Industrial Park
+951038    location       None        Linbian, Pingtung                    name of city
+
+19299838  communication  None        Cape No. 7                           movie
+543675    person         None        Jay Chou                             singer
+
+1374293   group          None        National Chung Hsing University
+2012972   group          None        Yuan Ze University
+
+412376    animal         butterfly   Queen                                namd of speices
+42010     group          band        Queen                                name of band
+10309519  communication  magazine    Queen                                name of maagazine
+559004    artifcact      automobile  Queen                                car model name
+718750    communication  album       Queen                                music album
+570546    person         Snow White  Queen                                fictional character
+130425    artifcact      TTC         Queen                                subway station
+----------------------------------------------------------------------------------------------
+</code></pre>
+</div>
+
+<p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
+
+<h2 id="toc_27">Download</h2>
+
+<h2 id="toc_28">Citation</h2>
+<div class="highlight"><pre><code class="text">Chang, J., Tsai, R. T.-H., &amp; Chang, J. S. (2009).
+WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
+In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
+Hong Kong, China. 
+</code></pre>
+</div>
+
+<h2 id="toc_29">Bibtex</h2>
+<div class="highlight"><pre><code class="text">@inproceedings{Chang-EtAl:2009:PACLIC2009,
+  author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
+  title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
+  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)},
+  year = {2009},
+  month = {dec},
+  address = {Hong Kong, China},
+  pages = {72--81},
+  url = {http://www.aclweb.org/anthology/Y09-1009}
+}
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

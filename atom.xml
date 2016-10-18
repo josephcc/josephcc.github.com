@@ -4,7 +4,7 @@
   <title><![CDATA[Hi! I'm Joseph Chang]]></title>
   <link href="http://joseph.nlpweb.org/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-10-19T07:14:57+09:00</updated>
+  <updated>2016-10-19T08:09:01+09:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chang]]></name>
@@ -14,15 +14,108 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Spotlight]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2016/10/16/UIST-highlight/"/>
+    <updated>2016-10-16T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2016/10/16/UIST-highlight</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/highlight.png" style='width: 100%;'/></p>
+
+<p>Joseph Chee Chang, Nathan Hahn, and Aniket Kittur.</p>
+
+<p><strong><em>UIST 2016</em></strong></p>
+
+<p>We introduce the idea of intentionally uncertain input in the context of
+highlighting. We introduced a system that uses force touch and fuzzy
+bounding boxes to support saving information while users are uncertain about
+where to highlight.</p>
+
+<!--more-->
+
+<h2 id="toc_217">Abstract</h2>
+
+<p>Patients researching medical diagnoses, scientist exploring new fields of
+literature, and students learning about new domains are all faced with the
+challenge of capturing information they find for later use. However, saving
+information is challenging on mobile devices, where the small screen and font
+sizes combined with the inaccuracy of finger based touch screens makes it time
+consuming and stressful for people to select and save text for future use.
+Furthermore, beyond the challenge of simply selecting a region of bounded text
+on a mobile device, in many learning and data exploration tasks the boundaries
+of what text may be relevant and useful later are themselves uncertain for the
+user. In contrast to previous approaches which focused on speeding up the
+selection process by making the identification of hard boundaries faster, we
+introduce the idea of intentionally supporting uncertain input in the context
+of saving information during complex reading and information exploration. We
+embody this idea in a system that uses force touch and fuzzy bounding boxes
+along with posthoc expandable context to support identifying and saving
+information in an intentionally uncertain way on mobile devices. In a two part
+user study we find that this approach reduced selection time and was preferred
+by participants over the default system text selection method.</p>
+
+<h2 id="toc_218">Demo</h2>
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="toc_219">Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. 2016.
+</span><span class='line'>Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting.
+</span><span class='line'>In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16).
+</span><span class='line'>ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538</span></code></pre></td></tr></table></div></figure>
+
+<h2 id="toc_220">Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:2016:SMS:2984511.2984538,
+</span><span class='line'> author = {Chang, Joseph Chee and Hahn, Nathan and Kittur, Aniket},
+</span><span class='line'> title = {Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting},
+</span><span class='line'> booktitle = {Proceedings of the 29th Annual Symposium on User Interface Software and Technology},
+</span><span class='line'> series = {UIST '16},
+</span><span class='line'> year = {2016},
+</span><span class='line'> isbn = {978-1-4503-4189-9},
+</span><span class='line'> location = {Tokyo, Japan},
+</span><span class='line'> pages = {61--68},
+</span><span class='line'> numpages = {8},
+</span><span class='line'> url = {http://doi.acm.org/10.1145/2984511.2984538},
+</span><span class='line'> doi = {10.1145/2984511.2984538},
+</span><span class='line'> acmid = {2984538},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {New York, NY, USA},
+</span><span class='line'> keywords = {annotation, capture, copy-paste, highlighting., information, saving, sensemaking},
+</span><span class='line'>} </span></code></pre></td></tr></table></div></figure>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
     <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka/"/>
     <updated>2016-05-07T08:00:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/ka.png" style='width: 100%;'/></p>
 
-<p>Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. CHI2016.</p>
+<p>Nathan Hahn, Joseph Chee Chang, and Aniket Kittur.</p>
 
-<p><strong><em>BEST PAPER NOMINATION</em></strong></p>
+<p><strong><em>CHI 2016 BEST PAPER NOMINATION</em></strong></p>
 
 <p>The Knowledge Accelerator uses crowdworkers to synthesize different
 information sources on the web in response to a query. We prototyped this
@@ -31,7 +124,7 @@ microtask enviornment.</p>
 
 <!--more-->
 
-<h2 id="toc_144">Abstract</h2>
+<h2 id="toc_212">Abstract</h2>
 
 <p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
 real  world  tasks  are  often  interdependent,requiring a big picture view of
@@ -47,11 +140,11 @@ information  synthesis  and  evaluateits output across a variety of topics.  We
 also contribute a setof design patterns that may be informative for other
 systemsaimed at supporting big picture thinking in small pieces.</p>
 
-<h2 id="toc_145">Demo</h2>
+<h2 id="toc_213">Demo</h2>
 
-<h2 id="toc_146">Downloads</h2>
+<h2 id="toc_214">Downloads</h2>
 
-<h2 id="toc_147">Citation</h2>
+<h2 id="toc_215">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -62,7 +155,7 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
 </span><span class='line'>In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
 </span><span class='line'>ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.2858364</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_148">Bibtex</h2>
+<h2 id="toc_216">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -109,9 +202,9 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/alloy.png" style='width: 100%;'/></p>
 
-<p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. CHI2016.</p>
+<p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn.</p>
 
-<p><strong><em>BEST PAPER NOMINATION</em></strong></p>
+<p><strong><em>CHI 2016 BEST PAPER NOMINATION</em></strong></p>
 
 <p>Alloy is a crowd clustering pipeline that combines the deep semantic knowledge
 from human computation and the scalability of machine learning models to create
@@ -119,7 +212,7 @@ rich structures from unorganized documents with high quality and efficiency.</p>
 
 <!--more-->
 
-<h2 id="toc_140">Abstract</h2>
+<h2 id="toc_208">Abstract</h2>
 
 <p>Crowdsourced clustering approaches present a promising way to harness deep
 semantic knowledge for clustering complex information. However, existing
@@ -136,9 +229,9 @@ examples in the tail. To accomplish this, Alloy introduces a modular
 <em>cast and gather</em> approach which leverages a machine learning backbone
 to stitch together different types of judgment tasks.</p>
 
-<h2 id="toc_141">Downloads</h2>
+<h2 id="toc_209">Downloads</h2>
 
-<h2 id="toc_142">Citation</h2>
+<h2 id="toc_210">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -149,7 +242,7 @@ to stitch together different types of judgment tasks.</p>
 </span><span class='line'>In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
 </span><span class='line'>ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.2858411</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_143">Bibtex</h2>
+<h2 id="toc_211">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -197,7 +290,7 @@ to stitch together different types of judgment tasks.</p>
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
 language model and hidden Markov model.</p>
 
-<h2 id="toc_131">The Hangman Game</h2>
+<h2 id="toc_199">The Hangman Game</h2>
 
 <p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
 game of hangman automatically. The rules are
@@ -225,7 +318,7 @@ likely to appear before the word <code>day</code>. In my attempt, I trained a
 <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model</a> to guess every word in the sentence
 simultaneously.</p>
 
-<h2 id="toc_132">Language Model</h2>
+<h2 id="toc_200">Language Model</h2>
 
 <p>I use the state-of-the-art <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> package to train my
 language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
@@ -252,7 +345,7 @@ proposed to improve the performance of language models, including absolute disco
 Kneser-Ney smoothing. Formal definition of language model can be found on 
 <a href="http://en.wikipedia.org/wiki/Language_model">Wikipedia</a>.</p>
 
-<h2 id="toc_133">Hidden Markov Model</h2>
+<h2 id="toc_201">Hidden Markov Model</h2>
 
 <p>Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
 observations, state transition probability distribution, and emission probability distribution. For
@@ -275,7 +368,7 @@ Wikipedia pages <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">here<
 <a href="http://en.wikipedia.org/wiki/Viterbi_algorithm">here</a>, or in a slide I made when I was TA for a NLP course 
 <a href="http://hadoop.nlpweb.org/%7Ebizkit/lab3/vtb_example/">here</a> (in Chinese).</p>
 
-<h2 id="toc_134">Algorithm</h2>
+<h2 id="toc_202">Algorithm</h2>
 
 <p>It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
 Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
@@ -288,12 +381,12 @@ sequence that yield the highest language model probability and word frequencies.
 guess the letter that appears in most words. This process repeats until all characters are 
 revealed, and the number of failed guesses are recorded.</p>
 
-<h2 id="toc_135">Results</h2>
+<h2 id="toc_203">Results</h2>
 
 <p>Here are three examples and results. The interactive guessing progress and some internal states are
 shown in the three tables below.</p>
 
-<h3 id="toc_136">&quot;describe what is needed&quot;</h3>
+<h3 id="toc_204">&quot;describe what is needed&quot;</h3>
 
 <table><thead>
 <tr>
@@ -385,7 +478,7 @@ shown in the three tables below.</p>
 
 <p><br/></p>
 
-<h3 id="toc_137">&quot;an honor roll of online options&quot;</h3>
+<h3 id="toc_205">&quot;an honor roll of online options&quot;</h3>
 
 <table><thead>
 <tr>
@@ -450,7 +543,7 @@ shown in the three tables below.</p>
 <p>This one shows HMM produces different results as more characters are revealed.
 <br/></p>
 
-<h3 id="toc_138">&quot;members of the supreme court&quot;</h3>
+<h3 id="toc_206">&quot;members of the supreme court&quot;</h3>
 
 <table><thead>
 <tr>
@@ -493,7 +586,7 @@ shown in the three tables below.</p>
 
 <p>This last one really shows the power of language model. With only <code>e</code> revealed, the HMM process was able to guess the correct result.</p>
 
-<h2 id="toc_139">Improvements</h2>
+<h2 id="toc_207">Improvements</h2>
 
 <p>For stage one, instead of using just the highest frequency letters, conditional probability can also be
 a factor for choosing the next letter. For example, if <code>s</code> is revealed as the second to last character
@@ -504,6 +597,77 @@ heuristically. These may include the confident of the HMM results, the percentag
 the before mentioned conditional probabilities and more. Global optimization approaches can be used to
 find good parameters to determine the timing to start stage two.  Alternatively, we can treat the two
 stages as different strategies and use genetic algorithm to apply them alternately.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TermMine]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine/"/>
+    <updated>2012-07-08T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine</id>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Jason S. Chang, and Roger Jang.</p>
+
+<p><strong><em>ACL 2012</em></strong></p>
+
+<p>TermMine is an information extraction system that can automatically mine
+translation pairs of terms from the web. We used a small set of terms and
+translations to gather mixed-code text from the web to train a CRF model that
+can identify translation pairs at run-time.</p>
+
+<!--more-->
+
+<h2 id="toc_196">Abstract</h2>
+
+<p>In this paper, we present a new method for learning to finding translations and
+transliterations on the Web for a given term. The approach involves using a
+small set of terms and translations to obtain mixed-code snippets from a search
+engine, and automatically annotating the snippets with tags and features for
+training a conditional random field model. At run-time, the model is used to
+extracting translation candidates for a given term. Preliminary experiments and
+evaluation show our method cleanly combining various features, resulting in a
+system that outperforms previous work.</p>
+
+<h2 id="toc_197">Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
+</span><span class='line'>Learning to find translations and transliterations on the web.
+</span><span class='line'>In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL '12), Vol. 2.
+</span><span class='line'>Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.</span></code></pre></td></tr></table></div></figure>
+
+<h2 id="toc_198">Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:2012:LFT:2390665.2390698,
+</span><span class='line'> author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
+</span><span class='line'> title = {Learning to Find Translations and Transliterations on the Web},
+</span><span class='line'> booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2},
+</span><span class='line'> series = {ACL '12},
+</span><span class='line'> year = {2012},
+</span><span class='line'> location = {Jeju Island, Korea},
+</span><span class='line'> pages = {130--134},
+</span><span class='line'> numpages = {5},
+</span><span class='line'> url = {http://dl.acm.org/citation.cfm?id=2390665.2390698},
+</span><span class='line'> acmid = {2390698},
+</span><span class='line'> publisher = {Association for Computational Linguistics},
+</span><span class='line'> address = {Stroudsburg, PA, USA},
+</span><span class='line'>} </span></code></pre></td></tr></table></div></figure>
 ]]></content>
   </entry>
   
@@ -727,7 +891,7 @@ module 中的某個 function，該 function 最後會再去呼叫正常的 syste
 hijack，不知道會不會是很沒有道理開發模式。
 這是篇是今晚的筆記，雖然內容不多，但在精神不濟的時刻，相信我更需要做點筆記。:p</p>
 
-<h2 id="toc_127">Adding a new system call</h2>
+<h2 id="toc_192">Adding a new system call</h2>
 
 <p>There are already many tutorials that explain how to add system calls to the
 kernel. The ones I read are <a href="http://140.120.13.13/%7Es9356048/OSLab/">the tutorial from Advance Defence Lab</a> in
@@ -742,7 +906,7 @@ module」或許聽起來很嚇人，但其實不難入門。當然真正難的�
 ，大概了解一下狀況，後來參考 The Linux Kernel Module
 Programming Guide <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">2</a> 寫了一個簡單的 hello world 模組。</p>
 
-<h2 id="toc_128">Exposing the system call table</h2>
+<h2 id="toc_193">Exposing the system call table</h2>
 
 <p>Even though starting from 2.6, the kernel no longer exposes <code>sys_call_table</code> to
 modules, there are probably techniques you can use <a href="http://www.epanastasi.com/?page_id=52">exploits</a> to find it. On
@@ -774,7 +938,7 @@ make sure you also have the following in your kernel <code>.config</code> file.<
 </pre></td><td class='code'><pre><code class='c'><span class='line'><span class="n">CONFIG_DEBUG_RODATA</span><span class="o">=</span><span class="n">n</span>
 </span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_129">System call hooking</h2>
+<h2 id="toc_194">System call hooking</h2>
 
 <p>Finally, the actual syscall hooking process is done in a kernel module with the
 following code:</p>
@@ -800,7 +964,7 @@ on system call hooking can be found on <a href="http://www.linuxjournal.com/arti
 結束前呼叫備份的 original_sys_exit 便完成 hooking 的動作。詳細的 System call
 hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http://www.linuxjournal.com/article/4378">4</a>中找到。</p>
 
-<h2 id="toc_130">References</h2>
+<h2 id="toc_195">References</h2>
 
 <ol>
 <li><a href="http://140.120.13.13/%7Es9356048/OSLab/">http://140.120.13.13/~s9356048/OSLab/</a></li>
@@ -833,7 +997,7 @@ complete operating system is needed.</p>
 <p>網路上許多 kgdb 的教學都是拿編好的 kernel image 搭配 busybox 來載入 QEMU
 開機，但這次學校作業內容包含執行 Firefox，所以需要跑在一個較完整的作業系統上。</p>
 
-<h2 id="toc_123">Setup QEMU VM</h2>
+<h2 id="toc_188">Setup QEMU VM</h2>
 
 <p>First, we need to create a HDD image with <code>qemu-img</code>:</p>
 
@@ -900,7 +1064,7 @@ Windows 裝置命名習慣（C代表硬碟開機、D代表光碟、A/B代表軟�
 </span><span class='line'>            // tunnel port 2222 to VM<span class="err">&#39;</span>s port 22 <span class="k">for </span>remote ssh
 </span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_124">Compiling the Kernel</h2>
+<h2 id="toc_189">Compiling the Kernel</h2>
 
 <p>I&#39;m not really going to explain the process of compiling the Linux kernel, but
 if you use the <code>.config</code> file from Debian kernel packages, its pretty difficult
@@ -949,7 +1113,7 @@ will have produced three files that you will need in next step, they are <code>i
 / mkinitramfs
 的參數。做到這裡，你會產生三個接下來會用到的檔案：initrd-2.6.32、vmlinux、arch/i386/boot/bzImage。</p>
 
-<h2 id="toc_125">Connecting gdb to the Linux kernel</h2>
+<h2 id="toc_190">Connecting gdb to the Linux kernel</h2>
 
 <p>In the last step, we will use QEMU&#39;s built-in boot loader instead of grub, and setup the required kernel parameters for KGDB:</p>
 
@@ -987,7 +1151,7 @@ bizkit@tw, on Flickr"><img
 src="http://farm5.staticflickr.com/4153/5184827612_2e77a093f1_z.jpg"
 width="575" height="584" alt="Picture 6"></a></p>
 
-<h2 id="toc_126">Debugging with KGDB</h2>
+<h2 id="toc_191">Debugging with KGDB</h2>
 
 <p>Once connected your VM will continue booting and stop only if you have setup
 some break points. You can then use <code>l</code> to view currently running kernel
@@ -1074,7 +1238,7 @@ Here are some of the basics stuff about developing Android using CLI.</p>
 
 <p><a title="Flickr 上 bizkit@tw 的 Screen shot 2010-05-09 at 1.17.54 AM" href="http://www.flickr.com/photos/bizkit/4589099349/" target="_blank"><img src="http://farm5.static.flickr.com/4012/4589099349_6fa0f191d6_z_d.jpg" alt="Screen shot 2010-05-09 at 1.17.54 AM"></a></p>
 
-<h2 id="toc_121">The basics</h2>
+<h2 id="toc_186">The basics</h2>
 
 <p>Some useful commands&#8230;</p>
 
@@ -1098,7 +1262,7 @@ Here are some of the basics stuff about developing Android using CLI.</p>
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>adb log</span></code></pre></td></tr></table></div></figure></p>
 
-<h2 id="toc_122">Eclim</h2>
+<h2 id="toc_187">Eclim</h2>
 
 <p>With <a href="http://www.eclim.org">Eclim</a> you can have most of the Eclipse functionalities inside your vim, 
 including code-completion and real-time validation. Eclim is basically Eclipse running in headless
@@ -1139,6 +1303,131 @@ Obviously, you need to add your projects to Eclipse in order for this to work, a
 Eclim is also not very fast.</p>
 
 <p>Happy hacking~</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WikiSense]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2009/12/03/wikisense/"/>
+    <updated>2009-12-03T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2009/12/03/wikisense</id>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Richard Tsai, and Jason S. Chang.</p>
+
+<p><strong><em>PACLIC 2009</em></strong></p>
+
+<p>We introduced a method for classifying named-entities into broad semantic
+categories in WordNet. We extracted rich features from Wikipedia, allowing us
+to classify named-entities with high precision and coverage. The result is a
+large scale named-entity semantic database with 1.2 million entries and over
+95% accuracy, covering 80% of all named-entities found on Wikipedia.</p>
+
+<!--more-->
+
+<h2 id="toc_181">Abstract</h2>
+
+<p>In this paper, we introduce a minimally supervised method for learning to
+classify named-entity titles in a given encyclopedia into broad semantic
+categories in an existing ontology. Our main idea involves using overlapping
+entries in the encyclopedia and ontology and a small set of 30 handed tagged
+parenthetic explanations to automatically generate the training data. The
+proposed method involves automatically recognizing whether a title is a named
+entity, automatically generating two sets of training data, and automatically
+building a classification model for training a classification model based on
+textual and non-textual features. We present WikiSense, an implementation of
+the proposed method for extending the named entity coverage of WordNet by sense
+tagging Wikipedia titles. Experimental results show WikiSense achieves accuracy
+of over 95% and near 80% applicability for all NE titles in Wikipedia.
+WikiSense cleanly produces over 1.2 million of NEs tagged with broad
+categories, based on the lexicographers’ files of WordNet, effectively
+extending WordNet to form a very large scale semantic category, a potentially
+useful resource for many natural language related tasks.</p>
+
+<h2 id="toc_182">Demo</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>WikiID    Supersense     PE          NE                                   Note
+</span><span class='line'>----------------------------------------------------------------------------------------------
+</span><span class='line'>11983070  person         None        Johnny Cash                          singer
+</span><span class='line'>203407    person         None        Celine Dion                          singer
+</span><span class='line'>2773076   group          None        Guns N' Roses                        band
+</span><span class='line'>
+</span><span class='line'>945778    location       None        Hsinchu Science and Industrial Park
+</span><span class='line'>951038    location       None        Linbian, Pingtung                    name of city
+</span><span class='line'>
+</span><span class='line'>19299838  communication  None        Cape No. 7                           movie
+</span><span class='line'>543675    person         None        Jay Chou                             singer
+</span><span class='line'>
+</span><span class='line'>1374293   group          None        National Chung Hsing University
+</span><span class='line'>2012972   group          None        Yuan Ze University
+</span><span class='line'>
+</span><span class='line'>412376    animal         butterfly   Queen                                namd of speices
+</span><span class='line'>42010     group          band        Queen                                name of band
+</span><span class='line'>10309519  communication  magazine    Queen                                name of maagazine
+</span><span class='line'>559004    artifcact      automobile  Queen                                car model name
+</span><span class='line'>718750    communication  album       Queen                                music album
+</span><span class='line'>570546    person         Snow White  Queen                                fictional character
+</span><span class='line'>130425    artifcact      TTC         Queen                                subway station
+</span><span class='line'>----------------------------------------------------------------------------------------------</span></code></pre></td></tr></table></div></figure>
+
+<p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
+
+<h2 id="toc_183">Download</h2>
+
+<h2 id="toc_184">Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Chang, J., Tsai, R. T.-H., & Chang, J. S. (2009).
+</span><span class='line'>WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
+</span><span class='line'>In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
+</span><span class='line'>Hong Kong, China. </span></code></pre></td></tr></table></div></figure>
+
+<h2 id="toc_185">Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang-EtAl:2009:PACLIC2009,
+</span><span class='line'>  author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
+</span><span class='line'>  title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
+</span><span class='line'>  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)},
+</span><span class='line'>  year = {2009},
+</span><span class='line'>  month = {dec},
+</span><span class='line'>  address = {Hong Kong, China},
+</span><span class='line'>  pages = {72--81},
+</span><span class='line'>  url = {http://www.aclweb.org/anthology/Y09-1009}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
 ]]></content>
   </entry>
   
