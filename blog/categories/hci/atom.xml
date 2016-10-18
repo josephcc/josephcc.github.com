@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: HCI | Hi! I'm Joseph Chang]]></title>
+  <title><![CDATA[Category: HCI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/hci/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-10-19T08:09:01+09:00</updated>
+  <updated>2016-10-19T08:28:21+09:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
-    <name><![CDATA[Joseph Chang]]></name>
+    <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -88,75 +88,6 @@ ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
-    <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka/"/>
-    <updated>2016-05-07T08:00:00+09:00</updated>
-    <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/ka.png" style='width: 100%;'/></p>
-
-<p>Nathan Hahn, Joseph Chee Chang, and Aniket Kittur.</p>
-
-<p><strong><em>CHI 2016 BEST PAPER NOMINATION</em></strong></p>
-
-<p>The Knowledge Accelerator uses crowdworkers to synthesize different
-information sources on the web in response to a query. We prototyped this
-system in order to explore crowdsourcing complex, high context tasks in a
-microtask enviornment.</p>
-
-<!--more-->
-
-<h2 id="toc_119">Abstract</h2>
-
-<p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
-real  world  tasks  are  often  interdependent,requiring a big picture view of
-the difference pieces involved.Existing  crowdsourcing  approaches  that
-support  such  tasks -- ranging from Wikipedia to flash teams -- are
-bottleneckedby relying on a small number of individuals to maintain thebig
-picture.   In this paper,  we explore the idea that a computational system can
-scaffold an emerging interdependent,big picture view entirely through the small
-contributions ofindividuals, each of whom sees only a part of the whole.
-Toinvestigate the viability, strengths, and weaknesses of this approach we
-instantiate the idea in a prototype system for accomplishing  distributed
-information  synthesis  and  evaluateits output across a variety of topics.  We
-also contribute a setof design patterns that may be informative for other
-systemsaimed at supporting big picture thinking in small pieces.</p>
-
-<h2 id="toc_120">Demo</h2>
-
-<h2 id="toc_121">Downloads</h2>
-
-<h2 id="toc_122">Citation</h2>
-<div class="highlight"><pre><code class="text">Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
-The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
-In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
-ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.2858364
-</code></pre>
-</div>
-
-<h2 id="toc_123">Bibtex</h2>
-<div class="highlight"><pre><code class="text">@inproceedings{Hahn:2016:KAB:2858036.2858364,
- author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
- title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
- booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
- series = {CHI &#39;16},
- year = {2016},
- isbn = {978-1-4503-3362-7},
- location = {Santa Clara, California, USA},
- pages = {2258--2270},
- numpages = {13},
- url = {http://doi.acm.org/10.1145/2858036.2858364},
- doi = {10.1145/2858036.2858364},
- acmid = {2858364},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {complex workflow, crowd work, crowdsourcing, design patterns, information synthesis},
-} 
-</code></pre>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Alloy]]></title>
     <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/"/>
     <updated>2016-05-07T08:00:00+09:00</updated>
@@ -173,7 +104,7 @@ rich structures from unorganized documents with high quality and efficiency.</p>
 
 <!--more-->
 
-<h2 id="toc_124">Abstract</h2>
+<h2 id="toc_119">Abstract</h2>
 
 <p>Crowdsourced clustering approaches present a promising way to harness deep
 semantic knowledge for clustering complex information. However, existing
@@ -190,9 +121,9 @@ examples in the tail. To accomplish this, Alloy introduces a modular
 <em>cast and gather</em> approach which leverages a machine learning backbone
 to stitch together different types of judgment tasks.</p>
 
-<h2 id="toc_125">Downloads</h2>
+<h2 id="toc_120">Downloads</h2>
 
-<h2 id="toc_126">Citation</h2>
+<h2 id="toc_121">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
 Alloy: Clustering with Crowds and Computation.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -200,7 +131,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 </code></pre>
 </div>
 
-<h2 id="toc_127">Bibtex</h2>
+<h2 id="toc_122">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:ACC:2858036.2858411,
  author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
  title = {Alloy: Clustering with Crowds and Computation},
@@ -217,6 +148,75 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
  publisher = {ACM},
  address = {New York, NY, USA},
  keywords = {computer supported cooperative work (CSCW), database access / informationretrieval, empirical methods, quantitative, worldwide web and hypermedia},
+} 
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka/"/>
+    <updated>2016-05-07T07:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/ka.png" style='width: 100%;'/></p>
+
+<p>Nathan Hahn, Joseph Chee Chang, and Aniket Kittur.</p>
+
+<p><strong><em>CHI 2016 BEST PAPER NOMINATION</em></strong></p>
+
+<p>The Knowledge Accelerator uses crowdworkers to synthesize different
+information sources on the web in response to a query. We prototyped this
+system in order to explore crowdsourcing complex, high context tasks in a
+microtask enviornment.</p>
+
+<!--more-->
+
+<h2 id="toc_123">Abstract</h2>
+
+<p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
+real  world  tasks  are  often  interdependent,requiring a big picture view of
+the difference pieces involved. Existing  crowdsourcing  approaches  that
+support  such  tasks -- ranging from Wikipedia to flash teams -- are
+bottleneckedby relying on a small number of individuals to maintain thebig
+picture.   In this paper,  we explore the idea that a computational system can
+scaffold an emerging interdependent,big picture view entirely through the small
+contributions ofindividuals, each of whom sees only a part of the whole.
+Toinvestigate the viability, strengths, and weaknesses of this approach we
+instantiate the idea in a prototype system for accomplishing  distributed
+information  synthesis  and  evaluateits output across a variety of topics.  We
+also contribute a setof design patterns that may be informative for other
+systemsaimed at supporting big picture thinking in small pieces.</p>
+
+<h2 id="toc_124">Demo</h2>
+
+<h2 id="toc_125">Downloads</h2>
+
+<h2 id="toc_126">Citation</h2>
+<div class="highlight"><pre><code class="text">Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
+The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
+In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
+ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.2858364
+</code></pre>
+</div>
+
+<h2 id="toc_127">Bibtex</h2>
+<div class="highlight"><pre><code class="text">@inproceedings{Hahn:2016:KAB:2858036.2858364,
+ author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
+ title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
+ booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI &#39;16},
+ year = {2016},
+ isbn = {978-1-4503-3362-7},
+ location = {Santa Clara, California, USA},
+ pages = {2258--2270},
+ numpages = {13},
+ url = {http://doi.acm.org/10.1145/2858036.2858364},
+ doi = {10.1145/2858036.2858364},
+ acmid = {2858364},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {complex workflow, crowd work, crowdsourcing, design patterns, information synthesis},
 } 
 </code></pre>
 </div>
