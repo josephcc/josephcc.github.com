@@ -4,25 +4,200 @@
   <title><![CDATA[Hi! I'm Joseph Chang]]></title>
   <link href="http://joseph.nlpweb.org/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-09-15T23:52:06-04:00</updated>
+  <updated>2016-10-19T07:14:57+09:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chang]]></name>
-    <email><![CDATA[josephcc /a/ cmu dot edu]]></email>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+    <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka/"/>
+    <updated>2016-05-07T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/ka.png" style='width: 100%;'/></p>
+
+<p>Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. CHI2016.</p>
+
+<p><strong><em>BEST PAPER NOMINATION</em></strong></p>
+
+<p>The Knowledge Accelerator uses crowdworkers to synthesize different
+information sources on the web in response to a query. We prototyped this
+system in order to explore crowdsourcing complex, high context tasks in a
+microtask enviornment.</p>
+
+<!--more-->
+
+<h2 id="toc_144">Abstract</h2>
+
+<p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
+real  world  tasks  are  often  interdependent,requiring a big picture view of
+the difference pieces involved.Existing  crowdsourcing  approaches  that
+support  such  tasks &#8211; ranging from Wikipedia to flash teams &#8211; are
+bottleneckedby relying on a small number of individuals to maintain thebig
+picture.   In this paper,  we explore the idea that a computational system can
+scaffold an emerging interdependent,big picture view entirely through the small
+contributions ofindividuals, each of whom sees only a part of the whole.
+Toinvestigate the viability, strengths, and weaknesses of this approach we
+instantiate the idea in a prototype system for accomplishing  distributed
+information  synthesis  and  evaluateits output across a variety of topics.  We
+also contribute a setof design patterns that may be informative for other
+systemsaimed at supporting big picture thinking in small pieces.</p>
+
+<h2 id="toc_145">Demo</h2>
+
+<h2 id="toc_146">Downloads</h2>
+
+<h2 id="toc_147">Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
+</span><span class='line'>The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
+</span><span class='line'>In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+</span><span class='line'>ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.2858364</span></code></pre></td></tr></table></div></figure>
+
+<h2 id="toc_148">Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Hahn:2016:KAB:2858036.2858364,
+</span><span class='line'> author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
+</span><span class='line'> title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
+</span><span class='line'> booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+</span><span class='line'> series = {CHI '16},
+</span><span class='line'> year = {2016},
+</span><span class='line'> isbn = {978-1-4503-3362-7},
+</span><span class='line'> location = {Santa Clara, California, USA},
+</span><span class='line'> pages = {2258--2270},
+</span><span class='line'> numpages = {13},
+</span><span class='line'> url = {http://doi.acm.org/10.1145/2858036.2858364},
+</span><span class='line'> doi = {10.1145/2858036.2858364},
+</span><span class='line'> acmid = {2858364},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {New York, NY, USA},
+</span><span class='line'> keywords = {complex workflow, crowd work, crowdsourcing, design patterns, information synthesis},
+</span><span class='line'>} 
+</span></code></pre></td></tr></table></div></figure>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Alloy]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/"/>
+    <updated>2016-05-07T08:00:00+09:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/alloy.png" style='width: 100%;'/></p>
+
+<p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. CHI2016.</p>
+
+<p><strong><em>BEST PAPER NOMINATION</em></strong></p>
+
+<p>Alloy is a crowd clustering pipeline that combines the deep semantic knowledge
+from human computation and the scalability of machine learning models to create
+rich structures from unorganized documents with high quality and efficiency.</p>
+
+<!--more-->
+
+<h2 id="toc_140">Abstract</h2>
+
+<p>Crowdsourced clustering approaches present a promising way to harness deep
+semantic knowledge for clustering complex information. However, existing
+approaches have difficulties supporting the global context needed for workers
+to generate meaningful categories, and are costly because all items require
+human judgments. We introduce Alloy, a hybrid approach that combines the
+richness of human judgments with the power of machine algorithms. Alloy
+supports greater global context through a new <em>sample and search</em>
+crowd pattern which changes the crowd&#39;s task from classifying a fixed subset of
+items to actively sampling and querying the entire dataset.  It also improves
+efficiency through a two phase process in which crowds provide examples to help
+a machine cluster the head of the distribution, then classify low-confidence
+examples in the tail. To accomplish this, Alloy introduces a modular
+<em>cast and gather</em> approach which leverages a machine learning backbone
+to stitch together different types of judgment tasks.</p>
+
+<h2 id="toc_141">Downloads</h2>
+
+<h2 id="toc_142">Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
+</span><span class='line'>Alloy: Clustering with Crowds and Computation.
+</span><span class='line'>In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+</span><span class='line'>ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.2858411</span></code></pre></td></tr></table></div></figure>
+
+<h2 id="toc_143">Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:2016:ACC:2858036.2858411,
+</span><span class='line'> author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
+</span><span class='line'> title = {Alloy: Clustering with Crowds and Computation},
+</span><span class='line'> booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+</span><span class='line'> series = {CHI '16},
+</span><span class='line'> year = {2016},
+</span><span class='line'> isbn = {978-1-4503-3362-7},
+</span><span class='line'> location = {Santa Clara, California, USA},
+</span><span class='line'> pages = {3180--3191},
+</span><span class='line'> numpages = {12},
+</span><span class='line'> url = {http://doi.acm.org/10.1145/2858036.2858411},
+</span><span class='line'> doi = {10.1145/2858036.2858411},
+</span><span class='line'> acmid = {2858411},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {New York, NY, USA},
+</span><span class='line'> keywords = {computer supported cooperative work (CSCW), database access / informationretrieval, empirical methods, quantitative, worldwide web and hypermedia},
+</span><span class='line'>} </span></code></pre></td></tr></table></div></figure>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[A Hangman Game Solver based on Language Models]]></title>
     <link href="http://joseph.nlpweb.org/blog/2012/11/04/hangman/"/>
-    <updated>2012-11-04T21:14:00-05:00</updated>
+    <updated>2012-11-04T21:14:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2012/11/04/hangman</id>
     <content type="html"><![CDATA[<p>I&#39;ve recently wrote a program for solving sentence-based hangman game automatically. Here&#39;s a post
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
 language model and hidden Markov model.</p>
 
-<h2 id="toc_77">The Hangman Game</h2>
+<h2 id="toc_131">The Hangman Game</h2>
 
 <p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
 game of hangman automatically. The rules are
@@ -50,7 +225,7 @@ likely to appear before the word <code>day</code>. In my attempt, I trained a
 <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model</a> to guess every word in the sentence
 simultaneously.</p>
 
-<h2 id="toc_78">Language Model</h2>
+<h2 id="toc_132">Language Model</h2>
 
 <p>I use the state-of-the-art <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> package to train my
 language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
@@ -77,7 +252,7 @@ proposed to improve the performance of language models, including absolute disco
 Kneser-Ney smoothing. Formal definition of language model can be found on 
 <a href="http://en.wikipedia.org/wiki/Language_model">Wikipedia</a>.</p>
 
-<h2 id="toc_79">Hidden Markov Model</h2>
+<h2 id="toc_133">Hidden Markov Model</h2>
 
 <p>Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
 observations, state transition probability distribution, and emission probability distribution. For
@@ -100,7 +275,7 @@ Wikipedia pages <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">here<
 <a href="http://en.wikipedia.org/wiki/Viterbi_algorithm">here</a>, or in a slide I made when I was TA for a NLP course 
 <a href="http://hadoop.nlpweb.org/%7Ebizkit/lab3/vtb_example/">here</a> (in Chinese).</p>
 
-<h2 id="toc_80">Algorithm</h2>
+<h2 id="toc_134">Algorithm</h2>
 
 <p>It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
 Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
@@ -113,12 +288,12 @@ sequence that yield the highest language model probability and word frequencies.
 guess the letter that appears in most words. This process repeats until all characters are 
 revealed, and the number of failed guesses are recorded.</p>
 
-<h2 id="toc_81">Results</h2>
+<h2 id="toc_135">Results</h2>
 
 <p>Here are three examples and results. The interactive guessing progress and some internal states are
 shown in the three tables below.</p>
 
-<h3 id="toc_82">&quot;describe what is needed&quot;</h3>
+<h3 id="toc_136">&quot;describe what is needed&quot;</h3>
 
 <table><thead>
 <tr>
@@ -210,7 +385,7 @@ shown in the three tables below.</p>
 
 <p><br/></p>
 
-<h3 id="toc_83">&quot;an honor roll of online options&quot;</h3>
+<h3 id="toc_137">&quot;an honor roll of online options&quot;</h3>
 
 <table><thead>
 <tr>
@@ -275,7 +450,7 @@ shown in the three tables below.</p>
 <p>This one shows HMM produces different results as more characters are revealed.
 <br/></p>
 
-<h3 id="toc_84">&quot;members of the supreme court&quot;</h3>
+<h3 id="toc_138">&quot;members of the supreme court&quot;</h3>
 
 <table><thead>
 <tr>
@@ -318,7 +493,7 @@ shown in the three tables below.</p>
 
 <p>This last one really shows the power of language model. With only <code>e</code> revealed, the HMM process was able to guess the correct result.</p>
 
-<h2 id="toc_85">Improvements</h2>
+<h2 id="toc_139">Improvements</h2>
 
 <p>For stage one, instead of using just the highest frequency letters, conditional probability can also be
 a factor for choosing the next letter. For example, if <code>s</code> is revealed as the second to last character
@@ -335,7 +510,7 @@ stages as different strategies and use genetic algorithm to apply them alternate
   <entry>
     <title type="html"><![CDATA[Git: Remove (un-add) files from last commit]]></title>
     <link href="http://joseph.nlpweb.org/blog/2012/04/27/git-reverse-amend/"/>
-    <updated>2012-04-27T03:07:00-04:00</updated>
+    <updated>2012-04-27T03:07:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2012/04/27/git-reverse-amend</id>
     <content type="html"><![CDATA[<p>A lot of times we use <code>git commit --amend</code> to add the files that we have forgotten to the last
 commit (usually HEAD), or simply to fix typos in its commit message. However, you can&#39;t remove, or un-add,
@@ -379,7 +554,7 @@ changes from the staging area (or index), and add the files you originally inten
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Module debugging with gdb]]></title>
     <link href="http://joseph.nlpweb.org/blog/2011/12/05/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
-    <updated>2011-12-05T21:12:00-05:00</updated>
+    <updated>2011-12-05T21:12:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2011/12/05/linux-kernel-dev-module-debugging-gdb-kdgb</id>
     <content type="html"><![CDATA[<p>This is post continues my previous post on 
 <a href="http://joseph.nlpweb.org/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
@@ -443,7 +618,7 @@ height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
   <entry>
     <title type="html"><![CDATA[Git: Displaying commit tree with NerdTool]]></title>
     <link href="http://joseph.nlpweb.org/blog/2011/11/30/nerdtool-commit-tree/"/>
-    <updated>2011-11-30T17:26:00-05:00</updated>
+    <updated>2011-11-30T17:26:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2011/11/30/nerdtool-commit-tree</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/bizkit/6291809011/" title="P1030408 by bizkit@tw, on Flickr"><img
 src="http://farm7.staticflickr.com/6233/6291809011_58ca7d80bc.jpg" width="500" height="347"
@@ -514,7 +689,7 @@ alt="gggg"></a></p>
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Hooking System Calls on 2.6+]]></title>
     <link href="http://joseph.nlpweb.org/blog/2011/10/23/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
-    <updated>2011-10-23T22:03:00-04:00</updated>
+    <updated>2011-10-23T22:03:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2011/10/23/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
     <content type="html"><![CDATA[<p>This post explains how to add, or override, system calls by loading custom
 kernel modules using system call hooking techniques. This
@@ -552,7 +727,7 @@ module 中的某個 function，該 function 最後會再去呼叫正常的 syste
 hijack，不知道會不會是很沒有道理開發模式。
 這是篇是今晚的筆記，雖然內容不多，但在精神不濟的時刻，相信我更需要做點筆記。:p</p>
 
-<h2 id="toc_73">Adding a new system call</h2>
+<h2 id="toc_127">Adding a new system call</h2>
 
 <p>There are already many tutorials that explain how to add system calls to the
 kernel. The ones I read are <a href="http://140.120.13.13/%7Es9356048/OSLab/">the tutorial from Advance Defence Lab</a> in
@@ -567,7 +742,7 @@ module」或許聽起來很嚇人，但其實不難入門。當然真正難的�
 ，大概了解一下狀況，後來參考 The Linux Kernel Module
 Programming Guide <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">2</a> 寫了一個簡單的 hello world 模組。</p>
 
-<h2 id="toc_74">Exposing the system call table</h2>
+<h2 id="toc_128">Exposing the system call table</h2>
 
 <p>Even though starting from 2.6, the kernel no longer exposes <code>sys_call_table</code> to
 modules, there are probably techniques you can use <a href="http://www.epanastasi.com/?page_id=52">exploits</a> to find it. On
@@ -599,7 +774,7 @@ make sure you also have the following in your kernel <code>.config</code> file.<
 </pre></td><td class='code'><pre><code class='c'><span class='line'><span class="n">CONFIG_DEBUG_RODATA</span><span class="o">=</span><span class="n">n</span>
 </span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_75">System call hooking</h2>
+<h2 id="toc_129">System call hooking</h2>
 
 <p>Finally, the actual syscall hooking process is done in a kernel module with the
 following code:</p>
@@ -625,7 +800,7 @@ on system call hooking can be found on <a href="http://www.linuxjournal.com/arti
 結束前呼叫備份的 original_sys_exit 便完成 hooking 的動作。詳細的 System call
 hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http://www.linuxjournal.com/article/4378">4</a>中找到。</p>
 
-<h2 id="toc_76">References</h2>
+<h2 id="toc_130">References</h2>
 
 <ol>
 <li><a href="http://140.120.13.13/%7Es9356048/OSLab/">http://140.120.13.13/~s9356048/OSLab/</a></li>
@@ -639,7 +814,7 @@ hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http:/
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Debugging with QEMU and kgdb]]></title>
     <link href="http://joseph.nlpweb.org/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/"/>
-    <updated>2011-10-17T07:49:00-04:00</updated>
+    <updated>2011-10-17T07:49:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb</id>
     <content type="html"><![CDATA[<p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
 the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and
@@ -658,7 +833,7 @@ complete operating system is needed.</p>
 <p>網路上許多 kgdb 的教學都是拿編好的 kernel image 搭配 busybox 來載入 QEMU
 開機，但這次學校作業內容包含執行 Firefox，所以需要跑在一個較完整的作業系統上。</p>
 
-<h2 id="toc_69">Setup QEMU VM</h2>
+<h2 id="toc_123">Setup QEMU VM</h2>
 
 <p>First, we need to create a HDD image with <code>qemu-img</code>:</p>
 
@@ -725,7 +900,7 @@ Windows 裝置命名習慣（C代表硬碟開機、D代表光碟、A/B代表軟�
 </span><span class='line'>            // tunnel port 2222 to VM<span class="err">&#39;</span>s port 22 <span class="k">for </span>remote ssh
 </span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_70">Compiling the Kernel</h2>
+<h2 id="toc_124">Compiling the Kernel</h2>
 
 <p>I&#39;m not really going to explain the process of compiling the Linux kernel, but
 if you use the <code>.config</code> file from Debian kernel packages, its pretty difficult
@@ -774,7 +949,7 @@ will have produced three files that you will need in next step, they are <code>i
 / mkinitramfs
 的參數。做到這裡，你會產生三個接下來會用到的檔案：initrd-2.6.32、vmlinux、arch/i386/boot/bzImage。</p>
 
-<h2 id="toc_71">Connecting gdb to the Linux kernel</h2>
+<h2 id="toc_125">Connecting gdb to the Linux kernel</h2>
 
 <p>In the last step, we will use QEMU&#39;s built-in boot loader instead of grub, and setup the required kernel parameters for KGDB:</p>
 
@@ -812,7 +987,7 @@ bizkit@tw, on Flickr"><img
 src="http://farm5.staticflickr.com/4153/5184827612_2e77a093f1_z.jpg"
 width="575" height="584" alt="Picture 6"></a></p>
 
-<h2 id="toc_72">Debugging with KGDB</h2>
+<h2 id="toc_126">Debugging with KGDB</h2>
 
 <p>Once connected your VM will continue booting and stop only if you have setup
 some break points. You can then use <code>l</code> to view currently running kernel
@@ -849,7 +1024,7 @@ stub，讓執行到該位置時開始 debug 程序。對於 kgdb / gdb
   <entry>
     <title type="html"><![CDATA[Introducing 0xbench]]></title>
     <link href="http://joseph.nlpweb.org/blog/2011/08/13/introducing-0xbench/"/>
-    <updated>2011-08-13T21:38:00-04:00</updated>
+    <updated>2011-08-13T21:38:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2011/08/13/introducing-0xbench</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/bizkit/4898571830/"
 title="4898520412_4f9ba92569_b by bizkit@tw, on Flickr"><img
@@ -889,7 +1064,7 @@ to 0xBenchWeb.</p>
   <entry>
     <title type="html"><![CDATA[Commend Line Android Development with VIM and Eclim]]></title>
     <link href="http://joseph.nlpweb.org/blog/2011/08/04/cli-android-dev/"/>
-    <updated>2011-08-04T21:05:00-04:00</updated>
+    <updated>2011-08-04T21:05:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2011/08/04/cli-android-dev</id>
     <content type="html"><![CDATA[<p>Eclipse is slow, especially on Macs. Plus, I&#39;ve never really like IDEs very much.
 I&#39;ve always prefer to write my Android projects in the terminal with Vim.
@@ -899,7 +1074,7 @@ Here are some of the basics stuff about developing Android using CLI.</p>
 
 <p><a title="Flickr 上 bizkit@tw 的 Screen shot 2010-05-09 at 1.17.54 AM" href="http://www.flickr.com/photos/bizkit/4589099349/" target="_blank"><img src="http://farm5.static.flickr.com/4012/4589099349_6fa0f191d6_z_d.jpg" alt="Screen shot 2010-05-09 at 1.17.54 AM"></a></p>
 
-<h2 id="toc_67">The basics</h2>
+<h2 id="toc_121">The basics</h2>
 
 <p>Some useful commands&#8230;</p>
 
@@ -923,7 +1098,7 @@ Here are some of the basics stuff about developing Android using CLI.</p>
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>adb log</span></code></pre></td></tr></table></div></figure></p>
 
-<h2 id="toc_68">Eclim</h2>
+<h2 id="toc_122">Eclim</h2>
 
 <p>With <a href="http://www.eclim.org">Eclim</a> you can have most of the Eclipse functionalities inside your vim, 
 including code-completion and real-time validation. Eclim is basically Eclipse running in headless

@@ -4,11 +4,11 @@
   <title><![CDATA[Category: AI | Hi! I'm Joseph Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/ai/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-09-15T23:52:06-04:00</updated>
+  <updated>2016-10-19T07:14:57+09:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chang]]></name>
-    <email><![CDATA[josephcc /a/ cmu dot edu]]></email>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[A Hangman Game Solver based on Language Models]]></title>
     <link href="http://joseph.nlpweb.org/blog/2012/11/04/hangman/"/>
-    <updated>2012-11-04T21:14:00-05:00</updated>
+    <updated>2012-11-04T21:14:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2012/11/04/hangman</id>
     <content type="html"><![CDATA[<p>I&#39;ve recently wrote a program for solving sentence-based hangman game automatically. Here&#39;s a post
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
