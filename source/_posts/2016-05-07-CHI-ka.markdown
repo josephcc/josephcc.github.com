@@ -2,7 +2,7 @@
 layout: post
 title: "The Knowledge Accelorator"
 subtitle: "Big Picture Thinking in Small Pieces"
-date: 2016-05-07 08:00
+date: 2016-05-07 07:00
 comments: true
 toc: true
 lsi: true
@@ -30,7 +30,7 @@ Abstract
 ----------------------
 Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
 real  world  tasks  are  often  interdependent,requiring a big picture view of
-the difference pieces involved.Existing  crowdsourcing  approaches  that
+the difference pieces involved. Existing  crowdsourcing  approaches  that
 support  such  tasks -- ranging from Wikipedia to flash teams -- are
 bottleneckedby relying on a small number of individuals to maintain thebig
 picture.   In this paper,  we explore the idea that a computational system can

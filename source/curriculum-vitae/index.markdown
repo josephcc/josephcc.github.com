@@ -1,16 +1,18 @@
 ---
-layout: page
-title: "Curriculum Vitae"
-date: 2012-10-23 19:18
-comments: false
+layout: post
+title: "Resume"
+date: 2016-10-2 19:18
+comments: true
 sharing: false
+toc: true
+lsi: true
 footer: true
 toc: true
 ---
 
-<div style="float: right; position:relative; top: -110px; margin-bottom: -130px;">
-	<img src="/images/me.jpg" width="230">
-</div>
 
-Download the <a href="/curriculum-vitae/latex/cv.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">PDF Version</a>
+<a href="/curriculum-vitae/latex/cv.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">Download PDF</a>
+
+<iframe src="/curriculum-vitae/latex/cv.pdf" style='width: 100%; height: 600px; border: 1px darkgray solid;'/>
+
 
