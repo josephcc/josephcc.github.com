@@ -1,0 +1,81 @@
+---
+layout: post
+title: "The Knowledge Accelorator"
+subtitle: "Big Picture Thinking in Small Pieces"
+date: 2016-05-07 08:00
+comments: true
+toc: true
+lsi: true
+categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Information Retrieval']
+span: 6
+project: true
+---
+
+<img src="/images/projects/ka.png" style='width: 100%;'/>
+
+
+Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. CHI2016.
+
+***BEST PAPER NOMINATION***
+
+The Knowledge Accelerator uses crowdworkers to synthesize different
+information sources on the web in response to a query. We prototyped this
+system in order to explore crowdsourcing complex, high context tasks in a
+microtask enviornment.
+
+
+<!--more-->
+
+Abstract
+----------------------
+Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
+real  world  tasks  are  often  interdependent,requiring a big picture view of
+the difference pieces involved.Existing  crowdsourcing  approaches  that
+support  such  tasks -- ranging from Wikipedia to flash teams -- are
+bottleneckedby relying on a small number of individuals to maintain thebig
+picture.   In this paper,  we explore the idea that a computational system can
+scaffold an emerging interdependent,big picture view entirely through the small
+contributions ofindividuals, each of whom sees only a part of the whole.
+Toinvestigate the viability, strengths, and weaknesses of this approach we
+instantiate the idea in a prototype system for accomplishing  distributed
+information  synthesis  and  evaluateits output across a variety of topics.  We
+also contribute a setof design patterns that may be informative for other
+systemsaimed at supporting big picture thinking in small pieces.
+
+Demo
+----------------------
+
+Downloads
+----------------------
+
+Citation
+----------------------
+```
+Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
+The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
+In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.2858364
+```
+
+Bibtex
+----------------------
+```
+@inproceedings{Hahn:2016:KAB:2858036.2858364,
+ author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
+ title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
+ booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '16},
+ year = {2016},
+ isbn = {978-1-4503-3362-7},
+ location = {Santa Clara, California, USA},
+ pages = {2258--2270},
+ numpages = {13},
+ url = {http://doi.acm.org/10.1145/2858036.2858364},
+ doi = {10.1145/2858036.2858364},
+ acmid = {2858364},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {complex workflow, crowd work, crowdsourcing, design patterns, information synthesis},
+} 
+
+```

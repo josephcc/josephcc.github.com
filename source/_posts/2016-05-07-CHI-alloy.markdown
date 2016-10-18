@@ -1,0 +1,77 @@
+---
+layout: post
+title: "Alloy"
+subtitle: "Clustering with Crowds and Computation"
+date: 2016-05-07 08:00
+comments: true
+toc: true
+lsi: true
+categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Machine Learning']
+span: 6
+project: true
+---
+
+<img src="/images/projects/alloy.png" style='width: 100%;'/>
+
+
+Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. CHI2016.
+
+***BEST PAPER NOMINATION***
+
+Alloy is a crowd clustering pipeline that combines the deep semantic knowledge
+from human computation and the scalability of machine learning models to create
+rich structures from unorganized documents with high quality and efficiency.
+
+
+<!--more-->
+
+Abstract
+----------------------
+Crowdsourced clustering approaches present a promising way to harness deep
+semantic knowledge for clustering complex information. However, existing
+approaches have difficulties supporting the global context needed for workers
+to generate meaningful categories, and are costly because all items require
+human judgments. We introduce Alloy, a hybrid approach that combines the
+richness of human judgments with the power of machine algorithms. Alloy
+supports greater global context through a new *sample and search*
+crowd pattern which changes the crowd's task from classifying a fixed subset of
+items to actively sampling and querying the entire dataset.  It also improves
+efficiency through a two phase process in which crowds provide examples to help
+a machine cluster the head of the distribution, then classify low-confidence
+examples in the tail. To accomplish this, Alloy introduces a modular
+*cast and gather* approach which leverages a machine learning backbone
+to stitch together different types of judgment tasks.
+
+Downloads
+----------------------
+
+Citation
+----------------------
+```
+Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
+Alloy: Clustering with Crowds and Computation.
+In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.2858411
+```
+
+Bibtex
+----------------------
+```
+@inproceedings{Chang:2016:ACC:2858036.2858411,
+ author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
+ title = {Alloy: Clustering with Crowds and Computation},
+ booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '16},
+ year = {2016},
+ isbn = {978-1-4503-3362-7},
+ location = {Santa Clara, California, USA},
+ pages = {3180--3191},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2858036.2858411},
+ doi = {10.1145/2858036.2858411},
+ acmid = {2858411},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {computer supported cooperative work (CSCW), database access / informationretrieval, empirical methods, quantitative, worldwide web and hypermedia},
+} 
+```

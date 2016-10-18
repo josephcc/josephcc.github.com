@@ -18,14 +18,16 @@ layout: default
     {% assign index = true %}
     {% for post in paginator.posts %}
     {% assign content = post.content %}
-    {% if post.span %}
-    <article class="span{{ post.span }}">
-        {% include article.html %}
-      </article>
-    {% else %}
-      <article class="span4">
-        {% include article.html %}
-      </article>
+    {% if post.project %}
+      {% if post.span %}
+      <article class="span{{ post.span }}">
+          {% include article.html %}
+        </article>
+      {% else %}
+        <article class="span4">
+          {% include article.html %}
+        </article>
+      {% endif %}
     {% endif %}
     {% endfor %}
     </div>
