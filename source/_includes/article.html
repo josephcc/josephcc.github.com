@@ -5,7 +5,7 @@
       <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px;'><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
       <h1 class="entry-title" style='font-size: 1.4em; margin-bottom: 20px;'>{{post.subtitle}}</h1>
     {% else %}
-      <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px;'>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+      <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
       <h1 class="entry-title" style='font-size: 1.4em; margin-bottom: 20px;'>{{page.subtitle}}</h1>
     {% endif %}
   </header>

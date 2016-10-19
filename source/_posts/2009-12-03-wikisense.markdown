@@ -12,9 +12,7 @@ project: true
 ---
 
 
-Joseph Chee Chang, Richard Tsai, and Jason S. Chang.
-
-***PACLIC 2009***
+Joseph Chee Chang, Richard Tsai, and Jason S. Chang. ***PACLIC 2009.***
 
 
 We introduced a method for classifying named-entities into broad semantic

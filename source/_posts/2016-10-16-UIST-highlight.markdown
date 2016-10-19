@@ -14,9 +14,7 @@ project: true
 <img src="/images/projects/highlight.png" style='width: 100%;'/>
 
 
-Joseph Chee Chang, Nathan Hahn, and Aniket Kittur.
-
-***UIST 2016***
+Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. ***UIST 2016.***
 
 We introduce the idea of intentionally uncertain input in the context of
 highlighting. We introduced a system that uses force touch and fuzzy

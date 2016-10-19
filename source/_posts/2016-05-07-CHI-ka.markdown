@@ -14,9 +14,9 @@ project: true
 <img src="/images/projects/ka.png" style='width: 100%;'/>
 
 
-Nathan Hahn, Joseph Chee Chang, and Aniket Kittur.
+Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. ***CHI 2016.***
 
-***CHI 2016 BEST PAPER NOMINATION***
+***BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i>***
 
 The Knowledge Accelerator uses crowdworkers to synthesize different
 information sources on the web in response to a query. We prototyped this
