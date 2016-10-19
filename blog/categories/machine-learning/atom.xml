@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Machine Learning | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-10-19T08:28:21+09:00</updated>
+  <updated>2016-10-19T09:36:35+09:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -20,9 +20,9 @@
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/alloy.png" style='width: 100%;'/></p>
 
-<p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn.</p>
+<p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. <strong><em>CHI 2016.</em></strong></p>
 
-<p><strong><em>CHI 2016 BEST PAPER NOMINATION</em></strong></p>
+<p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong></p>
 
 <p>Alloy is a crowd clustering pipeline that combines the deep semantic knowledge
 from human computation and the scalability of machine learning models to create
@@ -85,9 +85,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
     <link href="http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine/"/>
     <updated>2012-07-08T08:00:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine</id>
-    <content type="html"><![CDATA[<p>Joseph Chee Chang, Jason S. Chang, and Roger Jang.</p>
-
-<p><strong><em>ACL 2012</em></strong></p>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Jason S. Chang, and Roger Jang. <strong><em>ACL 2012.</em></strong></p>
 
 <p>TermMine is an information extraction system that can automatically mine
 translation pairs of terms from the web. We used a small set of terms and
@@ -140,9 +138,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
     <link href="http://joseph.nlpweb.org/blog/2009/12/03/wikisense/"/>
     <updated>2009-12-03T08:00:00+09:00</updated>
     <id>http://joseph.nlpweb.org/blog/2009/12/03/wikisense</id>
-    <content type="html"><![CDATA[<p>Joseph Chee Chang, Richard Tsai, and Jason S. Chang.</p>
-
-<p><strong><em>PACLIC 2009</em></strong></p>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Richard Tsai, and Jason S. Chang. <strong><em>PACLIC 2009.</em></strong></p>
 
 <p>We introduced a method for classifying named-entities into broad semantic
 categories in WordNet. We extracted rich features from Wikipedia, allowing us
