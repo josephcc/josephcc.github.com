@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Machine Learning | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-10-19T10:43:45+09:00</updated>
+  <updated>2016-10-24T02:37:50+09:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -30,7 +30,7 @@ rich structures from unorganized documents with high quality and efficiency.</p>
 
 <!--more-->
 
-<h2 id="toc_30">Abstract</h2>
+<h2 id="toc_32">Abstract</h2>
 
 <p>Crowdsourced clustering approaches present a promising way to harness deep
 semantic knowledge for clustering complex information. However, existing
@@ -47,9 +47,13 @@ examples in the tail. To accomplish this, Alloy introduces a modular
 <em>cast and gather</em> approach which leverages a machine learning backbone
 to stitch together different types of judgment tasks.</p>
 
-<h2 id="toc_31">Downloads</h2>
+<h2 id="toc_33">Downloads</h2>
 
-<h2 id="toc_32">Citation</h2>
+<p><a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" role="button">ACM DL</a>
+<a class="btn btn-default" href="#" role="button">ArXiv (coming soon)</a></p>
+
+<h2 id="toc_34">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
 Alloy: Clustering with Crowds and Computation.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -57,7 +61,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 </code></pre>
 </div>
 
-<h2 id="toc_33">Bibtex</h2>
+<h2 id="toc_35">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:ACC:2858036.2858411,
  author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
  title = {Alloy: Clustering with Crowds and Computation},
@@ -94,7 +98,7 @@ can identify translation pairs at run-time.</p>
 
 <!--more-->
 
-<h2 id="toc_34">Abstract</h2>
+<h2 id="toc_36">Abstract</h2>
 
 <p>In this paper, we present a new method for learning to finding translations and
 transliterations on the Web for a given term. The approach involves using a
@@ -105,7 +109,13 @@ extracting translation candidates for a given term. Preliminary experiments and
 evaluation show our method cleanly combining various features, resulting in a
 system that outperforms previous work.</p>
 
-<h2 id="toc_35">Citation</h2>
+<h2 id="toc_37">Download</h2>
+
+<p><a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
+<a class="btn btn-default" href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb DL</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM DL</a></p>
+
+<h2 id="toc_38">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
 Learning to find translations and transliterations on the web.
 In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL &#39;12), Vol. 2.
@@ -113,7 +123,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
 </code></pre>
 </div>
 
-<h2 id="toc_36">Bibtex</h2>
+<h2 id="toc_39">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2012:LFT:2390665.2390698,
  author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
  title = {Learning to Find Translations and Transliterations on the Web},
@@ -148,7 +158,7 @@ large scale named-entity semantic database with 1.2 million entries and over
 
 <!--more-->
 
-<h2 id="toc_37">Abstract</h2>
+<h2 id="toc_40">Abstract</h2>
 
 <p>In this paper, we introduce a minimally supervised method for learning to
 classify named-entity titles in a given encyclopedia into broad semantic
@@ -167,7 +177,7 @@ categories, based on the lexicographers’ files of WordNet, effectively
 extending WordNet to form a very large scale semantic category, a potentially
 useful resource for many natural language related tasks.</p>
 
-<h2 id="toc_38">Demo</h2>
+<h2 id="toc_41">Demo</h2>
 <div class="highlight"><pre><code class="text">WikiID    Supersense     PE          NE                                   Note
 ----------------------------------------------------------------------------------------------
 11983070  person         None        Johnny Cash                          singer
@@ -196,9 +206,13 @@ useful resource for many natural language related tasks.</p>
 
 <p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
 
-<h2 id="toc_39">Download</h2>
+<h2 id="toc_42">Download</h2>
 
-<h2 id="toc_40">Citation</h2>
+<p><a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
+<a class="btn btn-default" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb DL</a>
+<a class="btn btn-default" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset</a></p>
+
+<h2 id="toc_43">Citation</h2>
 <div class="highlight"><pre><code class="text">Chang, J., Tsai, R. T.-H., &amp; Chang, J. S. (2009).
 WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
 In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
@@ -206,7 +220,7 @@ Hong Kong, China.
 </code></pre>
 </div>
 
-<h2 id="toc_41">Bibtex</h2>
+<h2 id="toc_44">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang-EtAl:2009:PACLIC2009,
   author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
   title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},

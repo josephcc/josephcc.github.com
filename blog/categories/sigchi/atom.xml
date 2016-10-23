@@ -4,7 +4,7 @@
   <title><![CDATA[Category: SIGCHI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/sigchi/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-10-19T10:43:45+09:00</updated>
+  <updated>2016-10-24T02:37:50+09:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -30,7 +30,7 @@ rich structures from unorganized documents with high quality and efficiency.</p>
 
 <!--more-->
 
-<h2 id="toc_106">Abstract</h2>
+<h2 id="toc_111">Abstract</h2>
 
 <p>Crowdsourced clustering approaches present a promising way to harness deep
 semantic knowledge for clustering complex information. However, existing
@@ -47,9 +47,13 @@ examples in the tail. To accomplish this, Alloy introduces a modular
 <em>cast and gather</em> approach which leverages a machine learning backbone
 to stitch together different types of judgment tasks.</p>
 
-<h2 id="toc_107">Downloads</h2>
+<h2 id="toc_112">Downloads</h2>
 
-<h2 id="toc_108">Citation</h2>
+<p><a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" role="button">ACM DL</a>
+<a class="btn btn-default" href="#" role="button">ArXiv (coming soon)</a></p>
+
+<h2 id="toc_113">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
 Alloy: Clustering with Crowds and Computation.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -57,7 +61,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 </code></pre>
 </div>
 
-<h2 id="toc_109">Bibtex</h2>
+<h2 id="toc_114">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:ACC:2858036.2858411,
  author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
  title = {Alloy: Clustering with Crowds and Computation},
@@ -98,7 +102,7 @@ microtask enviornment.</p>
 
 <!--more-->
 
-<h2 id="toc_110">Abstract</h2>
+<h2 id="toc_115">Abstract</h2>
 
 <p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
 real  world  tasks  are  often  interdependent,requiring a big picture view of
@@ -114,11 +118,15 @@ information  synthesis  and  evaluateits output across a variety of topics.  We
 also contribute a setof design patterns that may be informative for other
 systemsaimed at supporting big picture thinking in small pieces.</p>
 
-<h2 id="toc_111">Demo</h2>
+<h2 id="toc_116">Demo</h2>
 
-<h2 id="toc_112">Downloads</h2>
+<h2 id="toc_117">Downloads</h2>
 
-<h2 id="toc_113">Citation</h2>
+<p><a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" role="button">ACM DL</a>
+<a class="btn btn-default" href="#" role="button">ArXiv (coming soon)</a></p>
+
+<h2 id="toc_118">Citation</h2>
 <div class="highlight"><pre><code class="text">Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
 The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -126,7 +134,7 @@ ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.285836
 </code></pre>
 </div>
 
-<h2 id="toc_114">Bibtex</h2>
+<h2 id="toc_119">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Hahn:2016:KAB:2858036.2858364,
  author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
  title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
