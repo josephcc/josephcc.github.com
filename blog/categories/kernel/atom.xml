@@ -4,7 +4,7 @@
   <title><![CDATA[Category: kernel | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/kernel/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-10-24T02:37:50+09:00</updated>
+  <updated>2016-10-23T20:47:41-07:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Module debugging with gdb]]></title>
     <link href="http://joseph.nlpweb.org/blog/2011/12/05/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
-    <updated>2011-12-05T21:12:00+09:00</updated>
+    <updated>2011-12-05T21:12:00-08:00</updated>
     <id>http://joseph.nlpweb.org/blog/2011/12/05/linux-kernel-dev-module-debugging-gdb-kdgb</id>
     <content type="html"><![CDATA[<p>This is post continues my previous post on 
 <a href="http://joseph.nlpweb.org/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
@@ -80,7 +80,7 @@ height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Hooking System Calls on 2.6+]]></title>
     <link href="http://joseph.nlpweb.org/blog/2011/10/23/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
-    <updated>2011-10-23T22:03:00+09:00</updated>
+    <updated>2011-10-23T22:03:00-07:00</updated>
     <id>http://joseph.nlpweb.org/blog/2011/10/23/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
     <content type="html"><![CDATA[<p>This post explains how to add, or override, system calls by loading custom
 kernel modules using system call hooking techniques. This
@@ -213,7 +213,7 @@ hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http:/
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Debugging with QEMU and kgdb]]></title>
     <link href="http://joseph.nlpweb.org/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/"/>
-    <updated>2011-10-17T07:49:00+09:00</updated>
+    <updated>2011-10-17T07:49:00-07:00</updated>
     <id>http://joseph.nlpweb.org/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb</id>
     <content type="html"><![CDATA[<p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
 the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and

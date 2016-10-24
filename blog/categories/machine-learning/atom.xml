@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Machine Learning | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-10-24T02:37:50+09:00</updated>
+  <updated>2016-10-23T20:47:41-07:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,13 +16,15 @@
   <entry>
     <title type="html"><![CDATA[Alloy]]></title>
     <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/"/>
-    <updated>2016-05-07T08:00:00+09:00</updated>
+    <updated>2016-05-07T08:00:00-07:00</updated>
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/alloy.png" style='width: 100%;'/></p>
 
 <p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. <strong><em>CHI 2016.</em></strong></p>
 
 <p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong></p>
+
+<p><strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong></p>
 
 <p>Alloy is a crowd clustering pipeline that combines the deep semantic knowledge
 from human computation and the scalability of machine learning models to create
@@ -87,7 +89,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
   <entry>
     <title type="html"><![CDATA[TermMine]]></title>
     <link href="http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine/"/>
-    <updated>2012-07-08T08:00:00+09:00</updated>
+    <updated>2012-07-08T08:00:00-07:00</updated>
     <id>http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine</id>
     <content type="html"><![CDATA[<p>Joseph Chee Chang, Jason S. Chang, and Roger Jang. <strong><em>ACL 2012.</em></strong></p>
 
@@ -146,7 +148,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
   <entry>
     <title type="html"><![CDATA[WikiSense]]></title>
     <link href="http://joseph.nlpweb.org/blog/2009/12/03/wikisense/"/>
-    <updated>2009-12-03T08:00:00+09:00</updated>
+    <updated>2009-12-03T08:00:00-08:00</updated>
     <id>http://joseph.nlpweb.org/blog/2009/12/03/wikisense</id>
     <content type="html"><![CDATA[<p>Joseph Chee Chang, Richard Tsai, and Jason S. Chang. <strong><em>PACLIC 2009.</em></strong></p>
 
