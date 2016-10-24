@@ -4,7 +4,7 @@
   <title><![CDATA[Category: HCI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/hci/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-10-23T20:47:41-07:00</updated>
+  <updated>2016-10-23T20:48:40-07:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -100,9 +100,9 @@ ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
 
 <p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. <strong><em>CHI 2016.</em></strong></p>
 
-<p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong></p>
-
-<p><strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong></p>
+<p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong>
+<br/>
+<strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong></p>
 
 <p>Alloy is a crowd clustering pipeline that combines the deep semantic knowledge
 from human computation and the scalability of machine learning models to create
