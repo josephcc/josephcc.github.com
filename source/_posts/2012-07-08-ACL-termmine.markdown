@@ -32,6 +32,12 @@ extracting translation candidates for a given term. Preliminary experiments and
 evaluation show our method cleanly combining various features, resulting in a
 system that outperforms previous work.
 
+Download
+----------------------
+<a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
+<a class="btn btn-default" href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb DL</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM DL</a>
+
 Citation
 ----------------------
 

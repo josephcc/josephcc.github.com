@@ -48,6 +48,12 @@ Demo
 ----------------------
 <iframe width="853" height="480" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
 
+Downloads
+----------------------
+<a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" role="button">ACM DL</a>
+<a class="btn btn-default" href="#" role="button">ArXiv (coming soon)</a>
+
 Citation
 ----------------------
 ```
