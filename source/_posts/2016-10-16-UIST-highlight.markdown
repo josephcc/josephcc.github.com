@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spotlight"
+title: "Uncertain Input"
 subtitle: "Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting"
 date: 2016-10-16 08:00
 comments: true
