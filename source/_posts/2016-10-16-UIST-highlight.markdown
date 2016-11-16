@@ -51,9 +51,8 @@ Demo
 
 Downloads
 ----------------------
-<a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
-<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" role="button">ACM DL</a>
-<a class="btn btn-default" href="#" role="button">ArXiv (coming soon)</a>
+<a class="btn btn-default" href="/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a>
 
 Citation
 ----------------------

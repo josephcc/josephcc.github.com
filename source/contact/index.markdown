@@ -84,3 +84,8 @@ toc: true
 <div>
   {% include custom/asides/recent_activities.html %}
 </div>
+
+
+<div>
+  {% include custom/asides/random.html %}
+</div>

@@ -35,9 +35,8 @@ system that outperforms previous work.
 
 Download
 ----------------------
-<a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
-<a class="btn btn-default" href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb DL</a>
-<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM DL</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a>
 
 Citation
 ----------------------

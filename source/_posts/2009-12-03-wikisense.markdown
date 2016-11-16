@@ -76,9 +76,8 @@ PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedi
 
 Download
 ----------------------
-<a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
-<a class="btn btn-default" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb DL</a>
-<a class="btn btn-default" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a>
 
 
 Citation
