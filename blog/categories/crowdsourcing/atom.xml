@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Crowdsourcing | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/crowdsourcing/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-11-10T14:42:58-05:00</updated>
+  <updated>2016-11-16T15:12:33-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -51,9 +51,8 @@ to stitch together different types of judgment tasks.</p>
 
 <h2 id="toc_135">Downloads</h2>
 
-<p><a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
-<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" role="button">ACM DL</a>
-<a class="btn btn-default" href="#" role="button">ArXiv (coming soon)</a></p>
+<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_136">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
@@ -124,9 +123,8 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
 
 <h2 id="toc_140">Downloads</h2>
 
-<p><a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
-<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" role="button">ACM DL</a>
-<a class="btn btn-default" href="#" role="button">ArXiv (coming soon)</a></p>
+<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_141">Citation</h2>
 <div class="highlight"><pre><code class="text">Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.

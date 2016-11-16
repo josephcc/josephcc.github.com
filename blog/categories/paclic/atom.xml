@@ -4,7 +4,7 @@
   <title><![CDATA[Category: PACLIC | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/paclic/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-11-10T14:42:58-05:00</updated>
+  <updated>2016-11-16T15:12:33-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -78,9 +78,8 @@ useful resource for many natural language related tasks.</p>
 
 <h2 id="toc_2">Download</h2>
 
-<p><a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
-<a class="btn btn-default" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb DL</a>
-<a class="btn btn-default" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset</a></p>
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a></p>
 
 <h2 id="toc_3">Citation</h2>
 <div class="highlight"><pre><code class="text">Chang, J., Tsai, R. T.-H., &amp; Chang, J. S. (2009).

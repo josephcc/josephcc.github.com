@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Translation | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/translation/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-11-10T14:42:58-05:00</updated>
+  <updated>2016-11-16T15:12:33-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -40,9 +40,8 @@ system that outperforms previous work.</p>
 
 <h2 id="toc_72">Download</h2>
 
-<p><a class="btn btn-default" href="#" role="button">PDF DL (coming soon)</a>
-<a class="btn btn-default" href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb DL</a>
-<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM DL</a></p>
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_73">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
