@@ -2,6 +2,7 @@
 layout: post
 title: "TermMine"
 subtitle: "Learning to Find Translations and Transliterations on the Web"
+seotitle: "TermMine: Learning to Find Translations and Transliterations on the Web (ACL 2012)"
 date: 2012-07-08 08:00
 comments: true
 toc: true

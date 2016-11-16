@@ -8,11 +8,13 @@ lsi: true
 toc: true
 ---
 
+
+
 <div class="container">
   <div class="row">
 
     <div class="span4">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.438436758169!2d-79.9478020846526!3d40.44343206193902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f2216b3de60b%3A0x9dc3e7773e241828!2sNewell-Simon+Hall!5e0!3m2!1sen!2sjp!4v1476838644630" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.438436758169!2d-79.9478020846526!3d40.44343206193902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f2216b3de60b%3A0x9dc3e7773e241828!2sNewell-Simon+Hall!5e0!3m2!1sen!2sjp!4v1476838644630" width="400" height="300" frameborder="0" style="width: 100%; border:0" allowfullscreen></iframe>
     </div>
 
     <div class="span8">
@@ -82,4 +84,3 @@ toc: true
 <div>
   {% include custom/asides/recent_activities.html %}
 </div>
-

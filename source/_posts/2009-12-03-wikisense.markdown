@@ -2,6 +2,7 @@
 layout: post
 title: "WikiSense"
 subtitle: "Supersense Tagging Named Entities on Wikipedia"
+seotitle: "WikiSense: Supersense Tagging Named Entities on Wikipedia"
 date: 2009-12-03 08:00
 comments: true
 toc: true

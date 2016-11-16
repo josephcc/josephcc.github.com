@@ -2,6 +2,7 @@
 layout: post
 title: "Alloy"
 subtitle: "Clustering with Crowds and Computation"
+seotitle: "Alloy: Clustering with Crowds and Computation (CHI 2016)"
 date: 2016-05-07 08:00
 comments: true
 toc: true

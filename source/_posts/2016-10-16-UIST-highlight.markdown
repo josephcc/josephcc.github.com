@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Uncertain Input"
+title: "Intentionally Uncertain Input"
 subtitle: "Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting"
+seotitle: "Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting (UIST 2016)"
 date: 2016-10-16 08:00
 comments: true
 toc: true
