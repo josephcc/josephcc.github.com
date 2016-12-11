@@ -45,9 +45,13 @@ information in an intentionally uncertain way on mobile devices. In a two part
 user study we find that this approach reduced selection time and was preferred
 by participants over the default system text selection method.
 
+Presentation (UIST 2016)
+----------------------
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
+
 Demo
 ----------------------
-<iframe width="853" height="480" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Downloads
 ----------------------
