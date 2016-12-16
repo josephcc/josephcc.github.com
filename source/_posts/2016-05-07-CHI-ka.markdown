@@ -19,10 +19,12 @@ Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. ***CHI 2016.***
 
 ***BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i>***
 
-The Knowledge Accelerator uses crowdworkers to synthesize different
+People often search to web to find solutions to problems beyond factual
+question, such as planning road trips, writing an report, or buying a new
+camera.  The Knowledge Accelerator uses crowdworkers to synthesize different
 information sources on the web in response to a query. We prototyped this
 system in order to explore crowdsourcing complex, high context tasks in a
-microtask enviornment.
+microtask environment.
 
 
 <!--more-->
