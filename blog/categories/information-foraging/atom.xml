@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Information Foraging | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/information-foraging/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-12-11T15:40:06-05:00</updated>
+  <updated>2016-12-16T16:37:33-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -22,10 +22,11 @@
 
 <p>Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. <strong><em>UIST 2016.</em></strong></p>
 
-<p>We introduce the idea of intentionally uncertain input in the context of
-highlighting. We introduced a system that uses force touch and fuzzy
-bounding boxes to support saving information while users are uncertain about
-where to highlight.</p>
+<p>Highlighting can be mentally taxing for learners who are often unsure about how
+much information they needed to include.  We introduce the idea of
+intentionally uncertain input in the context of highlighting on mobile devices.
+We present a system that uses force touch and fuzzy bounding boxes to support
+saving information while users are uncertain about where to highlight.</p>
 
 <!--more-->
 
@@ -105,10 +106,12 @@ ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
 
 <p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong></p>
 
-<p>The Knowledge Accelerator uses crowdworkers to synthesize different
+<p>People often search to web to find solutions to problems beyond factual
+question, such as planning road trips, writing an report, or buying a new
+camera.  The Knowledge Accelerator uses crowdworkers to synthesize different
 information sources on the web in response to a query. We prototyped this
 system in order to explore crowdsourcing complex, high context tasks in a
-microtask enviornment.</p>
+microtask environment.</p>
 
 <!--more-->
 

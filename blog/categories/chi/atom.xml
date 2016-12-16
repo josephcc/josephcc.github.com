@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: CHI | Joseph Chee Chang]]></title>
+  <link href="http://joseph.nlpweb.org/blog/categories/chi/atom.xml" rel="self"/>
+  <link href="http://joseph.nlpweb.org/"/>
+  <updated>2016-12-16T16:37:33-05:00</updated>
+  <id>http://joseph.nlpweb.org/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Revolt]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt/"/>
+    <updated>2017-05-06T08:00:00-04:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 100%;'/></p>
+
+<p>Joseph Chee Chang, Saleema Amershi, Ece Kamar. <strong><em>coming soon..</em></strong></p>
+
+<p>Generating comprehensive labeling guidelines for crowdworkers can be
+chellenging for complex datasets.  Revolt harnesses crowdworker disagreements
+to identify ambiguous concepts in the data and coordinates the crowd to
+collaboratively create rich structures for requesters to make post-hoc
+decisions, removing the need for comprehensive guidelines and
+enabling dynamic label boundaries.</p>
+]]></content>
+  </entry>
+  
+</feed>

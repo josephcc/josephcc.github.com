@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Crowdsourcing | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/crowdsourcing/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-12-11T15:40:06-05:00</updated>
+  <updated>2016-12-16T16:37:33-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Revolt]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt/"/>
+    <updated>2017-05-06T08:00:00-04:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 100%;'/></p>
+
+<p>Joseph Chee Chang, Saleema Amershi, Ece Kamar. <strong><em>coming soon..</em></strong></p>
+
+<p>Generating comprehensive labeling guidelines for crowdworkers can be
+chellenging for complex datasets.  Revolt harnesses crowdworker disagreements
+to identify ambiguous concepts in the data and coordinates the crowd to
+collaboratively create rich structures for requesters to make post-hoc
+decisions, removing the need for comprehensive guidelines and
+enabling dynamic label boundaries.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Alloy]]></title>
@@ -26,9 +44,12 @@
 <br/>
 <strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong></p>
 
-<p>Alloy is a crowd clustering pipeline that combines the deep semantic knowledge
-from human computation and the scalability of machine learning models to create
-rich structures from unorganized documents with high quality and efficiency.</p>
+<p>Many crowd clustering approaches have difficulties providing global context to
+workers in order to generate meaningful categories.  Alloy uses a
+<em>sample-and-search</em> technique to provide global context, and
+combines the deep semantic knowledge from human computation and the scalability
+of machine learning models to create rich structures from unorganized documents
+with high quality and efficiency.</p>
 
 <!--more-->
 
@@ -96,10 +117,12 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 
 <p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong></p>
 
-<p>The Knowledge Accelerator uses crowdworkers to synthesize different
+<p>People often search to web to find solutions to problems beyond factual
+question, such as planning road trips, writing an report, or buying a new
+camera.  The Knowledge Accelerator uses crowdworkers to synthesize different
 information sources on the web in response to a query. We prototyped this
 system in order to explore crowdsourcing complex, high context tasks in a
-microtask enviornment.</p>
+microtask environment.</p>
 
 <!--more-->
 

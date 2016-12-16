@@ -4,7 +4,7 @@
   <title><![CDATA[Category: UIST | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/uist/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2016-12-11T15:40:06-05:00</updated>
+  <updated>2016-12-16T16:37:33-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -22,10 +22,11 @@
 
 <p>Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. <strong><em>UIST 2016.</em></strong></p>
 
-<p>We introduce the idea of intentionally uncertain input in the context of
-highlighting. We introduced a system that uses force touch and fuzzy
-bounding boxes to support saving information while users are uncertain about
-where to highlight.</p>
+<p>Highlighting can be mentally taxing for learners who are often unsure about how
+much information they needed to include.  We introduce the idea of
+intentionally uncertain input in the context of highlighting on mobile devices.
+We present a system that uses force touch and fuzzy bounding boxes to support
+saving information while users are uncertain about where to highlight.</p>
 
 <!--more-->
 
