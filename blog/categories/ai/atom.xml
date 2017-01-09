@@ -4,7 +4,7 @@
   <title><![CDATA[Category: AI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/ai/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2017-01-04T11:00:15-05:00</updated>
+  <updated>2017-01-08T23:28:25-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -22,7 +22,7 @@
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
 language model and hidden Markov model.</p>
 
-<h2 id="toc_75">The Hangman Game</h2>
+<h2 id="toc_76">The Hangman Game</h2>
 
 <p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
 game of hangman automatically. The rules are
@@ -50,7 +50,7 @@ likely to appear before the word <code>day</code>. In my attempt, I trained a
 <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model</a> to guess every word in the sentence
 simultaneously.</p>
 
-<h2 id="toc_76">Language Model</h2>
+<h2 id="toc_77">Language Model</h2>
 
 <p>I use the state-of-the-art <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> package to train my
 language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
@@ -77,7 +77,7 @@ proposed to improve the performance of language models, including absolute disco
 Kneser-Ney smoothing. Formal definition of language model can be found on 
 <a href="http://en.wikipedia.org/wiki/Language_model">Wikipedia</a>.</p>
 
-<h2 id="toc_77">Hidden Markov Model</h2>
+<h2 id="toc_78">Hidden Markov Model</h2>
 
 <p>Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
 observations, state transition probability distribution, and emission probability distribution. For
@@ -100,7 +100,7 @@ Wikipedia pages <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">here<
 <a href="http://en.wikipedia.org/wiki/Viterbi_algorithm">here</a>, or in a slide I made when I was TA for a NLP course 
 <a href="http://hadoop.nlpweb.org/%7Ebizkit/lab3/vtb_example/">here</a> (in Chinese).</p>
 
-<h2 id="toc_78">Algorithm</h2>
+<h2 id="toc_79">Algorithm</h2>
 
 <p>It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
 Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
@@ -113,12 +113,12 @@ sequence that yield the highest language model probability and word frequencies.
 guess the letter that appears in most words. This process repeats until all characters are 
 revealed, and the number of failed guesses are recorded.</p>
 
-<h2 id="toc_79">Results</h2>
+<h2 id="toc_80">Results</h2>
 
 <p>Here are three examples and results. The interactive guessing progress and some internal states are
 shown in the three tables below.</p>
 
-<h3 id="toc_80">&quot;describe what is needed&quot;</h3>
+<h3 id="toc_81">&quot;describe what is needed&quot;</h3>
 
 <table><thead>
 <tr>
@@ -210,7 +210,7 @@ shown in the three tables below.</p>
 
 <p><br/></p>
 
-<h3 id="toc_81">&quot;an honor roll of online options&quot;</h3>
+<h3 id="toc_82">&quot;an honor roll of online options&quot;</h3>
 
 <table><thead>
 <tr>
@@ -275,7 +275,7 @@ shown in the three tables below.</p>
 <p>This one shows HMM produces different results as more characters are revealed.
 <br/></p>
 
-<h3 id="toc_82">&quot;members of the supreme court&quot;</h3>
+<h3 id="toc_83">&quot;members of the supreme court&quot;</h3>
 
 <table><thead>
 <tr>
@@ -318,7 +318,7 @@ shown in the three tables below.</p>
 
 <p>This last one really shows the power of language model. With only <code>e</code> revealed, the HMM process was able to guess the correct result.</p>
 
-<h2 id="toc_83">Improvements</h2>
+<h2 id="toc_84">Improvements</h2>
 
 <p>For stage one, instead of using just the highest frequency letters, conditional probability can also be
 a factor for choosing the next letter. For example, if <code>s</code> is revealed as the second to last character

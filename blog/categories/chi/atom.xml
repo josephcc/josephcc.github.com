@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CHI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/chi/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2017-01-04T11:00:15-05:00</updated>
+  <updated>2017-01-08T23:28:25-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -20,14 +20,39 @@
     <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 100%;'/></p>
 
-<p>Joseph Chee Chang, Saleema Amershi, Ece Kamar. <strong><em>coming soon..</em></strong></p>
+<p>Joseph Chee Chang, Saleema Amershi, Ece Kamar. <strong><em>to be published soon..</em></strong></p>
 
 <p>Generating comprehensive labeling guidelines for crowdworkers can be
-chellenging for complex datasets.  Revolt harnesses crowdworker disagreements
+challenging for complex datasets.  Revolt harnesses crowdworker disagreements
 to identify ambiguous concepts in the data and coordinates the crowd to
 collaboratively create rich structures for requesters to make post-hoc
 decisions, removing the need for comprehensive guidelines and
 enabling dynamic label boundaries.</p>
+
+<!--more-->
+
+<h2 id="toc_201">Abstract</h2>
+
+<p>Crowdsourcing provides a scalable and efficient way to construct labeled
+datasets for training machine learning systems. However, creating comprehensive
+label guidelines for crowdworkers is often prohibitive even for seemingly
+simple concepts. Incomplete or ambiguous label guidelines can then result in
+differing interpretations of concepts and inconsistent labels. Existing
+approaches for improving label quality, such as worker screening or detection
+of poor work, are ineffective for this problem and can lead to rejection of
+honest work and a missed opportunity to capture rich interpretations about
+data. We introduce Revolt, a collaborative approach that brings ideas from
+expert annotation workflows to crowd-based labeling. Revolt eliminates the
+burden of creating detailed label guidelines by harnessing crowd disagreements
+to identify ambiguous concepts and create rich structures (groups of
+semantically related items) for post-hoc label decisions. Experiments comparing
+Revolt to traditional crowdsourced labeling show that Revolt produces high
+quality labels without requiring label guidelines in turn for an increase in
+monetary cost. This up front cost, however, is mitigated by Revolt&#39;s ability to
+produce reusable structures that can accommodate a variety of label boundaries
+without requiring new data to be collected. Further comparisons of Revolt&#39;s
+collaborative and non-collaborative variants show that collaboration reaches
+higher label accuracy with lower monetary cost.</p>
 ]]></content>
   </entry>
   
