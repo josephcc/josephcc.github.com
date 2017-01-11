@@ -7,7 +7,7 @@ date: 2017-05-06 08:00
 comments: true
 toc: true
 lsi: true
-categories: ['CHI', 'SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Machine Learning']
+categories: ['CHI', 'SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Machine Learning', 'Classification', 'Labeling']
 span: 6
 project: true
 ---
@@ -53,8 +53,8 @@ higher label accuracy with lower monetary cost.
 
 Downloads
 ----------------------
-<a class="btn btn-default" href="/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
-<a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">(to appear) ACM Digital Library</a>
+<a class="btn btn-default" href="/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">(to appear) ACM Digital Library</a>
 
 Citation
 ----------------------

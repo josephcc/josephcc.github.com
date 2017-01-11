@@ -16,6 +16,7 @@ project: true
 
 
 Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. ***UIST 2016.***
+<br/><span style='color: gray'>rate=21%, N=384</span>
 
 Highlighting can be mentally taxing for learners who are often unsure about how
 much information they needed to include.  We introduce the idea of

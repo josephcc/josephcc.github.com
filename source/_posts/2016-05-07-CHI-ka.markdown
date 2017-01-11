@@ -16,6 +16,7 @@ project: true
 
 
 Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. ***CHI 2016.***
+<br/><span style='color: gray'>rate=23%, N=2,435</span>
 
 ***BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i>***
 

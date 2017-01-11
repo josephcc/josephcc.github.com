@@ -14,6 +14,7 @@ project: true
 
 
 Joseph Chee Chang, Jason S. Chang, and Roger Jang. ***ACL 2012.***
+<br/><span style='color: gray'>rate=21%, N=369</span>
 
 TermMine is an information extraction system that can automatically mine
 translation pairs of terms from the web. We used a small set of terms and
