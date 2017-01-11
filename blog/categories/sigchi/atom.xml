@@ -4,7 +4,7 @@
   <title><![CDATA[Category: SIGCHI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/sigchi/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2017-01-11T14:24:37-05:00</updated>
+  <updated>2017-01-11T14:53:47-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -91,7 +91,8 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/alloy.png" style='width: 100%;'/></p>
 
-<p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. <strong><em>CHI 2016.</em></strong></p>
+<p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. <strong><em>CHI 2016.</em></strong>
+<br/><span style='color: gray'>rate=23%, N=2,435</span></p>
 
 <p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong>
 <br/>
@@ -166,7 +167,8 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/ka.png" style='width: 100%;'/></p>
 
-<p>Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. <strong><em>CHI 2016.</em></strong></p>
+<p>Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. <strong><em>CHI 2016.</em></strong>
+<br/><span style='color: gray'>rate=23%, N=2,435</span></p>
 
 <p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong></p>
 
