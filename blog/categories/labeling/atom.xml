@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: CHI | Joseph Chee Chang]]></title>
-  <link href="http://joseph.nlpweb.org/blog/categories/chi/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Labeling | Joseph Chee Chang]]></title>
+  <link href="http://joseph.nlpweb.org/blog/categories/labeling/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
   <updated>2017-01-13T18:10:19-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
@@ -31,7 +31,7 @@ enabling dynamic label boundaries.</p>
 
 <!--more-->
 
-<h2 id="toc_216">Abstract</h2>
+<h2 id="toc_224">Abstract</h2>
 
 <p>Crowdsourcing provides a scalable and efficient way to construct labeled
 datasets for training machine learning systems. However, creating comprehensive
@@ -54,12 +54,12 @@ without requiring new data to be collected. Further comparisons of Revolt&#39;s
 collaborative and non-collaborative variants show that collaboration reaches
 higher label accuracy with lower monetary cost.</p>
 
-<h2 id="toc_217">Downloads</h2>
+<h2 id="toc_225">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">(to appear) ACM Digital Library</a></p>
 
-<h2 id="toc_218">Citation</h2>
+<h2 id="toc_226">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
 Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
 In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &#39;17).
@@ -67,7 +67,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
 </code></pre>
 </div>
 
-<h2 id="toc_219">Bibtex</h2>
+<h2 id="toc_227">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2017:Revolt,
  author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
  title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},
