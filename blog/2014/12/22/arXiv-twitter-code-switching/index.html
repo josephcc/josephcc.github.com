@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Alloy: Clustering with Crowds and Computation (CHI 2016) - Joseph Chee Chang</title>
+  <title>Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus - Joseph Chee Chang</title>
   <meta name="author" content="Joseph Chee Chang">
   <link rel="author" href="humans.txt">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/">
+  <link rel="canonical" href="http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching/">
   <link rel="icon" type="image/png"  href="/favicon.png">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -28,12 +28,12 @@
   <link href="/atom.xml" rel="alternate" title="Joseph Chee Chang" type="application/atom+xml">
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="Joseph Chee Chang" />
-  <meta name="og:title" content="Alloy" />
-  <meta name="og:url" content="http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/"/>
-  <meta name="url" content="http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/">
+  <meta name="og:title" content="Twitter Code-Switching" />
+  <meta name="og:url" content="http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching/"/>
+  <meta name="url" content="http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching/">
   
-  <meta name="subject" content="CrowdsourcingHCIInformation SynthesisMachine LearningSIGCHISensemaking"/>
-  <meta name="category" content="CrowdsourcingHCIInformation SynthesisMachine LearningSIGCHISensemaking"/>
+  <meta name="subject" content="Code-SwitchingDeep LearningNLPNeural NetworkarXivpre-print"/>
+  <meta name="category" content="Code-SwitchingDeep LearningNLPNeural NetworkarXivpre-print"/>
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -86,64 +86,55 @@ MathJax.Hub.Config({
 
   <header>
     
-      <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>Alloy</h1>
-      <h1 class="entry-title" style='font-size: 1.4em; margin-bottom: 20px;'>Clustering with Crowds and Computation</h1>
+      <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>Twitter Code-Switching</h1>
+      <h1 class="entry-title" style='font-size: 1.4em; margin-bottom: 20px;'>Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus</h1>
     
   </header>
 
 
-  <div class="entry-content"><p><img src="/images/projects/alloy.png" style='width: 100%;'/></p>
+  <div class="entry-content"><p>Joseph Chee Chang, Chu-Cheng Lin.
+<br/><span style='color: gray'>final project for the Deep Learning course at CMU.</span></p>
 
-<p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. <strong><em>CHI 2016.</em></strong>
-<br/><span style='color: gray'>rate=23%, N=2,435</span></p>
-
-<p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong>
-<br/>
-<strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong></p>
-
-<p>Many crowd clustering approaches have difficulties providing global context to
-workers in order to generate meaningful categories.  Alloy uses a
-<em>sample-and-search</em> technique to provide global context, and
-combines the deep semantic knowledge from human computation and the scalability
-of machine learning models to create rich structures from unorganized documents
-with high quality and efficiency.</p>
+<p>Code-switching behavior is common on social media for expressing solidarity or
+to establish authority. While past work on automatic code-switching detection
+depends on dictionary look-up or named-entity recognition, our recurrent neural
+network model that relies on only raw features outperformed the top systems in
+the EMNLP&#39;14 Code-Switching Workshop by 17% in error rate reduction.</p>
 
 <!--more-->
 
-<h2 id="toc_289">Abstract</h2>
+<h2 id="toc_280">Abstract</h2>
 
-<p>Crowdsourced clustering approaches present a promising way to harness deep
-semantic knowledge for clustering complex information. However, existing
-approaches have difficulties supporting the global context needed for workers
-to generate meaningful categories, and are costly because all items require
-human judgments. We introduce Alloy, a hybrid approach that combines the
-richness of human judgments with the power of machine algorithms. Alloy
-supports greater global context through a new <em>sample and search</em>
-crowd pattern which changes the crowd&#39;s task from classifying a fixed subset of
-items to actively sampling and querying the entire dataset.  It also improves
-efficiency through a two phase process in which crowds provide examples to help
-a machine cluster the head of the distribution, then classify low-confidence
-examples in the tail. To accomplish this, Alloy introduces a modular
-<em>cast and gather</em> approach which leverages a machine learning backbone
-to stitch together different types of judgment tasks.</p>
+<p>Mixed language data is one of the difficult yet less explored domains of
+natural language processing. Most research in fields like machine translation
+or sentiment analysis assume monolingual input. However, people who are capable
+of using more than one language often communicate using multiple languages at
+the same time. Sociolinguists believe this &quot;code-switching&quot; phenomenon to be
+socially motivated. For example, to express solidarity or to establish
+authority. Most past work depend on external tools or resources, such as
+part-of-speech tagging, dictionary look-up, or named-entity recognizers to
+extract rich features for training machine learning models. In this paper, we
+train recurrent neural networks with only raw features, and use word embedding
+to automatically learn meaningful representations. Using the same
+mixed-language Twitter corpus, our system is able to outperform the best
+SVM-based systems reported in the EMNLP&#39;14 Code-Switching Workshop by 1% in
+accuracy, or by 17% in error rate reduction.</p>
 
-<h2 id="toc_290">Downloads</h2>
+<h2 id="toc_281">Download</h2>
 
-<p><a class="btn btn-default" href="/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
-<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'arXiv']);"  href="https://arxiv.org/abs/1412.4314" role="button">arXiv</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'PDF']);"  href="https://arxiv.org/pdf/1412.4314v2.pdf" role="button">arXiv hosted PDF</a></p>
 
-<h2 id="toc_291">Citation</h2>
+<h2 id="toc_282">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
-</span><span class='line'>Alloy: Clustering with Crowds and Computation.
-</span><span class='line'>In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
-</span><span class='line'>ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.2858411</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Chang, Joseph Chee, and Chu-Cheng Lin.
+</span><span class='line'>"Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus."
+</span><span class='line'>arXiv preprint arXiv:1412.4314 (2014).</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_292">Bibtex</h2>
+<h2 id="toc_283">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -151,34 +142,12 @@ to stitch together different types of judgment tasks.</p>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:2016:ACC:2858036.2858411,
-</span><span class='line'> author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
-</span><span class='line'> title = {Alloy: Clustering with Crowds and Computation},
-</span><span class='line'> booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
-</span><span class='line'> series = {CHI '16},
-</span><span class='line'> year = {2016},
-</span><span class='line'> isbn = {978-1-4503-3362-7},
-</span><span class='line'> location = {Santa Clara, California, USA},
-</span><span class='line'> pages = {3180--3191},
-</span><span class='line'> numpages = {12},
-</span><span class='line'> url = {http://doi.acm.org/10.1145/2858036.2858411},
-</span><span class='line'> doi = {10.1145/2858036.2858411},
-</span><span class='line'> acmid = {2858411},
-</span><span class='line'> publisher = {ACM},
-</span><span class='line'> address = {New York, NY, USA},
-</span><span class='line'> keywords = {computer supported cooperative work (CSCW), database access / informationretrieval, empirical methods, quantitative, worldwide web and hypermedia},
-</span><span class='line'>} </span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@article{chang2014recurrent,
+</span><span class='line'>  title={Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus},
+</span><span class='line'>  author={Chang, Joseph Chee and Lin, Chu-Cheng},
+</span><span class='line'>  journal={arXiv preprint arXiv:1412.4314},
+</span><span class='line'>  year={2014}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
 </div>
 
 <br/>
@@ -201,12 +170,12 @@ to stitch together different types of judgment tasks.</p>
   
 
 
-<time datetime="2016-05-07T08:00:00-04:00" pubdate data-updated="true">May 7<span>th</span>, 2016</time> - 
+<time datetime="2014-12-22T08:00:00-05:00" pubdate data-updated="true">Dec 22<span>nd</span>, 2014</time> - 
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/crowdsourcing/'>Crowdsourcing</a>, <a class='category' href='/blog/categories/hci/'>HCI</a>, <a class='category' href='/blog/categories/information-synthesis/'>Information Synthesis</a>, <a class='category' href='/blog/categories/machine-learning/'>Machine Learning</a>, <a class='category' href='/blog/categories/sigchi/'>SIGCHI</a>, <a class='category' href='/blog/categories/sensemaking/'>Sensemaking</a>
+    <a class='category' href='/blog/categories/code-switching/'>Code-Switching</a>, <a class='category' href='/blog/categories/deep-learning/'>Deep Learning</a>, <a class='category' href='/blog/categories/nlp/'>NLP</a>, <a class='category' href='/blog/categories/neural-network/'>Neural Network</a>, <a class='category' href='/blog/categories/arxiv/'>arXiv</a>, <a class='category' href='/blog/categories/pre-print/'>pre-print</a>
   
 </span>
 
@@ -333,8 +302,8 @@ to stitch together different types of judgment tasks.</p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/';
-        var disqus_url = 'http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/';
+        var disqus_identifier = 'http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching/';
+        var disqus_url = 'http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching/';
         var disqus_script = 'embed.js';
       
     (function () {

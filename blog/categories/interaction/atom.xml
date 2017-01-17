@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Interaction | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/interaction/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2017-01-17T11:44:31-05:00</updated>
+  <updated>2017-01-17T15:47:12-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -31,7 +31,7 @@ saving information while users are uncertain about where to highlight.</p>
 
 <!--more-->
 
-<h2 id="toc_210">Abstract</h2>
+<h2 id="toc_234">Abstract</h2>
 
 <p>Patients researching medical diagnoses, scientist exploring new fields of
 literature, and students learning about new domains are all faced with the
@@ -52,20 +52,20 @@ information in an intentionally uncertain way on mobile devices. In a two part
 user study we find that this approach reduced selection time and was preferred
 by participants over the default system text selection method.</p>
 
-<h2 id="toc_211">Presentation (UIST 2016)</h2>
+<h2 id="toc_235">Presentation (UIST 2016)</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_212">Demo</h2>
+<h2 id="toc_236">Demo</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_213">Downloads</h2>
+<h2 id="toc_237">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_214">Citation</h2>
+<h2 id="toc_238">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. 2016.
 Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting.
 In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST &#39;16).
@@ -73,7 +73,7 @@ ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
 </code></pre>
 </div>
 
-<h2 id="toc_215">Bibtex</h2>
+<h2 id="toc_239">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:SMS:2984511.2984538,
  author = {Chang, Joseph Chee and Hahn, Nathan and Kittur, Aniket},
  title = {Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting},

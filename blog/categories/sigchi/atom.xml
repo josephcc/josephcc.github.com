@@ -4,7 +4,7 @@
   <title><![CDATA[Category: SIGCHI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/sigchi/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2017-01-17T11:44:31-05:00</updated>
+  <updated>2017-01-17T15:47:12-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -21,6 +21,7 @@
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 100%;'/></p>
 
 <p>Joseph Chee Chang, Saleema Amershi, Ece Kamar. <strong><em>CHI 2017.</em></strong>
+<br/><span style='color: gray'>work done during internship at Microsoft Research, Redmond.</span>
 <br/><span style='color: gray'>rate=25%, N=2,424</span></p>
 
 <p>Generating comprehensive labeling guidelines for crowdworkers can be
@@ -32,7 +33,7 @@ enabling dynamic label boundaries.</p>
 
 <!--more-->
 
-<h2 id="toc_115">Abstract</h2>
+<h2 id="toc_139">Abstract</h2>
 
 <p>Crowdsourcing provides a scalable and efficient way to construct labeled
 datasets for training machine learning systems. However, creating comprehensive
@@ -55,12 +56,12 @@ without requiring new data to be collected. Further comparisons of Revolt&#39;s
 collaborative and non-collaborative variants show that collaboration reaches
 higher label accuracy with lower monetary cost.</p>
 
-<h2 id="toc_116">Downloads</h2>
+<h2 id="toc_140">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">(to appear) ACM Digital Library</a></p>
 
-<h2 id="toc_117">Citation</h2>
+<h2 id="toc_141">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
 Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
 In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &#39;17).
@@ -68,7 +69,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
 </code></pre>
 </div>
 
-<h2 id="toc_118">Bibtex</h2>
+<h2 id="toc_142">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2017:Revolt,
  author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
  title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},
@@ -108,7 +109,7 @@ with high quality and efficiency.</p>
 
 <!--more-->
 
-<h2 id="toc_119">Abstract</h2>
+<h2 id="toc_143">Abstract</h2>
 
 <p>Crowdsourced clustering approaches present a promising way to harness deep
 semantic knowledge for clustering complex information. However, existing
@@ -125,12 +126,12 @@ examples in the tail. To accomplish this, Alloy introduces a modular
 <em>cast and gather</em> approach which leverages a machine learning backbone
 to stitch together different types of judgment tasks.</p>
 
-<h2 id="toc_120">Downloads</h2>
+<h2 id="toc_144">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_121">Citation</h2>
+<h2 id="toc_145">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
 Alloy: Clustering with Crowds and Computation.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -138,7 +139,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 </code></pre>
 </div>
 
-<h2 id="toc_122">Bibtex</h2>
+<h2 id="toc_146">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:ACC:2858036.2858411,
  author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
  title = {Alloy: Clustering with Crowds and Computation},
@@ -182,7 +183,7 @@ microtask environment.</p>
 
 <!--more-->
 
-<h2 id="toc_123">Abstract</h2>
+<h2 id="toc_147">Abstract</h2>
 
 <p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
 real  world  tasks  are  often  interdependent,requiring a big picture view of
@@ -198,14 +199,14 @@ information  synthesis  and  evaluateits output across a variety of topics.  We
 also contribute a setof design patterns that may be informative for other
 systemsaimed at supporting big picture thinking in small pieces.</p>
 
-<h2 id="toc_124">Demo</h2>
+<h2 id="toc_148">Demo</h2>
 
-<h2 id="toc_125">Downloads</h2>
+<h2 id="toc_149">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_126">Citation</h2>
+<h2 id="toc_150">Citation</h2>
 <div class="highlight"><pre><code class="text">Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
 The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -213,7 +214,7 @@ ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.285836
 </code></pre>
 </div>
 
-<h2 id="toc_127">Bibtex</h2>
+<h2 id="toc_151">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Hahn:2016:KAB:2858036.2858364,
  author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
  title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},

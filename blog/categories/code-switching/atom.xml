@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Code-Switching | Joseph Chee Chang]]></title>
+  <link href="http://joseph.nlpweb.org/blog/categories/code-switching/atom.xml" rel="self"/>
+  <link href="http://joseph.nlpweb.org/"/>
+  <updated>2017-01-17T15:47:12-05:00</updated>
+  <id>http://joseph.nlpweb.org/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Code-Switching]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching/"/>
+    <updated>2014-12-22T08:00:00-05:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching</id>
+    <content type="html"><![CDATA[<p>Joseph Chee Chang, Chu-Cheng Lin.
+<br/><span style='color: gray'>final project for the Deep Learning course at CMU.</span></p>
+
+<p>Code-switching behavior is common on social media for expressing solidarity or
+to establish authority. While past work on automatic code-switching detection
+depends on dictionary look-up or named-entity recognition, our recurrent neural
+network model that relies on only raw features outperformed the top systems in
+the EMNLP&#39;14 Code-Switching Workshop by 17% in error rate reduction.</p>
+
+<!--more-->
+
+<h2 id="toc_119">Abstract</h2>
+
+<p>Mixed language data is one of the difficult yet less explored domains of
+natural language processing. Most research in fields like machine translation
+or sentiment analysis assume monolingual input. However, people who are capable
+of using more than one language often communicate using multiple languages at
+the same time. Sociolinguists believe this &quot;code-switching&quot; phenomenon to be
+socially motivated. For example, to express solidarity or to establish
+authority. Most past work depend on external tools or resources, such as
+part-of-speech tagging, dictionary look-up, or named-entity recognizers to
+extract rich features for training machine learning models. In this paper, we
+train recurrent neural networks with only raw features, and use word embedding
+to automatically learn meaningful representations. Using the same
+mixed-language Twitter corpus, our system is able to outperform the best
+SVM-based systems reported in the EMNLP&#39;14 Code-Switching Workshop by 1% in
+accuracy, or by 17% in error rate reduction.</p>
+
+<h2 id="toc_120">Download</h2>
+
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'arXiv']);"  href="https://arxiv.org/abs/1412.4314" role="button">arXiv</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'PDF']);"  href="https://arxiv.org/pdf/1412.4314v2.pdf" role="button">arXiv hosted PDF</a></p>
+
+<h2 id="toc_121">Citation</h2>
+<div class="highlight"><pre><code class="text">Chang, Joseph Chee, and Chu-Cheng Lin.
+&quot;Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus.&quot;
+arXiv preprint arXiv:1412.4314 (2014).
+</code></pre>
+</div>
+
+<h2 id="toc_122">Bibtex</h2>
+<div class="highlight"><pre><code class="text">@article{chang2014recurrent,
+  title={Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus},
+  author={Chang, Joseph Chee and Lin, Chu-Cheng},
+  journal={arXiv preprint arXiv:1412.4314},
+  year={2014}
+}
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
