@@ -16,6 +16,8 @@ project: true
 
 
 Joseph Chee Chang, Saleema Amershi, Ece Kamar. ***CHI 2017.***
+<br/><span style='color: gray'>work done during internship at Microsoft Research, Redmond.</span>
+<br/><span style='color: gray'>rate=25%, N=2,424</span>
 
 Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses *crowd disagreements*
