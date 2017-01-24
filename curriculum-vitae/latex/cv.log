@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  4 JAN 2017 10:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  24 JAN 2017 18:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -469,9 +469,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./cv.bbl
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 7.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 13.
 )
 Overfull \hbox (22.5862pt too wide) in paragraph at lines 179--179
 [][]
@@ -488,17 +488,17 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  12062 strings out of 493315
- 176061 string characters out of 6137904
- 298392 words of memory out of 5000000
- 15304 multiletter control sequences out of 15000+600000
- 72779 words of font info for 75 fonts, out of 8000000 for 9000
+ 176056 string characters out of 6137904
+ 298420 words of memory out of 5000000
+ 15305 multiletter control sequences out of 15000+600000
+ 72678 words of font info for 74 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,12n,67p,768b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv.pdf (2 pages, 190143 bytes).
+Output written on cv.pdf (2 pages, 189838 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
  20521 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -1,42 +1,46 @@
 \begin{thebibliography}{1}
 
+\bibitem{revolt}
+\underline{Joseph Chee Chang}, Saleema Amershi, and Ece Kamar.
+\newblock Revolt: Collaborative crowdsourcing for labeling machine learning
+  datasets.
+\newblock In {\em ACM SIGCHI (25\%)}, 2017. (conducted during an internship at
+  Microsoft Research, Redmond).
+
 \bibitem{alloy}
 \underline{Joseph Chee Chang}, Aniket Kittur, and Nathan Hahn.
 \newblock Alloy: Clustering with crowds and computation.
-\newblock In {\em Proceedings of the Conference on Human Factors in Computing
-  Systems (rate: 23\%, \textbf{Honorable Mention})}, 2016.
+\newblock In {\em ACM SIGCHI (23\%, \textbf{Honorable Mention})}, 2016.
 
 \bibitem{ka}
 Nathan Hahn, \underline{Joseph Chee Chang}, Ji~Eun Kim, and Aniket Kittur.
 \newblock The knowledge accelerator: Big picture thinking in small pieces.
-\newblock In {\em Proceedings of the Conference on Human Factors in Computing
-  Systems (rate: 23\%, \textbf{Honorable Mention})}, 2016.
+\newblock In {\em ACM SIGCHI (23\%, \textbf{Honorable Mention})}, 2016.
 
 \bibitem{chang-chang-jang:2012:ACL2012}
 \underline{Joseph Chang}, Jason~S. Chang, and Roger Jyh-Shing Jang.
 \newblock Learning to find translations and transliterations on the web.
-\newblock In {\em Proceedings of the Annual Meeting of the Association for
-  Computational Linguistics (rate: 20\%)}, 2012.
+\newblock In {\em Proc. of Annual Meeting of the Association for Computational
+  Linguistics (ACL, 20\%)}, 2012.
 
 \bibitem{hl}
 \underline{Joseph Chee Chang}, Nathan Hahn, and Aniket Kittur.
 \newblock Supporting mobile sensemaking through intentionally uncertain
   highlighting.
-\newblock In {\em Proceedings of the Annual ACM Symposium on User Interface
-  Software \& Technology (rate: 20.6\%)}, 2016.
+\newblock In {\em ACM UIST (20.6\%)}, 2016.
 
 \bibitem{Chang-EtAl:2009:PACLIC2009}
 \underline{Joseph Chang}, Richard Tzong-Han Tsai, and Jason~S. Chang.
 \newblock Wikisense: Supersense tagging of wikipedia named entities based
   wordnet.
-\newblock In {\em Proceedings of the Pacific Asia Conference on Language,
-  Information and Computation (rate: 25\%)}, 2009.
+\newblock In {\em Proc. of Pacific Asia Conference on Language, Information and
+  Computation (PACLIC, 25\%)}, 2009.
 
 \bibitem{wu-EtAl:2012:BEA}
 Jian-Cheng Wu, \underline{Joseph Chang}, Yi-Chun Chen, Shih-Ting Huang, Mei-Hua
   Chen, and Jason~S. Chang.
 \newblock {NTHU NLPLAB} system description.
-\newblock In {\em Proceedings of the Seventh Workshop on Building Educational
-  Applications Using {NLP}}, 2012.
+\newblock In {\em NAACL 7th Workshop on Building Educational Applications Using
+  {NLP}}, 2012.
 
 \end{thebibliography}
