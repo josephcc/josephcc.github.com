@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  8 FEB 2017 20:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 MAY 2017 12:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -495,7 +495,7 @@ Here is how much of TeX's memory you used:
  957 hyphenation exceptions out of 8191
  42i,12n,67p,768b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv.pdf (2 pages, 189781 bytes).
+Output written on cv.pdf (2 pages, 189838 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
