@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div id="front-wrapper">
+  <div id="hero">
+    <div id="hero-inner" class="container">
+      {% include custom/intro.html %}
+    </div>
+  </div>
+  <section id="sub-hero">
+    <div class="container">
+      {% include custom/widgets.html %}
+    </div>
+  </section>
+  <div id='main' class="container">
+    <div class="row" id="post-container">
+      <article class="span4">
+        <div class="article-format">
+
+          <header>
+
+            <h1 class="entry-title" style="border-bottom: 1px solid darkgray; margin-bottom: 2px;"><a href="/portfolio">Random Projects</a></h1>
+            <h1 class="entry-title" style="font-size: 1.4em; margin-bottom: 20px;"></h1>
+
+          </header>
+
+
+          <div class="entry-content"><p>Here's <a href="/portfolio">a list of selected fun projects</a> I did (mostly) before grad school.</p>
+            <p class="meta">
+            <span class="categories">
+            </span>
+            </p>
+          </div>
+      </article>
+      {% assign index = true %}
+    {% for post in site.posts %}
+    {% assign content = post.content %}
+    {% if post.project != true %}
+      {% if post.span %}
+      <article class="span{{ post.span }}">
+          {% include article.html %}
+        </article>
+      {% else %}
+        <article class="span4">
+          {% include article.html %}
+        </article>
+      {% endif %}
+    {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</div>
+
