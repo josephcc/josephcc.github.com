@@ -36,7 +36,7 @@ layout: default
       {% assign index = true %}
     {% for post in site.posts %}
     {% assign content = post.content %}
-    {% if post.project != true %}
+    {% if post.project != true and post.hidden != true %}
       {% if post.span %}
       <article class="span{{ post.span }}">
           {% include article.html %}

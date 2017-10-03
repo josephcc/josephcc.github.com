@@ -5,6 +5,7 @@ date: 2011-11-30 17:26
 comments: true
 toc: false
 lsi: true
+hidden: true
 categories: ['git', 'mac']
 ---
 

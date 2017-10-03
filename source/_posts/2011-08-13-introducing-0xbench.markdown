@@ -4,6 +4,7 @@ title: "Introducing 0xbench"
 date: 2011-08-13 21:38
 comments: true
 categories: ['android', 'mobile', 'app', '0xbench', '0xlab']
+span: 8
 ---
 
 <a href="http://www.flickr.com/photos/bizkit/4898571830/"
