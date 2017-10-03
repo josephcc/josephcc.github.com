@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Information Foraging | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/information-foraging/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2017-08-04T16:32:38-04:00</updated>
+  <updated>2017-10-03T15:49:01-04:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -31,7 +31,7 @@ saving information while users are uncertain about where to highlight.</p>
 
 <!--more-->
 
-<h2 id="toc_217">Abstract</h2>
+<h2 id="toc_163">Abstract</h2>
 
 <p>Patients researching medical diagnoses, scientist exploring new fields of
 literature, and students learning about new domains are all faced with the
@@ -52,20 +52,20 @@ information in an intentionally uncertain way on mobile devices. In a two part
 user study we find that this approach reduced selection time and was preferred
 by participants over the default system text selection method.</p>
 
-<h2 id="toc_218">Presentation (UIST 2016)</h2>
+<h2 id="toc_164">Presentation (UIST 2016)</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_219">Demo</h2>
+<h2 id="toc_165">Demo</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_220">Downloads</h2>
+<h2 id="toc_166">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_221">Citation</h2>
+<h2 id="toc_167">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. 2016.
 Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting.
 In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST &#39;16).
@@ -73,7 +73,7 @@ ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
 </code></pre>
 </div>
 
-<h2 id="toc_222">Bibtex</h2>
+<h2 id="toc_168">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:SMS:2984511.2984538,
  author = {Chang, Joseph Chee and Hahn, Nathan and Kittur, Aniket},
  title = {Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting},
@@ -117,7 +117,7 @@ microtask environment.</p>
 
 <!--more-->
 
-<h2 id="toc_223">Abstract</h2>
+<h2 id="toc_169">Abstract</h2>
 
 <p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
 real  world  tasks  are  often  interdependent,requiring a big picture view of
@@ -133,14 +133,14 @@ information  synthesis  and  evaluateits output across a variety of topics.  We
 also contribute a setof design patterns that may be informative for other
 systemsaimed at supporting big picture thinking in small pieces.</p>
 
-<h2 id="toc_224">Demo</h2>
+<h2 id="toc_170">Demo</h2>
 
-<h2 id="toc_225">Downloads</h2>
+<h2 id="toc_171">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_226">Citation</h2>
+<h2 id="toc_172">Citation</h2>
 <div class="highlight"><pre><code class="text">Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
 The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -148,7 +148,7 @@ ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.285836
 </code></pre>
 </div>
 
-<h2 id="toc_227">Bibtex</h2>
+<h2 id="toc_173">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Hahn:2016:KAB:2858036.2858364,
  author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
  title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
