@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Machine Learning | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-02-20T22:43:58-05:00</updated>
+  <updated>2018-04-12T18:55:05-04:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -14,15 +14,93 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Evorus]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus/"/>
+    <updated>2018-04-21T08:00:00-04:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/evorus.png" style='width: 86%;'/></p>
+
+<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+Crowd-powered chatbots are robust than current pure AI approach, but can be
+slower and more expensive at runtime. We attempted to combine the two
+approaches for high quality, low latency, and low cost.  We introduce Evorus, a
+crowd-powered chatbot that automate itself over time by learning to integrate
+AI chatbots, reusing responses, and assess response quality. A 5-month-long
+public deployment study shows promising results. You can <a href="http://talkingtothecrowd.org/">start using Evorus today</a>.</p>
+
+<!--more-->
+
+<h2 id="toc_119">Abstract</h2>
+
+<p>Crowd-powered conversational assistants have been shown to be more robust than
+automated systems, but do so at the cost of higher response latency and
+monetary costs.  A promising direction is to combine the two approaches for
+high quality, low latency, and low cost solutions.  In this paper, we introduce
+Evorus, a crowd-powered conversational assistant built to automate itself over
+time by i) allowing new chatbots to be easily integrated to automate more
+scenarios, ii) reusing prior crowd answers, and iii) learning to automatically
+approve response candidates.  Our 5-month-long deployment with 80 participants
+and 281 conversations shows that Evorus can automate itself without
+compromising conversation quality.  Crowd-AI architectures have long been
+proposed as a way to reduce cost and latency for crowd-powered systems; Evorus
+demonstrates how automation can be introduced successfully in a deployed
+system. Its architecture allows future researchers to make further innovation
+on the underlying automated components in the context of a deployed open domain
+dialog system.</p>
+
+<h2 id="toc_120">Try Evorus on Google Talk</h2>
+
+<p><a class="btn btn-default" href="http://talkingtothecrowd.org/" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Evorus', 'Website']);" role="button">TalkingToTheCrowd.org</a></p>
+
+<h2 id="toc_121">Overview Video</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3SAG8jP-Q-M?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="toc_122">Media Coverage</h2>
+
+<ul>
+<li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the &#39;Chorus&#39; chatbot: Unlike Alexa or Siri, it&#39;s powered by actual people on the other end</a>t</li>
+<li>Trib Live: <a href="http://triblive.com/business/technology/13275597-74/chatbot-developed-at-carnegie-mellon-uses-humans-to-answer-questions-ais-cant">Chatbot developed at Carnegie Mellon uses humans to answer questions AIs can&#39;t</a></li>
+<li>EurekaAlert!: <a href="https://www.eurekalert.org/pub_releases/2018-02/cmu-cwa020618.php">Crowd workers, AI make conversational agents smarter</a></li>
+<li>CMU News: <a href="https://www.cs.cmu.edu/news/crowd-workers-ai-make-conversational-agents-smarter">Crowd workers, AI make conversational agents smarter</a></li>
+<li>Presstext: <a href="https://www.pressetext.com/#news/20180208014">KI-System &quot;Evorus&quot; wird zunehmend eigenständig</a></li>
+</ul>
+
+<h2 id="toc_123">Downloads</h2>
+
+<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
+
+<h2 id="toc_124">Citation</h2>
+<div class="highlight"><pre><code class="text"><span></span>Kenneth Huang, Joseph Chee Chang, Jeffrey P. Bigham. 2018.
+Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time.
+In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
+ACM, Montreal, QC, Canada.
+</code></pre>
+</div>
+
+<h2 id="toc_125">Bibtex</h2>
+<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Huang:2018:Evorus,
+ author = {Huang, Kenneth and Chang, Joseph Chee and Bigham, Jeffrey P.},
+ title = {Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI &#39;18},
+ year = {2018},
+ publisher = {ACM},
+ address = {Montreal, QC, Canada},
+} 
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Revolt]]></title>
     <link href="http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 100%;'/></p>
-
-<p>Joseph Chee Chang, Saleema Amershi, Ece Kamar. <strong><em>CHI 2017.</em></strong>
-<br/><span style='color: gray'>work done during internship at Microsoft Research, Redmond.</span>
-<br/><span style='color: gray'>rate=25%, N=2,424</span></p>
 
 <p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
@@ -31,9 +109,11 @@ to identify ambiguous concepts in the data and coordinates the crowd to
 decisions, removing the need for comprehensive guidelines and
 enabling dynamic label boundaries.</p>
 
+<p><span style='color: gray'>Work done during internship at Microsoft Research, Redmond.</span></p>
+
 <!--more-->
 
-<h2 id="toc_68">Abstract</h2>
+<h2 id="toc_126">Abstract</h2>
 
 <p>Crowdsourcing provides a scalable and efficient way to construct labeled
 datasets for training machine learning systems. However, creating comprehensive
@@ -56,13 +136,13 @@ without requiring new data to be collected. Further comparisons of Revolt&#39;s
 collaborative and non-collaborative variants show that collaboration reaches
 higher label accuracy with lower monetary cost.</p>
 
-<h2 id="toc_69">Downloads</h2>
+<h2 id="toc_127">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
 <a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
-<h2 id="toc_70">Citation</h2>
+<h2 id="toc_128">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
 Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
 In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &#39;17).
@@ -70,7 +150,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
 </code></pre>
 </div>
 
-<h2 id="toc_71">Bibtex</h2>
+<h2 id="toc_129">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2017:Revolt,
  author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
  title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},
@@ -94,14 +174,11 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/alloy.png" style='width: 100%;'/></p>
 
-<p>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. <strong><em>CHI 2016.</em></strong>
-<br/><span style='color: gray'>rate=23%, N=2,435</span></p>
-
-<p><strong><em>BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i></em></strong>
+<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
-<strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong></p>
-
-<p>Many crowd clustering approaches have difficulties providing global context to
+<strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
+<br/>
+Many crowd clustering approaches have difficulties providing global context to
 workers in order to generate meaningful categories.  Alloy uses a
 <em>sample-and-search</em> technique to provide global context, and
 combines the deep semantic knowledge from human computation and the scalability
@@ -110,7 +187,7 @@ with high quality and efficiency.</p>
 
 <!--more-->
 
-<h2 id="toc_72">Abstract</h2>
+<h2 id="toc_130">Abstract</h2>
 
 <p>Crowdsourced clustering approaches present a promising way to harness deep
 semantic knowledge for clustering complex information. However, existing
@@ -127,12 +204,31 @@ examples in the tail. To accomplish this, Alloy introduces a modular
 <em>cast and gather</em> approach which leverages a machine learning backbone
 to stitch together different types of judgment tasks.</p>
 
-<h2 id="toc_73">Downloads</h2>
+<h2 id="toc_131">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_74">Citation</h2>
+<h2 id="toc_132">Media Coverage</h2>
+
+<ul>
+<li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
+<li>Campus Technology: <a href="https://campustechnology.com/articles/2016/05/10/research-project-mixes-humans-and-machines-for-better-crowdsourcing.aspx">Research Project Mixes Humans and Machines for Better Crowdsourcing</a></li>
+<li>Neuraoscience News: <a href="http://neurosciencenews.com/human-machine-intelligence-framework-4221/">Crowd Augmented Cognition: Combining Human and Machine Intelligence to Accelerate Learning</a></li>
+<li>DZone: <a href="https://dzone.com/articles/researchers-work-on-automated-means-of-managing-th">Research Suggests AI Managers Effective for Crowdsourcing</a></li>
+<li>PhysOrg: <a href="https://phys.org/news/2016-05-crowd-augmented-cognition-team-tools-combine.html">Crowd-augmented cognition: Team develops tools that combine human and machine intelligence to accelerate learning</a></li>
+<li>TechExplore: <a href="https://techxplore.com/news/2016-05-big-small-pieces-humans-crowdsourced.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>Spend Matters: <a href="http://spendmatters.com/2016/06/09/crowdsourcing-and-cognitive-computing-are-you-ready-for-the-future-of-work/">Crowdsourcing and Cognitive Computing: Are You Ready for the Future of Work?</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2016/05/160511210628.htm">Crowd-augmented cognition - combine human, machine intelligence to accelerate learning</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/cmu-bti051016.php">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/nsf-cc051116.php">Crowd-augmented cognition</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=80586&amp;from=">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=138580&amp;org=NSF">Crowd-augmented cognition</a></li>
+<li>CMU SCS News: <a href="https://www.cmu.edu/news/stories/archives/2016/may/knowledge-accelerator.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
+</ul>
+
+<h2 id="toc_133">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
 Alloy: Clustering with Crowds and Computation.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -140,7 +236,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 </code></pre>
 </div>
 
-<h2 id="toc_75">Bibtex</h2>
+<h2 id="toc_134">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:ACC:2858036.2858411,
  author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
  title = {Alloy: Clustering with Crowds and Computation},
@@ -168,17 +264,14 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
     <link href="http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine/"/>
     <updated>2012-07-08T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine</id>
-    <content type="html"><![CDATA[<p>Joseph Chee Chang, Jason S. Chang, and Roger Jang. <strong><em>ACL 2012.</em></strong>
-<br/><span style='color: gray'>rate=21%, N=369</span></p>
-
-<p>TermMine is an information extraction system that can automatically mine
+    <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
 translation pairs of terms from the web. We used a small set of terms and
 translations to gather mixed-code text from the web to train a CRF model that
 can identify translation pairs at run-time.</p>
 
 <!--more-->
 
-<h2 id="toc_76">Abstract</h2>
+<h2 id="toc_135">Abstract</h2>
 
 <p>In this paper, we present a new method for learning to finding translations and
 transliterations on the Web for a given term. The approach involves using a
@@ -189,12 +282,12 @@ extracting translation candidates for a given term. Preliminary experiments and
 evaluation show our method cleanly combining various features, resulting in a
 system that outperforms previous work.</p>
 
-<h2 id="toc_77">Download</h2>
+<h2 id="toc_136">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_78">Citation</h2>
+<h2 id="toc_137">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
 Learning to find translations and transliterations on the web.
 In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL &#39;12), Vol. 2.
@@ -202,7 +295,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
 </code></pre>
 </div>
 
-<h2 id="toc_79">Bibtex</h2>
+<h2 id="toc_138">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2012:LFT:2390665.2390698,
  author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
  title = {Learning to Find Translations and Transliterations on the Web},
@@ -227,9 +320,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
     <link href="http://joseph.nlpweb.org/blog/2009/12/03/wikisense/"/>
     <updated>2009-12-03T08:00:00-05:00</updated>
     <id>http://joseph.nlpweb.org/blog/2009/12/03/wikisense</id>
-    <content type="html"><![CDATA[<p>Joseph Chee Chang, Richard Tsai, and Jason S. Chang. <strong><em>PACLIC 2009.</em></strong></p>
-
-<p>We introduced a method for classifying named-entities into broad semantic
+    <content type="html"><![CDATA[<p>We introduced a method for classifying named-entities into broad semantic
 categories in WordNet. We extracted rich features from Wikipedia, allowing us
 to classify named-entities with high precision and coverage. The result is a
 large scale named-entity semantic database with 1.2 million entries and over
@@ -237,7 +328,7 @@ large scale named-entity semantic database with 1.2 million entries and over
 
 <!--more-->
 
-<h2 id="toc_80">Abstract</h2>
+<h2 id="toc_139">Abstract</h2>
 
 <p>In this paper, we introduce a minimally supervised method for learning to
 classify named-entity titles in a given encyclopedia into broad semantic
@@ -256,7 +347,7 @@ categories, based on the lexicographers’ files of WordNet, effectively
 extending WordNet to form a very large scale semantic category, a potentially
 useful resource for many natural language related tasks.</p>
 
-<h2 id="toc_81">Demo</h2>
+<h2 id="toc_140">Demo</h2>
 <div class="highlight"><pre><code class="text">WikiID    Supersense     PE          NE                                   Note
 ----------------------------------------------------------------------------------------------
 11983070  person         None        Johnny Cash                          singer
@@ -285,12 +376,12 @@ useful resource for many natural language related tasks.</p>
 
 <p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
 
-<h2 id="toc_82">Download</h2>
+<h2 id="toc_141">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a></p>
 
-<h2 id="toc_83">Citation</h2>
+<h2 id="toc_142">Citation</h2>
 <div class="highlight"><pre><code class="text">Chang, J., Tsai, R. T.-H., &amp; Chang, J. S. (2009).
 WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
 In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
@@ -298,7 +389,7 @@ Hong Kong, China.
 </code></pre>
 </div>
 
-<h2 id="toc_84">Bibtex</h2>
+<h2 id="toc_143">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang-EtAl:2009:PACLIC2009,
   author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
   title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},

@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://joseph.nlpweb.org/blog/2009/12/03/wikisense/</loc>
-        <lastmod>2016-11-16T15:11:58-05:00</lastmod>
+        <lastmod>2018-04-12T16:51:49-04:00</lastmod>
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/blog/2011/08/04/cli-android-dev/</loc>
@@ -38,7 +38,7 @@
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine/</loc>
-        <lastmod>2017-01-11T14:48:52-05:00</lastmod>
+        <lastmod>2018-04-12T16:50:05-04:00</lastmod>
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/blog/2012/11/04/hangman/</loc>
@@ -46,23 +46,31 @@
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching/</loc>
-        <lastmod>2017-01-17T15:47:00-05:00</lastmod>
+        <lastmod>2018-04-12T16:51:18-04:00</lastmod>
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka/</loc>
-        <lastmod>2017-01-11T14:48:02-05:00</lastmod>
+        <lastmod>2018-04-12T17:24:20-04:00</lastmod>
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/</loc>
-        <lastmod>2017-01-11T14:47:55-05:00</lastmod>
+        <lastmod>2018-04-12T17:24:56-04:00</lastmod>
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/blog/2016/10/16/UIST-highlight/</loc>
-        <lastmod>2017-01-11T14:48:35-05:00</lastmod>
+        <lastmod>2018-04-12T16:52:29-04:00</lastmod>
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt/</loc>
-        <lastmod>2017-08-04T14:31:11-04:00</lastmod>
+        <lastmod>2018-04-12T17:29:01-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus/</loc>
+        <lastmod>2018-04-12T17:53:58-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento/</loc>
+        <lastmod>2018-04-12T17:50:15-04:00</lastmod>
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/curriculum-vitae/</loc>
@@ -78,7 +86,7 @@
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/</loc>
-        <lastmod>2017-08-04T16:18:40-04:00</lastmod>
+        <lastmod>2018-04-12T17:53:58-04:00</lastmod>
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/publications/</loc>
@@ -90,10 +98,10 @@
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/blog/archives/</loc>
-        <lastmod>2017-08-04T16:18:40-04:00</lastmod>
+        <lastmod>2018-04-12T17:53:58-04:00</lastmod>
     </url>
     <url>
         <loc>http://joseph.nlpweb.org/portfolio/</loc>
-        <lastmod>2017-08-04T16:18:40-04:00</lastmod>
+        <lastmod>2018-04-12T17:53:58-04:00</lastmod>
     </url>
 </urlset>

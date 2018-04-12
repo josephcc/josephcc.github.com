@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CHI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/chi/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-02-20T22:43:58-05:00</updated>
+  <updated>2018-04-12T18:55:05-04:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -14,15 +14,167 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Bento Browser]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento/"/>
+    <updated>2018-04-21T08:01:00-04:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/bento.png" style='width: 100%;'/></p>
+
+<p>Complex searches can be overwhelming leading to lots
+of tabs.  This also makes conducting searches on mobile devices especially
+difficult where screen real-estate is limited and tasks can often be 
+inturrupted.  Rather than using tabs to manage information, we introduce
+browsing through scaffolding. Search result lists serve as mutable
+workspaces where progress can be suspended and resumed.
+You can <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download BentoBrowser from the AppStore</a>.</p>
+
+<!--more-->
+
+<h2 id="toc_0">Abstract</h2>
+
+<p>People engaged in complex searches such as planning a vacation or understanding
+their medical symptoms are often overwhelmed by opening and managing many tabs.
+These challenges are exacerbated as search moves to smartphones and mobile
+devices where screen real-estate is limited and tasks are frequently suspended,
+resumed, and interleaved. Rather than continue to utilize tab-based browsing
+for complex search, we introduce a new way of browsing through a scaffolded
+interface. The list of search results serves as a mutable workspace, where a
+user can track progress on a specific information query. The search query
+serves as a gateway into this workspace, accessed through a task-subtask
+hierarchy. We instantiate this in the Bento mobile search system and
+investigate its effectiveness in three studies. We find converging evidence
+that users were able to make progress on their complex searching tasks with
+this structure, and find it more organized and easier to revisit. </p>
+
+<h2 id="toc_1">Install Bento Browser</h2>
+
+<p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
+
+<p><img src="http://joseph.nlpweb.org/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
+
+<p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
+
+<h2 id="toc_2">Video Demo</h2>
+
+<p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="toc_3">Downloads</h2>
+
+<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2 id="toc_4">Citation</h2>
+<div class="highlight"><pre><code class="text"><span></span>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
+Bento Browser: Complex Mobile Search Without Tabs.
+In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
+ACM, Montreal, QC, Canada.
+</code></pre>
+</div>
+
+<h2 id="toc_5">Bibtex</h2>
+<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Hahn:2018:Bento,
+ author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
+ title = {Bento Browser: Complex Mobile Search Without Tabs.},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI &#39;18},
+ year = {2018},
+ publisher = {ACM},
+ address = {Montreal, QC, Canada},
+} 
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Evorus]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus/"/>
+    <updated>2018-04-21T08:00:00-04:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/evorus.png" style='width: 86%;'/></p>
+
+<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+Crowd-powered chatbots are robust than current pure AI approach, but can be
+slower and more expensive at runtime. We attempted to combine the two
+approaches for high quality, low latency, and low cost.  We introduce Evorus, a
+crowd-powered chatbot that automate itself over time by learning to integrate
+AI chatbots, reusing responses, and assess response quality. A 5-month-long
+public deployment study shows promising results. You can <a href="http://talkingtothecrowd.org/">start using Evorus today</a>.</p>
+
+<!--more-->
+
+<h2 id="toc_6">Abstract</h2>
+
+<p>Crowd-powered conversational assistants have been shown to be more robust than
+automated systems, but do so at the cost of higher response latency and
+monetary costs.  A promising direction is to combine the two approaches for
+high quality, low latency, and low cost solutions.  In this paper, we introduce
+Evorus, a crowd-powered conversational assistant built to automate itself over
+time by i) allowing new chatbots to be easily integrated to automate more
+scenarios, ii) reusing prior crowd answers, and iii) learning to automatically
+approve response candidates.  Our 5-month-long deployment with 80 participants
+and 281 conversations shows that Evorus can automate itself without
+compromising conversation quality.  Crowd-AI architectures have long been
+proposed as a way to reduce cost and latency for crowd-powered systems; Evorus
+demonstrates how automation can be introduced successfully in a deployed
+system. Its architecture allows future researchers to make further innovation
+on the underlying automated components in the context of a deployed open domain
+dialog system.</p>
+
+<h2 id="toc_7">Try Evorus on Google Talk</h2>
+
+<p><a class="btn btn-default" href="http://talkingtothecrowd.org/" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Evorus', 'Website']);" role="button">TalkingToTheCrowd.org</a></p>
+
+<h2 id="toc_8">Overview Video</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3SAG8jP-Q-M?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="toc_9">Media Coverage</h2>
+
+<ul>
+<li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the &#39;Chorus&#39; chatbot: Unlike Alexa or Siri, it&#39;s powered by actual people on the other end</a>t</li>
+<li>Trib Live: <a href="http://triblive.com/business/technology/13275597-74/chatbot-developed-at-carnegie-mellon-uses-humans-to-answer-questions-ais-cant">Chatbot developed at Carnegie Mellon uses humans to answer questions AIs can&#39;t</a></li>
+<li>EurekaAlert!: <a href="https://www.eurekalert.org/pub_releases/2018-02/cmu-cwa020618.php">Crowd workers, AI make conversational agents smarter</a></li>
+<li>CMU News: <a href="https://www.cs.cmu.edu/news/crowd-workers-ai-make-conversational-agents-smarter">Crowd workers, AI make conversational agents smarter</a></li>
+<li>Presstext: <a href="https://www.pressetext.com/#news/20180208014">KI-System &quot;Evorus&quot; wird zunehmend eigenständig</a></li>
+</ul>
+
+<h2 id="toc_10">Downloads</h2>
+
+<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
+
+<h2 id="toc_11">Citation</h2>
+<div class="highlight"><pre><code class="text"><span></span>Kenneth Huang, Joseph Chee Chang, Jeffrey P. Bigham. 2018.
+Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time.
+In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
+ACM, Montreal, QC, Canada.
+</code></pre>
+</div>
+
+<h2 id="toc_12">Bibtex</h2>
+<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Huang:2018:Evorus,
+ author = {Huang, Kenneth and Chang, Joseph Chee and Bigham, Jeffrey P.},
+ title = {Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI &#39;18},
+ year = {2018},
+ publisher = {ACM},
+ address = {Montreal, QC, Canada},
+} 
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Revolt]]></title>
     <link href="http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 100%;'/></p>
-
-<p>Joseph Chee Chang, Saleema Amershi, Ece Kamar. <strong><em>CHI 2017.</em></strong>
-<br/><span style='color: gray'>work done during internship at Microsoft Research, Redmond.</span>
-<br/><span style='color: gray'>rate=25%, N=2,424</span></p>
 
 <p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
@@ -31,9 +183,11 @@ to identify ambiguous concepts in the data and coordinates the crowd to
 decisions, removing the need for comprehensive guidelines and
 enabling dynamic label boundaries.</p>
 
+<p><span style='color: gray'>Work done during internship at Microsoft Research, Redmond.</span></p>
+
 <!--more-->
 
-<h2 id="toc_0">Abstract</h2>
+<h2 id="toc_13">Abstract</h2>
 
 <p>Crowdsourcing provides a scalable and efficient way to construct labeled
 datasets for training machine learning systems. However, creating comprehensive
@@ -56,13 +210,13 @@ without requiring new data to be collected. Further comparisons of Revolt&#39;s
 collaborative and non-collaborative variants show that collaboration reaches
 higher label accuracy with lower monetary cost.</p>
 
-<h2 id="toc_1">Downloads</h2>
+<h2 id="toc_14">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
 <a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
-<h2 id="toc_2">Citation</h2>
+<h2 id="toc_15">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
 Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
 In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &#39;17).
@@ -70,7 +224,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
 </code></pre>
 </div>
 
-<h2 id="toc_3">Bibtex</h2>
+<h2 id="toc_16">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2017:Revolt,
  author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
  title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Labeling | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/labeling/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-02-20T22:43:58-05:00</updated>
+  <updated>2018-04-12T18:55:05-04:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -20,10 +20,6 @@
     <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
     <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 100%;'/></p>
 
-<p>Joseph Chee Chang, Saleema Amershi, Ece Kamar. <strong><em>CHI 2017.</em></strong>
-<br/><span style='color: gray'>work done during internship at Microsoft Research, Redmond.</span>
-<br/><span style='color: gray'>rate=25%, N=2,424</span></p>
-
 <p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
@@ -31,9 +27,11 @@ to identify ambiguous concepts in the data and coordinates the crowd to
 decisions, removing the need for comprehensive guidelines and
 enabling dynamic label boundaries.</p>
 
+<p><span style='color: gray'>Work done during internship at Microsoft Research, Redmond.</span></p>
+
 <!--more-->
 
-<h2 id="toc_89">Abstract</h2>
+<h2 id="toc_148">Abstract</h2>
 
 <p>Crowdsourcing provides a scalable and efficient way to construct labeled
 datasets for training machine learning systems. However, creating comprehensive
@@ -56,13 +54,13 @@ without requiring new data to be collected. Further comparisons of Revolt&#39;s
 collaborative and non-collaborative variants show that collaboration reaches
 higher label accuracy with lower monetary cost.</p>
 
-<h2 id="toc_90">Downloads</h2>
+<h2 id="toc_149">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
 <a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
-<h2 id="toc_91">Citation</h2>
+<h2 id="toc_150">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
 Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
 In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &#39;17).
@@ -70,7 +68,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
 </code></pre>
 </div>
 
-<h2 id="toc_92">Bibtex</h2>
+<h2 id="toc_151">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2017:Revolt,
  author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
  title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},

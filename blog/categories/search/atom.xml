@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Search | Joseph Chee Chang]]></title>
+  <link href="http://joseph.nlpweb.org/blog/categories/search/atom.xml" rel="self"/>
+  <link href="http://joseph.nlpweb.org/"/>
+  <updated>2018-04-12T18:55:05-04:00</updated>
+  <id>http://joseph.nlpweb.org/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bento Browser]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento/"/>
+    <updated>2018-04-21T08:01:00-04:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento</id>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/bento.png" style='width: 100%;'/></p>
+
+<p>Complex searches can be overwhelming leading to lots
+of tabs.  This also makes conducting searches on mobile devices especially
+difficult where screen real-estate is limited and tasks can often be 
+inturrupted.  Rather than using tabs to manage information, we introduce
+browsing through scaffolding. Search result lists serve as mutable
+workspaces where progress can be suspended and resumed.
+You can <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download BentoBrowser from the AppStore</a>.</p>
+
+<!--more-->
+
+<h2 id="toc_163">Abstract</h2>
+
+<p>People engaged in complex searches such as planning a vacation or understanding
+their medical symptoms are often overwhelmed by opening and managing many tabs.
+These challenges are exacerbated as search moves to smartphones and mobile
+devices where screen real-estate is limited and tasks are frequently suspended,
+resumed, and interleaved. Rather than continue to utilize tab-based browsing
+for complex search, we introduce a new way of browsing through a scaffolded
+interface. The list of search results serves as a mutable workspace, where a
+user can track progress on a specific information query. The search query
+serves as a gateway into this workspace, accessed through a task-subtask
+hierarchy. We instantiate this in the Bento mobile search system and
+investigate its effectiveness in three studies. We find converging evidence
+that users were able to make progress on their complex searching tasks with
+this structure, and find it more organized and easier to revisit. </p>
+
+<h2 id="toc_164">Install Bento Browser</h2>
+
+<p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
+
+<p><img src="http://joseph.nlpweb.org/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
+
+<p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
+
+<h2 id="toc_165">Video Demo</h2>
+
+<p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="toc_166">Downloads</h2>
+
+<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2 id="toc_167">Citation</h2>
+<div class="highlight"><pre><code class="text"><span></span>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
+Bento Browser: Complex Mobile Search Without Tabs.
+In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
+ACM, Montreal, QC, Canada.
+</code></pre>
+</div>
+
+<h2 id="toc_168">Bibtex</h2>
+<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Hahn:2018:Bento,
+ author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
+ title = {Bento Browser: Complex Mobile Search Without Tabs.},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI &#39;18},
+ year = {2018},
+ publisher = {ACM},
+ address = {Montreal, QC, Canada},
+} 
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
