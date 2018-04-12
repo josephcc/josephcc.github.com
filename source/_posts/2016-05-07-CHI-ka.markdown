@@ -5,6 +5,9 @@ subtitle: "Big Picture Thinking in Small Pieces"
 seotitle: "The Knowledge Acelorator: Big Picture Thinking in Small Pieces (CHI 2016)"
 date: 2016-05-07 07:00
 comments: true
+authors: "Nathan Hahn, Joseph Chee Chang, Aniket Kittur."
+venue: "CHI 2016"
+stats: "(r=23% N=2435)"
 toc: true
 lsi: true
 categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Information Retrieval', 'Information Foraging']
@@ -15,11 +18,8 @@ project: true
 <img src="/images/projects/ka.png" style='width: 100%;'/>
 
 
-Nathan Hahn, Joseph Chee Chang, and Aniket Kittur. ***CHI 2016.***
-<br/><span style='color: gray'>rate=23%, N=2,435</span>
-
-***BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i>***
-
+***<i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION***
+<br/>
 People often search to web to find solutions to problems beyond factual
 question, such as planning road trips, writing an report, or buying a new
 camera.  The Knowledge Accelerator uses crowdworkers to synthesize different
@@ -46,13 +46,29 @@ information  synthesis  and  evaluateits output across a variety of topics.  We
 also contribute a setof design patterns that may be informative for other
 systemsaimed at supporting big picture thinking in small pieces.
 
-Demo
-----------------------
 
 Downloads
 ----------------------
 <a class="btn btn-default" href="/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a>
+
+
+Media Coverage
+----------------------
+- Pittsburgh Post-Gazette: [Crowdsourcing work? Get rid of the human supervisor](http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127)
+- Campus Technology: [Research Project Mixes Humans and Machines for Better Crowdsourcing](https://campustechnology.com/articles/2016/05/10/research-project-mixes-humans-and-machines-for-better-crowdsourcing.aspx)
+- Neuraoscience News: [Crowd Augmented Cognition: Combining Human and Machine Intelligence to Accelerate Learning](http://neurosciencenews.com/human-machine-intelligence-framework-4221/)
+- DZone: [Research Suggests AI Managers Effective for Crowdsourcing](https://dzone.com/articles/researchers-work-on-automated-means-of-managing-th)
+- PhysOrg: [Crowd-augmented cognition: Team develops tools that combine human and machine intelligence to accelerate learning](https://phys.org/news/2016-05-crowd-augmented-cognition-team-tools-combine.html)
+- TechExplore: [Big thinking in small pieces: Computer guides humans in crowdsourced research](https://techxplore.com/news/2016-05-big-small-pieces-humans-crowdsourced.html)
+- Spend Matters: [Crowdsourcing and Cognitive Computing: Are You Ready for the Future of Work?](http://spendmatters.com/2016/06/09/crowdsourcing-and-cognitive-computing-are-you-ready-for-the-future-of-work/)
+- Science Daily: [Crowd-augmented cognition - combine human, machine intelligence to accelerate learning](https://www.sciencedaily.com/releases/2016/05/160511210628.htm)
+- EurekAlert: [Big thinking in small pieces: Computer guides humans in crowdsourced research](https://www.eurekalert.org/pub_releases/2016-05/cmu-bti051016.php)
+- EurekAlert: [Crowd-augmented cognition](https://www.eurekalert.org/pub_releases/2016-05/nsf-cc051116.php)
+- NSF News: [Big thinking in small pieces: Computer guides humans in crowdsourced research](https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=80586&from=)
+- NSF News: [Crowd-augmented cognition](https://www.nsf.gov/news/news_summ.jsp?cntn_id=138580&org=NSF)
+- CMU SCS News: [Big thinking in small pieces: Computer guides humans in crowdsourced research](https://www.cmu.edu/news/stories/archives/2016/may/knowledge-accelerator.html)
+- CMU HCII News: [Computer Guides Humans in Crowdsourced Research](https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research)
 
 Citation
 ----------------------

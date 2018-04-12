@@ -5,6 +5,9 @@ subtitle: "Collaborative Crowdsourcing for Labeling Machine Learning Datasets"
 seotitle: "Revolt: Collaborative Crowdsourcing for Labeling MachineLearning Datasets (2017)"
 date: 2017-05-06 08:00
 comments: true
+authors: "Joseph Chee Chang, Saleema Amershi, Ece Kamar."
+venue: "CHI 2017"
+stats: "(r=25% N=2424)"
 toc: true
 lsi: true
 categories: ['CHI', 'SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Machine Learning', 'Classification', 'Labeling']
@@ -15,10 +18,6 @@ project: true
 <img src="/images/projects/revolt.png" style='width: 100%;'/>
 
 
-Joseph Chee Chang, Saleema Amershi, Ece Kamar. ***CHI 2017.***
-<br/><span style='color: gray'>work done during internship at Microsoft Research, Redmond.</span>
-<br/><span style='color: gray'>rate=25%, N=2,424</span>
-
 Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses *crowd disagreements*
 to identify ambiguous concepts in the data and coordinates the crowd to
@@ -26,6 +25,7 @@ to identify ambiguous concepts in the data and coordinates the crowd to
 decisions, removing the need for comprehensive guidelines and
 enabling dynamic label boundaries.
 
+<span style='color: gray'>Work done during internship at Microsoft Research, Redmond.</span>
 
 <!--more-->
 

@@ -4,6 +4,9 @@ title: "Alloy"
 subtitle: "Clustering with Crowds and Computation"
 seotitle: "Alloy: Clustering with Crowds and Computation (CHI 2016)"
 date: 2016-05-07 08:00
+authors: "Joseph Chee Chang, Aniket Kittur, Nathan Hahn."
+venue: "CHI 2016"
+stats: "(r=23% N=2435)"
 comments: true
 toc: true
 lsi: true
@@ -15,14 +18,10 @@ project: true
 <img src="/images/projects/alloy.png" style='width: 100%;'/>
 
 
-Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. ***CHI 2016.***
-<br/><span style='color: gray'>rate=23%, N=2,435</span>
-
-***BEST PAPER NOMINATION <i class="fa fa-trophy" aria-hidden="true"></i>***
+***<i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION***
 <br/>
 ***HCOMP 2016 INVITED ENCORE TALK***
-
-
+<br/>
 Many crowd clustering approaches have difficulties providing global context to
 workers in order to generate meaningful categories.  Alloy uses a
 *sample-and-search* technique to provide global context, and
@@ -54,6 +53,24 @@ Downloads
 ----------------------
 <a class="btn btn-default" href="/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a>
+
+
+Media Coverage
+----------------------
+- Pittsburgh Post-Gazette: [Crowdsourcing work? Get rid of the human supervisor](http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127)
+- Campus Technology: [Research Project Mixes Humans and Machines for Better Crowdsourcing](https://campustechnology.com/articles/2016/05/10/research-project-mixes-humans-and-machines-for-better-crowdsourcing.aspx)
+- Neuraoscience News: [Crowd Augmented Cognition: Combining Human and Machine Intelligence to Accelerate Learning](http://neurosciencenews.com/human-machine-intelligence-framework-4221/)
+- DZone: [Research Suggests AI Managers Effective for Crowdsourcing](https://dzone.com/articles/researchers-work-on-automated-means-of-managing-th)
+- PhysOrg: [Crowd-augmented cognition: Team develops tools that combine human and machine intelligence to accelerate learning](https://phys.org/news/2016-05-crowd-augmented-cognition-team-tools-combine.html)
+- TechExplore: [Big thinking in small pieces: Computer guides humans in crowdsourced research](https://techxplore.com/news/2016-05-big-small-pieces-humans-crowdsourced.html)
+- Spend Matters: [Crowdsourcing and Cognitive Computing: Are You Ready for the Future of Work?](http://spendmatters.com/2016/06/09/crowdsourcing-and-cognitive-computing-are-you-ready-for-the-future-of-work/)
+- Science Daily: [Crowd-augmented cognition - combine human, machine intelligence to accelerate learning](https://www.sciencedaily.com/releases/2016/05/160511210628.htm)
+- EurekAlert: [Big thinking in small pieces: Computer guides humans in crowdsourced research](https://www.eurekalert.org/pub_releases/2016-05/cmu-bti051016.php)
+- EurekAlert: [Crowd-augmented cognition](https://www.eurekalert.org/pub_releases/2016-05/nsf-cc051116.php)
+- NSF News: [Big thinking in small pieces: Computer guides humans in crowdsourced research](https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=80586&from=)
+- NSF News: [Crowd-augmented cognition](https://www.nsf.gov/news/news_summ.jsp?cntn_id=138580&org=NSF)
+- CMU SCS News: [Big thinking in small pieces: Computer guides humans in crowdsourced research](https://www.cmu.edu/news/stories/archives/2016/may/knowledge-accelerator.html)
+- CMU HCII News: [Computer Guides Humans in Crowdsourced Research](https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research)
 
 Citation
 ----------------------

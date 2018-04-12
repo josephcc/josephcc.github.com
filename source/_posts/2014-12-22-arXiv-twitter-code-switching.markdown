@@ -4,6 +4,8 @@ title: "Twitter Code-Switching"
 subtitle: "Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus"
 seotitle: "Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus"
 date: 2014-12-22 08:00
+authors: "Joseph Chee Chang, Chu-Cheng Lin."
+venue: "arXiv"
 comments: true
 toc: true
 lsi: true
@@ -12,15 +14,13 @@ span: 6
 project: true
 ---
 
-
-Joseph Chee Chang, Chu-Cheng Lin.
-<br/><span style='color: gray'>final project for the Deep Learning course at CMU.</span>
-
 Code-switching behavior is common on social media for expressing solidarity or
 to establish authority. While past work on automatic code-switching detection
 depends on dictionary look-up or named-entity recognition, our recurrent neural
 network model that relies on only raw features outperformed the top systems in
 the EMNLP'14 Code-Switching Workshop by 17% in error rate reduction.
+
+<span style='color: gray'>Final project for the Deep Learning course at CMU.</span>
 
 <!--more-->
 

@@ -5,6 +5,9 @@ subtitle: "Supporting Mobile Sensemaking Through Intentionally Uncertain Highlig
 seotitle: "Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting (UIST 2016)"
 date: 2016-10-16 08:00
 comments: true
+authors: "Joseph Chee Chang, Nathan Hahn, Aniket Kittur."
+venue: "UIST 2016"
+stats: "(r=21% N=384)"
 toc: true
 lsi: true
 categories: ['UIST', 'HCI', 'Interaction', 'Sensemaking', 'Information Foraging']
@@ -14,9 +17,6 @@ project: true
 
 <img src="/images/projects/highlight.png" style='width: 100%;'/>
 
-
-Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. ***UIST 2016.***
-<br/><span style='color: gray'>rate=21%, N=384</span>
 
 Highlighting can be mentally taxing for learners who are often unsure about how
 much information they needed to include.  We introduce the idea of
@@ -51,7 +51,7 @@ Presentation (UIST 2016)
 ----------------------
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
 
-Demo
+Demo Video
 ----------------------
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
 

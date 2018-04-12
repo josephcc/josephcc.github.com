@@ -1,0 +1,89 @@
+---
+layout: post
+title: "Bento Browser"
+subtitle: "Complex Mobile Search Without Tabs"
+seotitle: "Bento Browser: Complex Mobile Search Without Tabs (2018)"
+authors: "Nathan Hahn, Joseph Chee Chang, Aniket Kittur."
+venue: "CHI 2018"
+stats: "(r=26% N=2595)"
+date: 2018-04-21 08:01
+comments: true
+toc: true
+lsi: true
+categories: ['CHI', 'SIGCHI', 'HCI', 'Information Retrieval', 'Sensemaking', 'Search']
+span: 6
+project: true
+---
+
+<img src="/images/projects/bento.png" style='width: 100%;'/>
+
+
+Complex searches can be overwhelming leading to lots
+of tabs.  This also makes conducting searches on mobile devices especially
+difficult where screen real-estate is limited and tasks can often be 
+inturrupted.  Rather than using tabs to manage information, we introduce
+browsing through scaffolding. Search result lists serve as mutable
+workspaces where progress can be suspended and resumed.
+You can [download BentoBrowser from the AppStore](https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8).
+
+<!--more-->
+
+Abstract
+----------------------
+
+People engaged in complex searches such as planning a vacation or understanding
+their medical symptoms are often overwhelmed by opening and managing many tabs.
+These challenges are exacerbated as search moves to smartphones and mobile
+devices where screen real-estate is limited and tasks are frequently suspended,
+resumed, and interleaved. Rather than continue to utilize tab-based browsing
+for complex search, we introduce a new way of browsing through a scaffolded
+interface. The list of search results serves as a mutable workspace, where a
+user can track progress on a specific information query. The search query
+serves as a gateway into this workspace, accessed through a task-subtask
+hierarchy. We instantiate this in the Bento mobile search system and
+investigate its effectiveness in three studies. We find converging evidence
+that users were able to make progress on their complex searching tasks with
+this structure, and find it more organized and easier to revisit. 
+
+
+Install Bento Browser
+----------------------
+The version on the AppStore is the third iteration of the version from the CHI 2018 paper.
+
+<img src="/images/projects/bento_screenshots.png" style='width: 100%;'/>
+
+<a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a>
+
+Video Demo
+----------------------
+The version in the video is the second iteration of the version from the CHI 2018 paper.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Downloads
+----------------------
+<a class="btn btn-default" href="/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+
+Citation
+----------------------
+```
+Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
+Bento Browser: Complex Mobile Search Without Tabs.
+In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18).
+ACM, Montreal, QC, Canada.
+```
+
+Bibtex
+----------------------
+```
+@inproceedings{Hahn:2018:Bento,
+ author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
+ title = {Bento Browser: Complex Mobile Search Without Tabs.},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '18},
+ year = {2018},
+ publisher = {ACM},
+ address = {Montreal, QC, Canada},
+} 
+```
+

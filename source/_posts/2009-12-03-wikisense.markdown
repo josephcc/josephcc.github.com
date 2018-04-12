@@ -4,6 +4,8 @@ title: "WikiSense"
 subtitle: "Supersense Tagging Named Entities on Wikipedia"
 seotitle: "WikiSense: Supersense Tagging Named Entities on Wikipedia"
 date: 2009-12-03 08:00
+authors: "Joseph Chee Chang, Richard Tsai, Jason S. Chang."
+venue: "PACLIC 2009"
 comments: true
 toc: true
 lsi: true
@@ -11,10 +13,6 @@ categories: ['PACLIC', 'NLP', 'Information Extraction', 'Machine Learning']
 span: 6
 project: true
 ---
-
-
-Joseph Chee Chang, Richard Tsai, and Jason S. Chang. ***PACLIC 2009.***
-
 
 We introduced a method for classifying named-entities into broad semantic
 categories in WordNet. We extracted rich features from Wikipedia, allowing us
