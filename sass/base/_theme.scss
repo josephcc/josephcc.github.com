@@ -12,53 +12,168 @@
   background-clip: border-box;
   background-color: #323232;
 
-  background-image: url("/images/heroBack.jpg");
-  -webkit-background-filter: blur(10px);
-  background-filter: blur(10px);
-  background-origin: padding-box;
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: 100% auto;
-
-
   z-index: -1;
 
   margin: 0px;
   padding: 0px;
 
-  padding-top: 100px;
-  @media only screen and (min-width: 0px)    { padding-top: 20px !important; }
-  @media only screen and (min-width: 450px)  { padding-top: 45px !important; }
-  @media only screen and (min-width: 700px)  { padding-top: 70px !important; }
-  @media only screen and (min-width: 1024px) { padding-top: 100px !important; }
-
-  height: 550px;
+  padding-top: 0px;
+  height: 500px;
   @media only screen and (min-width: 0px)    { height: 200px !important; }
   @media only screen and (min-width: 450px)  { height: 300px !important; }
   @media only screen and (min-width: 700px)  { height: 450px !important; }
-  @media only screen and (min-width: 1024px) { height: 550px !important; }
+  @media only screen and (min-width: 1024px) { height: 500px !important; }
 }
 #hero-inner {
-  font-family: 'Architects Daughter', cursive;
   margin-top: 0px !important;
 }
 #hero-inner h1 {
-  font-size: 50px;
-  @media only screen and (min-width: 0px)    { font-size: 20px !important; }
-  @media only screen and (min-width: 450px)  { font-size: 35px !important; }
-  @media only screen and (min-width: 700px)  { font-size: 40px !important; }
-  @media only screen and (min-width: 1000px) { font-size: 55px !important; }
-  @media only screen and (min-width: 1250px) { font-size: 70px !important; }
-  padding-left: 10px;
+  //font-family: 'Architects Daughter', cursive;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  color: #eee;
-  text-shadow: 0px 0px 5px black;
+  @media only screen and (min-width: 0px)  { font-size: 14px !important; }
+  @media only screen and (min-width: 460px)  { font-size: 24px !important; }
+  @media only screen and (min-width: 700px)  { font-size: 46px !important; }
+  @media only screen and (min-width: 1000px) { font-size: 50px !important; }
+  @media only screen and (min-width: 1200px) { font-size: 63px !important; }
+
+  color: #000;
+  text-shadow: 0px 0px 2px white;
 }
+
+#hero-inner h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  @media only screen and (min-width: 0px)  { font-size: 8px !important; }
+  @media only screen and (min-width: 460px)  { font-size: 14px !important; }
+  @media only screen and (min-width: 700px)  { font-size: 26px !important; }
+  @media only screen and (min-width: 1000px) { font-size: 30px !important; }
+  @media only screen and (min-width: 1200px) { font-size: 36px !important; }
+
+  color: #000;
+  text-shadow: 0px 0px 1px white;
+}
+
 #hero-inner em {
   font-style: normal;
-  color: #99CDFF;
-  text-shadow: 0px 0px 5px black;
+//  color: #99CDFF;
+  color: #c41330;
+  text-shadow: 0px 0px 1px white;
 }
+
+
+#hero-inner * {
+  box-sizing: border-box;
+}
+
+.box {
+  position: relative;
+  perspective: 400px;
+  width: 100%;
+  height: 500px;
+  @media only screen and (min-width: 0px)    { height: 200px !important; }
+  @media only screen and (min-width: 450px)  { height: 300px !important; }
+  @media only screen and (min-width: 700px)  { height: 450px !important; }
+  @media only screen and (min-width: 1024px) { height: 500px !important; }
+
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: perspective 5s;
+}
+
+.fore-box {
+  z-index: 10;
+  top: -500px;
+  @media only screen and (min-width: 0px)    { top: -200px !important; }
+  @media only screen and (min-width: 450px)  { top: -300px !important; }
+  @media only screen and (min-width: 700px)  { top: -450px !important; }
+  @media only screen and (min-width: 1024px) { top: -500px !important; }
+}
+
+.bg-box {
+  z-index: 5;
+}
+
+.img {
+  height: 500px;
+  @media only screen and (min-width: 0px)    { height: 200px !important; }
+  @media only screen and (min-width: 450px)  { height: 300px !important; }
+  @media only screen and (min-width: 700px)  { height: 450px !important; }
+  @media only screen and (min-width: 1024px) { height: 500px !important; }
+
+  transition: all 3s;
+}
+
+.fore {
+  z-index: 10;
+  background-image: url(/images/FG.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+
+  transform: translateZ(-175px) translateX(-260px) translateY(110px);
+  @media only screen and (min-width: 0px)    { transform: translateZ(-175px) translateX(-260px) translateY(110px); }
+  @media only screen and (min-width: 450px)  { transform: translateZ(-175px) translateX(-260px) translateY(110px); }
+  @media only screen and (min-width: 700px)  { transform: translateZ(-175px) translateX(-260px) translateY(110px); }
+  @media only screen and (min-width: 1024px) { transform: translateZ(-175px) translateX(-260px) translateY(110px); }
+}
+
+.bg {
+  background-image: url(/images/BG.jpg);
+  transform: translateZ(150px);
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.container:hover .fore {
+  transform: translateZ(-25px) translateX(-45px) translateY(45px);
+  //transform: translateZ(90px) translateY(75px) translateX(-25px);
+}
+.container:hover .bg {
+  transform: translateZ(0px);
+  filter: blur(12px) saturate(90%) brightness(120%);
+  -webkit-filter: blur(12px) saturate(90%) brightness(120%);
+}
+
+.box .bg {
+  filter: blur(2px) saturate(60%) brightness(120%);
+  -webkit-filter: blur(2px) saturate(60%) brightness(120%);
+}
+
+.ui {
+  z-index: 100;
+  text-align: right;
+  margin-top: -500px;
+  margin-right: 20px;
+  @media only screen and (min-width: 0px)    { margin-top: -200px !important; }
+  @media only screen and (min-width: 450px)  { margin-top: -300px !important; }
+  @media only screen and (min-width: 700px)  { margin-top: -450px !important; }
+  @media only screen and (min-width: 1024px) { margin-top: -500px !important; }
+}
+
+.ui .out {
+  opacity: 1.0;
+  transition: all 3s;
+  margin-bottom: 1000px;
+}
+
+.ui .in{
+  opacity: 0.0;
+  transition: all 3s;
+}
+.container:hover .ui .out {
+  @media only screen and (min-width: 700px)  {
+    opacity: 0.0;
+    display: none;
+  }
+}
+
+.container:hover .ui .in{
+  @media only screen and (min-width: 700px)  {
+    opacity: 1.0;
+  }
+}
+
+
 body {
   background-attachment: scroll;
   background-clip: border-box;
@@ -114,11 +229,11 @@ article h1 {
 }
 .wrapper_single {
   background-color: #F1F1F1;
-  background-image: url("/images/heroBack.jpg");
-  background-filter: blur(10px);
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: 100% auto;
+  //background-image: url("/images/heroBack.jpg");
+  //background-filter: blur(10px);
+  //background-repeat: repeat;
+  //background-attachment: fixed;
+  //background-size: 100% auto;
   padding-top: 75px;
   padding-bottom: 75px;
   border-bottom-color: white;
