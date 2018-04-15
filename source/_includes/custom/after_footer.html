@@ -13,11 +13,25 @@
 <!-- the jScrollPane script -->
 <script type="text/javascript" src="{{ root_url }}/javascripts/jScrollPane/script/jquery.jscrollpane.min.js"></script>
 
+<script src="{{ root_url }}/javascripts/libs/particles.min.js" type="text/javascript"></script>
+
+
+
 <script type="text/javascript">
   $(document).ready(function() {
     bindBibtexQtips();
   });
+
+  var hero = document.getElementById('hero')
+  if (hero !== undefined && hero !== null) {
+    particlesJS.load('hero', '{{ root_url }}/javascripts/libs/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  }
 </script>
+
+
+
 
 {% include disqus.html %}
 

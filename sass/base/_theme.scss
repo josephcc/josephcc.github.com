@@ -8,9 +8,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: #323232;
 
   z-index: -1;
 
@@ -18,39 +15,118 @@
   padding: 0px;
 
   padding-top: 0px;
-  height: 500px;
-  @media only screen and (min-width: 0px)    { height: 200px !important; }
-  @media only screen and (min-width: 450px)  { height: 300px !important; }
-  @media only screen and (min-width: 700px)  { height: 450px !important; }
-  @media only screen and (min-width: 1024px) { height: 500px !important; }
+  height: 500px !important;
+
+//background: linear-gradient(75deg, #0067a6, #00abd8, #008972, #efc028, #f2572d);
+//background: linear-gradient(75deg, #0067a6, #FFCF8C, #008972, #efc028, #8EFFA3);
+//background: linear-gradient(75deg, #9B95FF, #FFC988, #E880AC, #7CE8D5, #CEFF88);
+//background: linear-gradient(75deg, #, #, #, #, #);
+//background: linear-gradient(75deg, #, #, #, #, #);
+//background: linear-gradient(75deg, #3C989E, #5DB5A4, #F4CDA5, #F57A82, #ED5276);
+background: linear-gradient(75deg, #9B95FF, #FFA6EF, #E8D389, #83E8C0, #8ECDFF);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 24s ease infinite;
+-moz-animation: AnimationName 24s ease infinite;
+animation: AnimationName 24s ease infinite;
+
+}
+
+
+#avatar {
+  border-radius: 50%;
+
+  @media only screen and (min-width: 0px)  {
+    max-width: 100px;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+  }
+  @media only screen and (min-width: 768px)  {
+    margin-top: 50%;
+    transform: transformY(-50%);
+    max-width: 80%;
+    width: auto;
+    height: auto;
+  }
+}
+
+#intro {
+  margin-top: 0.5%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
 }
 #hero-inner {
+  color: #000;
   margin-top: 0px !important;
+  @media only screen and (min-width: 0px)  { padding-right: 12px; padding-left: 12px;}
+  @media only screen and (min-width: 700px)  { padding-right: 0px; padding-left: 0px; }
 }
+#hero-inner p {
+  text-shadow: 0px 0px 1px lightgray;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  @media only screen and (min-width: 0px)  { font-size: 10px !important; }
+  @media only screen and (min-width: 460px)  { font-size: 12px !important; }
+  @media only screen and (min-width: 590px)  { font-size: 14px !important; }
+  @media only screen and (min-width: 700px)  { font-size: 16px !important; }
+  @media only screen and (min-width: 980px) { font-size: 18px !important; }
+  @media only screen and (min-width: 1200px) { font-size: 20px !important; }
+}
+
+#hero-inner p a {
+  color: #000;
+  text-shadow: 0px 0px 1px lightgray;
+  text-decoration: none;
+  border-bottom: 1px dashed gray;
+}
+
 #hero-inner h1 {
   //font-family: 'Architects Daughter', cursive;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  @media only screen and (min-width: 0px)  { font-size: 14px !important; }
+  @media only screen and (min-width: 0px)  { font-size: 20px !important; }
   @media only screen and (min-width: 460px)  { font-size: 24px !important; }
-  @media only screen and (min-width: 700px)  { font-size: 46px !important; }
-  @media only screen and (min-width: 1000px) { font-size: 50px !important; }
-  @media only screen and (min-width: 1200px) { font-size: 63px !important; }
+  @media only screen and (min-width: 700px)  { font-size: 40px !important; }
+  @media only screen and (min-width: 980px) { font-size: 48px !important; }
+  @media only screen and (min-width: 1200px) { font-size: 50px !important; }
 
   color: #000;
-  text-shadow: 0px 0px 2px white;
+  text-shadow: 0px 0px 1px white;
 }
 
 #hero-inner h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  @media only screen and (min-width: 0px)  { font-size: 8px !important; }
-  @media only screen and (min-width: 460px)  { font-size: 14px !important; }
-  @media only screen and (min-width: 700px)  { font-size: 26px !important; }
-  @media only screen and (min-width: 1000px) { font-size: 30px !important; }
-  @media only screen and (min-width: 1200px) { font-size: 36px !important; }
+  line-height: 1.1;
+  @media only screen and (min-width: 0px)  { font-size: 10px !important; }
+  @media only screen and (min-width: 460px)  { font-size: 12px !important; }
+  @media only screen and (min-width: 700px)  { font-size: 14px !important; }
+  @media only screen and (min-width: 980px) { font-size: 18px !important; }
+  @media only screen and (min-width: 1200px) { font-size: 24px !important; }
 
   color: #000;
-  text-shadow: 0px 0px 1px white;
+  text-shadow: 0px 0px 1px lightgray;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.avatar {
 }
 
 #hero-inner em {
@@ -65,112 +141,11 @@
   box-sizing: border-box;
 }
 
-.box {
-  position: relative;
-  perspective: 400px;
-  width: 100%;
-  height: 500px;
-  @media only screen and (min-width: 0px)    { height: 200px !important; }
-  @media only screen and (min-width: 450px)  { height: 300px !important; }
-  @media only screen and (min-width: 700px)  { height: 450px !important; }
-  @media only screen and (min-width: 1024px) { height: 500px !important; }
-
-  overflow: hidden;
-  transform-style: preserve-3d;
-  transition: perspective 5s;
-}
-
-.fore-box {
-  z-index: 10;
-  top: -500px;
-  @media only screen and (min-width: 0px)    { top: -200px !important; }
-  @media only screen and (min-width: 450px)  { top: -300px !important; }
-  @media only screen and (min-width: 700px)  { top: -450px !important; }
-  @media only screen and (min-width: 1024px) { top: -500px !important; }
-}
-
-.bg-box {
-  z-index: 5;
-}
-
-.img {
-  height: 500px;
-  @media only screen and (min-width: 0px)    { height: 200px !important; }
-  @media only screen and (min-width: 450px)  { height: 300px !important; }
-  @media only screen and (min-width: 700px)  { height: 450px !important; }
-  @media only screen and (min-width: 1024px) { height: 500px !important; }
-
-  transition: all 3s;
-}
-
-.fore {
-  z-index: 10;
-  background-image: url(/images/FG.png);
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-
-  transform: translateZ(-175px) translateX(-260px) translateY(110px);
-  @media only screen and (min-width: 0px)    { transform: translateZ(-175px) translateX(-260px) translateY(110px); }
-  @media only screen and (min-width: 450px)  { transform: translateZ(-175px) translateX(-260px) translateY(110px); }
-  @media only screen and (min-width: 700px)  { transform: translateZ(-175px) translateX(-260px) translateY(110px); }
-  @media only screen and (min-width: 1024px) { transform: translateZ(-175px) translateX(-260px) translateY(110px); }
-}
-
-.bg {
-  background-image: url(/images/BG.jpg);
-  transform: translateZ(150px);
-  background-size: cover;
-  background-position: left bottom;
-}
-
-.container:hover .fore {
-  transform: translateZ(-25px) translateX(-45px) translateY(45px);
-  //transform: translateZ(90px) translateY(75px) translateX(-25px);
-}
-.container:hover .bg {
-  transform: translateZ(0px);
-  filter: blur(12px) saturate(90%) brightness(120%);
-  -webkit-filter: blur(12px) saturate(90%) brightness(120%);
-}
-
-.box .bg {
-  filter: blur(2px) saturate(60%) brightness(120%);
-  -webkit-filter: blur(2px) saturate(60%) brightness(120%);
-}
-
-.ui {
-  z-index: 100;
-  text-align: right;
-  margin-top: -500px;
-  margin-right: 20px;
-  @media only screen and (min-width: 0px)    { margin-top: -200px !important; }
-  @media only screen and (min-width: 450px)  { margin-top: -300px !important; }
-  @media only screen and (min-width: 700px)  { margin-top: -450px !important; }
-  @media only screen and (min-width: 1024px) { margin-top: -500px !important; }
-}
-
-.ui .out {
-  opacity: 1.0;
-  transition: all 3s;
-  margin-bottom: 1000px;
-}
-
-.ui .in{
-  opacity: 0.0;
-  transition: all 3s;
-}
-.container:hover .ui .out {
-  @media only screen and (min-width: 700px)  {
-    opacity: 0.0;
-    display: none;
-  }
-}
-
-.container:hover .ui .in{
-  @media only screen and (min-width: 700px)  {
-    opacity: 1.0;
-  }
+.particles-js-canvas-el {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
 }
 
 
@@ -213,10 +188,6 @@ article h1 {
   border-bottom-width: 1px;
 
   margin-top: 500px;
-  @media only screen and (min-width: 0px)    { margin-top: 150px !important; }
-  @media only screen and (min-width: 450px)  { margin-top: 250px !important; }
-  @media only screen and (min-width: 700px)  { margin-top: 400px !important; }
-  @media only screen and (min-width: 1024px) { margin-top: 500px !important; }
 }
 #archive-wrapper {
   background-color: #F1F1F1;
@@ -271,6 +242,17 @@ article h1 {
 .meta {
   color: gray;
   font-size: 10px;
+}
+#sub-hero h2 {
+  @media only screen and (min-width: 0px)  {
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  @media only screen and (min-width: 768px)  {
+    font-size: 2em;
+  }
+
 }
 #sub-hero {
   background-attachment: scroll;
