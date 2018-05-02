@@ -4,7 +4,7 @@
   <title><![CDATA[Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-04-14T23:38:10-04:00</updated>
+  <updated>2018-05-02T12:51:40-04:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -30,7 +30,7 @@ You can <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8
 
 <!--more-->
 
-<h2 id="toc_383">Abstract</h2>
+<h2 id="toc_389">Abstract</h2>
 
 <p>People engaged in complex searches such as planning a vacation or understanding
 their medical symptoms are often overwhelmed by opening and managing many tabs.
@@ -46,7 +46,7 @@ investigate its effectiveness in three studies. We find converging evidence
 that users were able to make progress on their complex searching tasks with
 this structure, and find it more organized and easier to revisit. </p>
 
-<h2 id="toc_384">Install Bento Browser</h2>
+<h2 id="toc_390">Install Bento Browser</h2>
 
 <p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
 
@@ -54,17 +54,27 @@ this structure, and find it more organized and easier to revisit. </p>
 
 <p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
 
-<h2 id="toc_385">Video Demo</h2>
+<h2 id="toc_391">Video Demo</h2>
 
 <p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_386">Downloads</h2>
+<h2 id="toc_392">Media Coverage</h2>
+
+<ul>
+<li>Tech Explorist: <a href="https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/">A new web browser makes it easier to search on mobile devices</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2018/04/180425093747.htm">Bento browser makes it easier to search on mobile devices</a></li>
+<li>Prikk: <a href="https://www.prikk.world/en/news/wirtschaft/innovation/bento-erleichtert-websuche-auf-mobilgeraten">&quot;BENTO&quot; ERLEICHTERT WEBSUCHE AUF MOBILGERÄTEN</a></li>
+<li>CMU News: <a href="https://www.cmu.edu/news/stories/archives/2018/april/bento-browser.html">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
+<li>CMU HCII: <a href="https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
+</ul>
+
+<h2 id="toc_393">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_387">Citation</h2>
+<h2 id="toc_394">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -75,7 +85,7 @@ this structure, and find it more organized and easier to revisit. </p>
 </span><span class='line'>In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18).
 </span><span class='line'>ACM, Montreal, QC, Canada.</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_388">Bibtex</h2>
+<h2 id="toc_395">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -116,7 +126,7 @@ public deployment study shows promising results. You can <a href="http://talking
 
 <!--more-->
 
-<h2 id="toc_376">Abstract</h2>
+<h2 id="toc_382">Abstract</h2>
 
 <p>Crowd-powered conversational assistants have been shown to be more robust than
 automated systems, but do so at the cost of higher response latency and
@@ -134,30 +144,30 @@ system. Its architecture allows future researchers to make further innovation
 on the underlying automated components in the context of a deployed open domain
 dialog system.</p>
 
-<h2 id="toc_377">Try Evorus on Google Talk</h2>
+<h2 id="toc_383">Try Evorus on Google Talk</h2>
 
 <p><a class="btn btn-default" href="http://talkingtothecrowd.org/" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Evorus', 'Website']);" role="button">TalkingToTheCrowd.org</a></p>
 
-<h2 id="toc_378">Overview Video</h2>
+<h2 id="toc_384">Overview Video</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3SAG8jP-Q-M?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_379">Media Coverage</h2>
+<h2 id="toc_385">Media Coverage</h2>
 
 <ul>
-<li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the &#39;Chorus&#39; chatbot: Unlike Alexa or Siri, it&#39;s powered by actual people on the other end</a>t</li>
+<li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the &#39;Chorus&#39; chatbot: Unlike Alexa or Siri, it&#39;s powered by actual people on the other end</a></li>
 <li>Trib Live: <a href="http://triblive.com/business/technology/13275597-74/chatbot-developed-at-carnegie-mellon-uses-humans-to-answer-questions-ais-cant">Chatbot developed at Carnegie Mellon uses humans to answer questions AIs can&#39;t</a></li>
 <li>EurekaAlert!: <a href="https://www.eurekalert.org/pub_releases/2018-02/cmu-cwa020618.php">Crowd workers, AI make conversational agents smarter</a></li>
 <li>CMU News: <a href="https://www.cs.cmu.edu/news/crowd-workers-ai-make-conversational-agents-smarter">Crowd workers, AI make conversational agents smarter</a></li>
 <li>Presstext: <a href="https://www.pressetext.com/#news/20180208014">KI-System &quot;Evorus&quot; wird zunehmend eigenständig</a></li>
 </ul>
 
-<h2 id="toc_380">Downloads</h2>
+<h2 id="toc_386">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
 
-<h2 id="toc_381">Citation</h2>
+<h2 id="toc_387">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -168,7 +178,7 @@ dialog system.</p>
 </span><span class='line'>In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18).
 </span><span class='line'>ACM, Montreal, QC, Canada.</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_382">Bibtex</h2>
+<h2 id="toc_388">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -209,7 +219,7 @@ enabling dynamic label boundaries.</p>
 
 <!--more-->
 
-<h2 id="toc_372">Abstract</h2>
+<h2 id="toc_378">Abstract</h2>
 
 <p>Crowdsourcing provides a scalable and efficient way to construct labeled
 datasets for training machine learning systems. However, creating comprehensive
@@ -232,13 +242,13 @@ without requiring new data to be collected. Further comparisons of Revolt&#39;s
 collaborative and non-collaborative variants show that collaboration reaches
 higher label accuracy with lower monetary cost.</p>
 
-<h2 id="toc_373">Downloads</h2>
+<h2 id="toc_379">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
 <a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
-<h2 id="toc_374">Citation</h2>
+<h2 id="toc_380">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -249,7 +259,7 @@ higher label accuracy with lower monetary cost.</p>
 </span><span class='line'>In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17).
 </span><span class='line'>ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.3026044</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_375">Bibtex</h2>
+<h2 id="toc_381">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -291,7 +301,7 @@ saving information while users are uncertain about where to highlight.</p>
 
 <!--more-->
 
-<h2 id="toc_366">Abstract</h2>
+<h2 id="toc_372">Abstract</h2>
 
 <p>Patients researching medical diagnoses, scientist exploring new fields of
 literature, and students learning about new domains are all faced with the
@@ -312,20 +322,20 @@ information in an intentionally uncertain way on mobile devices. In a two part
 user study we find that this approach reduced selection time and was preferred
 by participants over the default system text selection method.</p>
 
-<h2 id="toc_367">Presentation (UIST 2016)</h2>
+<h2 id="toc_373">Presentation (UIST 2016)</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_368">Demo Video</h2>
+<h2 id="toc_374">Demo Video</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_369">Downloads</h2>
+<h2 id="toc_375">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_370">Citation</h2>
+<h2 id="toc_376">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -336,7 +346,7 @@ by participants over the default system text selection method.</p>
 </span><span class='line'>In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16).
 </span><span class='line'>ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_371">Bibtex</h2>
+<h2 id="toc_377">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -395,7 +405,7 @@ with high quality and efficiency.</p>
 
 <!--more-->
 
-<h2 id="toc_361">Abstract</h2>
+<h2 id="toc_367">Abstract</h2>
 
 <p>Crowdsourced clustering approaches present a promising way to harness deep
 semantic knowledge for clustering complex information. However, existing
@@ -412,12 +422,12 @@ examples in the tail. To accomplish this, Alloy introduces a modular
 <em>cast and gather</em> approach which leverages a machine learning backbone
 to stitch together different types of judgment tasks.</p>
 
-<h2 id="toc_362">Downloads</h2>
+<h2 id="toc_368">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_363">Media Coverage</h2>
+<h2 id="toc_369">Media Coverage</h2>
 
 <ul>
 <li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
@@ -436,7 +446,7 @@ to stitch together different types of judgment tasks.</p>
 <li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
 </ul>
 
-<h2 id="toc_364">Citation</h2>
+<h2 id="toc_370">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -447,7 +457,7 @@ to stitch together different types of judgment tasks.</p>
 </span><span class='line'>In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
 </span><span class='line'>ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.2858411</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_365">Bibtex</h2>
+<h2 id="toc_371">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -504,7 +514,7 @@ microtask environment.</p>
 
 <!--more-->
 
-<h2 id="toc_356">Abstract</h2>
+<h2 id="toc_362">Abstract</h2>
 
 <p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
 real  world  tasks  are  often  interdependent,requiring a big picture view of
@@ -520,12 +530,12 @@ information  synthesis  and  evaluateits output across a variety of topics.  We
 also contribute a setof design patterns that may be informative for other
 systemsaimed at supporting big picture thinking in small pieces.</p>
 
-<h2 id="toc_357">Downloads</h2>
+<h2 id="toc_363">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_358">Media Coverage</h2>
+<h2 id="toc_364">Media Coverage</h2>
 
 <ul>
 <li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
@@ -544,7 +554,7 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
 <li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
 </ul>
 
-<h2 id="toc_359">Citation</h2>
+<h2 id="toc_365">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -555,7 +565,7 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
 </span><span class='line'>In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
 </span><span class='line'>ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.2858364</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_360">Bibtex</h2>
+<h2 id="toc_366">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -610,7 +620,7 @@ the EMNLP&#39;14 Code-Switching Workshop by 17% in error rate reduction.</p>
 
 <!--more-->
 
-<h2 id="toc_352">Abstract</h2>
+<h2 id="toc_358">Abstract</h2>
 
 <p>Mixed language data is one of the difficult yet less explored domains of
 natural language processing. Most research in fields like machine translation
@@ -627,12 +637,12 @@ mixed-language Twitter corpus, our system is able to outperform the best
 SVM-based systems reported in the EMNLP&#39;14 Code-Switching Workshop by 1% in
 accuracy, or by 17% in error rate reduction.</p>
 
-<h2 id="toc_353">Download</h2>
+<h2 id="toc_359">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'arXiv']);"  href="https://arxiv.org/abs/1412.4314" role="button">arXiv</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'PDF']);"  href="https://arxiv.org/pdf/1412.4314v2.pdf" role="button">arXiv hosted PDF</a></p>
 
-<h2 id="toc_354">Citation</h2>
+<h2 id="toc_360">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -641,7 +651,7 @@ accuracy, or by 17% in error rate reduction.</p>
 </span><span class='line'>"Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus."
 </span><span class='line'>arXiv preprint arXiv:1412.4314 (2014).</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_355">Bibtex</h2>
+<h2 id="toc_361">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -667,7 +677,7 @@ accuracy, or by 17% in error rate reduction.</p>
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
 language model and hidden Markov model.</p>
 
-<h2 id="toc_343">The Hangman Game</h2>
+<h2 id="toc_349">The Hangman Game</h2>
 
 <p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
 game of hangman automatically. The rules are
@@ -695,7 +705,7 @@ likely to appear before the word <code>day</code>. In my attempt, I trained a
 <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model</a> to guess every word in the sentence
 simultaneously.</p>
 
-<h2 id="toc_344">Language Model</h2>
+<h2 id="toc_350">Language Model</h2>
 
 <p>I use the state-of-the-art <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> package to train my
 language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
@@ -722,7 +732,7 @@ proposed to improve the performance of language models, including absolute disco
 Kneser-Ney smoothing. Formal definition of language model can be found on 
 <a href="http://en.wikipedia.org/wiki/Language_model">Wikipedia</a>.</p>
 
-<h2 id="toc_345">Hidden Markov Model</h2>
+<h2 id="toc_351">Hidden Markov Model</h2>
 
 <p>Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
 observations, state transition probability distribution, and emission probability distribution. For
@@ -745,7 +755,7 @@ Wikipedia pages <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">here<
 <a href="http://en.wikipedia.org/wiki/Viterbi_algorithm">here</a>, or in a slide I made when I was TA for a NLP course 
 <a href="http://hadoop.nlpweb.org/%7Ebizkit/lab3/vtb_example/">here</a> (in Chinese).</p>
 
-<h2 id="toc_346">Algorithm</h2>
+<h2 id="toc_352">Algorithm</h2>
 
 <p>It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
 Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
@@ -758,12 +768,12 @@ sequence that yield the highest language model probability and word frequencies.
 guess the letter that appears in most words. This process repeats until all characters are 
 revealed, and the number of failed guesses are recorded.</p>
 
-<h2 id="toc_347">Results</h2>
+<h2 id="toc_353">Results</h2>
 
 <p>Here are three examples and results. The interactive guessing progress and some internal states are
 shown in the three tables below.</p>
 
-<h3 id="toc_348">&quot;describe what is needed&quot;</h3>
+<h3 id="toc_354">&quot;describe what is needed&quot;</h3>
 
 <table><thead>
 <tr>
@@ -855,7 +865,7 @@ shown in the three tables below.</p>
 
 <p><br/></p>
 
-<h3 id="toc_349">&quot;an honor roll of online options&quot;</h3>
+<h3 id="toc_355">&quot;an honor roll of online options&quot;</h3>
 
 <table><thead>
 <tr>
@@ -920,7 +930,7 @@ shown in the three tables below.</p>
 <p>This one shows HMM produces different results as more characters are revealed.
 <br/></p>
 
-<h3 id="toc_350">&quot;members of the supreme court&quot;</h3>
+<h3 id="toc_356">&quot;members of the supreme court&quot;</h3>
 
 <table><thead>
 <tr>
@@ -963,7 +973,7 @@ shown in the three tables below.</p>
 
 <p>This last one really shows the power of language model. With only <code>e</code> revealed, the HMM process was able to guess the correct result.</p>
 
-<h2 id="toc_351">Improvements</h2>
+<h2 id="toc_357">Improvements</h2>
 
 <p>For stage one, instead of using just the highest frequency letters, conditional probability can also be
 a factor for choosing the next letter. For example, if <code>s</code> is revealed as the second to last character
@@ -989,7 +999,7 @@ can identify translation pairs at run-time.</p>
 
 <!--more-->
 
-<h2 id="toc_339">Abstract</h2>
+<h2 id="toc_345">Abstract</h2>
 
 <p>In this paper, we present a new method for learning to finding translations and
 transliterations on the Web for a given term. The approach involves using a
@@ -1000,12 +1010,12 @@ extracting translation candidates for a given term. Preliminary experiments and
 evaluation show our method cleanly combining various features, resulting in a
 system that outperforms previous work.</p>
 
-<h2 id="toc_340">Download</h2>
+<h2 id="toc_346">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_341">Citation</h2>
+<h2 id="toc_347">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -1016,7 +1026,7 @@ system that outperforms previous work.</p>
 </span><span class='line'>In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL '12), Vol. 2.
 </span><span class='line'>Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.</span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_342">Bibtex</h2>
+<h2 id="toc_348">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -1269,7 +1279,7 @@ module 中的某個 function，該 function 最後會再去呼叫正常的 syste
 hijack，不知道會不會是很沒有道理開發模式。
 這是篇是今晚的筆記，雖然內容不多，但在精神不濟的時刻，相信我更需要做點筆記。:p</p>
 
-<h2 id="toc_335">Adding a new system call</h2>
+<h2 id="toc_341">Adding a new system call</h2>
 
 <p>There are already many tutorials that explain how to add system calls to the
 kernel. The ones I read are <a href="http://140.120.13.13/%7Es9356048/OSLab/">the tutorial from Advance Defence Lab</a> in
@@ -1284,7 +1294,7 @@ module」或許聽起來很嚇人，但其實不難入門。當然真正難的�
 ，大概了解一下狀況，後來參考 The Linux Kernel Module
 Programming Guide <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">2</a> 寫了一個簡單的 hello world 模組。</p>
 
-<h2 id="toc_336">Exposing the system call table</h2>
+<h2 id="toc_342">Exposing the system call table</h2>
 
 <p>Even though starting from 2.6, the kernel no longer exposes <code>sys_call_table</code> to
 modules, there are probably techniques you can use <a href="http://www.epanastasi.com/?page_id=52">exploits</a> to find it. On
@@ -1316,7 +1326,7 @@ make sure you also have the following in your kernel <code>.config</code> file.<
 </pre></td><td class='code'><pre><code class='c'><span class='line'><span class="n">CONFIG_DEBUG_RODATA</span><span class="o">=</span><span class="n">n</span>
 </span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_337">System call hooking</h2>
+<h2 id="toc_343">System call hooking</h2>
 
 <p>Finally, the actual syscall hooking process is done in a kernel module with the
 following code:</p>
@@ -1342,7 +1352,7 @@ on system call hooking can be found on <a href="http://www.linuxjournal.com/arti
 結束前呼叫備份的 original_sys_exit 便完成 hooking 的動作。詳細的 System call
 hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http://www.linuxjournal.com/article/4378">4</a>中找到。</p>
 
-<h2 id="toc_338">References</h2>
+<h2 id="toc_344">References</h2>
 
 <ol>
 <li><a href="http://140.120.13.13/%7Es9356048/OSLab/">http://140.120.13.13/~s9356048/OSLab/</a></li>
@@ -1375,7 +1385,7 @@ complete operating system is needed.</p>
 <p>網路上許多 kgdb 的教學都是拿編好的 kernel image 搭配 busybox 來載入 QEMU
 開機，但這次學校作業內容包含執行 Firefox，所以需要跑在一個較完整的作業系統上。</p>
 
-<h2 id="toc_331">Setup QEMU VM</h2>
+<h2 id="toc_337">Setup QEMU VM</h2>
 
 <p>First, we need to create a HDD image with <code>qemu-img</code>:</p>
 
@@ -1442,7 +1452,7 @@ Windows 裝置命名習慣（C代表硬碟開機、D代表光碟、A/B代表軟�
 </span><span class='line'>            // tunnel port 2222 to VM<span class="err">&#39;</span>s port 22 <span class="k">for </span>remote ssh
 </span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_332">Compiling the Kernel</h2>
+<h2 id="toc_338">Compiling the Kernel</h2>
 
 <p>I&#39;m not really going to explain the process of compiling the Linux kernel, but
 if you use the <code>.config</code> file from Debian kernel packages, its pretty difficult
@@ -1491,7 +1501,7 @@ will have produced three files that you will need in next step, they are <code>i
 / mkinitramfs
 的參數。做到這裡，你會產生三個接下來會用到的檔案：initrd-2.6.32、vmlinux、arch/i386/boot/bzImage。</p>
 
-<h2 id="toc_333">Connecting gdb to the Linux kernel</h2>
+<h2 id="toc_339">Connecting gdb to the Linux kernel</h2>
 
 <p>In the last step, we will use QEMU&#39;s built-in boot loader instead of grub, and setup the required kernel parameters for KGDB:</p>
 
@@ -1529,7 +1539,7 @@ bizkit@tw, on Flickr"><img
 src="http://farm5.staticflickr.com/4153/5184827612_2e77a093f1_z.jpg"
 width="575" height="584" alt="Picture 6"></a></p>
 
-<h2 id="toc_334">Debugging with KGDB</h2>
+<h2 id="toc_340">Debugging with KGDB</h2>
 
 <p>Once connected your VM will continue booting and stop only if you have setup
 some break points. You can then use <code>l</code> to view currently running kernel
@@ -1616,7 +1626,7 @@ Here are some of the basics stuff about developing Android using CLI.</p>
 
 <p><a title="Flickr 上 bizkit@tw 的 Screen shot 2010-05-09 at 1.17.54 AM" href="http://www.flickr.com/photos/bizkit/4589099349/" target="_blank"><img src="http://farm5.static.flickr.com/4012/4589099349_6fa0f191d6_z_d.jpg" alt="Screen shot 2010-05-09 at 1.17.54 AM"></a></p>
 
-<h2 id="toc_329">The basics</h2>
+<h2 id="toc_335">The basics</h2>
 
 <p>Some useful commands&#8230;</p>
 
@@ -1640,7 +1650,7 @@ Here are some of the basics stuff about developing Android using CLI.</p>
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>adb log</span></code></pre></td></tr></table></div></figure></p>
 
-<h2 id="toc_330">Eclim</h2>
+<h2 id="toc_336">Eclim</h2>
 
 <p>With <a href="http://www.eclim.org">Eclim</a> you can have most of the Eclipse functionalities inside your vim, 
 including code-completion and real-time validation. Eclim is basically Eclipse running in headless
@@ -1697,7 +1707,7 @@ large scale named-entity semantic database with 1.2 million entries and over
 
 <!--more-->
 
-<h2 id="toc_324">Abstract</h2>
+<h2 id="toc_330">Abstract</h2>
 
 <p>In this paper, we introduce a minimally supervised method for learning to
 classify named-entity titles in a given encyclopedia into broad semantic
@@ -1716,7 +1726,7 @@ categories, based on the lexicographers’ files of WordNet, effectively
 extending WordNet to form a very large scale semantic category, a potentially
 useful resource for many natural language related tasks.</p>
 
-<h2 id="toc_325">Demo</h2>
+<h2 id="toc_331">Demo</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -1767,12 +1777,12 @@ useful resource for many natural language related tasks.</p>
 
 <p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
 
-<h2 id="toc_326">Download</h2>
+<h2 id="toc_332">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a></p>
 
-<h2 id="toc_327">Citation</h2>
+<h2 id="toc_333">Citation</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -1783,7 +1793,7 @@ useful resource for many natural language related tasks.</p>
 </span><span class='line'>In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
 </span><span class='line'>Hong Kong, China. </span></code></pre></td></tr></table></div></figure>
 
-<h2 id="toc_328">Bibtex</h2>
+<h2 id="toc_334">Bibtex</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
