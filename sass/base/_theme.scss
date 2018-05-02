@@ -73,14 +73,15 @@ animation: AnimationName 24s ease infinite;
     100%{background-position:0% 94%}
 }
 #hero-inner {
-  color: #000;
-  margin-top: 0px !important;
+  margin-top: 250px;
+  transform: translateY(-50%);
   @media only screen and (min-width: 0px)  { padding-right: 12px; padding-left: 12px;}
   @media only screen and (min-width: 700px)  { padding-right: 0px; padding-left: 0px; }
 }
 #hero-inner p {
   text-shadow: 0px 0px 1px lightgray;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: justify;
 
   @media only screen and (min-width: 0px)  { font-size: 10px !important; }
   @media only screen and (min-width: 460px)  { font-size: 12px !important; }
