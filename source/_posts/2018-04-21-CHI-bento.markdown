@@ -60,6 +60,15 @@ The version in the video is the second iteration of the version from the CHI 201
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
 
+
+Media Coverage
+----------------------
+- Tech Explorist: [A new web browser makes it easier to search on mobile devices](https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/)
+- Science Daily: [Bento browser makes it easier to search on mobile devices](https://www.sciencedaily.com/releases/2018/04/180425093747.htm)
+- Prikk: ["BENTO" ERLEICHTERT WEBSUCHE AUF MOBILGERÄTEN](https://www.prikk.world/en/news/wirtschaft/innovation/bento-erleichtert-websuche-auf-mobilgeraten)
+- CMU News: [Bento Browser Makes it Easier To Search on Mobile Devices](https://www.cmu.edu/news/stories/archives/2018/april/bento-browser.html)
+- CMU HCII: [Bento Browser Makes it Easier To Search on Mobile Devices](https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices)
+
 Downloads
 ----------------------
 <a class="btn btn-default" href="/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>

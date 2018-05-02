@@ -60,7 +60,7 @@ Overview Video
 
 Media Coverage
 ----------------------
-- WTAE TV News: [Meet the 'Chorus' chatbot: Unlike Alexa or Siri, it's powered by actual people on the other end](http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459)t
+- WTAE TV News: [Meet the 'Chorus' chatbot: Unlike Alexa or Siri, it's powered by actual people on the other end](http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459)
 - Trib Live: [Chatbot developed at Carnegie Mellon uses humans to answer questions AIs can't](http://triblive.com/business/technology/13275597-74/chatbot-developed-at-carnegie-mellon-uses-humans-to-answer-questions-ais-cant)
 - EurekaAlert!: [Crowd workers, AI make conversational agents smarter](https://www.eurekalert.org/pub_releases/2018-02/cmu-cwa020618.php)
 - CMU News: [Crowd workers, AI make conversational agents smarter](https://www.cs.cmu.edu/news/crowd-workers-ai-make-conversational-agents-smarter)
