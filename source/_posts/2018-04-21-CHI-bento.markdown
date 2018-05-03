@@ -64,6 +64,7 @@ The version in the video is the second iteration of the version from the CHI 201
 Media Coverage
 ----------------------
 - Tech Explorist: [A new web browser makes it easier to search on mobile devices](https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/)
+- THE Journal: [New Bento Browser Organizes Complex Mobile Searches](https://thejournal.com/articles/2018/05/02/carnegie-mellons-bento-browser-organizes-complex-mobile-searches.aspx)
 - Science Daily: [Bento browser makes it easier to search on mobile devices](https://www.sciencedaily.com/releases/2018/04/180425093747.htm)
 - Prikk: ["BENTO" ERLEICHTERT WEBSUCHE AUF MOBILGERÄTEN](https://www.prikk.world/en/news/wirtschaft/innovation/bento-erleichtert-websuche-auf-mobilgeraten)
 - CMU News: [Bento Browser Makes it Easier To Search on Mobile Devices](https://www.cmu.edu/news/stories/archives/2018/april/bento-browser.html)
