@@ -11,11 +11,11 @@ stats: "(r=25% N=2424)"
 toc: true
 lsi: true
 categories: ['CHI', 'SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Machine Learning', 'Classification', 'Labeling']
-span: 6
+span: 12
 project: true
 ---
 
-<img src="/images/projects/revolt.png" style='width: 100%;'/>
+<img src="/images/projects/revolt.png" style='width: 55%; float: right; margin-left: 28px;;'/>
 
 
 Generating comprehensive labeling guidelines for crowdworkers can be

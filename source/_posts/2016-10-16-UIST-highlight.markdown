@@ -11,11 +11,11 @@ stats: "(r=21% N=384)"
 toc: true
 lsi: true
 categories: ['UIST', 'HCI', 'Interaction', 'Sensemaking', 'Information Foraging']
-span: 6
+span: 12
 project: true
 ---
 
-<img src="/images/projects/highlight.png" style='width: 100%;'/>
+<img src="/images/projects/highlight.png" style='width: 50%; float: right; margin-left: 28px;'/>
 
 
 Highlighting can be mentally taxing for learners who are often unsure about how

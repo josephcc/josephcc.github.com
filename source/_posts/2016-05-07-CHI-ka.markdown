@@ -11,11 +11,11 @@ stats: "(r=23% N=2435)"
 toc: true
 lsi: true
 categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Information Retrieval', 'Information Foraging']
-span: 6
+span: 12
 project: true
 ---
 
-<img src="/images/projects/ka.png" style='width: 100%;'/>
+<img src="/images/projects/ka.png" style='width: 55%; float: right; margin-left: 28px;'/>
 
 
 ***<i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION***

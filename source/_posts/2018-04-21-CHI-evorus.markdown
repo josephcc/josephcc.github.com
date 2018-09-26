@@ -11,11 +11,11 @@ comments: true
 toc: true
 lsi: true
 categories: ['CHI', 'SIGCHI', 'HCI', 'Crowdsourcing', 'Machine Learning']
-span: 6
+span: 12
 project: true
 ---
 
-<img src="/images/projects/evorus.png" style='width: 86%;'/>
+<img src="/images/projects/evorus.png" style='width: 43%; float: right; margin-left: 28px;'/>
 
 
 ***<i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION***
