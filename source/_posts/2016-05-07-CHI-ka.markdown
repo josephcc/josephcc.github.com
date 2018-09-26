@@ -13,9 +13,10 @@ lsi: true
 categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Information Retrieval', 'Information Foraging']
 span: 12
 project: true
----
+img: "/images/projects/ka.png"
+imgStyleIndex: 'width: 55%; float: right; margin-left: 28px;'
 
-<img src="/images/projects/ka.png" style='width: 55%; float: right; margin-left: 28px;'/>
+---
 
 
 ***<i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION***

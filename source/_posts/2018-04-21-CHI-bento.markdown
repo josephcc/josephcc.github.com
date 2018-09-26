@@ -13,9 +13,10 @@ lsi: true
 categories: ['CHI', 'SIGCHI', 'HCI', 'Information Retrieval', 'Sensemaking', 'Search']
 span: 12
 project: true
----
+img: "/images/projects/bento.png"
+imgStyleIndex: 'width: 50%; float: right; margin-left: 28px;'
 
-<img src="/images/projects/bento.png" style='width: 50%; float: right; margin-left: 28px;'/>
+---
 
 
 Complex searches can be overwhelming leading to lots

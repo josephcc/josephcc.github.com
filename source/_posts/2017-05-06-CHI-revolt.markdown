@@ -13,10 +13,10 @@ lsi: true
 categories: ['CHI', 'SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Machine Learning', 'Classification', 'Labeling']
 span: 12
 project: true
+img: "/images/projects/revolt.png"
+imgStyleIndex: 'width: 55%; float: right; margin-left: 28px;'
+
 ---
-
-<img src="/images/projects/revolt.png" style='width: 55%; float: right; margin-left: 28px;;'/>
-
 
 Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses *crowd disagreements*

@@ -1,4 +1,5 @@
 <div class="article-format">
+
 {% unless page.no_header %}
   <header>
     {% if index %}
@@ -6,12 +7,24 @@
       <h1 class="entry-title" style='font-size: 1.3em; margin-bottom: 20px;'>{{post.subtitle}}</h1>
     {% else %}
       <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-      <h1 class="entry-title" style='font-size: 1.3em; margin-bottom: 20px;'>{{page.subtitle}}</h1>
+      <h1 class="entry-title" style='font-size: 1.6em; margin-bottom: 20px;'>{{page.subtitle}}</h1>
     {% endif %}
   </header>
 {% endunless %}
+
 {% if index %}
-  <div class="entry-content">{{ content | excerpt }}</div>
+  <div class="entry-content">
+    {% if post.img %}
+      {% if post.imgStyleIndex %}
+        <img src="{{post.img}}" style='{{post.imgStyleIndex}}'/>
+      {% else %}
+        <img src="{{post.img}}" style='width: 50%; float: right; margin-left: 28px;'/>
+      {% endif %}
+    {% endif %}
+    {{ content | excerpt }}
+  </div>
+
+
   {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
   <div style=''>
     {{ post.authors }}
@@ -23,18 +36,23 @@
     </footer>
   {% endif %}
 {% else %}
-  <div style='margin-bottom: 18px; margin-top: -18px; text-align: right;'>
+  <div style='margin-bottom: 18px; margin-top: -18px; color: gray;'>
     {{ page.authors }}
     <span style='font-weight: bold;'>{{ page.venue }}</span> {{ page.stats }}
   </div>
-  <div class="entry-content">{{ content }}</div>
+  <div class="entry-content">
+    {% if page.img %}
+      <img src="{{page.img}}" style='width: 100%;'/>
+    {% endif %}
+    {{ content }}
+  </div>
 {% endif %}
 <br/>
 
 
 {% if index %}
   {% unless page.meta == false %}
-    <p class="meta">
+    <p class="meta" style='margin-bottom: 0px;'>
       {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %} - 
       {% include post/categories.html %}
       {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
@@ -46,7 +64,7 @@
 
 {% unless index %}
   <footer>
-    <p class="meta">
+    <p class="meta" style='margin-bottom: 0px;'>
       {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %} - 
       {% include post/categories.html %}
     </p>

@@ -13,9 +13,10 @@ lsi: true
 categories: ['UIST', 'HCI', 'Interaction', 'Sensemaking', 'Information Foraging']
 span: 12
 project: true
----
+img: "/images/projects/highlight.png"
+imgStyleIndex: 'width: 50%; float: right; margin-left: 28px;'
 
-<img src="/images/projects/highlight.png" style='width: 50%; float: right; margin-left: 28px;'/>
+---
 
 
 Highlighting can be mentally taxing for learners who are often unsure about how

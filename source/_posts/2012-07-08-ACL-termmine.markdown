@@ -45,7 +45,7 @@ Citation
 ```
 Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
 Learning to find translations and transliterations on the web.
-In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL '12), Vol. 2.
+In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
 Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
 ```
 
@@ -55,7 +55,7 @@ Bibtex
 @inproceedings{Chang:2012:LFT:2390665.2390698,
  author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
  title = {Learning to Find Translations and Transliterations on the Web},
- booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2},
+ booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics},
  series = {ACL '12},
  year = {2012},
  location = {Jeju Island, Korea},

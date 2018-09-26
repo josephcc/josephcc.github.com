@@ -13,9 +13,10 @@ lsi: true
 categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Machine Learning']
 span: 12
 project: true
----
+img: "/images/projects/alloy.png"
+imgStyleIndex: 'width: 60%; float: right; margin-left: 28px;'
 
-<img src="/images/projects/alloy.png" style='width: 60%; float: right; margin-left: 28px;'/>
+---
 
 
 ***<i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION***
@@ -99,6 +100,5 @@ Bibtex
  acmid = {2858411},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {computer supported cooperative work (CSCW), database access / informationretrieval, empirical methods, quantitative, worldwide web and hypermedia},
 } 
 ```
