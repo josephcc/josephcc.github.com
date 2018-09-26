@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Machine Learning | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-09-26T14:36:55-04:00</updated>
+  <updated>2018-09-26T15:48:26-04:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -18,9 +18,7 @@
     <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus/"/>
     <updated>2018-04-21T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/evorus.png" style='width: 43%; float: right; margin-left: 28px;'/></p>
-
-<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 Crowd-powered chatbots are robust than current pure AI approach, but can be
 slower and more expensive at runtime. We attempted to combine the two
@@ -100,9 +98,7 @@ ACM, Montreal, QC, Canada.
     <link href="http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 55%; float: right; margin-left: 28px;;'/></p>
-
-<p>Generating comprehensive labeling guidelines for crowdworkers can be
+    <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
 <em>collaboratively</em> create rich structures for requesters to make post-hoc
@@ -172,9 +168,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
     <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/"/>
     <updated>2016-05-07T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/alloy.png" style='width: 60%; float: right; margin-left: 28px;'/></p>
-
-<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 <strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
 <br/>
@@ -237,7 +231,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 </div>
 
 <h2 id="toc_138">Bibtex</h2>
-<div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:ACC:2858036.2858411,
+<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2016:ACC:2858036.2858411,
  author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
  title = {Alloy: Clustering with Crowds and Computation},
  booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
@@ -252,7 +246,6 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
  acmid = {2858411},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {computer supported cooperative work (CSCW), database access / informationretrieval, empirical methods, quantitative, worldwide web and hypermedia},
 } 
 </code></pre>
 </div>
@@ -288,18 +281,18 @@ system that outperforms previous work.</p>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_141">Citation</h2>
-<div class="highlight"><pre><code class="text">Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
+<div class="highlight"><pre><code class="text"><span></span>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
 Learning to find translations and transliterations on the web.
-In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL &#39;12), Vol. 2.
+In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
 Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
 </code></pre>
 </div>
 
 <h2 id="toc_142">Bibtex</h2>
-<div class="highlight"><pre><code class="text">@inproceedings{Chang:2012:LFT:2390665.2390698,
+<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2012:LFT:2390665.2390698,
  author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
  title = {Learning to Find Translations and Transliterations on the Web},
- booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2},
+ booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics},
  series = {ACL &#39;12},
  year = {2012},
  location = {Jeju Island, Korea},

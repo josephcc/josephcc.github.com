@@ -84,19 +84,23 @@ MathJax.Hub.Config({
       <article class="span10 offset1" role="article">
         <div class="article-format">
 
+
   <header>
     
       <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>Git: Remove (Un-add) Files From Last Commit</h1>
-      <h1 class="entry-title" style='font-size: 1.3em; margin-bottom: 20px;'></h1>
+      <h1 class="entry-title" style='font-size: 1.6em; margin-bottom: 20px;'></h1>
     
   </header>
 
 
-  <div style='margin-bottom: 18px; margin-top: -18px; text-align: right;'>
+
+  <div style='margin-bottom: 18px; margin-top: -18px; color: gray;'>
     
     <span style='font-weight: bold;'></span> 
   </div>
-  <div class="entry-content"><p>A lot of times we use <code>git commit --amend</code> to add the files that we have forgotten to the last
+  <div class="entry-content">
+    
+    <p>A lot of times we use <code>git commit --amend</code> to add the files that we have forgotten to the last
 commit (usually HEAD), or simply to fix typos in its commit message. However, you can&#39;t remove, or un-add,
 committed files from the latest commit with <code>git commit --amend</code>. Here&#39;s how:</p>
 
@@ -132,7 +136,8 @@ changes from the staging area (or index), and add the files you originally inten
 </span></code></pre></td></tr></table></div></figure>
 
 <p>you can always you <code>git rebase</code> to turn back time.</p>
-</div>
+
+  </div>
 
 <br/>
 
@@ -141,7 +146,7 @@ changes from the staging area (or index), and add the files you originally inten
 
 
   <footer>
-    <p class="meta">
+    <p class="meta" style='margin-bottom: 0px;'>
       
 
 

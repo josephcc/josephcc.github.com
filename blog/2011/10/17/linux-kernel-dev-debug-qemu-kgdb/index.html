@@ -84,19 +84,23 @@ MathJax.Hub.Config({
       <article class="span10 offset1" role="article">
         <div class="article-format">
 
+
   <header>
     
       <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>Linux Kernel: Debugging With QEMU and Kgdb</h1>
-      <h1 class="entry-title" style='font-size: 1.3em; margin-bottom: 20px;'></h1>
+      <h1 class="entry-title" style='font-size: 1.6em; margin-bottom: 20px;'></h1>
     
   </header>
 
 
-  <div style='margin-bottom: 18px; margin-top: -18px; text-align: right;'>
+
+  <div style='margin-bottom: 18px; margin-top: -18px; color: gray;'>
     
     <span style='font-weight: bold;'></span> 
   </div>
-  <div class="entry-content"><p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
+  <div class="entry-content">
+    
+    <p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
 the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and
 KGDB for real-time kernel debugging.</p>
 
@@ -298,7 +302,8 @@ stub，讓執行到該位置時開始 debug 程序。對於 kgdb / gdb
 </span></code></pre></td></tr></table></div></figure>
 
 <p>便會在執行到該區段時 issue 一個 debug/breakpoint interrupt，中斷 kernel 的執行。接著就可以在 gdb 中 step through code，或是動態的加入新的 breakpoints。</p>
-</div>
+
+  </div>
 
 <br/>
 
@@ -307,7 +312,7 @@ stub，讓執行到該位置時開始 debug 程序。對於 kgdb / gdb
 
 
   <footer>
-    <p class="meta">
+    <p class="meta" style='margin-bottom: 0px;'>
       
 
 

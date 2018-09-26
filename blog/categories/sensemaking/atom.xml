@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sensemaking | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/sensemaking/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-09-26T14:36:55-04:00</updated>
+  <updated>2018-09-26T15:48:26-04:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -18,9 +18,7 @@
     <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento/"/>
     <updated>2018-04-21T08:01:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/bento.png" style='width: 50%; float: right; margin-left: 28px;'/></p>
-
-<p>Complex searches can be overwhelming leading to lots
+    <content type="html"><![CDATA[<p>Complex searches can be overwhelming leading to lots
 of tabs.  This also makes conducting searches on mobile devices especially
 difficult where screen real-estate is limited and tasks can often be 
 inturrupted.  Rather than using tabs to manage information, we introduce
@@ -103,9 +101,7 @@ ACM, Montreal, QC, Canada.
     <link href="http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 55%; float: right; margin-left: 28px;;'/></p>
-
-<p>Generating comprehensive labeling guidelines for crowdworkers can be
+    <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
 <em>collaboratively</em> create rich structures for requesters to make post-hoc
@@ -175,9 +171,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
     <link href="http://joseph.nlpweb.org/blog/2016/10/16/UIST-highlight/"/>
     <updated>2016-10-16T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2016/10/16/UIST-highlight</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/highlight.png" style='width: 50%; float: right; margin-left: 28px;'/></p>
-
-<p>Highlighting can be mentally taxing for learners who are often unsure about how
+    <content type="html"><![CDATA[<p>Highlighting can be mentally taxing for learners who are often unsure about how
 much information they needed to include.  We introduce the idea of
 intentionally uncertain input in the context of highlighting on mobile devices.
 We present a system that uses force touch and fuzzy bounding boxes to support
@@ -255,9 +249,7 @@ ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
     <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/"/>
     <updated>2016-05-07T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/alloy.png" style='width: 60%; float: right; margin-left: 28px;'/></p>
-
-<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 <strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
 <br/>
@@ -320,7 +312,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 </div>
 
 <h2 id="toc_117">Bibtex</h2>
-<div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:ACC:2858036.2858411,
+<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2016:ACC:2858036.2858411,
  author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
  title = {Alloy: Clustering with Crowds and Computation},
  booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
@@ -335,7 +327,6 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
  acmid = {2858411},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {computer supported cooperative work (CSCW), database access / informationretrieval, empirical methods, quantitative, worldwide web and hypermedia},
 } 
 </code></pre>
 </div>
@@ -347,9 +338,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
     <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka/"/>
     <updated>2016-05-07T07:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/ka.png" style='width: 55%; float: right; margin-left: 28px;'/></p>
-
-<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 People often search to web to find solutions to problems beyond factual
 question, such as planning road trips, writing an report, or buying a new

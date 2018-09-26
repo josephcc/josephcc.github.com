@@ -4,7 +4,7 @@
   <title><![CDATA[Category: NLP | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-09-26T14:36:55-04:00</updated>
+  <updated>2018-09-26T15:48:26-04:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -417,18 +417,18 @@ system that outperforms previous work.</p>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_190">Citation</h2>
-<div class="highlight"><pre><code class="text">Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
+<div class="highlight"><pre><code class="text"><span></span>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
 Learning to find translations and transliterations on the web.
-In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2 (ACL &#39;12), Vol. 2.
+In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
 Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
 </code></pre>
 </div>
 
 <h2 id="toc_191">Bibtex</h2>
-<div class="highlight"><pre><code class="text">@inproceedings{Chang:2012:LFT:2390665.2390698,
+<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2012:LFT:2390665.2390698,
  author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
  title = {Learning to Find Translations and Transliterations on the Web},
- booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers - Volume 2},
+ booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics},
  series = {ACL &#39;12},
  year = {2012},
  location = {Jeju Island, Korea},
