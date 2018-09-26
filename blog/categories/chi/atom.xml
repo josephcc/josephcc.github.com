@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CHI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/chi/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-07-16T15:01:47-04:00</updated>
+  <updated>2018-09-26T14:36:55-04:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -18,7 +18,7 @@
     <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento/"/>
     <updated>2018-04-21T08:01:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/bento.png" style='width: 100%;'/></p>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/bento.png" style='width: 50%; float: right; margin-left: 28px;'/></p>
 
 <p>Complex searches can be overwhelming leading to lots
 of tabs.  This also makes conducting searches on mobile devices especially
@@ -103,7 +103,7 @@ ACM, Montreal, QC, Canada.
     <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus/"/>
     <updated>2018-04-21T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/evorus.png" style='width: 86%;'/></p>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/evorus.png" style='width: 43%; float: right; margin-left: 28px;'/></p>
 
 <p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
@@ -185,7 +185,7 @@ ACM, Montreal, QC, Canada.
     <link href="http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
     <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
-    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 100%;'/></p>
+    <content type="html"><![CDATA[<p><img src="http://joseph.nlpweb.org/images/projects/revolt.png" style='width: 55%; float: right; margin-left: 28px;;'/></p>
 
 <p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
