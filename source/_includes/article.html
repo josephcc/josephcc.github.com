@@ -42,7 +42,12 @@
   </div>
   <div class="entry-content">
     {% if page.img %}
-      <img src="{{page.img}}" style='width: 100%;'/>
+      {% if page.imgStylePost %}
+        <img src="{{page.img}}" style='{{page.imgStylePost}}'/>
+      {% else %}
+        <img src="{{page.img}}" style='width: 100%;'/>
+      {% endif %}
+
     {% endif %}
     {{ content }}
   </div>
