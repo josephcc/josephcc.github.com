@@ -4,7 +4,7 @@
   <title><![CDATA[Category: NLP | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-09-26T15:54:25-04:00</updated>
+  <updated>2018-10-14T20:48:27-07:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Twitter Code-Switching]]></title>
     <link href="http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching/"/>
-    <updated>2014-12-22T08:00:00-05:00</updated>
+    <updated>2014-12-22T08:00:00-08:00</updated>
     <id>http://joseph.nlpweb.org/blog/2014/12/22/arXiv-twitter-code-switching</id>
     <content type="html"><![CDATA[<p>Code-switching behavior is common on social media for expressing solidarity or
 to establish authority. While past work on automatic code-switching detection
@@ -28,7 +28,7 @@ the EMNLP&#39;14 Code-Switching Workshop by 17% in error rate reduction.</p>
 
 <!--more-->
 
-<h2 id="toc_175">Abstract</h2>
+<h2 id="toc_181">Abstract</h2>
 
 <p>Mixed language data is one of the difficult yet less explored domains of
 natural language processing. Most research in fields like machine translation
@@ -45,19 +45,19 @@ mixed-language Twitter corpus, our system is able to outperform the best
 SVM-based systems reported in the EMNLP&#39;14 Code-Switching Workshop by 1% in
 accuracy, or by 17% in error rate reduction.</p>
 
-<h2 id="toc_176">Download</h2>
+<h2 id="toc_182">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'arXiv']);"  href="https://arxiv.org/abs/1412.4314" role="button">arXiv</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'PDF']);"  href="https://arxiv.org/pdf/1412.4314v2.pdf" role="button">arXiv hosted PDF</a></p>
 
-<h2 id="toc_177">Citation</h2>
+<h2 id="toc_183">Citation</h2>
 <div class="highlight"><pre><code class="text">Chang, Joseph Chee, and Chu-Cheng Lin.
 &quot;Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus.&quot;
 arXiv preprint arXiv:1412.4314 (2014).
 </code></pre>
 </div>
 
-<h2 id="toc_178">Bibtex</h2>
+<h2 id="toc_184">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@article{chang2014recurrent,
   title={Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus},
   author={Chang, Joseph Chee and Lin, Chu-Cheng},
@@ -72,13 +72,13 @@ arXiv preprint arXiv:1412.4314 (2014).
   <entry>
     <title type="html"><![CDATA[A Hangman Game Solver based on Language Models]]></title>
     <link href="http://joseph.nlpweb.org/blog/2012/11/04/hangman/"/>
-    <updated>2012-11-04T21:14:00-05:00</updated>
+    <updated>2012-11-04T21:14:00-08:00</updated>
     <id>http://joseph.nlpweb.org/blog/2012/11/04/hangman</id>
     <content type="html"><![CDATA[<p>I&#39;ve recently wrote a program for solving sentence-based hangman game automatically. Here&#39;s a post
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
 language model and hidden Markov model.</p>
 
-<h2 id="toc_179">The Hangman Game</h2>
+<h2 id="toc_185">The Hangman Game</h2>
 
 <p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
 game of hangman automatically. The rules are
@@ -106,7 +106,7 @@ likely to appear before the word <code>day</code>. In my attempt, I trained a
 <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model</a> to guess every word in the sentence
 simultaneously.</p>
 
-<h2 id="toc_180">Language Model</h2>
+<h2 id="toc_186">Language Model</h2>
 
 <p>I use the state-of-the-art <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> package to train my
 language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
@@ -133,7 +133,7 @@ proposed to improve the performance of language models, including absolute disco
 Kneser-Ney smoothing. Formal definition of language model can be found on 
 <a href="http://en.wikipedia.org/wiki/Language_model">Wikipedia</a>.</p>
 
-<h2 id="toc_181">Hidden Markov Model</h2>
+<h2 id="toc_187">Hidden Markov Model</h2>
 
 <p>Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
 observations, state transition probability distribution, and emission probability distribution. For
@@ -156,7 +156,7 @@ Wikipedia pages <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">here<
 <a href="http://en.wikipedia.org/wiki/Viterbi_algorithm">here</a>, or in a slide I made when I was TA for a NLP course 
 <a href="http://hadoop.nlpweb.org/%7Ebizkit/lab3/vtb_example/">here</a> (in Chinese).</p>
 
-<h2 id="toc_182">Algorithm</h2>
+<h2 id="toc_188">Algorithm</h2>
 
 <p>It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
 Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
@@ -169,12 +169,12 @@ sequence that yield the highest language model probability and word frequencies.
 guess the letter that appears in most words. This process repeats until all characters are 
 revealed, and the number of failed guesses are recorded.</p>
 
-<h2 id="toc_183">Results</h2>
+<h2 id="toc_189">Results</h2>
 
 <p>Here are three examples and results. The interactive guessing progress and some internal states are
 shown in the three tables below.</p>
 
-<h3 id="toc_184">&quot;describe what is needed&quot;</h3>
+<h3 id="toc_190">&quot;describe what is needed&quot;</h3>
 
 <table><thead>
 <tr>
@@ -266,7 +266,7 @@ shown in the three tables below.</p>
 
 <p><br/></p>
 
-<h3 id="toc_185">&quot;an honor roll of online options&quot;</h3>
+<h3 id="toc_191">&quot;an honor roll of online options&quot;</h3>
 
 <table><thead>
 <tr>
@@ -331,7 +331,7 @@ shown in the three tables below.</p>
 <p>This one shows HMM produces different results as more characters are revealed.
 <br/></p>
 
-<h3 id="toc_186">&quot;members of the supreme court&quot;</h3>
+<h3 id="toc_192">&quot;members of the supreme court&quot;</h3>
 
 <table><thead>
 <tr>
@@ -374,7 +374,7 @@ shown in the three tables below.</p>
 
 <p>This last one really shows the power of language model. With only <code>e</code> revealed, the HMM process was able to guess the correct result.</p>
 
-<h2 id="toc_187">Improvements</h2>
+<h2 id="toc_193">Improvements</h2>
 
 <p>For stage one, instead of using just the highest frequency letters, conditional probability can also be
 a factor for choosing the next letter. For example, if <code>s</code> is revealed as the second to last character
@@ -391,7 +391,7 @@ stages as different strategies and use genetic algorithm to apply them alternate
   <entry>
     <title type="html"><![CDATA[TermMine]]></title>
     <link href="http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine/"/>
-    <updated>2012-07-08T08:00:00-04:00</updated>
+    <updated>2012-07-08T08:00:00-07:00</updated>
     <id>http://joseph.nlpweb.org/blog/2012/07/08/ACL-termmine</id>
     <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
 translation pairs of terms from the web. We used a small set of terms and
@@ -400,7 +400,7 @@ can identify translation pairs at run-time.</p>
 
 <!--more-->
 
-<h2 id="toc_188">Abstract</h2>
+<h2 id="toc_194">Abstract</h2>
 
 <p>In this paper, we present a new method for learning to finding translations and
 transliterations on the Web for a given term. The approach involves using a
@@ -411,12 +411,12 @@ extracting translation candidates for a given term. Preliminary experiments and
 evaluation show our method cleanly combining various features, resulting in a
 system that outperforms previous work.</p>
 
-<h2 id="toc_189">Download</h2>
+<h2 id="toc_195">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_190">Citation</h2>
+<h2 id="toc_196">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
 Learning to find translations and transliterations on the web.
 In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
@@ -424,7 +424,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
 </code></pre>
 </div>
 
-<h2 id="toc_191">Bibtex</h2>
+<h2 id="toc_197">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2012:LFT:2390665.2390698,
  author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
  title = {Learning to Find Translations and Transliterations on the Web},
@@ -447,7 +447,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
   <entry>
     <title type="html"><![CDATA[WikiSense]]></title>
     <link href="http://joseph.nlpweb.org/blog/2009/12/03/wikisense/"/>
-    <updated>2009-12-03T08:00:00-05:00</updated>
+    <updated>2009-12-03T08:00:00-08:00</updated>
     <id>http://joseph.nlpweb.org/blog/2009/12/03/wikisense</id>
     <content type="html"><![CDATA[<p>We introduced a method for classifying named-entities into broad semantic
 categories in WordNet. We extracted rich features from Wikipedia, allowing us
@@ -457,7 +457,7 @@ large scale named-entity semantic database with 1.2 million entries and over
 
 <!--more-->
 
-<h2 id="toc_192">Abstract</h2>
+<h2 id="toc_198">Abstract</h2>
 
 <p>In this paper, we introduce a minimally supervised method for learning to
 classify named-entity titles in a given encyclopedia into broad semantic
@@ -476,7 +476,7 @@ categories, based on the lexicographers’ files of WordNet, effectively
 extending WordNet to form a very large scale semantic category, a potentially
 useful resource for many natural language related tasks.</p>
 
-<h2 id="toc_193">Demo</h2>
+<h2 id="toc_199">Demo</h2>
 <div class="highlight"><pre><code class="text">WikiID    Supersense     PE          NE                                   Note
 ----------------------------------------------------------------------------------------------
 11983070  person         None        Johnny Cash                          singer
@@ -505,12 +505,12 @@ useful resource for many natural language related tasks.</p>
 
 <p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
 
-<h2 id="toc_194">Download</h2>
+<h2 id="toc_200">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a></p>
 
-<h2 id="toc_195">Citation</h2>
+<h2 id="toc_201">Citation</h2>
 <div class="highlight"><pre><code class="text">Chang, J., Tsai, R. T.-H., &amp; Chang, J. S. (2009).
 WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
 In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
@@ -518,7 +518,7 @@ Hong Kong, China.
 </code></pre>
 </div>
 
-<h2 id="toc_196">Bibtex</h2>
+<h2 id="toc_202">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang-EtAl:2009:PACLIC2009,
   author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
   title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
