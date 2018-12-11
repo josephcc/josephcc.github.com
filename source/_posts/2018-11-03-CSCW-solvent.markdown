@@ -5,7 +5,7 @@ subtitle: "A Mixed Initiative System for Finding Analogies between Research Pape
 seotitle: "Solvent: A Mixed Initiative System for Finding Analogies between Research Papers"
 authors: "Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur."
 venue: "CSCW 2018"
-stats: "(r=27% N=)"
+stats: "(r=27% N=385)"
 date: 2018-11-03 08:00
 comments: true
 toc: true
