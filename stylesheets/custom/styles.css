@@ -27,3 +27,7 @@ table.activity tr th:nth-child(2) {
 .line-numbers {
   overflow: hidden !important;
 }
+
+canvas.particles-js-canvas-el {
+  filter: blur(2px);
+}
