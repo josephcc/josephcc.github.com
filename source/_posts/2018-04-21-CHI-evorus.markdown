@@ -4,7 +4,7 @@ title: "Evorus"
 subtitle: "Crowd-powered Conversational Assistant Built to Automate Itself Over Time"
 seotitle: "Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time (2018)"
 authors: "Kenneth Huang, Joseph Chee Chang, Jeff Bigham."
-venue: "CHI 2018"
+venue: "ACM SIGCHI 2018"
 stats: "(r=26% N=2595)"
 date: 2018-04-21 08:00
 comments: true

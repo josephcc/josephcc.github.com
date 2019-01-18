@@ -5,7 +5,7 @@ subtitle: "Clustering with Crowds and Computation"
 seotitle: "Alloy: Clustering with Crowds and Computation (CHI 2016)"
 date: 2016-05-07 08:00
 authors: "Joseph Chee Chang, Aniket Kittur, Nathan Hahn."
-venue: "CHI 2016"
+venue: "ACM SIGCHI 2016"
 stats: "(r=23% N=2435)"
 comments: true
 toc: true

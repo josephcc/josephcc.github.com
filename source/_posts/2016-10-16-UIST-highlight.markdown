@@ -6,7 +6,7 @@ seotitle: "Supporting Mobile Sensemaking Through Intentionally Uncertain Highlig
 date: 2016-10-16 08:00
 comments: true
 authors: "Joseph Chee Chang, Nathan Hahn, Aniket Kittur."
-venue: "UIST 2016"
+venue: "ACM UIST 2016"
 stats: "(r=21% N=384)"
 toc: true
 lsi: true

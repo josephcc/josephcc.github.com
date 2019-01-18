@@ -6,7 +6,7 @@ seotitle: "Revolt: Collaborative Crowdsourcing for Labeling MachineLearning Data
 date: 2017-05-06 08:00
 comments: true
 authors: "Joseph Chee Chang, Saleema Amershi, Ece Kamar."
-venue: "CHI 2017"
+venue: "ACM SIGCHI 2017"
 stats: "(r=25% N=2424)"
 toc: true
 lsi: true

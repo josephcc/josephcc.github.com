@@ -4,7 +4,7 @@ title: "Bento Browser"
 subtitle: "Complex Mobile Search Without Tabs"
 seotitle: "Bento Browser: Complex Mobile Search Without Tabs (2018)"
 authors: "Nathan Hahn, Joseph Chee Chang, Aniket Kittur."
-venue: "CHI 2018"
+venue: "ACM SIGCHI 2018"
 stats: "(r=26% N=2595)"
 date: 2018-04-21 08:01
 comments: true
