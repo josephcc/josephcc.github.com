@@ -4,7 +4,7 @@
   <title><![CDATA[Category: console | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/console/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-12-10T16:33:27-05:00</updated>
+  <updated>2019-01-18T00:41:24-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -26,7 +26,7 @@ Here are some of the basics stuff about developing Android using CLI.</p>
 
 <p><a title="Flickr 上 bizkit@tw 的 Screen shot 2010-05-09 at 1.17.54 AM" href="http://www.flickr.com/photos/bizkit/4589099349/" target="_blank"><img src="http://farm5.static.flickr.com/4012/4589099349_6fa0f191d6_z_d.jpg" alt="Screen shot 2010-05-09 at 1.17.54 AM"></a></p>
 
-<h2 id="toc_307">The basics</h2>
+<h2 id="toc_321">The basics</h2>
 
 <p>Some useful commands...</p>
 
@@ -52,7 +52,7 @@ ant uninstall
 adb log
 </code></p>
 
-<h2 id="toc_308">Eclim</h2>
+<h2 id="toc_322">Eclim</h2>
 
 <p>With <a href="http://www.eclim.org">Eclim</a> you can have most of the Eclipse functionalities inside your vim, 
 including code-completion and real-time validation. Eclim is basically Eclipse running in headless

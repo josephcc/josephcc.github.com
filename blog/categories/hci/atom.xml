@@ -4,7 +4,7 @@
   <title><![CDATA[Category: HCI | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/hci/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-12-10T16:33:27-05:00</updated>
+  <updated>2019-01-18T00:41:24-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,71 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SearchLens]]></title>
+    <link href="http://joseph.nlpweb.org/blog/2019/03/17/IUI-searchlens/"/>
+    <updated>2019-03-17T08:00:00-04:00</updated>
+    <id>http://joseph.nlpweb.org/blog/2019/03/17/IUI-searchlens</id>
+    <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
+apartment to live in, reviews and forum posts are often an important influence
+in online decision making.  However, making sense of these rich repositories of
+diverse opinions can be prohibitively effortful, searchers need to sift through
+a large number of reviews to characterize each item based on aspects that they
+care about. We introduce a novel system, SearchLens, where searchers build up a
+collection of composable and reusable &quot;Lenses&quot; that not only reflect their
+different latent interests, but also allowed SearchLens to generate
+personalized interfaces with visual explanations that promotes transparency and
+enables deeper exploration.</p>
+
+<!--more-->
+
+<h2 id="toc_46">Abstract</h2>
+
+<p>Whether figuring out where to eat in an unfamiliar city or deciding which
+apartment to live in, consumer generated data (i.e. reviews and forum posts)
+are often an important influence in online decision making. To make sense of
+these rich repositories of diverse opinions, searchers need to sift through a
+large number of reviews to characterize each item based on aspects that they
+care about. We introduce a novel system, SearchLens, where searchers build up a
+collection of &quot;Lenses&quot; that reflect their different latent interests, and
+compose the Lenses to find relevant items across different contexts. Based on
+the Lenses, SearchLens generates personalized interfaces with visual
+explanations that promotes transparency and enables deeper exploration. While
+prior work found searchers may not wish to put in effort specifying their goals
+without immediate and sufficient benefits, results from a controlled lab study
+suggest that our approach incentivized participants to express their interests
+more richly than in a baseline condition, and a field study showed that
+participants found benefits in SearchLens while conducting their own tasks.</p>
+
+<h2 id="toc_47">Video Figure</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dXcTtHMa2DQ?rel=0" frameborder="0" allowfullscreen></iframe>
+         
+
+<h2 id="toc_48">Download</h2>
+
+<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2 id="toc_49">Citation</h2>
+<div class="highlight"><pre><code class="text"><span></span>Composing and Capturing ComplexUser Interests for Exploratory Search. 2019.
+SearchLens: Composing and Capturing ComplexUser Interests for Exploratory Search.
+In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.
+</code></pre>
+</div>
+
+<h2 id="toc_50">Bibtex</h2>
+<div class="highlight"><pre><code class="text"><span></span>@article{chang2019searchlens,
+  title={SearchLens: Composing and Capturing ComplexUser Interests for Exploratory Search},
+  author={Chang, Joseph Chee and Hahn, Nathan, and Perer, Adam and Kittur, Aniket},
+  booktitle = {Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces},
+  series = {IUI&#39;19},
+  year={2019}
+}
+</code></pre>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
@@ -29,7 +94,7 @@ research communities.</p>
 
 <!--more-->
 
-<h2 id="toc_46">Abstract</h2>
+<h2 id="toc_51">Abstract</h2>
 
 <p>Scientific discoveries are often driven by finding analogies in distant
 domains, but the growing number of papers makes it difficult to find relevant
@@ -47,18 +112,18 @@ that the resulting analogies found are useful to experts. These results
 demonstrate a novel path towards computationally supported knowledge sharing in
 research communities.</p>
 
-<h2 id="toc_47">Downloads</h2>
+<h2 id="toc_52">Downloads</h2>
 
-<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_48">Citation</h2>
+<h2 id="toc_53">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
 Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
 In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
 </code></pre>
 </div>
 
-<h2 id="toc_49">Bibtex</h2>
+<h2 id="toc_54">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
   title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
   author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
@@ -86,7 +151,7 @@ You can <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8
 
 <!--more-->
 
-<h2 id="toc_50">Abstract</h2>
+<h2 id="toc_55">Abstract</h2>
 
 <p>People engaged in complex searches such as planning a vacation or understanding
 their medical symptoms are often overwhelmed by opening and managing many tabs.
@@ -102,7 +167,7 @@ investigate its effectiveness in three studies. We find converging evidence
 that users were able to make progress on their complex searching tasks with
 this structure, and find it more organized and easier to revisit. </p>
 
-<h2 id="toc_51">Install Bento Browser</h2>
+<h2 id="toc_56">Install Bento Browser</h2>
 
 <p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
 
@@ -110,13 +175,13 @@ this structure, and find it more organized and easier to revisit. </p>
 
 <p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
 
-<h2 id="toc_52">Video Demo</h2>
+<h2 id="toc_57">Video Demo</h2>
 
 <p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_53">Media Coverage</h2>
+<h2 id="toc_58">Media Coverage</h2>
 
 <ul>
 <li>Tech Explorist: <a href="https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/">A new web browser makes it easier to search on mobile devices</a></li>
@@ -127,11 +192,11 @@ this structure, and find it more organized and easier to revisit. </p>
 <li>CMU HCII: <a href="https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
 </ul>
 
-<h2 id="toc_54">Downloads</h2>
+<h2 id="toc_59">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_55">Citation</h2>
+<h2 id="toc_60">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
 Bento Browser: Complex Mobile Search Without Tabs.
 In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
@@ -139,7 +204,7 @@ ACM, Montreal, QC, Canada.
 </code></pre>
 </div>
 
-<h2 id="toc_56">Bibtex</h2>
+<h2 id="toc_61">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Hahn:2018:Bento,
  author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
  title = {Bento Browser: Complex Mobile Search Without Tabs.},
@@ -170,7 +235,7 @@ public deployment study shows promising results. You can <a href="http://talking
 
 <!--more-->
 
-<h2 id="toc_57">Abstract</h2>
+<h2 id="toc_62">Abstract</h2>
 
 <p>Crowd-powered conversational assistants have been shown to be more robust than
 automated systems, but do so at the cost of higher response latency and
@@ -188,15 +253,15 @@ system. Its architecture allows future researchers to make further innovation
 on the underlying automated components in the context of a deployed open domain
 dialog system.</p>
 
-<h2 id="toc_58">Try Evorus on Google Talk</h2>
+<h2 id="toc_63">Try Evorus on Google Talk</h2>
 
 <p><a class="btn btn-default" href="http://talkingtothecrowd.org/" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Evorus', 'Website']);" role="button">TalkingToTheCrowd.org</a></p>
 
-<h2 id="toc_59">Overview Video</h2>
+<h2 id="toc_64">Overview Video</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3SAG8jP-Q-M?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_60">Media Coverage</h2>
+<h2 id="toc_65">Media Coverage</h2>
 
 <ul>
 <li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the &#39;Chorus&#39; chatbot: Unlike Alexa or Siri, it&#39;s powered by actual people on the other end</a></li>
@@ -206,12 +271,12 @@ dialog system.</p>
 <li>Presstext: <a href="https://www.pressetext.com/#news/20180208014">KI-System &quot;Evorus&quot; wird zunehmend eigenständig</a></li>
 </ul>
 
-<h2 id="toc_61">Downloads</h2>
+<h2 id="toc_66">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
 
-<h2 id="toc_62">Citation</h2>
+<h2 id="toc_67">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Kenneth Huang, Joseph Chee Chang, Jeffrey P. Bigham. 2018.
 Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time.
 In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
@@ -219,7 +284,7 @@ ACM, Montreal, QC, Canada.
 </code></pre>
 </div>
 
-<h2 id="toc_63">Bibtex</h2>
+<h2 id="toc_68">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Huang:2018:Evorus,
  author = {Huang, Kenneth and Chang, Joseph Chee and Bigham, Jeffrey P.},
  title = {Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time},
@@ -250,7 +315,7 @@ enabling dynamic label boundaries.</p>
 
 <!--more-->
 
-<h2 id="toc_64">Abstract</h2>
+<h2 id="toc_69">Abstract</h2>
 
 <p>Crowdsourcing provides a scalable and efficient way to construct labeled
 datasets for training machine learning systems. However, creating comprehensive
@@ -273,13 +338,13 @@ without requiring new data to be collected. Further comparisons of Revolt&#39;s
 collaborative and non-collaborative variants show that collaboration reaches
 higher label accuracy with lower monetary cost.</p>
 
-<h2 id="toc_65">Downloads</h2>
+<h2 id="toc_70">Downloads</h2>
 
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
 <a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
-<h2 id="toc_66">Citation</h2>
+<h2 id="toc_71">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
 Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
 In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &#39;17).
@@ -287,7 +352,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
 </code></pre>
 </div>
 
-<h2 id="toc_67">Bibtex</h2>
+<h2 id="toc_72">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2017:Revolt,
  author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
  title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},
@@ -298,84 +363,6 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
  doi = {10.1145/3025453.3026044},
  publisher = {ACM},
  address = {New York, NY, USA},
-} 
-</code></pre>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Intentionally Uncertain Input]]></title>
-    <link href="http://joseph.nlpweb.org/blog/2016/10/16/UIST-highlight/"/>
-    <updated>2016-10-16T08:00:00-04:00</updated>
-    <id>http://joseph.nlpweb.org/blog/2016/10/16/UIST-highlight</id>
-    <content type="html"><![CDATA[<p>Highlighting can be mentally taxing for learners who are often unsure about how
-much information they needed to include.  We introduce the idea of
-intentionally uncertain input in the context of highlighting on mobile devices.
-We present a system that uses force touch and fuzzy bounding boxes to support
-saving information while users are uncertain about where to highlight.</p>
-
-<!--more-->
-
-<h2 id="toc_68">Abstract</h2>
-
-<p>Patients researching medical diagnoses, scientist exploring new fields of
-literature, and students learning about new domains are all faced with the
-challenge of capturing information they find for later use. However, saving
-information is challenging on mobile devices, where the small screen and font
-sizes combined with the inaccuracy of finger based touch screens makes it time
-consuming and stressful for people to select and save text for future use.
-Furthermore, beyond the challenge of simply selecting a region of bounded text
-on a mobile device, in many learning and data exploration tasks the boundaries
-of what text may be relevant and useful later are themselves uncertain for the
-user. In contrast to previous approaches which focused on speeding up the
-selection process by making the identification of hard boundaries faster, we
-introduce the idea of intentionally supporting uncertain input in the context
-of saving information during complex reading and information exploration. We
-embody this idea in a system that uses force touch and fuzzy bounding boxes
-along with posthoc expandable context to support identifying and saving
-information in an intentionally uncertain way on mobile devices. In a two part
-user study we find that this approach reduced selection time and was preferred
-by participants over the default system text selection method.</p>
-
-<h2 id="toc_69">Presentation (UIST 2016)</h2>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
-
-<h2 id="toc_70">Demo Video</h2>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
-
-<h2 id="toc_71">Downloads</h2>
-
-<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
-<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
-
-<h2 id="toc_72">Citation</h2>
-<div class="highlight"><pre><code class="text">Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. 2016.
-Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting.
-In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST &#39;16).
-ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
-</code></pre>
-</div>
-
-<h2 id="toc_73">Bibtex</h2>
-<div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:SMS:2984511.2984538,
- author = {Chang, Joseph Chee and Hahn, Nathan and Kittur, Aniket},
- title = {Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting},
- booktitle = {Proceedings of the 29th Annual Symposium on User Interface Software and Technology},
- series = {UIST &#39;16},
- year = {2016},
- isbn = {978-1-4503-4189-9},
- location = {Tokyo, Japan},
- pages = {61--68},
- numpages = {8},
- url = {http://doi.acm.org/10.1145/2984511.2984538},
- doi = {10.1145/2984511.2984538},
- acmid = {2984538},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {annotation, capture, copy-paste, highlighting., information, saving, sensemaking},
 } 
 </code></pre>
 </div>

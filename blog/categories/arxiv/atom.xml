@@ -4,7 +4,7 @@
   <title><![CDATA[Category: arXiv | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/arxiv/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-12-10T16:33:27-05:00</updated>
+  <updated>2019-01-18T00:41:24-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -28,7 +28,7 @@ the EMNLP&#39;14 Code-Switching Workshop by 17% in error rate reduction.</p>
 
 <!--more-->
 
-<h2 id="toc_321">Abstract</h2>
+<h2 id="toc_335">Abstract</h2>
 
 <p>Mixed language data is one of the difficult yet less explored domains of
 natural language processing. Most research in fields like machine translation
@@ -45,19 +45,19 @@ mixed-language Twitter corpus, our system is able to outperform the best
 SVM-based systems reported in the EMNLP&#39;14 Code-Switching Workshop by 1% in
 accuracy, or by 17% in error rate reduction.</p>
 
-<h2 id="toc_322">Download</h2>
+<h2 id="toc_336">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'arXiv']);"  href="https://arxiv.org/abs/1412.4314" role="button">arXiv</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'PDF']);"  href="https://arxiv.org/pdf/1412.4314v2.pdf" role="button">arXiv hosted PDF</a></p>
 
-<h2 id="toc_323">Citation</h2>
+<h2 id="toc_337">Citation</h2>
 <div class="highlight"><pre><code class="text">Chang, Joseph Chee, and Chu-Cheng Lin.
 &quot;Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus.&quot;
 arXiv preprint arXiv:1412.4314 (2014).
 </code></pre>
 </div>
 
-<h2 id="toc_324">Bibtex</h2>
+<h2 id="toc_338">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@article{chang2014recurrent,
   title={Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus},
   author={Chang, Joseph Chee and Lin, Chu-Cheng},

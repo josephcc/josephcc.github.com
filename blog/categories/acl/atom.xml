@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ACL | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/acl/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-12-10T16:33:27-05:00</updated>
+  <updated>2019-01-18T00:41:24-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -25,7 +25,7 @@ can identify translation pairs at run-time.</p>
 
 <!--more-->
 
-<h2 id="toc_286">Abstract</h2>
+<h2 id="toc_300">Abstract</h2>
 
 <p>In this paper, we present a new method for learning to finding translations and
 transliterations on the Web for a given term. The approach involves using a
@@ -36,12 +36,12 @@ extracting translation candidates for a given term. Preliminary experiments and
 evaluation show our method cleanly combining various features, resulting in a
 system that outperforms previous work.</p>
 
-<h2 id="toc_287">Download</h2>
+<h2 id="toc_301">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_288">Citation</h2>
+<h2 id="toc_302">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
 Learning to find translations and transliterations on the web.
 In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
@@ -49,7 +49,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
 </code></pre>
 </div>
 
-<h2 id="toc_289">Bibtex</h2>
+<h2 id="toc_303">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2012:LFT:2390665.2390698,
  author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
  title = {Learning to Find Translations and Transliterations on the Web},

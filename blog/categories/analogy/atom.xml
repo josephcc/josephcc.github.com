@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Analogy | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/analogy/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2018-12-10T16:33:27-05:00</updated>
+  <updated>2019-01-18T00:41:24-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -29,7 +29,7 @@ research communities.</p>
 
 <!--more-->
 
-<h2 id="toc_266">Abstract</h2>
+<h2 id="toc_280">Abstract</h2>
 
 <p>Scientific discoveries are often driven by finding analogies in distant
 domains, but the growing number of papers makes it difficult to find relevant
@@ -47,18 +47,18 @@ that the resulting analogies found are useful to experts. These results
 demonstrate a novel path towards computationally supported knowledge sharing in
 research communities.</p>
 
-<h2 id="toc_267">Downloads</h2>
+<h2 id="toc_281">Downloads</h2>
 
-<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_268">Citation</h2>
+<h2 id="toc_282">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
 Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
 In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
 </code></pre>
 </div>
 
-<h2 id="toc_269">Bibtex</h2>
+<h2 id="toc_283">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
   title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
   author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
