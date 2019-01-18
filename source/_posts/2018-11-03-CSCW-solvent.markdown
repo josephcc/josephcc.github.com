@@ -2,7 +2,7 @@
 layout: post
 title: "Solvent"
 subtitle: "A Mixed Initiative System for Finding Analogies between Research Papers"
-seotitle: "Solvent: A Mixed Initiative System for Finding Analogies between Research Papers"
+seotitle: "Solvent: A Mixed Initiative System for Finding Analogies between Research Papers (CSCW 2018)"
 authors: "Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur."
 venue: "ACM CSCW 2018"
 stats: "(r=27% N=385)"
@@ -53,7 +53,7 @@ research communities.
 
 Downloads
 ----------------------
-<a class="btn btn-default" href="/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a>
 
 
 Citation
