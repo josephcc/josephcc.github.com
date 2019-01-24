@@ -2,7 +2,7 @@
 layout: post
 title: "The Knowledge Accelorator"
 subtitle: "Big Picture Thinking in Small Pieces"
-seotitle: "The Knowledge Acelorator: Big Picture Thinking in Small Pieces (CHI 2016)"
+seotitle: "The Knowledge Accelorator: Big Picture Thinking in Small Pieces (CHI 2016)"
 date: 2016-05-07 07:00
 comments: true
 authors: "Nathan Hahn, Joseph Chee Chang, Aniket Kittur."
