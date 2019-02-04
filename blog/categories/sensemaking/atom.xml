@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sensemaking | Joseph Chee Chang]]></title>
   <link href="http://joseph.nlpweb.org/blog/categories/sensemaking/atom.xml" rel="self"/>
   <link href="http://joseph.nlpweb.org/"/>
-  <updated>2019-01-24T16:49:42-05:00</updated>
+  <updated>2019-02-04T15:17:25-05:00</updated>
   <id>http://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -59,15 +59,14 @@ participants found benefits in SearchLens while conducting their own tasks.</p>
 <p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2 id="toc_97">Citation</h2>
-<div class="highlight"><pre><code class="text"><span></span>Composing and Capturing ComplexUser Interests for Exploratory Search. 2019.
-SearchLens: Composing and Capturing ComplexUser Interests for Exploratory Search.
+<div class="highlight"><pre><code class="text"><span></span>SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.
 In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.
 </code></pre>
 </div>
 
 <h2 id="toc_98">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chang2019searchlens,
-  title={SearchLens: Composing and Capturing ComplexUser Interests for Exploratory Search},
+  title={SearchLens: Composing and Capturing Complex User Interests for Exploratory Search},
   author={Chang, Joseph Chee and Hahn, Nathan, and Perer, Adam and Kittur, Aniket},
   booktitle = {Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces},
   series = {IUI&#39;19},
