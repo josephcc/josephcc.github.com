@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "SearchLens"
-subtitle: "Composing and Capturing ComplexUser Interests for Exploratory Search"
-seotitle: "SearchLens: Composing and Capturing ComplexUser Interests for Exploratory Search"
+subtitle: "Composing and Capturing Complex User Interests for Exploratory Search"
+seotitle: "SearchLens: Composing and Capturing Complex User Interests for Exploratory Search"
 authors: "Joseph Chee Chang, Nathan Hahn, Adam Perer, Aniket Kittur."
 venue: "ACM IUI 2019"
 stats: "(r=25% N=282)"
@@ -67,8 +67,7 @@ Download
 Citation
 ----------------------
 ```
-Composing and Capturing ComplexUser Interests for Exploratory Search. 2019.
-SearchLens: Composing and Capturing ComplexUser Interests for Exploratory Search.
+SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.
 In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.
 ```
 
@@ -76,7 +75,7 @@ Bibtex
 ----------------------
 ```
 @article{chang2019searchlens,
-  title={SearchLens: Composing and Capturing ComplexUser Interests for Exploratory Search},
+  title={SearchLens: Composing and Capturing Complex User Interests for Exploratory Search},
   author={Chang, Joseph Chee and Hahn, Nathan, and Perer, Adam and Kittur, Aniket},
   booktitle = {Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces},
   series = {IUI'19},
