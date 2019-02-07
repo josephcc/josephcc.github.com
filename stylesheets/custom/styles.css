@@ -31,3 +31,9 @@ table.activity tr th:nth-child(2) {
 canvas.particles-js-canvas-el {
   filter: blur(2px);
 }
+
+@media only screen and (max-width: 980px) {
+  .entry-content img {
+    width: 100% !important;
+  }
+}
