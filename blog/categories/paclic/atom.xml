@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: PACLIC | Joseph Chee Chang]]></title>
-  <link href="http://joseph.nlpweb.org/blog/categories/paclic/atom.xml" rel="self"/>
-  <link href="http://joseph.nlpweb.org/"/>
-  <updated>2019-02-04T16:07:11-05:00</updated>
-  <id>http://joseph.nlpweb.org/</id>
+  <link href="https://joseph.nlpweb.org/blog/categories/paclic/atom.xml" rel="self"/>
+  <link href="https://joseph.nlpweb.org/"/>
+  <updated>2019-02-06T23:59:17-05:00</updated>
+  <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[WikiSense]]></title>
-    <link href="http://joseph.nlpweb.org/blog/2009/12/03/wikisense/"/>
+    <link href="https://joseph.nlpweb.org/wikisense/"/>
     <updated>2009-12-03T08:00:00-05:00</updated>
-    <id>http://joseph.nlpweb.org/blog/2009/12/03/wikisense</id>
+    <id>https://joseph.nlpweb.org/wikisense</id>
     <content type="html"><![CDATA[<p>We introduced a method for classifying named-entities into broad semantic
 categories in WordNet. We extracted rich features from Wikipedia, allowing us
 to classify named-entities with high precision and coverage. The result is a

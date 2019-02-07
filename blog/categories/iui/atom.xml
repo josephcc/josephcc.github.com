@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: IUI | Joseph Chee Chang]]></title>
-  <link href="http://joseph.nlpweb.org/blog/categories/iui/atom.xml" rel="self"/>
-  <link href="http://joseph.nlpweb.org/"/>
-  <updated>2019-02-04T16:07:11-05:00</updated>
-  <id>http://joseph.nlpweb.org/</id>
+  <link href="https://joseph.nlpweb.org/blog/categories/iui/atom.xml" rel="self"/>
+  <link href="https://joseph.nlpweb.org/"/>
+  <updated>2019-02-06T23:59:17-05:00</updated>
+  <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
-    <link href="http://joseph.nlpweb.org/blog/2019/03/17/IUI-searchlens/"/>
+    <link href="https://joseph.nlpweb.org/IUI-searchlens/"/>
     <updated>2019-03-17T08:00:00-04:00</updated>
-    <id>http://joseph.nlpweb.org/blog/2019/03/17/IUI-searchlens</id>
+    <id>https://joseph.nlpweb.org/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, reviews and forum posts are often an important influence
 in online decision making.  However, making sense of these rich repositories of
@@ -56,7 +56,7 @@ participants found benefits in SearchLens while conducting their own tasks.</p>
 
 <h2 id="toc_250">Download</h2>
 
-<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2 id="toc_251">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.

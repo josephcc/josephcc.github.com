@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: SIGCHI | Joseph Chee Chang]]></title>
-  <link href="http://joseph.nlpweb.org/blog/categories/sigchi/atom.xml" rel="self"/>
-  <link href="http://joseph.nlpweb.org/"/>
-  <updated>2019-02-04T16:07:11-05:00</updated>
-  <id>http://joseph.nlpweb.org/</id>
+  <link href="https://joseph.nlpweb.org/blog/categories/sigchi/atom.xml" rel="self"/>
+  <link href="https://joseph.nlpweb.org/"/>
+  <updated>2019-02-06T23:59:17-05:00</updated>
+  <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
-    <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento/"/>
+    <link href="https://joseph.nlpweb.org/CHI-bento/"/>
     <updated>2018-04-21T08:01:00-04:00</updated>
-    <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-bento</id>
+    <id>https://joseph.nlpweb.org/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming leading to lots
 of tabs.  This also makes conducting searches on mobile devices especially
 difficult where screen real-estate is limited and tasks can often be 
@@ -48,7 +48,7 @@ this structure, and find it more organized and easier to revisit. </p>
 
 <p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
 
-<p><img src="http://joseph.nlpweb.org/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
+<p><img src="https://joseph.nlpweb.org/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
 
 <p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
 
@@ -71,7 +71,7 @@ this structure, and find it more organized and easier to revisit. </p>
 
 <h2 id="toc_22">Downloads</h2>
 
-<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2 id="toc_23">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
@@ -98,9 +98,9 @@ ACM, Montreal, QC, Canada.
   
   <entry>
     <title type="html"><![CDATA[Evorus]]></title>
-    <link href="http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus/"/>
+    <link href="https://joseph.nlpweb.org/CHI-evorus/"/>
     <updated>2018-04-21T08:00:00-04:00</updated>
-    <id>http://joseph.nlpweb.org/blog/2018/04/21/CHI-evorus</id>
+    <id>https://joseph.nlpweb.org/CHI-evorus</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 Crowd-powered chatbots are robust than current pure AI approach, but can be
@@ -150,7 +150,7 @@ dialog system.</p>
 
 <h2 id="toc_29">Downloads</h2>
 
-<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
 
 <h2 id="toc_30">Citation</h2>
@@ -178,9 +178,9 @@ ACM, Montreal, QC, Canada.
   
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
-    <link href="http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt/"/>
+    <link href="https://joseph.nlpweb.org/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
-    <id>http://joseph.nlpweb.org/blog/2017/05/06/CHI-revolt</id>
+    <id>https://joseph.nlpweb.org/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
@@ -217,9 +217,9 @@ higher label accuracy with lower monetary cost.</p>
 
 <h2 id="toc_33">Downloads</h2>
 
-<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
-<a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
+<a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
 <h2 id="toc_34">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
@@ -248,9 +248,9 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
   
   <entry>
     <title type="html"><![CDATA[Alloy]]></title>
-    <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy/"/>
+    <link href="https://joseph.nlpweb.org/CHI-alloy/"/>
     <updated>2016-05-07T08:00:00-04:00</updated>
-    <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-alloy</id>
+    <id>https://joseph.nlpweb.org/CHI-alloy</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 <strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
@@ -283,7 +283,7 @@ to stitch together different types of judgment tasks.</p>
 
 <h2 id="toc_37">Downloads</h2>
 
-<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_38">Media Coverage</h2>
@@ -337,9 +337,9 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
   
   <entry>
     <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
-    <link href="http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka/"/>
+    <link href="https://joseph.nlpweb.org/CHI-ka/"/>
     <updated>2016-05-07T07:00:00-04:00</updated>
-    <id>http://joseph.nlpweb.org/blog/2016/05/07/CHI-ka</id>
+    <id>https://joseph.nlpweb.org/CHI-ka</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 People often search to web to find solutions to problems beyond factual
@@ -369,7 +369,7 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
 
 <h2 id="toc_42">Downloads</h2>
 
-<p><a class="btn btn-default" href="http://joseph.nlpweb.org/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_43">Media Coverage</h2>
