@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>WikiSense - Joseph Chee Chang</title>
+  <title>WikiSense: Supersense Tagging Named Entities on Wikipedia - Joseph Chee Chang</title>
   <meta name="author" content="Joseph Chee Chang">
   <link rel="author" href="humans.txt">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -29,8 +29,11 @@
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="Joseph Chee Chang" />
   <meta name="og:title" content="WikiSense" />
-  <meta name="og:url" content="https://joseph.nlpweb.org/wikisense/index.html"/>
-  <meta name="url" content="https://joseph.nlpweb.org/wikisense/index.html">
+  <meta name="og:url" content="https://joseph.nlpweb.org/wikisense/"/>
+  <meta name="url" content="https://joseph.nlpweb.org/wikisense/">
+  
+  <meta name="subject" content="Information ExtractionMachine LearningNLPPACLIC"/>
+  <meta name="category" content="Information ExtractionMachine LearningNLPPACLIC"/>
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -61,7 +64,8 @@ MathJax.Hub.Config({
   <script src="https://use.fontawesome.com/13f8def07e.js"></script>
 </head>
 
-<nav role="navigation"><div class="navbar">
+<body   >
+  <nav role="navigation"><div class="navbar">
   <div class="navbar-inner">
     <a class="brand" href="/">Joseph Chee Chang</a>
     <ul class="nav">
@@ -73,44 +77,55 @@ MathJax.Hub.Config({
   </div>
 </div>
 </nav>
-<div class="wrapper_single">
-  <div class="container">
-    <article class="span10 offset1" role=article>
-      <div class="article-format">
-        
-        <header>
-          <h1 class="entry-title">WikiSense</h1>
-          <p class="meta">
+  <div class="wrapper_single">
+    <div class="container">
+      <article class="span10 offset1" role="article">
+        <div class="article-format">
+
+
+  <header>
+    
+      <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>WikiSense</h1>
+      <h1 class="entry-title" style='font-size: 1.6em; margin-bottom: 20px;'>Supersense Tagging Named Entities on Wikipedia</h1>
+    
+  </header>
 
 
 
+  <div style='margin-bottom: 18px; margin-top: -18px; color: gray;'>
+    Joseph Chee Chang, Richard Tsai, Jason S. Chang.
+    <span style='font-weight: bold;'>PACLIC 2009</span> 
+  </div>
+  <div class="entry-content">
+    
+    <p>We introduced a method for classifying named-entities into broad semantic
+categories in WordNet. We extracted rich features from Wikipedia, allowing us
+to classify named-entities with high precision and coverage. The result is a
+large scale named-entity semantic database with 1.2 million entries and over
+95% accuracy, covering 80% of all named-entities found on Wikipedia.</p>
 
+<!--more-->
 
+<h2 id="toc_358">Abstract</h2>
 
+<p>In this paper, we introduce a minimally supervised method for learning to
+classify named-entity titles in a given encyclopedia into broad semantic
+categories in an existing ontology. Our main idea involves using overlapping
+entries in the encyclopedia and ontology and a small set of 30 handed tagged
+parenthetic explanations to automatically generate the training data. The
+proposed method involves automatically recognizing whether a title is a named
+entity, automatically generating two sets of training data, and automatically
+building a classification model for training a classification model based on
+textual and non-textual features. We present WikiSense, an implementation of
+the proposed method for extending the named entity coverage of WordNet by sense
+tagging Wikipedia titles. Experimental results show WikiSense achieves accuracy
+of over 95% and near 80% applicability for all NE titles in Wikipedia.
+WikiSense cleanly produces over 1.2 million of NEs tagged with broad
+categories, based on the lexicographers’ files of WordNet, effectively
+extending WordNet to form a very large scale semantic category, a potentially
+useful resource for many natural language related tasks.</p>
 
-
-  
-
-
-<time datetime="2012-12-08T15:53:00-05:00" pubdate data-updated="true">Dec 8<span>th</span>, 2012</time></p>
-        </header>
-        
-
-        <h2 id="toc_433">Citation</h2>
-
-<p>Chang, J., Tsai, R. T.-H., &#38; Chang, J. S. (2009). WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet. In <i>Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)</i> (72&#8211;81). Hong Kong, China.  <br/>&nbsp;-&nbsp;<a id='Chang-EtAl:2009:PACLIC2009' class='bibtex' bibtex='@inproceedings{Chang-EtAl:2009:PACLIC2009,
-  author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
-  title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
-  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)},
-  year = {2009},
-  month = {dec},
-  address = {Hong Kong, China},
-  pages = {72--81},
-  url = {http://www.aclweb.org/anthology/Y09-1009}
-}
-'>[bibtex]</a> </p>
-
-<h2 id="toc_434">Examples</h2>
+<h2 id="toc_359">Demo</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -135,14 +150,14 @@ MathJax.Hub.Config({
 <span class='line-number'>21</span>
 <span class='line-number'>22</span>
 <span class='line-number'>23</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>ID        Supersense    Par. Exp.    Title                                Note
+</pre></td><td class='code'><pre><code class=''><span class='line'>WikiID    Supersense     PE          NE                                   Note
 </span><span class='line'>----------------------------------------------------------------------------------------------
 </span><span class='line'>11983070  person         None        Johnny Cash                          singer
 </span><span class='line'>203407    person         None        Celine Dion                          singer
 </span><span class='line'>2773076   group          None        Guns N' Roses                        band
 </span><span class='line'>
 </span><span class='line'>945778    location       None        Hsinchu Science and Industrial Park
-</span><span class='line'>951038    location       None        Linbian, Pingtung                    name of city)
+</span><span class='line'>951038    location       None        Linbian, Pingtung                    name of city
 </span><span class='line'>
 </span><span class='line'>19299838  communication  None        Cape No. 7                           movie
 </span><span class='line'>543675    person         None        Jay Chou                             singer
@@ -161,17 +176,56 @@ MathJax.Hub.Config({
 
 <p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
 
-<h2 id="toc_435">Download </h2>
+<h2 id="toc_360">Download</h2>
 
-<p>Plain text and python module:
-<a href='http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2'><a href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2">http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2</a></a></p>
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a></p>
+
+<h2 id="toc_361">Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Chang, J., Tsai, R. T.-H., & Chang, J. S. (2009).
+</span><span class='line'>WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
+</span><span class='line'>In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
+</span><span class='line'>Hong Kong, China. </span></code></pre></td></tr></table></div></figure>
+
+<h2 id="toc_362">Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang-EtAl:2009:PACLIC2009,
+</span><span class='line'>  author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
+</span><span class='line'>  title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
+</span><span class='line'>  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)},
+</span><span class='line'>  year = {2009},
+</span><span class='line'>  month = {dec},
+</span><span class='line'>  address = {Hong Kong, China},
+</span><span class='line'>  pages = {72--81},
+</span><span class='line'>  url = {http://www.aclweb.org/anthology/Y09-1009}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+  </div>
+
+<br/>
 
 
-        
-          <footer>
-            <p class="meta">
-              
-              
+
+
+
+  <footer>
+    <p class="meta" style='margin-bottom: 0px;'>
+      
 
 
 
@@ -183,12 +237,25 @@ MathJax.Hub.Config({
   
 
 
-<time datetime="2012-12-08T15:53:00-05:00" pubdate data-updated="true">Dec 8<span>th</span>, 2012</time>
-              
-            </p>
-          </footer>
-        
+<time datetime="2009-12-03T08:00:00-05:00" pubdate data-updated="true">Dec 3<span>rd</span>, 2009</time> - 
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/information-extraction/'>Information Extraction</a>, <a class='category' href='/blog/categories/machine-learning/'>Machine Learning</a>, <a class='category' href='/blog/categories/nlp/'>NLP</a>, <a class='category' href='/blog/categories/paclic/'>PACLIC</a>
+  
+</span>
+
+
+    </p>
+  </footer>
+
+</div>
+
+
           
+          <div class="article-format">
+            <section>
               <h2>Comments</h2>
               <div id="disqus_thread" aria-live="polite"><script>
 
@@ -210,12 +277,14 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+            </section>
           
-      </div>
-    </article>
+          </div>
+
+      </article>
+    </div>
   </div>
-</div>
-<div id="footer-widgets">
+  <div id="footer-widgets">
   <div class="container">
     <div id='contact' class="row">
   <div class="span2">
@@ -284,7 +353,7 @@ s.setAttribute('data-timestamp', +new Date());
   </div>
 </footer>
 
-<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"></script>
+  <script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"></script>
 <script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"><\/script>')</script>
 <script src="/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
 <script src="/javascripts/jquery.tweet.js" type="text/javascript"></script>
@@ -334,8 +403,8 @@ s.setAttribute('data-timestamp', +new Date());
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'https://joseph.nlpweb.org/wikisense/index.html';
-        var disqus_url = 'https://joseph.nlpweb.org/wikisense/index.html';
+        var disqus_identifier = 'https://joseph.nlpweb.org/wikisense/';
+        var disqus_url = 'https://joseph.nlpweb.org/wikisense/';
         var disqus_script = 'embed.js';
       
     (function () {
@@ -349,3 +418,5 @@ s.setAttribute('data-timestamp', +new Date());
 
 
 
+</body>
+</html>
