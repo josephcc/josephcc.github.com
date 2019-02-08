@@ -53,7 +53,7 @@ default_asides:
 - "custom/asides/recent_activities.html"
 - "custom/asides/related_posts.html"
 
-lsi: true # required by related_posts
+lsi: false # required by related_posts
 
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
@@ -84,7 +84,7 @@ twitter_show_follower_count: false
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile
