@@ -53,15 +53,20 @@ more richly than in a baseline condition, and a field study showed that
 participants found benefits in SearchLens while conducting their own tasks.
 
 
+Presentation (IUI 2019)
+----------------------
+Coming soon...
+
+
 Video Figure
 ----------------------
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dXcTtHMa2DQ?rel=0" frameborder="0" allowfullscreen></iframe>
          
 
 Download
 ----------------------
 <a class="btn btn-default" href="/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a>
 
 
 Citation
