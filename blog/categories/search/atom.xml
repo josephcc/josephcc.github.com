@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Search | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/search/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2019-02-08T15:36:12-05:00</updated>
+  <updated>2019-03-22T16:05:00-07:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
     <link href="https://joseph.nlpweb.org/IUI-searchlens/"/>
-    <updated>2019-03-17T08:00:00-04:00</updated>
+    <updated>2019-03-17T08:00:00-07:00</updated>
     <id>https://joseph.nlpweb.org/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, reviews and forum posts are often an important influence
@@ -31,7 +31,7 @@ enables deeper exploration.</p>
 
 <!--more-->
 
-<h2 id="toc_174">Abstract</h2>
+<h2 id="toc_177">Abstract</h2>
 
 <p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, consumer generated data (i.e. reviews and forum posts)
@@ -49,22 +49,27 @@ suggest that our approach incentivized participants to express their interests
 more richly than in a baseline condition, and a field study showed that
 participants found benefits in SearchLens while conducting their own tasks.</p>
 
-<h2 id="toc_175">Video Figure</h2>
+<h2 id="toc_178">Presentation (IUI 2019)</h2>
+
+<p>Coming soon...</p>
+
+<h2 id="toc_179">Video Figure</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dXcTtHMa2DQ?rel=0" frameborder="0" allowfullscreen></iframe>
          
 
-<h2 id="toc_176">Download</h2>
+<h2 id="toc_180">Download</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_177">Citation</h2>
+<h2 id="toc_181">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.
 In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.
 </code></pre>
 </div>
 
-<h2 id="toc_178">Bibtex</h2>
+<h2 id="toc_182">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chang2019searchlens,
   title={SearchLens: Composing and Capturing Complex User Interests for Exploratory Search},
   author={Chang, Joseph Chee and Hahn, Nathan, and Perer, Adam and Kittur, Aniket},
@@ -80,7 +85,7 @@ In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Inter
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
     <link href="https://joseph.nlpweb.org/CSCW-solvent/"/>
-    <updated>2018-11-03T08:00:00-04:00</updated>
+    <updated>2018-11-03T08:00:00-07:00</updated>
     <id>https://joseph.nlpweb.org/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domain often lead to scientitic discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
@@ -93,7 +98,7 @@ research communities.</p>
 
 <!--more-->
 
-<h2 id="toc_179">Abstract</h2>
+<h2 id="toc_183">Abstract</h2>
 
 <p>Scientific discoveries are often driven by finding analogies in distant
 domains, but the growing number of papers makes it difficult to find relevant
@@ -111,18 +116,18 @@ that the resulting analogies found are useful to experts. These results
 demonstrate a novel path towards computationally supported knowledge sharing in
 research communities.</p>
 
-<h2 id="toc_180">Downloads</h2>
+<h2 id="toc_184">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_181">Citation</h2>
+<h2 id="toc_185">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
 Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
 In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
 </code></pre>
 </div>
 
-<h2 id="toc_182">Bibtex</h2>
+<h2 id="toc_186">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
   title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
   author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
@@ -138,7 +143,7 @@ In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
     <link href="https://joseph.nlpweb.org/CHI-bento/"/>
-    <updated>2018-04-21T08:01:00-04:00</updated>
+    <updated>2018-04-21T08:01:00-07:00</updated>
     <id>https://joseph.nlpweb.org/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming leading to lots
 of tabs.  This also makes conducting searches on mobile devices especially
@@ -150,7 +155,7 @@ You can <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8
 
 <!--more-->
 
-<h2 id="toc_183">Abstract</h2>
+<h2 id="toc_187">Abstract</h2>
 
 <p>People engaged in complex searches such as planning a vacation or understanding
 their medical symptoms are often overwhelmed by opening and managing many tabs.
@@ -166,7 +171,7 @@ investigate its effectiveness in three studies. We find converging evidence
 that users were able to make progress on their complex searching tasks with
 this structure, and find it more organized and easier to revisit. </p>
 
-<h2 id="toc_184">Install Bento Browser</h2>
+<h2 id="toc_188">Install Bento Browser</h2>
 
 <p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
 
@@ -174,13 +179,13 @@ this structure, and find it more organized and easier to revisit. </p>
 
 <p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
 
-<h2 id="toc_185">Video Demo</h2>
+<h2 id="toc_189">Video Demo</h2>
 
 <p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_186">Media Coverage</h2>
+<h2 id="toc_190">Media Coverage</h2>
 
 <ul>
 <li>Tech Explorist: <a href="https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/">A new web browser makes it easier to search on mobile devices</a></li>
@@ -191,11 +196,11 @@ this structure, and find it more organized and easier to revisit. </p>
 <li>CMU HCII: <a href="https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
 </ul>
 
-<h2 id="toc_187">Downloads</h2>
+<h2 id="toc_191">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_188">Citation</h2>
+<h2 id="toc_192">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
 Bento Browser: Complex Mobile Search Without Tabs.
 In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
@@ -203,7 +208,7 @@ ACM, Montreal, QC, Canada.
 </code></pre>
 </div>
 
-<h2 id="toc_189">Bibtex</h2>
+<h2 id="toc_193">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Hahn:2018:Bento,
  author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
  title = {Bento Browser: Complex Mobile Search Without Tabs.},
