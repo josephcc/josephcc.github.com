@@ -4,7 +4,7 @@
   <title><![CDATA[Category: HMM | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/hmm/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2019-03-22T16:17:49-07:00</updated>
+  <updated>2019-04-03T17:04:40-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[A Hangman Game Solver based on Language Models]]></title>
     <link href="https://joseph.nlpweb.org/hangman/"/>
-    <updated>2012-11-04T21:14:00-08:00</updated>
+    <updated>2012-11-04T21:14:00-05:00</updated>
     <id>https://joseph.nlpweb.org/hangman</id>
     <content type="html"><![CDATA[<p>I&#39;ve recently wrote a program for solving sentence-based hangman game automatically. Here&#39;s a post
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 

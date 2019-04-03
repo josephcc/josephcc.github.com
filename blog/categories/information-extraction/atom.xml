@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Information Extraction | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/information-extraction/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2019-03-22T16:17:49-07:00</updated>
+  <updated>2019-04-03T17:04:40-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[TermMine]]></title>
     <link href="https://joseph.nlpweb.org/ACL-termmine/"/>
-    <updated>2012-07-08T08:00:00-07:00</updated>
+    <updated>2012-07-08T08:00:00-04:00</updated>
     <id>https://joseph.nlpweb.org/ACL-termmine</id>
     <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
 translation pairs of terms from the web. We used a small set of terms and
@@ -72,7 +72,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
   <entry>
     <title type="html"><![CDATA[WikiSense]]></title>
     <link href="https://joseph.nlpweb.org/wikisense/"/>
-    <updated>2009-12-03T08:00:00-08:00</updated>
+    <updated>2009-12-03T08:00:00-05:00</updated>
     <id>https://joseph.nlpweb.org/wikisense</id>
     <content type="html"><![CDATA[<p>We introduced a method for classifying named-entities into broad semantic
 categories in WordNet. We extracted rich features from Wikipedia, allowing us

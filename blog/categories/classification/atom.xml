@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Classification | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/classification/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2019-03-22T16:17:49-07:00</updated>
+  <updated>2019-04-03T17:04:40-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
     <link href="https://joseph.nlpweb.org/CHI-revolt/"/>
-    <updated>2017-05-06T08:00:00-07:00</updated>
+    <updated>2017-05-06T08:00:00-04:00</updated>
     <id>https://joseph.nlpweb.org/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
