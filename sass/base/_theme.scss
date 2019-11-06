@@ -67,7 +67,7 @@ animation: AnimationName 24s ease infinite;
     50%{background-position:100% 7%}
     100%{background-position:0% 94%}
 }
-@keyframes AnimationName { 
+@keyframes AnimationName {
     0%{background-position:0% 94%}
     50%{background-position:100% 7%}
     100%{background-position:0% 94%}
@@ -102,11 +102,11 @@ animation: AnimationName 24s ease infinite;
   //font-family: 'Architects Daughter', cursive;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  @media only screen and (min-width: 0px)  { font-size: 20px !important; }
-  @media only screen and (min-width: 460px)  { font-size: 24px !important; }
-  @media only screen and (min-width: 700px)  { font-size: 40px !important; }
-  @media only screen and (min-width: 980px) { font-size: 48px !important; }
-  @media only screen and (min-width: 1200px) { font-size: 50px !important; }
+  @media only screen and (min-width: 0px)  { font-size: 18px !important; }
+  @media only screen and (min-width: 460px)  { font-size: 22px !important; }
+  @media only screen and (min-width: 700px)  { font-size: 38px !important; }
+  @media only screen and (min-width: 980px) { font-size: 46px !important; }
+  @media only screen and (min-width: 1200px) { font-size: 48px !important; }
 
   color: #000;
   text-shadow: 0px 0px 1px white;
@@ -115,11 +115,11 @@ animation: AnimationName 24s ease infinite;
 #hero-inner h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.1;
-  @media only screen and (min-width: 0px)  { font-size: 10px !important; }
-  @media only screen and (min-width: 460px)  { font-size: 12px !important; }
-  @media only screen and (min-width: 700px)  { font-size: 14px !important; }
-  @media only screen and (min-width: 980px) { font-size: 18px !important; }
-  @media only screen and (min-width: 1200px) { font-size: 24px !important; }
+  @media only screen and (min-width: 0px)  { font-size: 8px !important; }
+  @media only screen and (min-width: 460px)  { font-size: 10px !important; }
+  @media only screen and (min-width: 700px)  { font-size: 12px !important; }
+  @media only screen and (min-width: 980px) { font-size: 16px !important; }
+  @media only screen and (min-width: 1200px) { font-size: 22px !important; }
 
   color: #000;
   text-shadow: 0px 0px 1px lightgray;
