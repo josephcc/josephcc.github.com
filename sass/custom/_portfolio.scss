@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|Unica+One|Droid+Sans|Architects+Daughter);
+//@import url(http://fonts.googleapis.com/css2?family=Fredericka+the+Great|Unica+One|Droid+Sans|Architects+Daughter&display=swap);
 //@import url(http://fonts.googleapis.com/css?family=Patrick+Hand|Gochi+Hand|Architects+Daughter|Indie+Flower|Shadows+Into+Light+Two);
+@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredericka+the+Great&family=Open+Sans&family=Unica+One&display=swap);
 
 $white: #fafafa;
 
@@ -15,6 +16,11 @@ $reader-margin: 20px;
     border-right: 2px solid rgba(255,255,255,.075);
     border-bottom: 2px solid rgba(255,255,255,.075);
 
+    a {
+      color: white !important;
+      text-decoration: underline;
+    }
+
     h1 {
         font-family: 'Fredericka the Great', cursive;
         font-size: 4em;
@@ -25,14 +31,15 @@ $reader-margin: 20px;
     }
 
     h2 {
-        font-family: 'Unica One', cursive;
-        font-size: 3em;
+        font-family: 'Fredericka the Great', cursive;
+        font-weight: normal !important;
+        font-size: 2.8em;
         text-transform: capitalize !important;
         margin-top: 28px;
 		margin-left: 28px;
     }
 
-	
+
     $major-grid-size: 138.3px;
     $minor-grid-size: 27.6px;
 	$major-grid-color: rgba(255,255,255,.075);
@@ -136,7 +143,7 @@ $reader-margin: 20px;
 	}
 
     .description, ._full_description p {
-        font-family: 'Droid Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-weight: normal !important;
 		text-align: justify;
     }
