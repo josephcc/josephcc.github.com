@@ -53,15 +53,10 @@ more richly than in a baseline condition, and a field study showed that
 participants found benefits in SearchLens while conducting their own tasks.
 
 
-Presentation (IUI 2019)
-----------------------
-Coming soon...
-
-
 Video Figure
 ----------------------
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dXcTtHMa2DQ?rel=0" frameborder="0" allowfullscreen></iframe>
-         
+
 
 Download
 ----------------------
@@ -73,6 +68,7 @@ Citation
 ----------------------
 ```
 SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.
+Joseph Chee Chang, Nathan Hahn, Adam Perer, Aniket Kittur.
 In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.
 ```
 
@@ -87,4 +83,3 @@ Bibtex
   year={2019}
 }
 ```
-
