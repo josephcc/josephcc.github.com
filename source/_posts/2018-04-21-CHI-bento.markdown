@@ -18,14 +18,12 @@ imgStyleIndex: 'width: 50%; float: right; margin-left: 28px;'
 
 ---
 
-
-Complex searches can be overwhelming leading to lots
-of tabs.  This also makes conducting searches on mobile devices especially
-difficult where screen real-estate is limited and tasks can often be 
-inturrupted.  Rather than using tabs to manage information, we introduce
-browsing through scaffolding. Search result lists serve as mutable
-workspaces where progress can be suspended and resumed.
-You can [download BentoBrowser from the AppStore](https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8).
+Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
+make conducting searches on mobile devices especially difficult where screen
+real-estate is limited, and progress can often be interrupted. Rather than
+using tabs to manage information, we introduce browsing through scaffolding.
+Search result lists serve as mutable workspaces where progress can be suspended
+and resumed. BentoBrowser is available for [download from the iPhone AppStore](https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8).
 
 <!--more-->
 

@@ -21,12 +21,12 @@ imgStyleIndex: 'width: 55%; float: right; margin-left: 28px;'
 
 ***<i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION***
 <br/>
-People often search to web to find solutions to problems beyond factual
-question, such as planning road trips, writing an report, or buying a new
-camera.  The Knowledge Accelerator uses crowdworkers to synthesize different
-information sources on the web in response to a query. We prototyped this
-system in order to explore crowdsourcing complex, high context tasks in a
-microtask environment.
+Answering complex questions such as "How do I grow better tomatoes?" often
+requires individuals to conduct extensive online research and synthesis. Can we
+crowdsource this complex, high context process with 100 crowdworkers conducting
+microtasks distributedly? The Knowledge Accelerator uses crowdworkers to
+extract and synthesize text clips across web pages into coherent articles
+without a centralized coordinator.
 
 
 <!--more-->

@@ -24,11 +24,11 @@ imgStyleIndex: 'width: 60%; float: right; margin-left: 28px;'
 ***HCOMP 2016 INVITED ENCORE TALK***
 <br/>
 Many crowd clustering approaches have difficulties providing global context to
-workers in order to generate meaningful categories.  Alloy uses a
-*sample-and-search* technique to provide global context, and
-combines the deep semantic knowledge from human computation and the scalability
-of machine learning models to create rich structures from unorganized documents
-with high quality and efficiency.
+workers in order to generate meaningful categories. Alloy uses a
+*sample-and-search* technique to provide a better understanding of the global
+context. It also combines the in-depth semantic knowledge from human
+computation and the scalability of machine learning models to create rich
+structures from unorganized documents with high quality and efficiency.
 
 
 <!--more-->

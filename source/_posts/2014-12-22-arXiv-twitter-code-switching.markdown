@@ -14,11 +14,12 @@ span: 6
 project: true
 ---
 
-Code-switching behavior is common on social media for expressing solidarity or
-to establish authority. While past work on automatic code-switching detection
-depends on dictionary look-up or named-entity recognition, our recurrent neural
-network model that relies on only raw features outperformed the top systems in
-the EMNLP'14 Code-Switching Workshop by 17% in error rate reduction.
+Code-switching behavior is a common phenomenon on social media to express
+solidarity or establish authority. While past work on automatic code-switching
+detection depends on dictionary look-up or named-entity recognition, our
+recurrent neural network model that relies on only raw features outperformed
+the top systems in the EMNLP'14 Code-Switching Workshop by 17% in error rate
+reduction.
 
 <span style='color: gray'>Final project for the Deep Learning course at CMU.</span>
 

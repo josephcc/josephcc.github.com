@@ -26,7 +26,7 @@ slower and more expensive at runtime. We attempted to combine the two
 approaches for high quality, low latency, and low cost.  We introduce Evorus, a
 crowd-powered chatbot that automate itself over time by learning to integrate
 AI chatbots, reusing responses, and assess response quality. A 5-month-long
-public deployment study shows promising results. You can [start using Evorus today](http://talkingtothecrowd.org/).
+public deployment study shows promising results. You can [try talking to Evorus today](http://talkingtothecrowd.org/).
 
 <!--more-->
 

@@ -21,7 +21,7 @@ imgStyleIndex: 'width: 55%; float: right; margin-left: 28px;'
 Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses *crowd disagreements*
 to identify ambiguous concepts in the data and coordinates the crowd to
-*collaboratively* create rich structures for requesters to make post-hoc
+*collaboratively* create rich structures for requesters to make posthoc
 decisions, removing the need for comprehensive guidelines and
 enabling dynamic label boundaries.
 

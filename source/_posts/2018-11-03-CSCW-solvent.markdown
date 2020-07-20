@@ -19,15 +19,14 @@ imgStylePost: 'width: 40%; float: right; margin-left: 28px;'
 
 ---
 
-Analogies in distant domain often lead to scientitic discoveries. However, it
+Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
-unfamiliar domains as it is poorly supported by search engines. We introduce
-Solvent, a mixed-initiative system where annotators structure abstracts of
-acedemic papers into different aspects and use a semantic model to find
-analogies among research papers and across different domains. These results
-demonstrate a novel path towards computationally supported knowledge sharing in
-research communities.
-
+unfamiliar domains as search engines poorly support it. We introduce Solvent, a
+mixed-initiative system where annotators structure abstracts of academic papers
+into different aspects and use a semantic model to find analogies among
+research papers and across different domains. These results demonstrate a new
+path towards computationally supported knowledge sharing in research
+communities.
 
 <!--more-->
 

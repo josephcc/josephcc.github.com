@@ -21,15 +21,15 @@ imgStylePost: 'width: 80%; margin-left: auto; margin-right: auto; margin-top: 28
 
 
 Whether figuring out where to eat in an unfamiliar city or deciding which
-apartment to live in, reviews and forum posts are often an important influence
-in online decision making.  However, making sense of these rich repositories of
+apartment to live in, reviews and forum posts are often a significant factor in
+online decision making. However, making sense of these rich repositories of
 diverse opinions can be prohibitively effortful, searchers need to sift through
 a large number of reviews to characterize each item based on aspects that they
 care about. We introduce a novel system, SearchLens, where searchers build up a
-collection of composable and reusable "Lenses" that not only reflect their
-different latent interests, but also allowed SearchLens to generate
-personalized interfaces with visual explanations that promotes transparency and
-enables deeper exploration.
+collection of composable and reusable "Lenses" that reflect their different
+latent interests. Also, the Lenses allowed the system to generate personalized
+interfaces with visual explanations that promote transparency and enable
+in-depth exploration.
 
 
 <!--more-->
