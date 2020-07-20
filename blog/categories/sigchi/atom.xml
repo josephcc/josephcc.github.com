@@ -4,7 +4,7 @@
   <title><![CDATA[Category: SIGCHI | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/sigchi/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-07-20T16:44:33-04:00</updated>
+  <updated>2020-07-20T18:35:10-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -18,13 +18,12 @@
     <link href="https://joseph.nlpweb.org/CHI-bento/"/>
     <updated>2018-04-21T08:01:00-04:00</updated>
     <id>https://joseph.nlpweb.org/CHI-bento</id>
-    <content type="html"><![CDATA[<p>Complex searches can be overwhelming leading to lots
-of tabs.  This also makes conducting searches on mobile devices especially
-difficult where screen real-estate is limited and tasks can often be 
-inturrupted.  Rather than using tabs to manage information, we introduce
-browsing through scaffolding. Search result lists serve as mutable
-workspaces where progress can be suspended and resumed.
-You can <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download BentoBrowser from the AppStore</a>.</p>
+    <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
+make conducting searches on mobile devices especially difficult where screen
+real-estate is limited, and progress can often be interrupted. Rather than
+using tabs to manage information, we introduce browsing through scaffolding.
+Search result lists serve as mutable workspaces where progress can be suspended
+and resumed. BentoBrowser is available for <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download from the iPhone AppStore</a>.</p>
 
 <!--more-->
 
@@ -108,7 +107,7 @@ slower and more expensive at runtime. We attempted to combine the two
 approaches for high quality, low latency, and low cost.  We introduce Evorus, a
 crowd-powered chatbot that automate itself over time by learning to integrate
 AI chatbots, reusing responses, and assess response quality. A 5-month-long
-public deployment study shows promising results. You can <a href="http://talkingtothecrowd.org/">start using Evorus today</a>.</p>
+public deployment study shows promising results. You can <a href="http://talkingtothecrowd.org/">try talking to Evorus today</a>.</p>
 
 <!--more-->
 
@@ -184,7 +183,7 @@ ACM, Montreal, QC, Canada.
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
-<em>collaboratively</em> create rich structures for requesters to make post-hoc
+<em>collaboratively</em> create rich structures for requesters to make posthoc
 decisions, removing the need for comprehensive guidelines and
 enabling dynamic label boundaries.</p>
 
@@ -256,11 +255,11 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
 <strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
 <br/>
 Many crowd clustering approaches have difficulties providing global context to
-workers in order to generate meaningful categories.  Alloy uses a
-<em>sample-and-search</em> technique to provide global context, and
-combines the deep semantic knowledge from human computation and the scalability
-of machine learning models to create rich structures from unorganized documents
-with high quality and efficiency.</p>
+workers in order to generate meaningful categories. Alloy uses a
+<em>sample-and-search</em> technique to provide a better understanding of the global
+context. It also combines the in-depth semantic knowledge from human
+computation and the scalability of machine learning models to create rich
+structures from unorganized documents with high quality and efficiency.</p>
 
 <!--more-->
 
@@ -342,12 +341,12 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
     <id>https://joseph.nlpweb.org/CHI-ka</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
-People often search to web to find solutions to problems beyond factual
-question, such as planning road trips, writing an report, or buying a new
-camera.  The Knowledge Accelerator uses crowdworkers to synthesize different
-information sources on the web in response to a query. We prototyped this
-system in order to explore crowdsourcing complex, high context tasks in a
-microtask environment.</p>
+Answering complex questions such as &quot;How do I grow better tomatoes?&quot; often
+requires individuals to conduct extensive online research and synthesis. Can we
+crowdsource this complex, high context process with 100 crowdworkers conducting
+microtasks distributedly? The Knowledge Accelerator uses crowdworkers to
+extract and synthesize text clips across web pages into coherent articles
+without a centralized coordinator.</p>
 
 <!--more-->
 

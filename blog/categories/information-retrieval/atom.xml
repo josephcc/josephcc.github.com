@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Information Retrieval | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/information-retrieval/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-07-20T16:44:33-04:00</updated>
+  <updated>2020-07-20T18:35:10-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -14,24 +14,93 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Mesh]]></title>
+    <link href="https://joseph.nlpweb.org/UIST-mesh/"/>
+    <updated>2020-10-20T08:00:00-04:00</updated>
+    <id>https://joseph.nlpweb.org/UIST-mesh</id>
+    <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
+the tens of thousands of online evidence about each of their options.  However,
+to synthesize this information into confident decisions can incur high
+interaction and cognitive costs. Online information is scattered across
+different sources, and evidence such as reviews can be subjective and
+conflicting, requiring users to interpret them under their personal context. We
+introduce Mesh, which scaffolds users in iteratively building up a better
+understanding of both their choices by evaluating evidence gathered across
+sources. Lab and field deployment studies found that Mesh significantly reduces
+the costs of gathering and evaluating evidence and scaffolds decision-making
+through personalized criteria enabling users to gain deeper insights from data
+to make confident purchase decisions.</p>
+
+<!--more-->
+
+<h2 id="toc_153">Abstract</h2>
+
+<p>While there is an enormous amount of information online for making decisions
+such as choosing a product, restaurant, or school, it can be costly for users
+to synthesize that information into confident decisions. Information for users&#39;
+many different criteria needs to be gathered from many different sources into a
+structure where they can be compared and contrasted. The usefulness of each
+criterion for differentiating potential options can be opaque to users, and
+evidence such as reviews may be subjective and conflicting, requiring users to
+interpret each under their personal context. We introduce Mesh, which
+scaffolds users in iteratively building up a better understanding of both their
+criteria and options by evaluating evidence gathered across sources in the
+context of consumer decision making. Mesh bridges the gap between decision
+support systems that typically have rigid structures and the fluid and dynamic
+process of exploratory search, changing the cost structure to provide
+increasing payoffs with greater user investment. Our lab and field deployment
+studies found evidence that Mesh significantly reduces the costs of
+gathering and evaluating evidence and scaffolds decision-making through
+personalized criteria enabling users to gain deeper insights from data.</p>
+
+<h2 id="toc_154">Video Figure</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NqriHlTfVhU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="toc_155">Download</h2>
+
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library (coming soon..)</a></p>
+
+<h2 id="toc_156">Citation</h2>
+<div class="highlight"><pre><code class="text"><span></span>Mesh: Scaffolding Comparison Tables for Online Decision Making.
+Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.
+</code></pre>
+</div>
+
+<h2 id="toc_157">Bibtex</h2>
+<div class="highlight"><pre><code class="text"><span></span>@article{chang2020mesh,
+  title={Mesh: Scaffolding Comparison Tables for Online Decision Making},
+  author={Chang, Joseph Chee and Hahn, Nathan, and Kittur, Aniket},
+  booktitle = {Proceedings of the 33rd ACM User Interface Software and Technology Symposium},
+  series = {UIST&#39;20},
+  year={2020}
+}
+</code></pre>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
     <link href="https://joseph.nlpweb.org/IUI-searchlens/"/>
     <updated>2019-03-17T08:00:00-04:00</updated>
     <id>https://joseph.nlpweb.org/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
-apartment to live in, reviews and forum posts are often an important influence
-in online decision making.  However, making sense of these rich repositories of
+apartment to live in, reviews and forum posts are often a significant factor in
+online decision making. However, making sense of these rich repositories of
 diverse opinions can be prohibitively effortful, searchers need to sift through
 a large number of reviews to characterize each item based on aspects that they
 care about. We introduce a novel system, SearchLens, where searchers build up a
-collection of composable and reusable &quot;Lenses&quot; that not only reflect their
-different latent interests, but also allowed SearchLens to generate
-personalized interfaces with visual explanations that promotes transparency and
-enables deeper exploration.</p>
+collection of composable and reusable &quot;Lenses&quot; that reflect their different
+latent interests. Also, the Lenses allowed the system to generate personalized
+interfaces with visual explanations that promote transparency and enable
+in-depth exploration.</p>
 
 <!--more-->
 
-<h2 id="toc_155">Abstract</h2>
+<h2 id="toc_158">Abstract</h2>
 
 <p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, consumer generated data (i.e. reviews and forum posts)
@@ -49,27 +118,23 @@ suggest that our approach incentivized participants to express their interests
 more richly than in a baseline condition, and a field study showed that
 participants found benefits in SearchLens while conducting their own tasks.</p>
 
-<h2 id="toc_156">Presentation (IUI 2019)</h2>
-
-<p>Coming soon...</p>
-
-<h2 id="toc_157">Video Figure</h2>
+<h2 id="toc_159">Video Figure</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dXcTtHMa2DQ?rel=0" frameborder="0" allowfullscreen></iframe>
-         
 
-<h2 id="toc_158">Download</h2>
+<h2 id="toc_160">Download</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_159">Citation</h2>
+<h2 id="toc_161">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.
+Joseph Chee Chang, Nathan Hahn, Adam Perer, Aniket Kittur.
 In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.
 </code></pre>
 </div>
 
-<h2 id="toc_160">Bibtex</h2>
+<h2 id="toc_162">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chang2019searchlens,
   title={SearchLens: Composing and Capturing Complex User Interests for Exploratory Search},
   author={Chang, Joseph Chee and Hahn, Nathan, and Perer, Adam and Kittur, Aniket},
@@ -87,18 +152,18 @@ In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Inter
     <link href="https://joseph.nlpweb.org/CSCW-solvent/"/>
     <updated>2018-11-03T08:00:00-04:00</updated>
     <id>https://joseph.nlpweb.org/CSCW-solvent</id>
-    <content type="html"><![CDATA[<p>Analogies in distant domain often lead to scientitic discoveries. However, it
+    <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
-unfamiliar domains as it is poorly supported by search engines. We introduce
-Solvent, a mixed-initiative system where annotators structure abstracts of
-acedemic papers into different aspects and use a semantic model to find
-analogies among research papers and across different domains. These results
-demonstrate a novel path towards computationally supported knowledge sharing in
-research communities.</p>
+unfamiliar domains as search engines poorly support it. We introduce Solvent, a
+mixed-initiative system where annotators structure abstracts of academic papers
+into different aspects and use a semantic model to find analogies among
+research papers and across different domains. These results demonstrate a new
+path towards computationally supported knowledge sharing in research
+communities.</p>
 
 <!--more-->
 
-<h2 id="toc_161">Abstract</h2>
+<h2 id="toc_163">Abstract</h2>
 
 <p>Scientific discoveries are often driven by finding analogies in distant
 domains, but the growing number of papers makes it difficult to find relevant
@@ -116,18 +181,18 @@ that the resulting analogies found are useful to experts. These results
 demonstrate a novel path towards computationally supported knowledge sharing in
 research communities.</p>
 
-<h2 id="toc_162">Downloads</h2>
+<h2 id="toc_164">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_163">Citation</h2>
+<h2 id="toc_165">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
 Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
 In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
 </code></pre>
 </div>
 
-<h2 id="toc_164">Bibtex</h2>
+<h2 id="toc_166">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
   title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
   author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
@@ -145,17 +210,16 @@ In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
     <link href="https://joseph.nlpweb.org/CHI-bento/"/>
     <updated>2018-04-21T08:01:00-04:00</updated>
     <id>https://joseph.nlpweb.org/CHI-bento</id>
-    <content type="html"><![CDATA[<p>Complex searches can be overwhelming leading to lots
-of tabs.  This also makes conducting searches on mobile devices especially
-difficult where screen real-estate is limited and tasks can often be 
-inturrupted.  Rather than using tabs to manage information, we introduce
-browsing through scaffolding. Search result lists serve as mutable
-workspaces where progress can be suspended and resumed.
-You can <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download BentoBrowser from the AppStore</a>.</p>
+    <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
+make conducting searches on mobile devices especially difficult where screen
+real-estate is limited, and progress can often be interrupted. Rather than
+using tabs to manage information, we introduce browsing through scaffolding.
+Search result lists serve as mutable workspaces where progress can be suspended
+and resumed. BentoBrowser is available for <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download from the iPhone AppStore</a>.</p>
 
 <!--more-->
 
-<h2 id="toc_165">Abstract</h2>
+<h2 id="toc_167">Abstract</h2>
 
 <p>People engaged in complex searches such as planning a vacation or understanding
 their medical symptoms are often overwhelmed by opening and managing many tabs.
@@ -171,7 +235,7 @@ investigate its effectiveness in three studies. We find converging evidence
 that users were able to make progress on their complex searching tasks with
 this structure, and find it more organized and easier to revisit. </p>
 
-<h2 id="toc_166">Install Bento Browser</h2>
+<h2 id="toc_168">Install Bento Browser</h2>
 
 <p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
 
@@ -179,13 +243,13 @@ this structure, and find it more organized and easier to revisit. </p>
 
 <p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
 
-<h2 id="toc_167">Video Demo</h2>
+<h2 id="toc_169">Video Demo</h2>
 
 <p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_168">Media Coverage</h2>
+<h2 id="toc_170">Media Coverage</h2>
 
 <ul>
 <li>Tech Explorist: <a href="https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/">A new web browser makes it easier to search on mobile devices</a></li>
@@ -196,11 +260,11 @@ this structure, and find it more organized and easier to revisit. </p>
 <li>CMU HCII: <a href="https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
 </ul>
 
-<h2 id="toc_169">Downloads</h2>
+<h2 id="toc_171">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_170">Citation</h2>
+<h2 id="toc_172">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
 Bento Browser: Complex Mobile Search Without Tabs.
 In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
@@ -208,7 +272,7 @@ ACM, Montreal, QC, Canada.
 </code></pre>
 </div>
 
-<h2 id="toc_171">Bibtex</h2>
+<h2 id="toc_173">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Hahn:2018:Bento,
  author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
  title = {Bento Browser: Complex Mobile Search Without Tabs.},
@@ -230,16 +294,16 @@ ACM, Montreal, QC, Canada.
     <id>https://joseph.nlpweb.org/CHI-ka</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
-People often search to web to find solutions to problems beyond factual
-question, such as planning road trips, writing an report, or buying a new
-camera.  The Knowledge Accelerator uses crowdworkers to synthesize different
-information sources on the web in response to a query. We prototyped this
-system in order to explore crowdsourcing complex, high context tasks in a
-microtask environment.</p>
+Answering complex questions such as &quot;How do I grow better tomatoes?&quot; often
+requires individuals to conduct extensive online research and synthesis. Can we
+crowdsource this complex, high context process with 100 crowdworkers conducting
+microtasks distributedly? The Knowledge Accelerator uses crowdworkers to
+extract and synthesize text clips across web pages into coherent articles
+without a centralized coordinator.</p>
 
 <!--more-->
 
-<h2 id="toc_172">Abstract</h2>
+<h2 id="toc_174">Abstract</h2>
 
 <p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
 real  world  tasks  are  often  interdependent,requiring a big picture view of
@@ -255,12 +319,12 @@ information  synthesis  and  evaluateits output across a variety of topics.  We
 also contribute a setof design patterns that may be informative for other
 systemsaimed at supporting big picture thinking in small pieces.</p>
 
-<h2 id="toc_173">Downloads</h2>
+<h2 id="toc_175">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_174">Media Coverage</h2>
+<h2 id="toc_176">Media Coverage</h2>
 
 <ul>
 <li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
@@ -279,7 +343,7 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
 <li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
 </ul>
 
-<h2 id="toc_175">Citation</h2>
+<h2 id="toc_177">Citation</h2>
 <div class="highlight"><pre><code class="text">Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
 The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -287,7 +351,7 @@ ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.285836
 </code></pre>
 </div>
 
-<h2 id="toc_176">Bibtex</h2>
+<h2 id="toc_178">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Hahn:2016:KAB:2858036.2858364,
  author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
  title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},

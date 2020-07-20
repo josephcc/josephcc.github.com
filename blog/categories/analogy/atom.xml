@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Analogy | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/analogy/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-07-20T16:44:33-04:00</updated>
+  <updated>2020-07-20T18:35:10-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -18,18 +18,18 @@
     <link href="https://joseph.nlpweb.org/CSCW-solvent/"/>
     <updated>2018-11-03T08:00:00-04:00</updated>
     <id>https://joseph.nlpweb.org/CSCW-solvent</id>
-    <content type="html"><![CDATA[<p>Analogies in distant domain often lead to scientitic discoveries. However, it
+    <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
-unfamiliar domains as it is poorly supported by search engines. We introduce
-Solvent, a mixed-initiative system where annotators structure abstracts of
-acedemic papers into different aspects and use a semantic model to find
-analogies among research papers and across different domains. These results
-demonstrate a novel path towards computationally supported knowledge sharing in
-research communities.</p>
+unfamiliar domains as search engines poorly support it. We introduce Solvent, a
+mixed-initiative system where annotators structure abstracts of academic papers
+into different aspects and use a semantic model to find analogies among
+research papers and across different domains. These results demonstrate a new
+path towards computationally supported knowledge sharing in research
+communities.</p>
 
 <!--more-->
 
-<h2 id="toc_285">Abstract</h2>
+<h2 id="toc_295">Abstract</h2>
 
 <p>Scientific discoveries are often driven by finding analogies in distant
 domains, but the growing number of papers makes it difficult to find relevant
@@ -47,18 +47,18 @@ that the resulting analogies found are useful to experts. These results
 demonstrate a novel path towards computationally supported knowledge sharing in
 research communities.</p>
 
-<h2 id="toc_286">Downloads</h2>
+<h2 id="toc_296">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_287">Citation</h2>
+<h2 id="toc_297">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
 Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
 In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
 </code></pre>
 </div>
 
-<h2 id="toc_288">Bibtex</h2>
+<h2 id="toc_298">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
   title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
   author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},

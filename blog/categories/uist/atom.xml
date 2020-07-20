@@ -4,7 +4,7 @@
   <title><![CDATA[Category: UIST | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/uist/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-07-20T16:44:33-04:00</updated>
+  <updated>2020-07-20T18:35:10-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,75 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mesh]]></title>
+    <link href="https://joseph.nlpweb.org/UIST-mesh/"/>
+    <updated>2020-10-20T08:00:00-04:00</updated>
+    <id>https://joseph.nlpweb.org/UIST-mesh</id>
+    <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
+the tens of thousands of online evidence about each of their options.  However,
+to synthesize this information into confident decisions can incur high
+interaction and cognitive costs. Online information is scattered across
+different sources, and evidence such as reviews can be subjective and
+conflicting, requiring users to interpret them under their personal context. We
+introduce Mesh, which scaffolds users in iteratively building up a better
+understanding of both their choices by evaluating evidence gathered across
+sources. Lab and field deployment studies found that Mesh significantly reduces
+the costs of gathering and evaluating evidence and scaffolds decision-making
+through personalized criteria enabling users to gain deeper insights from data
+to make confident purchase decisions.</p>
+
+<!--more-->
+
+<h2 id="toc_263">Abstract</h2>
+
+<p>While there is an enormous amount of information online for making decisions
+such as choosing a product, restaurant, or school, it can be costly for users
+to synthesize that information into confident decisions. Information for users&#39;
+many different criteria needs to be gathered from many different sources into a
+structure where they can be compared and contrasted. The usefulness of each
+criterion for differentiating potential options can be opaque to users, and
+evidence such as reviews may be subjective and conflicting, requiring users to
+interpret each under their personal context. We introduce Mesh, which
+scaffolds users in iteratively building up a better understanding of both their
+criteria and options by evaluating evidence gathered across sources in the
+context of consumer decision making. Mesh bridges the gap between decision
+support systems that typically have rigid structures and the fluid and dynamic
+process of exploratory search, changing the cost structure to provide
+increasing payoffs with greater user investment. Our lab and field deployment
+studies found evidence that Mesh significantly reduces the costs of
+gathering and evaluating evidence and scaffolds decision-making through
+personalized criteria enabling users to gain deeper insights from data.</p>
+
+<h2 id="toc_264">Video Figure</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NqriHlTfVhU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="toc_265">Download</h2>
+
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library (coming soon..)</a></p>
+
+<h2 id="toc_266">Citation</h2>
+<div class="highlight"><pre><code class="text"><span></span>Mesh: Scaffolding Comparison Tables for Online Decision Making.
+Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.
+</code></pre>
+</div>
+
+<h2 id="toc_267">Bibtex</h2>
+<div class="highlight"><pre><code class="text"><span></span>@article{chang2020mesh,
+  title={Mesh: Scaffolding Comparison Tables for Online Decision Making},
+  author={Chang, Joseph Chee and Hahn, Nathan, and Kittur, Aniket},
+  booktitle = {Proceedings of the 33rd ACM User Interface Software and Technology Symposium},
+  series = {UIST&#39;20},
+  year={2020}
+}
+</code></pre>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Intentionally Uncertain Input]]></title>
@@ -26,7 +95,7 @@ saving information while users are uncertain about where to highlight.</p>
 
 <!--more-->
 
-<h2 id="toc_258">Abstract</h2>
+<h2 id="toc_268">Abstract</h2>
 
 <p>Patients researching medical diagnoses, scientist exploring new fields of
 literature, and students learning about new domains are all faced with the
@@ -47,20 +116,20 @@ information in an intentionally uncertain way on mobile devices. In a two part
 user study we find that this approach reduced selection time and was preferred
 by participants over the default system text selection method.</p>
 
-<h2 id="toc_259">Presentation (UIST 2016)</h2>
+<h2 id="toc_269">Presentation (UIST 2016)</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_260">Demo Video</h2>
+<h2 id="toc_270">Demo Video</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_261">Downloads</h2>
+<h2 id="toc_271">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_262">Citation</h2>
+<h2 id="toc_272">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. 2016.
 Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting.
 In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST &#39;16).
@@ -68,7 +137,7 @@ ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
 </code></pre>
 </div>
 
-<h2 id="toc_263">Bibtex</h2>
+<h2 id="toc_273">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang:2016:SMS:2984511.2984538,
  author = {Chang, Joseph Chee and Hahn, Nathan and Kittur, Aniket},
  title = {Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting},
