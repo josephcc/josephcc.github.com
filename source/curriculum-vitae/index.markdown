@@ -14,7 +14,7 @@ toc: false
 </div>
 
 <iframe src="/curriculum-vitae/latex/cv.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
-  resume
+  CV
 </iframe>
 
 
@@ -39,4 +39,3 @@ toc: false
 <div>
   {% include custom/asides/random.html %}
 </div>
-
