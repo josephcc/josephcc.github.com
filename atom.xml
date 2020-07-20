@@ -4,7 +4,7 @@
   <title><![CDATA[Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-07-13T15:11:02-04:00</updated>
+  <updated>2020-07-20T12:16:21-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ph.D Thesis]]></title>
+    <link href="https://joseph.nlpweb.org/CMU-thesis/"/>
+    <updated>2020-06-02T08:00:00-04:00</updated>
+    <id>https://joseph.nlpweb.org/CMU-thesis</id>
+    <content type="html"><![CDATA[<!--more-->
+
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/Thesis.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Thesis', 'PDF']);" role="button">PDF Download</a></p>
+
+<iframe src="https://joseph.nlpweb.org/Thesis.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
+  Thesis
+</iframe>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>

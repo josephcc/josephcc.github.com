@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Special Pages | Joseph Chee Chang]]></title>
+  <link href="https://joseph.nlpweb.org/blog/categories/special-pages/atom.xml" rel="self"/>
+  <link href="https://joseph.nlpweb.org/"/>
+  <updated>2020-07-20T12:16:21-04:00</updated>
+  <id>https://joseph.nlpweb.org/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ph.D Thesis]]></title>
+    <link href="https://joseph.nlpweb.org/CMU-thesis/"/>
+    <updated>2020-06-02T08:00:00-04:00</updated>
+    <id>https://joseph.nlpweb.org/CMU-thesis</id>
+    <content type="html"><![CDATA[<!--more-->
+
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/Thesis.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Thesis', 'PDF']);" role="button">PDF Download</a></p>
+
+<iframe src="https://joseph.nlpweb.org/Thesis.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
+  Thesis
+</iframe>
+]]></content>
+  </entry>
+  
+</feed>
