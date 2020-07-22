@@ -93,6 +93,5 @@ Bibtex
  year = {2018},
  publisher = {ACM},
  address = {Montreal, QC, Canada},
-} 
+}
 ```
-

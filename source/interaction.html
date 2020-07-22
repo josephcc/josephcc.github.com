@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div id="front-wrapper">
+  <div id="hero">
+    <div id="hero-inner" class="container">
+      {% include custom/intro.html %}
+    </div>
+  </div>
+  <section id="sub-hero">
+    <div class="container">
+      {% include custom/widgets.html %}
+    </div>
+  </section>
+  <div id='main' class="container">
+
+		<ul class="breadcrumb">
+			<li><a href="/index.html#main">All Publications</a> <span class="divider">/</span></li>
+      <li><a href="/crowdsourcing.html#main">Crowdsourcing and Machine Learning</a> <span class="divider">/</span></li>
+			<li class='active'>User Interfaces and Interactions</li>
+		</ul>
+
+    <div class="row" id="post-container">
+    {% assign index = true %}
+    {% for post in site.posts %}
+    {% assign content = post.content %}
+    {% if post.project %}
+    {% if post.categories contains 'Interaction' %}
+        {% if post.span %}
+          <article class="span{{ post.span }}">
+            {% include article.html %}
+          </article>
+        {% else %}
+          <article class="span4">
+            {% include article.html %}
+          </article>
+        {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</div>

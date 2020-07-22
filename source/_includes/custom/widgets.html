@@ -1,6 +1,13 @@
 <div class="row" style='text-align: center;'>
   <div class="span4 button">
-    <a href="/#main">
+    <a href="/#main" onClick="return (function() {
+                var target = document.querySelector('#main')
+                if (target && target.scrollIntoView) {
+                     target.scrollIntoView({behavior: 'smooth'});
+                     return false;
+                 }
+                 return true;
+     })()">
       <h2>research</h2>
     </a>
   </div>

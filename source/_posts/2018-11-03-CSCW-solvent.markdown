@@ -10,7 +10,7 @@ date: 2018-11-03 08:00
 comments: true
 toc: true
 lsi: true
-categories: ['CSCW', 'HCI', 'Analogy', 'Sensemaking', 'Search', 'Information Retrieval']
+categories: ['CSCW', 'HCI', 'Analogy', 'Sensemaking', 'Search', 'Information Retrieval', 'Crowdsourcing', 'Machine Learning']
 span: 12
 project: true
 img: "/images/projects/solvent.png"
@@ -74,4 +74,3 @@ Bibtex
   year={2018}
 }
 ```
-

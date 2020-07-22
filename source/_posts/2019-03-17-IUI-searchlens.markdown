@@ -10,7 +10,7 @@ date: 2019-03-17 08:00
 comments: true
 toc: true
 lsi: true
-categories: ['IUI', 'HCI', 'Sensemaking', 'Search', 'Information Retrieval']
+categories: ['IUI', 'HCI', 'Sensemaking', 'Search', 'Information Retrieval', 'Interaction']
 span: 12
 project: true
 img: "/images/projects/searchlens.png"

@@ -10,7 +10,7 @@ date: 2018-04-21 08:01
 comments: true
 toc: true
 lsi: true
-categories: ['CHI', 'SIGCHI', 'HCI', 'Information Retrieval', 'Sensemaking', 'Search']
+categories: ['CHI', 'SIGCHI', 'HCI', 'Information Retrieval', 'Sensemaking', 'Search', 'Interaction']
 span: 12
 project: true
 img: "/images/projects/bento.png"
@@ -42,7 +42,7 @@ serves as a gateway into this workspace, accessed through a task-subtask
 hierarchy. We instantiate this in the Bento mobile search system and
 investigate its effectiveness in three studies. We find converging evidence
 that users were able to make progress on their complex searching tasks with
-this structure, and find it more organized and easier to revisit. 
+this structure, and find it more organized and easier to revisit.
 
 
 Install Bento Browser
@@ -93,6 +93,5 @@ Bibtex
  year = {2018},
  publisher = {ACM},
  address = {Montreal, QC, Canada},
-} 
+}
 ```
-

@@ -9,7 +9,7 @@ venue: "arXiv"
 comments: true
 toc: true
 lsi: true
-categories: ['NLP', 'Code-Switching', 'Deep Learning', 'Neural Network', 'arXiv', 'pre-print']
+categories: ['NLP', 'Code-Switching', 'Deep Learning', 'Neural Network', 'arXiv', 'pre-print', 'Machine Learning']
 span: 6
 project: true
 ---
@@ -66,4 +66,3 @@ Bibtex
   year={2014}
 }
 ```
-

@@ -14,13 +14,20 @@ layout: default
     </div>
   </section>
   <div id='main' class="container">
+
+		<ul class="breadcrumb">
+			<li class='active'>All Publications <span class="divider">/</span></li>
+			<li><a href="/crowdsourcing.html#main">Crowdsourcing and Machine Learning</a> <span class="divider">/</span></li>
+			<li><a href="/interaction.html#main">User Interfaces and Interactions</a></li>
+		</ul>
+
     <div class="row" id="post-container">
     {% assign index = true %}
     {% for post in paginator.posts %}
     {% assign content = post.content %}
     {% if post.project %}
       {% if post.span %}
-      <article class="span{{ post.span }}">
+        <article class="span{{ post.span }}">
           {% include article.html %}
         </article>
       {% else %}
@@ -47,4 +54,3 @@ layout: default
       </div>
   </div>
 </div>
-

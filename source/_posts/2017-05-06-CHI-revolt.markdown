@@ -81,6 +81,5 @@ Bibtex
  doi = {10.1145/3025453.3026044},
  publisher = {ACM},
  address = {New York, NY, USA},
-} 
+}
 ```
-

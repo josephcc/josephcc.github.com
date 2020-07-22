@@ -27,6 +27,7 @@
     cursor: hand;
 }
 
-html {
-  scroll-behavior: smooth;
+ul.breadcrumb li.active {
+  color: #222;
+  font-weight: bold;
 }
