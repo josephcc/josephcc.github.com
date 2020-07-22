@@ -4,7 +4,7 @@
   <title><![CDATA[Category: HCI | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/hci/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-07-22T03:36:38-04:00</updated>
+  <updated>2020-07-22T18:31:28-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -233,7 +233,7 @@ serves as a gateway into this workspace, accessed through a task-subtask
 hierarchy. We instantiate this in the Bento mobile search system and
 investigate its effectiveness in three studies. We find converging evidence
 that users were able to make progress on their complex searching tasks with
-this structure, and find it more organized and easier to revisit. </p>
+this structure, and find it more organized and easier to revisit.</p>
 
 <h2 id="toc_61">Install Bento Browser</h2>
 
@@ -281,7 +281,7 @@ ACM, Montreal, QC, Canada.
  year = {2018},
  publisher = {ACM},
  address = {Montreal, QC, Canada},
-} 
+}
 </code></pre>
 </div>
 ]]></content>
@@ -361,7 +361,7 @@ ACM, Montreal, QC, Canada.
  year = {2018},
  publisher = {ACM},
  address = {Montreal, QC, Canada},
-} 
+}
 </code></pre>
 </div>
 ]]></content>

@@ -112,7 +112,14 @@ MathJax.Hub.Config({
     <div class="container">
       <div class="row" style='text-align: center;'>
   <div class="span4 button">
-    <a href="/#main">
+    <a href="/#main" onClick="return (function() {
+                var target = document.querySelector('#main')
+                if (target && target.scrollIntoView) {
+                     target.scrollIntoView({behavior: 'smooth'});
+                     return false;
+                 }
+                 return true;
+     })()">
       <h2>research</h2>
     </a>
   </div>
@@ -281,7 +288,7 @@ MathJax.Hub.Config({
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
 language model and hidden Markov model.</p>
 
-<h2 id="toc_392">The Hangman Game</h2>
+<h2 id="toc_412">The Hangman Game</h2>
 
 <p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
 game of hangman automatically. The rules are

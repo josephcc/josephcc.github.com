@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Machine Learning | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-07-22T03:36:38-04:00</updated>
+  <updated>2020-07-22T18:31:28-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,64 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Solvent]]></title>
+    <link href="https://joseph.nlpweb.org/CSCW-solvent/"/>
+    <updated>2018-11-03T08:00:00-04:00</updated>
+    <id>https://joseph.nlpweb.org/CSCW-solvent</id>
+    <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
+can be prohibitively difficult for researchers to find useful analogies from
+unfamiliar domains as search engines poorly support it. We introduce Solvent, a
+mixed-initiative system where annotators structure abstracts of academic papers
+into different aspects and use a semantic model to find analogies among
+research papers and across different domains. These results demonstrate a new
+path towards computationally supported knowledge sharing in research
+communities.</p>
+
+<!--more-->
+
+<h2 id="toc_124">Abstract</h2>
+
+<p>Scientific discoveries are often driven by finding analogies in distant
+domains, but the growing number of papers makes it difficult to find relevant
+ideas in a single discipline, let alone distant analogies in other domains. To
+provide computational support for finding analogies across domains, we
+introduce Solvent, a mixed-initiative system where humans annotate aspects of
+research papers that denote their background (the high-level problems being
+addressed), purpose (the specific problems being addressed), mechanism (how
+they achieved their purpose), and findings (what they learned/achieved), and a
+computational model constructs a semantic representation from these annotations
+that can be used to find analogies among the research papers. We demonstrate
+that this system finds more analogies than baseline information-retrieval
+approaches; that annotators and annotations can generalize beyond domain; and
+that the resulting analogies found are useful to experts. These results
+demonstrate a novel path towards computationally supported knowledge sharing in
+research communities.</p>
+
+<h2 id="toc_125">Downloads</h2>
+
+<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2 id="toc_126">Citation</h2>
+<div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
+Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
+In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
+</code></pre>
+</div>
+
+<h2 id="toc_127">Bibtex</h2>
+<div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
+  title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
+  author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
+  booktitle = {Proceedings of the 2018 ACM Human-Computer Interaction: CSCW},
+  series = {CSCW&#39;18},
+  year={2018}
+}
+</code></pre>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Evorus]]></title>
@@ -29,7 +87,7 @@ public deployment study shows promising results. You can <a href="http://talking
 
 <!--more-->
 
-<h2 id="toc_120">Abstract</h2>
+<h2 id="toc_128">Abstract</h2>
 
 <p>Crowd-powered conversational assistants have been shown to be more robust than
 automated systems, but do so at the cost of higher response latency and
@@ -47,15 +105,15 @@ system. Its architecture allows future researchers to make further innovation
 on the underlying automated components in the context of a deployed open domain
 dialog system.</p>
 
-<h2 id="toc_121">Try Evorus on Google Talk</h2>
+<h2 id="toc_129">Try Evorus on Google Talk</h2>
 
 <p><a class="btn btn-default" href="http://talkingtothecrowd.org/" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Evorus', 'Website']);" role="button">TalkingToTheCrowd.org</a></p>
 
-<h2 id="toc_122">Overview Video</h2>
+<h2 id="toc_130">Overview Video</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3SAG8jP-Q-M?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_123">Media Coverage</h2>
+<h2 id="toc_131">Media Coverage</h2>
 
 <ul>
 <li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the &#39;Chorus&#39; chatbot: Unlike Alexa or Siri, it&#39;s powered by actual people on the other end</a></li>
@@ -65,12 +123,12 @@ dialog system.</p>
 <li>Presstext: <a href="https://www.pressetext.com/#news/20180208014">KI-System &quot;Evorus&quot; wird zunehmend eigenständig</a></li>
 </ul>
 
-<h2 id="toc_124">Downloads</h2>
+<h2 id="toc_132">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
 
-<h2 id="toc_125">Citation</h2>
+<h2 id="toc_133">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Kenneth Huang, Joseph Chee Chang, Jeffrey P. Bigham. 2018.
 Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time.
 In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
@@ -78,7 +136,7 @@ ACM, Montreal, QC, Canada.
 </code></pre>
 </div>
 
-<h2 id="toc_126">Bibtex</h2>
+<h2 id="toc_134">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Huang:2018:Evorus,
  author = {Huang, Kenneth and Chang, Joseph Chee and Bigham, Jeffrey P.},
  title = {Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time},
@@ -87,7 +145,7 @@ ACM, Montreal, QC, Canada.
  year = {2018},
  publisher = {ACM},
  address = {Montreal, QC, Canada},
-} 
+}
 </code></pre>
 </div>
 ]]></content>
@@ -109,7 +167,7 @@ enabling dynamic label boundaries.</p>
 
 <!--more-->
 
-<h2 id="toc_127">Abstract</h2>
+<h2 id="toc_135">Abstract</h2>
 
 <p>Crowdsourcing provides a scalable and efficient way to construct labeled
 datasets for training machine learning systems. However, creating comprehensive
@@ -132,13 +190,13 @@ without requiring new data to be collected. Further comparisons of Revolt&#39;s
 collaborative and non-collaborative variants show that collaboration reaches
 higher label accuracy with lower monetary cost.</p>
 
-<h2 id="toc_128">Downloads</h2>
+<h2 id="toc_136">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
 <a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
-<h2 id="toc_129">Citation</h2>
+<h2 id="toc_137">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
 Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
 In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &#39;17).
@@ -146,8 +204,8 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
 </code></pre>
 </div>
 
-<h2 id="toc_130">Bibtex</h2>
-<div class="highlight"><pre><code class="text">@inproceedings{Chang:2017:Revolt,
+<h2 id="toc_138">Bibtex</h2>
+<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2017:Revolt,
  author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
  title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},
  booktitle = {Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
@@ -157,7 +215,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
  doi = {10.1145/3025453.3026044},
  publisher = {ACM},
  address = {New York, NY, USA},
-} 
+}
 </code></pre>
 </div>
 ]]></content>
@@ -181,7 +239,7 @@ structures from unorganized documents with high quality and efficiency.</p>
 
 <!--more-->
 
-<h2 id="toc_131">Abstract</h2>
+<h2 id="toc_139">Abstract</h2>
 
 <p>Crowdsourced clustering approaches present a promising way to harness deep
 semantic knowledge for clustering complex information. However, existing
@@ -198,12 +256,12 @@ examples in the tail. To accomplish this, Alloy introduces a modular
 <em>cast and gather</em> approach which leverages a machine learning backbone
 to stitch together different types of judgment tasks.</p>
 
-<h2 id="toc_132">Downloads</h2>
+<h2 id="toc_140">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_133">Media Coverage</h2>
+<h2 id="toc_141">Media Coverage</h2>
 
 <ul>
 <li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
@@ -222,7 +280,7 @@ to stitch together different types of judgment tasks.</p>
 <li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
 </ul>
 
-<h2 id="toc_134">Citation</h2>
+<h2 id="toc_142">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
 Alloy: Clustering with Crowds and Computation.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -230,7 +288,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 </code></pre>
 </div>
 
-<h2 id="toc_135">Bibtex</h2>
+<h2 id="toc_143">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2016:ACC:2858036.2858411,
  author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
  title = {Alloy: Clustering with Crowds and Computation},
@@ -246,152 +304,63 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
  acmid = {2858411},
  publisher = {ACM},
  address = {New York, NY, USA},
-} 
+}
 </code></pre>
 </div>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[TermMine]]></title>
-    <link href="https://joseph.nlpweb.org/ACL-termmine/"/>
-    <updated>2012-07-08T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/ACL-termmine</id>
-    <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
-translation pairs of terms from the web. We used a small set of terms and
-translations to gather mixed-code text from the web to train a CRF model that
-can identify translation pairs at run-time.</p>
+    <title type="html"><![CDATA[Twitter Code-Switching]]></title>
+    <link href="https://joseph.nlpweb.org/arXiv-twitter-code-switching/"/>
+    <updated>2014-12-22T08:00:00-05:00</updated>
+    <id>https://joseph.nlpweb.org/arXiv-twitter-code-switching</id>
+    <content type="html"><![CDATA[<p>Code-switching behavior is a common phenomenon on social media to express
+solidarity or establish authority. While past work on automatic code-switching
+detection depends on dictionary look-up or named-entity recognition, our
+recurrent neural network model that relies on only raw features outperformed
+the top systems in the EMNLP&#39;14 Code-Switching Workshop by 17% in error rate
+reduction.</p>
+
+<p><span style='color: gray'>Final project for the Deep Learning course at CMU.</span></p>
 
 <!--more-->
 
-<h2 id="toc_136">Abstract</h2>
+<h2 id="toc_144">Abstract</h2>
 
-<p>In this paper, we present a new method for learning to finding translations and
-transliterations on the Web for a given term. The approach involves using a
-small set of terms and translations to obtain mixed-code snippets from a search
-engine, and automatically annotating the snippets with tags and features for
-training a conditional random field model. At run-time, the model is used to
-extracting translation candidates for a given term. Preliminary experiments and
-evaluation show our method cleanly combining various features, resulting in a
-system that outperforms previous work.</p>
+<p>Mixed language data is one of the difficult yet less explored domains of
+natural language processing. Most research in fields like machine translation
+or sentiment analysis assume monolingual input. However, people who are capable
+of using more than one language often communicate using multiple languages at
+the same time. Sociolinguists believe this &quot;code-switching&quot; phenomenon to be
+socially motivated. For example, to express solidarity or to establish
+authority. Most past work depend on external tools or resources, such as
+part-of-speech tagging, dictionary look-up, or named-entity recognizers to
+extract rich features for training machine learning models. In this paper, we
+train recurrent neural networks with only raw features, and use word embedding
+to automatically learn meaningful representations. Using the same
+mixed-language Twitter corpus, our system is able to outperform the best
+SVM-based systems reported in the EMNLP&#39;14 Code-Switching Workshop by 1% in
+accuracy, or by 17% in error rate reduction.</p>
 
-<h2 id="toc_137">Download</h2>
+<h2 id="toc_145">Download</h2>
 
-<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
-<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'arXiv']);"  href="https://arxiv.org/abs/1412.4314" role="button">arXiv</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'PDF']);"  href="https://arxiv.org/pdf/1412.4314v2.pdf" role="button">arXiv hosted PDF</a></p>
 
-<h2 id="toc_138">Citation</h2>
-<div class="highlight"><pre><code class="text"><span></span>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
-Learning to find translations and transliterations on the web.
-In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
-Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
+<h2 id="toc_146">Citation</h2>
+<div class="highlight"><pre><code class="text">Chang, Joseph Chee, and Chu-Cheng Lin.
+&quot;Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus.&quot;
+arXiv preprint arXiv:1412.4314 (2014).
 </code></pre>
 </div>
 
-<h2 id="toc_139">Bibtex</h2>
-<div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2012:LFT:2390665.2390698,
- author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
- title = {Learning to Find Translations and Transliterations on the Web},
- booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics},
- series = {ACL &#39;12},
- year = {2012},
- location = {Jeju Island, Korea},
- pages = {130--134},
- numpages = {5},
- url = {http://dl.acm.org/citation.cfm?id=2390665.2390698},
- acmid = {2390698},
- publisher = {Association for Computational Linguistics},
- address = {Stroudsburg, PA, USA},
-} 
-</code></pre>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WikiSense]]></title>
-    <link href="https://joseph.nlpweb.org/wikisense/"/>
-    <updated>2009-12-03T08:00:00-05:00</updated>
-    <id>https://joseph.nlpweb.org/wikisense</id>
-    <content type="html"><![CDATA[<p>We introduced a method for classifying named-entities into broad semantic
-categories in WordNet. We extracted rich features from Wikipedia, allowing us
-to classify named-entities with high precision and coverage. The result is a
-large scale named-entity semantic database with 1.2 million entries and over
-95% accuracy, covering 80% of all named-entities found on Wikipedia.</p>
-
-<!--more-->
-
-<h2 id="toc_140">Abstract</h2>
-
-<p>In this paper, we introduce a minimally supervised method for learning to
-classify named-entity titles in a given encyclopedia into broad semantic
-categories in an existing ontology. Our main idea involves using overlapping
-entries in the encyclopedia and ontology and a small set of 30 handed tagged
-parenthetic explanations to automatically generate the training data. The
-proposed method involves automatically recognizing whether a title is a named
-entity, automatically generating two sets of training data, and automatically
-building a classification model for training a classification model based on
-textual and non-textual features. We present WikiSense, an implementation of
-the proposed method for extending the named entity coverage of WordNet by sense
-tagging Wikipedia titles. Experimental results show WikiSense achieves accuracy
-of over 95% and near 80% applicability for all NE titles in Wikipedia.
-WikiSense cleanly produces over 1.2 million of NEs tagged with broad
-categories, based on the lexicographers’ files of WordNet, effectively
-extending WordNet to form a very large scale semantic category, a potentially
-useful resource for many natural language related tasks.</p>
-
-<h2 id="toc_141">Demo</h2>
-<div class="highlight"><pre><code class="text">WikiID    Supersense     PE          NE                                   Note
-----------------------------------------------------------------------------------------------
-11983070  person         None        Johnny Cash                          singer
-203407    person         None        Celine Dion                          singer
-2773076   group          None        Guns N&#39; Roses                        band
-
-945778    location       None        Hsinchu Science and Industrial Park
-951038    location       None        Linbian, Pingtung                    name of city
-
-19299838  communication  None        Cape No. 7                           movie
-543675    person         None        Jay Chou                             singer
-
-1374293   group          None        National Chung Hsing University
-2012972   group          None        Yuan Ze University
-
-412376    animal         butterfly   Queen                                namd of speices
-42010     group          band        Queen                                name of band
-10309519  communication  magazine    Queen                                name of maagazine
-559004    artifcact      automobile  Queen                                car model name
-718750    communication  album       Queen                                music album
-570546    person         Snow White  Queen                                fictional character
-130425    artifcact      TTC         Queen                                subway station
-----------------------------------------------------------------------------------------------
-</code></pre>
-</div>
-
-<p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
-
-<h2 id="toc_142">Download</h2>
-
-<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
-<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a></p>
-
-<h2 id="toc_143">Citation</h2>
-<div class="highlight"><pre><code class="text">Chang, J., Tsai, R. T.-H., &amp; Chang, J. S. (2009).
-WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
-In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
-Hong Kong, China. 
-</code></pre>
-</div>
-
-<h2 id="toc_144">Bibtex</h2>
-<div class="highlight"><pre><code class="text">@inproceedings{Chang-EtAl:2009:PACLIC2009,
-  author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
-  title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
-  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)},
-  year = {2009},
-  month = {dec},
-  address = {Hong Kong, China},
-  pages = {72--81},
-  url = {http://www.aclweb.org/anthology/Y09-1009}
+<h2 id="toc_147">Bibtex</h2>
+<div class="highlight"><pre><code class="text">@article{chang2014recurrent,
+  title={Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus},
+  author={Chang, Joseph Chee and Lin, Chu-Cheng},
+  journal={arXiv preprint arXiv:1412.4314},
+  year={2014}
 }
 </code></pre>
 </div>

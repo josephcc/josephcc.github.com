@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Information Extraction | Joseph Chee Chang]]></title>
   <link href="https://joseph.nlpweb.org/blog/categories/information-extraction/atom.xml" rel="self"/>
   <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-07-22T03:36:38-04:00</updated>
+  <updated>2020-07-22T18:31:28-04:00</updated>
   <id>https://joseph.nlpweb.org/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -25,7 +25,7 @@ can identify translation pairs at run-time.</p>
 
 <!--more-->
 
-<h2 id="toc_319">Abstract</h2>
+<h2 id="toc_339">Abstract</h2>
 
 <p>In this paper, we present a new method for learning to finding translations and
 transliterations on the Web for a given term. The approach involves using a
@@ -36,12 +36,12 @@ extracting translation candidates for a given term. Preliminary experiments and
 evaluation show our method cleanly combining various features, resulting in a
 system that outperforms previous work.</p>
 
-<h2 id="toc_320">Download</h2>
+<h2 id="toc_340">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_321">Citation</h2>
+<h2 id="toc_341">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
 Learning to find translations and transliterations on the web.
 In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
@@ -49,7 +49,7 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
 </code></pre>
 </div>
 
-<h2 id="toc_322">Bibtex</h2>
+<h2 id="toc_342">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2012:LFT:2390665.2390698,
  author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
  title = {Learning to Find Translations and Transliterations on the Web},
@@ -82,7 +82,7 @@ large scale named-entity semantic database with 1.2 million entries and over
 
 <!--more-->
 
-<h2 id="toc_323">Abstract</h2>
+<h2 id="toc_343">Abstract</h2>
 
 <p>In this paper, we introduce a minimally supervised method for learning to
 classify named-entity titles in a given encyclopedia into broad semantic
@@ -101,7 +101,7 @@ categories, based on the lexicographers’ files of WordNet, effectively
 extending WordNet to form a very large scale semantic category, a potentially
 useful resource for many natural language related tasks.</p>
 
-<h2 id="toc_324">Demo</h2>
+<h2 id="toc_344">Demo</h2>
 <div class="highlight"><pre><code class="text">WikiID    Supersense     PE          NE                                   Note
 ----------------------------------------------------------------------------------------------
 11983070  person         None        Johnny Cash                          singer
@@ -130,12 +130,12 @@ useful resource for many natural language related tasks.</p>
 
 <p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
 
-<h2 id="toc_325">Download</h2>
+<h2 id="toc_345">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a></p>
 
-<h2 id="toc_326">Citation</h2>
+<h2 id="toc_346">Citation</h2>
 <div class="highlight"><pre><code class="text">Chang, J., Tsai, R. T.-H., &amp; Chang, J. S. (2009).
 WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
 In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
@@ -143,7 +143,7 @@ Hong Kong, China.
 </code></pre>
 </div>
 
-<h2 id="toc_327">Bibtex</h2>
+<h2 id="toc_347">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@inproceedings{Chang-EtAl:2009:PACLIC2009,
   author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
   title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
