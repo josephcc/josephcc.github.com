@@ -5,7 +5,7 @@ subtitle: "Scaffolding Comparison Tables for Online Decision Making"
 seotitle: "Mesh: Scaffolding Comparison Tables for Online Decision Making"
 authors: "Joseph Chee Chang, Nathan Hahn, Aniket Kittur."
 venue: "ACM UIST 2020"
-stats: ""
+stats: "(r=21.6% N=450)"
 date: 2020-10-20 08:00
 comments: true
 toc: true
