@@ -10,12 +10,17 @@ toc: false
 
 
 <div style='margin-top: 24px;'>
-<a href="/curriculum-vitae/latex/cv.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">Download PDF</a>
-</div>
 
-<iframe src="/curriculum-vitae/latex/cv.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
+<a href="/curriculum-vitae/joseph_chang_resume.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">Download PDF</a>
+<iframe src="/curriculum-vitae/joseph_chang_resume.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
+  Resume
+</iframe>
+
+<a href="/curriculum-vitae/joseph_chang_cv.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">Download PDF</a>
+<iframe src="/curriculum-vitae/joseph_chang_cv.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
   CV
 </iframe>
+</div>
 
 
 
