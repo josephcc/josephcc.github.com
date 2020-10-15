@@ -9,7 +9,7 @@ categories: ['linux', 'kernel']
 ---
 
 This is post continues my previous post on 
-[Kernel Debugging with gdb](http://joseph.nlpweb.org/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/),
+[Kernel Debugging with gdb](http://joe.cat/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/),
 and explain how to do the same for debugging kernel modules.
 
 <!-- more -->
