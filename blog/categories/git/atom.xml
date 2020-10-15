@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: git | Joseph Chee Chang]]></title>
-  <link href="https://joseph.nlpweb.org/blog/categories/git/atom.xml" rel="self"/>
-  <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-09-09T23:24:48-04:00</updated>
-  <id>https://joseph.nlpweb.org/</id>
+  <link href="https://joe.cat/blog/categories/git/atom.xml" rel="self"/>
+  <link href="https://joe.cat/"/>
+  <updated>2020-10-14T20:46:47-04:00</updated>
+  <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Git: Remove (un-add) files from last commit]]></title>
-    <link href="https://joseph.nlpweb.org/git-reverse-amend/"/>
+    <link href="https://joe.cat/git-reverse-amend/"/>
     <updated>2012-04-27T03:07:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/git-reverse-amend</id>
+    <id>https://joe.cat/git-reverse-amend</id>
     <content type="html"><![CDATA[<p>A lot of times we use <code>git commit --amend</code> to add the files that we have forgotten to the last
 commit (usually HEAD), or simply to fix typos in its commit message. However, you can&#39;t remove, or un-add,
 committed files from the latest commit with <code>git commit --amend</code>. Here&#39;s how:</p>
@@ -83,9 +83,9 @@ changes from the staging area (or index), and add the files you originally inten
   
   <entry>
     <title type="html"><![CDATA[Git: Displaying commit tree with NerdTool]]></title>
-    <link href="https://joseph.nlpweb.org/nerdtool-commit-tree/"/>
+    <link href="https://joe.cat/nerdtool-commit-tree/"/>
     <updated>2011-11-30T17:26:00-05:00</updated>
-    <id>https://joseph.nlpweb.org/nerdtool-commit-tree</id>
+    <id>https://joe.cat/nerdtool-commit-tree</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/bizkit/6291809011/" title="P1030408 by bizkit@tw, on Flickr"><img
 src="http://farm7.staticflickr.com/6233/6291809011_58ca7d80bc.jpg" width="500" height="347"
 alt="P1030408"></a></p>

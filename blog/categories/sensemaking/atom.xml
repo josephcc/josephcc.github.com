@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Sensemaking | Joseph Chee Chang]]></title>
-  <link href="https://joseph.nlpweb.org/blog/categories/sensemaking/atom.xml" rel="self"/>
-  <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-09-09T23:24:48-04:00</updated>
-  <id>https://joseph.nlpweb.org/</id>
+  <link href="https://joe.cat/blog/categories/sensemaking/atom.xml" rel="self"/>
+  <link href="https://joe.cat/"/>
+  <updated>2020-10-14T20:46:47-04:00</updated>
+  <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mesh]]></title>
-    <link href="https://joseph.nlpweb.org/UIST-mesh/"/>
+    <link href="https://joe.cat/UIST-mesh/"/>
     <updated>2020-10-20T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/UIST-mesh</id>
+    <id>https://joe.cat/UIST-mesh</id>
     <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
 the tens of thousands of online evidence about each of their options.  However,
 to synthesize this information into confident decisions can incur high
@@ -59,7 +59,7 @@ personalized criteria enabling users to gain deeper insights from data.</p>
 
 <h2 id="toc_101">Download</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library (coming soon..)</a></p>
 
 <h2 id="toc_102">Citation</h2>
@@ -84,9 +84,9 @@ In Proceedings of the 33rd ACM User Interface Software and Technology Symposium:
   
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
-    <link href="https://joseph.nlpweb.org/IUI-searchlens/"/>
+    <link href="https://joe.cat/IUI-searchlens/"/>
     <updated>2019-03-17T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/IUI-searchlens</id>
+    <id>https://joe.cat/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, reviews and forum posts are often a significant factor in
 online decision making. However, making sense of these rich repositories of
@@ -124,7 +124,7 @@ participants found benefits in SearchLens while conducting their own tasks.</p>
 
 <h2 id="toc_106">Download</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_107">Citation</h2>
@@ -149,9 +149,9 @@ In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Inter
   
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
-    <link href="https://joseph.nlpweb.org/CSCW-solvent/"/>
+    <link href="https://joe.cat/CSCW-solvent/"/>
     <updated>2018-11-03T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CSCW-solvent</id>
+    <id>https://joe.cat/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
 unfamiliar domains as search engines poorly support it. We introduce Solvent, a
@@ -183,7 +183,7 @@ research communities.</p>
 
 <h2 id="toc_110">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2 id="toc_111">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
@@ -207,9 +207,9 @@ In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
   
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-bento/"/>
+    <link href="https://joe.cat/CHI-bento/"/>
     <updated>2018-04-21T08:01:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-bento</id>
+    <id>https://joe.cat/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
 make conducting searches on mobile devices especially difficult where screen
 real-estate is limited, and progress can often be interrupted. Rather than
@@ -239,7 +239,7 @@ this structure, and find it more organized and easier to revisit.</p>
 
 <p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
 
-<p><img src="https://joseph.nlpweb.org/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
+<p><img src="https://joe.cat/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
 
 <p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
 
@@ -262,7 +262,7 @@ this structure, and find it more organized and easier to revisit.</p>
 
 <h2 id="toc_117">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2 id="toc_118">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
@@ -289,9 +289,9 @@ ACM, Montreal, QC, Canada.
   
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-revolt/"/>
+    <link href="https://joe.cat/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-revolt</id>
+    <id>https://joe.cat/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
@@ -328,9 +328,9 @@ higher label accuracy with lower monetary cost.</p>
 
 <h2 id="toc_121">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
-<a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
+<a class="btn btn-default" href="https://joe.cat/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
 <h2 id="toc_122">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.

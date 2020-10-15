@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Crowdsourcing | Joseph Chee Chang]]></title>
-  <link href="https://joseph.nlpweb.org/blog/categories/crowdsourcing/atom.xml" rel="self"/>
-  <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-09-09T23:24:48-04:00</updated>
-  <id>https://joseph.nlpweb.org/</id>
+  <link href="https://joe.cat/blog/categories/crowdsourcing/atom.xml" rel="self"/>
+  <link href="https://joe.cat/"/>
+  <updated>2020-10-14T20:46:47-04:00</updated>
+  <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
-    <link href="https://joseph.nlpweb.org/CSCW-solvent/"/>
+    <link href="https://joe.cat/CSCW-solvent/"/>
     <updated>2018-11-03T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CSCW-solvent</id>
+    <id>https://joe.cat/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
 unfamiliar domains as search engines poorly support it. We introduce Solvent, a
@@ -49,7 +49,7 @@ research communities.</p>
 
 <h2 id="toc_75">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2 id="toc_76">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
@@ -73,9 +73,9 @@ In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
   
   <entry>
     <title type="html"><![CDATA[Evorus]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-evorus/"/>
+    <link href="https://joe.cat/CHI-evorus/"/>
     <updated>2018-04-21T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-evorus</id>
+    <id>https://joe.cat/CHI-evorus</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 Crowd-powered chatbots are robust than current pure AI approach, but can be
@@ -125,7 +125,7 @@ dialog system.</p>
 
 <h2 id="toc_82">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
 
 <h2 id="toc_83">Citation</h2>
@@ -153,9 +153,9 @@ ACM, Montreal, QC, Canada.
   
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-revolt/"/>
+    <link href="https://joe.cat/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-revolt</id>
+    <id>https://joe.cat/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
@@ -192,9 +192,9 @@ higher label accuracy with lower monetary cost.</p>
 
 <h2 id="toc_86">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
-<a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
+<a class="btn btn-default" href="https://joe.cat/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
 <h2 id="toc_87">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
@@ -223,9 +223,9 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
   
   <entry>
     <title type="html"><![CDATA[Alloy]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-alloy/"/>
+    <link href="https://joe.cat/CHI-alloy/"/>
     <updated>2016-05-07T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-alloy</id>
+    <id>https://joe.cat/CHI-alloy</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 <strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
@@ -258,7 +258,7 @@ to stitch together different types of judgment tasks.</p>
 
 <h2 id="toc_90">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_91">Media Coverage</h2>
@@ -312,9 +312,9 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
   
   <entry>
     <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-ka/"/>
+    <link href="https://joe.cat/CHI-ka/"/>
     <updated>2016-05-07T07:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-ka</id>
+    <id>https://joe.cat/CHI-ka</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 Answering complex questions such as &quot;How do I grow better tomatoes?&quot; often
@@ -344,7 +344,7 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
 
 <h2 id="toc_95">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_96">Media Coverage</h2>

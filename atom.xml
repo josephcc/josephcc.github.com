@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Joseph Chee Chang]]></title>
-  <link href="https://joseph.nlpweb.org/atom.xml" rel="self"/>
-  <link href="https://joseph.nlpweb.org/"/>
-  <updated>2020-09-09T23:24:48-04:00</updated>
-  <id>https://joseph.nlpweb.org/</id>
+  <link href="https://joe.cat/atom.xml" rel="self"/>
+  <link href="https://joe.cat/"/>
+  <updated>2020-10-14T20:46:47-04:00</updated>
+  <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mesh]]></title>
-    <link href="https://joseph.nlpweb.org/UIST-mesh/"/>
+    <link href="https://joe.cat/UIST-mesh/"/>
     <updated>2020-10-20T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/UIST-mesh</id>
+    <id>https://joe.cat/UIST-mesh</id>
     <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
 the tens of thousands of online evidence about each of their options.  However,
 to synthesize this information into confident decisions can incur high
@@ -59,7 +59,7 @@ personalized criteria enabling users to gain deeper insights from data.</p>
 
 <h2 id="toc_470">Download</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library (coming soon..)</a></p>
 
 <h2 id="toc_471">Citation</h2>
@@ -92,14 +92,14 @@ personalized criteria enabling users to gain deeper insights from data.</p>
   
   <entry>
     <title type="html"><![CDATA[Ph.D Thesis]]></title>
-    <link href="https://joseph.nlpweb.org/CMU-thesis/"/>
+    <link href="https://joe.cat/CMU-thesis/"/>
     <updated>2020-06-02T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CMU-thesis</id>
+    <id>https://joe.cat/CMU-thesis</id>
     <content type="html"><![CDATA[<!--more-->
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/Thesis.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Thesis', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="https://joe.cat/Thesis.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Thesis', 'PDF']);" role="button">PDF Download</a></p>
 
-<iframe src="https://joseph.nlpweb.org/Thesis.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
+<iframe src="https://joe.cat/Thesis.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
   Thesis
 </iframe>
 ]]></content>
@@ -107,9 +107,9 @@ personalized criteria enabling users to gain deeper insights from data.</p>
   
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
-    <link href="https://joseph.nlpweb.org/IUI-searchlens/"/>
+    <link href="https://joe.cat/IUI-searchlens/"/>
     <updated>2019-03-17T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/IUI-searchlens</id>
+    <id>https://joe.cat/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, reviews and forum posts are often a significant factor in
 online decision making. However, making sense of these rich repositories of
@@ -147,7 +147,7 @@ participants found benefits in SearchLens while conducting their own tasks.</p>
 
 <h2 id="toc_465">Download</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_466">Citation</h2>
@@ -180,9 +180,9 @@ participants found benefits in SearchLens while conducting their own tasks.</p>
   
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
-    <link href="https://joseph.nlpweb.org/CSCW-solvent/"/>
+    <link href="https://joe.cat/CSCW-solvent/"/>
     <updated>2018-11-03T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CSCW-solvent</id>
+    <id>https://joe.cat/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
 unfamiliar domains as search engines poorly support it. We introduce Solvent, a
@@ -214,7 +214,7 @@ research communities.</p>
 
 <h2 id="toc_460">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2 id="toc_461">Citation</h2>
 
@@ -246,9 +246,9 @@ research communities.</p>
   
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-bento/"/>
+    <link href="https://joe.cat/CHI-bento/"/>
     <updated>2018-04-21T08:01:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-bento</id>
+    <id>https://joe.cat/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
 make conducting searches on mobile devices especially difficult where screen
 real-estate is limited, and progress can often be interrupted. Rather than
@@ -278,7 +278,7 @@ this structure, and find it more organized and easier to revisit.</p>
 
 <p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
 
-<p><img src="https://joseph.nlpweb.org/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
+<p><img src="https://joe.cat/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
 
 <p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
 
@@ -301,7 +301,7 @@ this structure, and find it more organized and easier to revisit.</p>
 
 <h2 id="toc_456">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2 id="toc_457">Citation</h2>
 
@@ -339,9 +339,9 @@ this structure, and find it more organized and easier to revisit.</p>
   
   <entry>
     <title type="html"><![CDATA[Evorus]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-evorus/"/>
+    <link href="https://joe.cat/CHI-evorus/"/>
     <updated>2018-04-21T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-evorus</id>
+    <id>https://joe.cat/CHI-evorus</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 Crowd-powered chatbots are robust than current pure AI approach, but can be
@@ -391,7 +391,7 @@ dialog system.</p>
 
 <h2 id="toc_449">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
 
 <h2 id="toc_450">Citation</h2>
@@ -430,9 +430,9 @@ dialog system.</p>
   
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-revolt/"/>
+    <link href="https://joe.cat/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-revolt</id>
+    <id>https://joe.cat/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
@@ -469,9 +469,9 @@ higher label accuracy with lower monetary cost.</p>
 
 <h2 id="toc_442">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
-<a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
+<a class="btn btn-default" href="https://joe.cat/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
 <h2 id="toc_443">Citation</h2>
 
@@ -513,9 +513,9 @@ higher label accuracy with lower monetary cost.</p>
   
   <entry>
     <title type="html"><![CDATA[Intentionally Uncertain Input]]></title>
-    <link href="https://joseph.nlpweb.org/UIST-highlight/"/>
+    <link href="https://joe.cat/UIST-highlight/"/>
     <updated>2016-10-16T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/UIST-highlight</id>
+    <id>https://joe.cat/UIST-highlight</id>
     <content type="html"><![CDATA[<p>Highlighting can be mentally taxing for learners who are often unsure about how
 much information they needed to include.  We introduce the idea of
 intentionally uncertain input in the context of highlighting on mobile devices.
@@ -555,7 +555,7 @@ by participants over the default system text selection method.</p>
 
 <h2 id="toc_438">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_439">Citation</h2>
@@ -610,9 +610,9 @@ by participants over the default system text selection method.</p>
   
   <entry>
     <title type="html"><![CDATA[Alloy]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-alloy/"/>
+    <link href="https://joe.cat/CHI-alloy/"/>
     <updated>2016-05-07T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-alloy</id>
+    <id>https://joe.cat/CHI-alloy</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 <strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
@@ -645,7 +645,7 @@ to stitch together different types of judgment tasks.</p>
 
 <h2 id="toc_431">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_432">Media Coverage</h2>
@@ -717,9 +717,9 @@ to stitch together different types of judgment tasks.</p>
   
   <entry>
     <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
-    <link href="https://joseph.nlpweb.org/CHI-ka/"/>
+    <link href="https://joe.cat/CHI-ka/"/>
     <updated>2016-05-07T07:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/CHI-ka</id>
+    <id>https://joe.cat/CHI-ka</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 Answering complex questions such as &quot;How do I grow better tomatoes?&quot; often
@@ -749,7 +749,7 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
 
 <h2 id="toc_426">Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joseph.nlpweb.org/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2 id="toc_427">Media Coverage</h2>
@@ -824,9 +824,9 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
   
   <entry>
     <title type="html"><![CDATA[Twitter Code-Switching]]></title>
-    <link href="https://joseph.nlpweb.org/arXiv-twitter-code-switching/"/>
+    <link href="https://joe.cat/arXiv-twitter-code-switching/"/>
     <updated>2014-12-22T08:00:00-05:00</updated>
-    <id>https://joseph.nlpweb.org/arXiv-twitter-code-switching</id>
+    <id>https://joe.cat/arXiv-twitter-code-switching</id>
     <content type="html"><![CDATA[<p>Code-switching behavior is a common phenomenon on social media to express
 solidarity or establish authority. While past work on automatic code-switching
 detection depends on dictionary look-up or named-entity recognition, our
@@ -888,9 +888,9 @@ accuracy, or by 17% in error rate reduction.</p>
   
   <entry>
     <title type="html"><![CDATA[A Hangman Game Solver based on Language Models]]></title>
-    <link href="https://joseph.nlpweb.org/hangman/"/>
+    <link href="https://joe.cat/hangman/"/>
     <updated>2012-11-04T21:14:00-05:00</updated>
-    <id>https://joseph.nlpweb.org/hangman</id>
+    <id>https://joe.cat/hangman</id>
     <content type="html"><![CDATA[<p>I&#39;ve recently wrote a program for solving sentence-based hangman game automatically. Here&#39;s a post
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> 
 language model and hidden Markov model.</p>
@@ -1207,9 +1207,9 @@ stages as different strategies and use genetic algorithm to apply them alternate
   
   <entry>
     <title type="html"><![CDATA[TermMine]]></title>
-    <link href="https://joseph.nlpweb.org/ACL-termmine/"/>
+    <link href="https://joe.cat/ACL-termmine/"/>
     <updated>2012-07-08T08:00:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/ACL-termmine</id>
+    <id>https://joe.cat/ACL-termmine</id>
     <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
 translation pairs of terms from the web. We used a small set of terms and
 translations to gather mixed-code text from the web to train a CRF model that
@@ -1279,9 +1279,9 @@ system that outperforms previous work.</p>
   
   <entry>
     <title type="html"><![CDATA[Git: Remove (un-add) files from last commit]]></title>
-    <link href="https://joseph.nlpweb.org/git-reverse-amend/"/>
+    <link href="https://joe.cat/git-reverse-amend/"/>
     <updated>2012-04-27T03:07:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/git-reverse-amend</id>
+    <id>https://joe.cat/git-reverse-amend</id>
     <content type="html"><![CDATA[<p>A lot of times we use <code>git commit --amend</code> to add the files that we have forgotten to the last
 commit (usually HEAD), or simply to fix typos in its commit message. However, you can&#39;t remove, or un-add,
 committed files from the latest commit with <code>git commit --amend</code>. Here&#39;s how:</p>
@@ -1323,11 +1323,11 @@ changes from the staging area (or index), and add the files you originally inten
   
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Module debugging with gdb]]></title>
-    <link href="https://joseph.nlpweb.org/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
+    <link href="https://joe.cat/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
     <updated>2011-12-05T21:12:00-05:00</updated>
-    <id>https://joseph.nlpweb.org/linux-kernel-dev-module-debugging-gdb-kdgb</id>
+    <id>https://joe.cat/linux-kernel-dev-module-debugging-gdb-kdgb</id>
     <content type="html"><![CDATA[<p>This is post continues my previous post on 
-<a href="http://joseph.nlpweb.org/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
+<a href="http://joe.cat/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
 and explain how to do the same for debugging kernel modules.</p>
 
 <!-- more -->
@@ -1387,9 +1387,9 @@ height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
   
   <entry>
     <title type="html"><![CDATA[Git: Displaying commit tree with NerdTool]]></title>
-    <link href="https://joseph.nlpweb.org/nerdtool-commit-tree/"/>
+    <link href="https://joe.cat/nerdtool-commit-tree/"/>
     <updated>2011-11-30T17:26:00-05:00</updated>
-    <id>https://joseph.nlpweb.org/nerdtool-commit-tree</id>
+    <id>https://joe.cat/nerdtool-commit-tree</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/bizkit/6291809011/" title="P1030408 by bizkit@tw, on Flickr"><img
 src="http://farm7.staticflickr.com/6233/6291809011_58ca7d80bc.jpg" width="500" height="347"
 alt="P1030408"></a></p>
@@ -1458,9 +1458,9 @@ alt="gggg"></a></p>
   
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Hooking System Calls on 2.6+]]></title>
-    <link href="https://joseph.nlpweb.org/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
+    <link href="https://joe.cat/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
     <updated>2011-10-23T22:03:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
+    <id>https://joe.cat/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
     <content type="html"><![CDATA[<p>This post explains how to add, or override, system calls by loading custom
 kernel modules using system call hooking techniques. This
 is sometimes called system call hijacking, and is used by viruses and rootkits.</p>
@@ -1583,9 +1583,9 @@ hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http:/
   
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Debugging with QEMU and kgdb]]></title>
-    <link href="https://joseph.nlpweb.org/linux-kernel-dev-debug-qemu-kgdb/"/>
+    <link href="https://joe.cat/linux-kernel-dev-debug-qemu-kgdb/"/>
     <updated>2011-10-17T07:49:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/linux-kernel-dev-debug-qemu-kgdb</id>
+    <id>https://joe.cat/linux-kernel-dev-debug-qemu-kgdb</id>
     <content type="html"><![CDATA[<p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
 the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and
 KGDB for real-time kernel debugging.</p>
@@ -1793,9 +1793,9 @@ stub，讓執行到該位置時開始 debug 程序。對於 kgdb / gdb
   
   <entry>
     <title type="html"><![CDATA[Introducing 0xbench]]></title>
-    <link href="https://joseph.nlpweb.org/introducing-0xbench/"/>
+    <link href="https://joe.cat/introducing-0xbench/"/>
     <updated>2011-08-13T21:38:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/introducing-0xbench</id>
+    <id>https://joe.cat/introducing-0xbench</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/bizkit/4898571830/"
 title="4898520412_4f9ba92569_b by bizkit@tw, on Flickr"><img
 src="http://farm5.staticflickr.com/4115/4898571830_372a9599a5.jpg" width="500"
@@ -1833,9 +1833,9 @@ to 0xBenchWeb.</p>
   
   <entry>
     <title type="html"><![CDATA[Commend Line Android Development with VIM and Eclim]]></title>
-    <link href="https://joseph.nlpweb.org/cli-android-dev/"/>
+    <link href="https://joe.cat/cli-android-dev/"/>
     <updated>2011-08-04T21:05:00-04:00</updated>
-    <id>https://joseph.nlpweb.org/cli-android-dev</id>
+    <id>https://joe.cat/cli-android-dev</id>
     <content type="html"><![CDATA[<p>Eclipse is slow, especially on Macs. Plus, I&#39;ve never really like IDEs very much.
 I&#39;ve always prefer to write my Android projects in the terminal with Vim.
 Here are some of the basics stuff about developing Android using CLI.</p>
