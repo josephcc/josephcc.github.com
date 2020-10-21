@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Analogy | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/analogy/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2020-10-21T13:39:43-04:00</updated>
+  <updated>2020-10-21T14:03:48-04:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -29,7 +29,7 @@ communities.</p>
 
 <!--more-->
 
-<h2 id="toc_315">Abstract</h2>
+<h2 id="toc_327">Abstract</h2>
 
 <p>Scientific discoveries are often driven by finding analogies in distant
 domains, but the growing number of papers makes it difficult to find relevant
@@ -47,18 +47,18 @@ that the resulting analogies found are useful to experts. These results
 demonstrate a novel path towards computationally supported knowledge sharing in
 research communities.</p>
 
-<h2 id="toc_316">Downloads</h2>
+<h2 id="toc_328">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_317">Citation</h2>
+<h2 id="toc_329">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
 Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
 In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
 </code></pre>
 </div>
 
-<h2 id="toc_318">Bibtex</h2>
+<h2 id="toc_330">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
   title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
   author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},

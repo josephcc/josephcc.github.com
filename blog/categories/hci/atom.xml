@@ -4,7 +4,7 @@
   <title><![CDATA[Category: HCI | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/hci/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2020-10-21T13:39:43-04:00</updated>
+  <updated>2020-10-21T14:03:48-04:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -55,21 +55,27 @@ personalized criteria enabling users to gain deeper insights from data.</p>
 
 <h2 id="toc_47">Video Figure</h2>
 
+<h4 id="toc_48">5-minute virtual conference presentation</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LNASh9rq9-I?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h4 id="toc_49">3-minute video abstract</h4>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NqriHlTfVhU?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_48">Download</h2>
+<h2 id="toc_50">Download</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
-<a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library (coming soon..)</a></p>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3379337.3415865" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_49">Citation</h2>
+<h2 id="toc_51">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Mesh: Scaffolding Comparison Tables for Online Decision Making.
 Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
 In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.
 </code></pre>
 </div>
 
-<h2 id="toc_50">Bibtex</h2>
+<h2 id="toc_52">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chang2020mesh,
   title={Mesh: Scaffolding Comparison Tables for Online Decision Making},
   author={Chang, Joseph Chee and Hahn, Nathan, and Kittur, Aniket},
@@ -100,7 +106,7 @@ in-depth exploration.</p>
 
 <!--more-->
 
-<h2 id="toc_51">Abstract</h2>
+<h2 id="toc_53">Abstract</h2>
 
 <p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, consumer generated data (i.e. reviews and forum posts)
@@ -118,23 +124,23 @@ suggest that our approach incentivized participants to express their interests
 more richly than in a baseline condition, and a field study showed that
 participants found benefits in SearchLens while conducting their own tasks.</p>
 
-<h2 id="toc_52">Video Figure</h2>
+<h2 id="toc_54">Video Figure</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dXcTtHMa2DQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_53">Download</h2>
+<h2 id="toc_55">Download</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_54">Citation</h2>
+<h2 id="toc_56">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.
 Joseph Chee Chang, Nathan Hahn, Adam Perer, Aniket Kittur.
 In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.
 </code></pre>
 </div>
 
-<h2 id="toc_55">Bibtex</h2>
+<h2 id="toc_57">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chang2019searchlens,
   title={SearchLens: Composing and Capturing Complex User Interests for Exploratory Search},
   author={Chang, Joseph Chee and Hahn, Nathan, and Perer, Adam and Kittur, Aniket},
@@ -163,7 +169,7 @@ communities.</p>
 
 <!--more-->
 
-<h2 id="toc_56">Abstract</h2>
+<h2 id="toc_58">Abstract</h2>
 
 <p>Scientific discoveries are often driven by finding analogies in distant
 domains, but the growing number of papers makes it difficult to find relevant
@@ -181,18 +187,18 @@ that the resulting analogies found are useful to experts. These results
 demonstrate a novel path towards computationally supported knowledge sharing in
 research communities.</p>
 
-<h2 id="toc_57">Downloads</h2>
+<h2 id="toc_59">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_58">Citation</h2>
+<h2 id="toc_60">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
 Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
 In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
 </code></pre>
 </div>
 
-<h2 id="toc_59">Bibtex</h2>
+<h2 id="toc_61">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
   title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
   author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
@@ -219,7 +225,7 @@ and resumed. BentoBrowser is available for <a href="https://itunes.apple.com/us/
 
 <!--more-->
 
-<h2 id="toc_60">Abstract</h2>
+<h2 id="toc_62">Abstract</h2>
 
 <p>People engaged in complex searches such as planning a vacation or understanding
 their medical symptoms are often overwhelmed by opening and managing many tabs.
@@ -235,7 +241,7 @@ investigate its effectiveness in three studies. We find converging evidence
 that users were able to make progress on their complex searching tasks with
 this structure, and find it more organized and easier to revisit.</p>
 
-<h2 id="toc_61">Install Bento Browser</h2>
+<h2 id="toc_63">Install Bento Browser</h2>
 
 <p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
 
@@ -243,13 +249,13 @@ this structure, and find it more organized and easier to revisit.</p>
 
 <p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
 
-<h2 id="toc_62">Video Demo</h2>
+<h2 id="toc_64">Video Demo</h2>
 
 <p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_63">Media Coverage</h2>
+<h2 id="toc_65">Media Coverage</h2>
 
 <ul>
 <li>Tech Explorist: <a href="https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/">A new web browser makes it easier to search on mobile devices</a></li>
@@ -260,11 +266,11 @@ this structure, and find it more organized and easier to revisit.</p>
 <li>CMU HCII: <a href="https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
 </ul>
 
-<h2 id="toc_64">Downloads</h2>
+<h2 id="toc_66">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_65">Citation</h2>
+<h2 id="toc_67">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
 Bento Browser: Complex Mobile Search Without Tabs.
 In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
@@ -272,7 +278,7 @@ ACM, Montreal, QC, Canada.
 </code></pre>
 </div>
 
-<h2 id="toc_66">Bibtex</h2>
+<h2 id="toc_68">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Hahn:2018:Bento,
  author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
  title = {Bento Browser: Complex Mobile Search Without Tabs.},
@@ -303,7 +309,7 @@ public deployment study shows promising results. You can <a href="http://talking
 
 <!--more-->
 
-<h2 id="toc_67">Abstract</h2>
+<h2 id="toc_69">Abstract</h2>
 
 <p>Crowd-powered conversational assistants have been shown to be more robust than
 automated systems, but do so at the cost of higher response latency and
@@ -321,15 +327,15 @@ system. Its architecture allows future researchers to make further innovation
 on the underlying automated components in the context of a deployed open domain
 dialog system.</p>
 
-<h2 id="toc_68">Try Evorus on Google Talk</h2>
+<h2 id="toc_70">Try Evorus on Google Talk</h2>
 
 <p><a class="btn btn-default" href="http://talkingtothecrowd.org/" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Evorus', 'Website']);" role="button">TalkingToTheCrowd.org</a></p>
 
-<h2 id="toc_69">Overview Video</h2>
+<h2 id="toc_71">Overview Video</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3SAG8jP-Q-M?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_70">Media Coverage</h2>
+<h2 id="toc_72">Media Coverage</h2>
 
 <ul>
 <li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the &#39;Chorus&#39; chatbot: Unlike Alexa or Siri, it&#39;s powered by actual people on the other end</a></li>
@@ -339,12 +345,12 @@ dialog system.</p>
 <li>Presstext: <a href="https://www.pressetext.com/#news/20180208014">KI-System &quot;Evorus&quot; wird zunehmend eigenständig</a></li>
 </ul>
 
-<h2 id="toc_71">Downloads</h2>
+<h2 id="toc_73">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
 
-<h2 id="toc_72">Citation</h2>
+<h2 id="toc_74">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Kenneth Huang, Joseph Chee Chang, Jeffrey P. Bigham. 2018.
 Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time.
 In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
@@ -352,7 +358,7 @@ ACM, Montreal, QC, Canada.
 </code></pre>
 </div>
 
-<h2 id="toc_73">Bibtex</h2>
+<h2 id="toc_75">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Huang:2018:Evorus,
  author = {Huang, Kenneth and Chang, Joseph Chee and Bigham, Jeffrey P.},
  title = {Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time},

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Machine Learning | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2020-10-21T13:39:43-04:00</updated>
+  <updated>2020-10-21T14:03:48-04:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -29,7 +29,7 @@ communities.</p>
 
 <!--more-->
 
-<h2 id="toc_124">Abstract</h2>
+<h2 id="toc_128">Abstract</h2>
 
 <p>Scientific discoveries are often driven by finding analogies in distant
 domains, but the growing number of papers makes it difficult to find relevant
@@ -47,18 +47,18 @@ that the resulting analogies found are useful to experts. These results
 demonstrate a novel path towards computationally supported knowledge sharing in
 research communities.</p>
 
-<h2 id="toc_125">Downloads</h2>
+<h2 id="toc_129">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_126">Citation</h2>
+<h2 id="toc_130">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
 Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
 In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
 </code></pre>
 </div>
 
-<h2 id="toc_127">Bibtex</h2>
+<h2 id="toc_131">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
   title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
   author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
@@ -87,7 +87,7 @@ public deployment study shows promising results. You can <a href="http://talking
 
 <!--more-->
 
-<h2 id="toc_128">Abstract</h2>
+<h2 id="toc_132">Abstract</h2>
 
 <p>Crowd-powered conversational assistants have been shown to be more robust than
 automated systems, but do so at the cost of higher response latency and
@@ -105,15 +105,15 @@ system. Its architecture allows future researchers to make further innovation
 on the underlying automated components in the context of a deployed open domain
 dialog system.</p>
 
-<h2 id="toc_129">Try Evorus on Google Talk</h2>
+<h2 id="toc_133">Try Evorus on Google Talk</h2>
 
 <p><a class="btn btn-default" href="http://talkingtothecrowd.org/" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Evorus', 'Website']);" role="button">TalkingToTheCrowd.org</a></p>
 
-<h2 id="toc_130">Overview Video</h2>
+<h2 id="toc_134">Overview Video</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3SAG8jP-Q-M?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_131">Media Coverage</h2>
+<h2 id="toc_135">Media Coverage</h2>
 
 <ul>
 <li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the &#39;Chorus&#39; chatbot: Unlike Alexa or Siri, it&#39;s powered by actual people on the other end</a></li>
@@ -123,12 +123,12 @@ dialog system.</p>
 <li>Presstext: <a href="https://www.pressetext.com/#news/20180208014">KI-System &quot;Evorus&quot; wird zunehmend eigenständig</a></li>
 </ul>
 
-<h2 id="toc_132">Downloads</h2>
+<h2 id="toc_136">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
 
-<h2 id="toc_133">Citation</h2>
+<h2 id="toc_137">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Kenneth Huang, Joseph Chee Chang, Jeffrey P. Bigham. 2018.
 Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time.
 In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI &#39;18).
@@ -136,7 +136,7 @@ ACM, Montreal, QC, Canada.
 </code></pre>
 </div>
 
-<h2 id="toc_134">Bibtex</h2>
+<h2 id="toc_138">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Huang:2018:Evorus,
  author = {Huang, Kenneth and Chang, Joseph Chee and Bigham, Jeffrey P.},
  title = {Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time},
@@ -167,7 +167,7 @@ enabling dynamic label boundaries.</p>
 
 <!--more-->
 
-<h2 id="toc_135">Abstract</h2>
+<h2 id="toc_139">Abstract</h2>
 
 <p>Crowdsourcing provides a scalable and efficient way to construct labeled
 datasets for training machine learning systems. However, creating comprehensive
@@ -190,13 +190,13 @@ without requiring new data to be collected. Further comparisons of Revolt&#39;s
 collaborative and non-collaborative variants show that collaboration reaches
 higher label accuracy with lower monetary cost.</p>
 
-<h2 id="toc_136">Downloads</h2>
+<h2 id="toc_140">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
 <a class="btn btn-default" href="https://joe.cat/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
-<h2 id="toc_137">Citation</h2>
+<h2 id="toc_141">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
 Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
 In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &#39;17).
@@ -204,7 +204,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.302604
 </code></pre>
 </div>
 
-<h2 id="toc_138">Bibtex</h2>
+<h2 id="toc_142">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2017:Revolt,
  author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
  title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},
@@ -239,7 +239,7 @@ structures from unorganized documents with high quality and efficiency.</p>
 
 <!--more-->
 
-<h2 id="toc_139">Abstract</h2>
+<h2 id="toc_143">Abstract</h2>
 
 <p>Crowdsourced clustering approaches present a promising way to harness deep
 semantic knowledge for clustering complex information. However, existing
@@ -256,12 +256,12 @@ examples in the tail. To accomplish this, Alloy introduces a modular
 <em>cast and gather</em> approach which leverages a machine learning backbone
 to stitch together different types of judgment tasks.</p>
 
-<h2 id="toc_140">Downloads</h2>
+<h2 id="toc_144">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_141">Media Coverage</h2>
+<h2 id="toc_145">Media Coverage</h2>
 
 <ul>
 <li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
@@ -280,7 +280,7 @@ to stitch together different types of judgment tasks.</p>
 <li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
 </ul>
 
-<h2 id="toc_142">Citation</h2>
+<h2 id="toc_146">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
 Alloy: Clustering with Crowds and Computation.
 In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI &#39;16).
@@ -288,7 +288,7 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
 </code></pre>
 </div>
 
-<h2 id="toc_143">Bibtex</h2>
+<h2 id="toc_147">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2016:ACC:2858036.2858411,
  author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
  title = {Alloy: Clustering with Crowds and Computation},
@@ -326,7 +326,7 @@ reduction.</p>
 
 <!--more-->
 
-<h2 id="toc_144">Abstract</h2>
+<h2 id="toc_148">Abstract</h2>
 
 <p>Mixed language data is one of the difficult yet less explored domains of
 natural language processing. Most research in fields like machine translation
@@ -343,19 +343,19 @@ mixed-language Twitter corpus, our system is able to outperform the best
 SVM-based systems reported in the EMNLP&#39;14 Code-Switching Workshop by 1% in
 accuracy, or by 17% in error rate reduction.</p>
 
-<h2 id="toc_145">Download</h2>
+<h2 id="toc_149">Download</h2>
 
 <p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'arXiv']);"  href="https://arxiv.org/abs/1412.4314" role="button">arXiv</a>
 <a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'PDF']);"  href="https://arxiv.org/pdf/1412.4314v2.pdf" role="button">arXiv hosted PDF</a></p>
 
-<h2 id="toc_146">Citation</h2>
+<h2 id="toc_150">Citation</h2>
 <div class="highlight"><pre><code class="text">Chang, Joseph Chee, and Chu-Cheng Lin.
 &quot;Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus.&quot;
 arXiv preprint arXiv:1412.4314 (2014).
 </code></pre>
 </div>
 
-<h2 id="toc_147">Bibtex</h2>
+<h2 id="toc_151">Bibtex</h2>
 <div class="highlight"><pre><code class="text">@article{chang2014recurrent,
   title={Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus},
   author={Chang, Joseph Chee and Lin, Chu-Cheng},

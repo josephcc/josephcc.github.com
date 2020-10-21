@@ -4,7 +4,7 @@
   <title><![CDATA[Category: UIST | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/uist/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2020-10-21T13:39:43-04:00</updated>
+  <updated>2020-10-21T14:03:48-04:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -33,7 +33,7 @@ to make confident purchase decisions.</p>
 
 <!--more-->
 
-<h2 id="toc_289">Abstract</h2>
+<h2 id="toc_299">Abstract</h2>
 
 <p>While there is an enormous amount of information online for making decisions
 such as choosing a product, restaurant, or school, it can be costly for users
@@ -53,23 +53,29 @@ studies found evidence that Mesh significantly reduces the costs of
 gathering and evaluating evidence and scaffolds decision-making through
 personalized criteria enabling users to gain deeper insights from data.</p>
 
-<h2 id="toc_290">Video Figure</h2>
+<h2 id="toc_300">Video Figure</h2>
+
+<h4 id="toc_301">5-minute virtual conference presentation</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LNASh9rq9-I?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h4 id="toc_302">3-minute video abstract</h4>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NqriHlTfVhU?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_291">Download</h2>
+<h2 id="toc_303">Download</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
-<a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library (coming soon..)</a></p>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3379337.3415865" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_292">Citation</h2>
+<h2 id="toc_304">Citation</h2>
 <div class="highlight"><pre><code class="text"><span></span>Mesh: Scaffolding Comparison Tables for Online Decision Making.
 Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
 In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.
 </code></pre>
 </div>
 
-<h2 id="toc_293">Bibtex</h2>
+<h2 id="toc_305">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@article{chang2020mesh,
   title={Mesh: Scaffolding Comparison Tables for Online Decision Making},
   author={Chang, Joseph Chee and Hahn, Nathan, and Kittur, Aniket},
@@ -95,7 +101,7 @@ saving information while users are uncertain about where to highlight.</p>
 
 <!--more-->
 
-<h2 id="toc_294">Abstract</h2>
+<h2 id="toc_306">Abstract</h2>
 
 <p>Patients researching medical diagnoses, scientist exploring new fields of
 literature, and students learning about new domains are all faced with the
@@ -116,20 +122,20 @@ information in an intentionally uncertain way on mobile devices. In a two part
 user study we find that this approach reduced selection time and was preferred
 by participants over the default system text selection method.</p>
 
-<h2 id="toc_295">Presentation (UIST 2016)</h2>
+<h2 id="toc_307">Presentation (UIST 2016)</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_296">Demo Video</h2>
+<h2 id="toc_308">Demo Video</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="toc_297">Downloads</h2>
+<h2 id="toc_309">Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
-<h2 id="toc_298">Citation</h2>
+<h2 id="toc_310">Citation</h2>
 <div class="highlight"><pre><code class="text">Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. 2016.
 Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting.
 In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST &#39;16).
@@ -137,7 +143,7 @@ ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
 </code></pre>
 </div>
 
-<h2 id="toc_299">Bibtex</h2>
+<h2 id="toc_311">Bibtex</h2>
 <div class="highlight"><pre><code class="text"><span></span>@inproceedings{Chang:2016:SMS:2984511.2984538,
  author = {Chang, Joseph Chee and Hahn, Nathan and Kittur, Aniket},
  title = {Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting},
