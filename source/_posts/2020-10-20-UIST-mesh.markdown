@@ -59,13 +59,17 @@ personalized criteria enabling users to gain deeper insights from data.
 
 Video Figure
 ----------------------
+#### 5-minute virtual conference presentation
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LNASh9rq9-I?rel=0" frameborder="0" allowfullscreen></iframe>
+
+#### 3-minute video abstract
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NqriHlTfVhU?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 Download
 ----------------------
 <a class="btn btn-default" href="/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
-<a class="btn btn-default" href="#" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library (coming soon..)</a>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3379337.3415865" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library</a>
 
 
 Citation
