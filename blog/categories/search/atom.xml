@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Search | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/search/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2020-10-21T14:03:48-04:00</updated>
+  <updated>2020-12-09T06:36:56+08:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Mesh]]></title>
     <link href="https://joe.cat/UIST-mesh/"/>
-    <updated>2020-10-20T08:00:00-04:00</updated>
+    <updated>2020-10-20T08:00:00+08:00</updated>
     <id>https://joe.cat/UIST-mesh</id>
     <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
 the tens of thousands of online evidence about each of their options.  However,
@@ -91,7 +91,7 @@ In Proceedings of the 33rd ACM User Interface Software and Technology Symposium:
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
     <link href="https://joe.cat/IUI-searchlens/"/>
-    <updated>2019-03-17T08:00:00-04:00</updated>
+    <updated>2019-03-17T08:00:00+08:00</updated>
     <id>https://joe.cat/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, reviews and forum posts are often a significant factor in
@@ -156,7 +156,7 @@ In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Inter
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
     <link href="https://joe.cat/CSCW-solvent/"/>
-    <updated>2018-11-03T08:00:00-04:00</updated>
+    <updated>2018-11-03T08:00:00+08:00</updated>
     <id>https://joe.cat/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
@@ -214,7 +214,7 @@ In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
     <link href="https://joe.cat/CHI-bento/"/>
-    <updated>2018-04-21T08:01:00-04:00</updated>
+    <updated>2018-04-21T08:01:00+08:00</updated>
     <id>https://joe.cat/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
 make conducting searches on mobile devices especially difficult where screen
