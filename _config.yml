@@ -34,9 +34,9 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: redcarpet2 #maruku #rdiscount
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+markdown: rdiscount #maruku #rdiscount
+# redcarpet:
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 1000          # Posts per page on the blog index
