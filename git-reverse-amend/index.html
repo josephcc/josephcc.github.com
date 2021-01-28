@@ -99,19 +99,22 @@ MathJax.Hub.Config({
   <div class="entry-content">
     
     <p>A lot of times we use <code>git commit --amend</code> to add the files that we have forgotten to the last
-commit (usually HEAD), or simply to fix typos in its commit message. However, you can&#39;t remove, or un-add,
-committed files from the latest commit with <code>git commit --amend</code>. Here&#39;s how:</p>
+commit (usually HEAD), or simply to fix typos in its commit message. However, you can&#8217;t remove, or un-add,
+committed files from the latest commit with <code>git commit --amend</code>. Here&#8217;s how:</p>
 
 <!-- more -->
 
+
 <ul>
 <li>Point your HEAD to the commit prior to the latest commit, without touching the index nor the working
-tree: </li>
+tree:</li>
 </ul>
+
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>git reset --soft HEAD
 </span></code></pre></td></tr></table></div></figure>
+
 
 <ul>
 <li>Now your <code>HEAD</code> points to the commit prior to the lastest commit, your <code>ORIG_HEAD</code> points to the latest
@@ -119,21 +122,25 @@ commit, and your working tree and staging area is the same as the latest commit.
 changes from the staging area (or index), and add the files you originally intended to commit:</li>
 </ul>
 
+
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>git reset HEAD .
 </span><span class='line'>git add &lt;files&gt;
 </span></code></pre></td></tr></table></div></figure>
 
+
 <ul>
 <li>Finally, commit the staged files and reuse the metadata of the wrong commit:</li>
 </ul>
+
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>git commit -c ORIG_HEAD
 </span></code></pre></td></tr></table></div></figure>
 
-<p>you can always you <code>git rebase</code> to turn back time.</p>
+
+<p> you can always you <code>git rebase</code> to turn back time.</p>
 
   </div>
 
@@ -240,7 +247,7 @@ changes from the staging area (or index), and add the files you originally inten
   <div class="container">
     <p class="pull-left">
   <a href="/">Joseph Chee Chang</a>
-  - Copyright &copy; 2020 - Joseph Chee Chang
+  - Copyright &copy; 2021 - Joseph Chee Chang
 </p>
 <p class="pull-right">
   <span>Powered by <a href="http://git-scm.com">Git</a>, <a href="http://github.com/">GitHub</a> and <a href="http://octopress.org/">Octopress</a>.</span>

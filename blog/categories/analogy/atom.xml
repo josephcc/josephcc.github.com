@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Analogy | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/analogy/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2020-12-14T13:28:22+08:00</updated>
+  <updated>2021-01-28T17:28:59+08:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -29,7 +29,8 @@ communities.</p>
 
 <!--more-->
 
-<h2 id="toc_327">Abstract</h2>
+
+<h2>Abstract</h2>
 
 <p>Scientific discoveries are often driven by finding analogies in distant
 domains, but the growing number of papers makes it difficult to find relevant
@@ -47,27 +48,29 @@ that the resulting analogies found are useful to experts. These results
 demonstrate a novel path towards computationally supported knowledge sharing in
 research communities.</p>
 
-<h2 id="toc_328">Downloads</h2>
+<h2>Downloads</h2>
 
 <p><a class="btn btn-default" href="https://joe.cat/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
-<h2 id="toc_329">Citation</h2>
-<div class="highlight"><pre><code class="text"><span></span>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
+<h2>Citation</h2>
+
+<p><code>
+Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
 Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
 In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
-</code></pre>
-</div>
+</code></p>
 
-<h2 id="toc_330">Bibtex</h2>
-<div class="highlight"><pre><code class="text"><span></span>@article{chan2018solvent,
+<h2>Bibtex</h2>
+
+<p><code>
+@article{chan2018solvent,
   title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
   author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
   booktitle = {Proceedings of the 2018 ACM Human-Computer Interaction: CSCW},
-  series = {CSCW&#39;18},
+  series = {CSCW'18},
   year={2018}
 }
-</code></pre>
-</div>
+</code></p>
 ]]></content>
   </entry>
   

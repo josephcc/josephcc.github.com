@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mac | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/mac/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2020-12-14T13:28:22+08:00</updated>
+  <updated>2021-01-28T17:28:59+08:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -30,6 +30,7 @@ quite helpful when trying to rebase/merge different branches.</p>
 
 <!-- more -->
 
+
 <p>這幾天和 ftt 跟 傑洛 聚在一起 hackthon ， 想了一個方法用大螢幕即時顯示 git 的 commit
 tree，看起來很有趣， 在 merge 不同 branch 的時候也十分實用。 我們用的程式是 NerdTool，它跟 GeekTool
 類似， 是一個可以把任一 command 的 output 顯示在桌面上。 我最早是在 LifeHacker 發現的， 最大的差別在
@@ -43,7 +44,7 @@ script output on your desktop, and unlike the popular
 src="http://farm7.staticflickr.com/6219/6291810655_0dbd160a39.jpg" width="500" height="375"
 alt="P1030409"></a></p>
 
-<p>So we&#39;ve clone an additional copy of our git repo from BitBucket, and set NerdTool to run <code>git pull</code> and
+<p>So we've clone an additional copy of our git repo from BitBucket, and set NerdTool to run <code>git pull</code> and
 <code>git log</code> every five seconds:</p>
 
 <p>我們先從 bitbucket 上另外 clone 了一份 repo 下來專門用來 watch commit 的變動， 接著讓 NerdTool
@@ -60,7 +61,7 @@ alt="P1030409"></a></p>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>&lt;/p&gt;
 </span><span class='line'>
 </span><span class='line'>&lt;p&gt;cd ~/.gitwatch/&lt;repo_name&gt; ;
-</span><span class='line'>git pull 2&amp;gt;&amp;amp;1 &amp;gt; /dev/null ;
+</span><span class='line'>git pull 2&gt;&amp;amp;1 &gt; /dev/null ;
 </span><span class='line'>date ;
 </span><span class='line'>git logpretty | head -47&lt;/p&gt;
 </span><span class='line'>
@@ -84,10 +85,10 @@ git 設定的 alias:</p>
 <span class='line-number'>8</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>&lt;/p&gt;
 </span><span class='line'>
-</span><span class='line'>&lt;p&gt;logpretty <span class="o">=</span> log --abbrev-commit <span class="se">\ </span>
+</span><span class='line'>&lt;p&gt;logpretty <span class="o">=</span> log --abbrev-commit <span class="se">\</span>
 </span><span class='line'>--decorate --graph --color --date-order <span class="se">\</span>
-</span><span class='line'>--pretty<span class="o">=</span> <span class="se">\ </span>
-</span><span class='line'>&amp;quot;format:%Cblue%h<span class="se">\%</span>Cred%an:%Creset<span class="se">\&amp;</span>quot;%Cgreen%s%Cblue<span class="se">\&amp;</span>quot;<span class="se">\ </span>%Creset%ar&amp;quot; &lt;/p&gt;
+</span><span class='line'>--pretty<span class="o">=</span> <span class="se">\</span>
+</span><span class='line'><span class="s2">&quot;format:%Cblue%h\%Cred%an:%Creset\&quot;%Cgreen%s%Cblue\&quot;\ %Creset%ar&quot;</span>&lt;/p&gt;
 </span><span class='line'>
 </span><span class='line'>&lt;p&gt;
 </span></code></pre></td></tr></table></div></figure></notextile></div></p>

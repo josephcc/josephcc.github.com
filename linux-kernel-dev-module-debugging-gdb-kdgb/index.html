@@ -98,11 +98,12 @@ MathJax.Hub.Config({
   </div>
   <div class="entry-content">
     
-    <p>This is post continues my previous post on 
+    <p>This is post continues my previous post on
 <a href="http://joe.cat/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
 and explain how to do the same for debugging kernel modules.</p>
 
 <!-- more -->
+
 
 <p>此篇文章延續前文 ，簡單介紹如何使用 gdb / kgdb 對核心模組 (kernel module)
 進行即時的 debugging。</p>
@@ -122,8 +123,8 @@ debug information。</p>
 
 <p>To solve this issue, we need to use the <code>add-symbol-file</code> to let gdb read
 additional debug information. Since in my setup, gdb and the dynamically
-loaded kernel module are executing on different machines, there&#39;s no way for gdb
-to know kernel module&#39;s location in the memory after executing <code>insmod</code>. Here&#39;s
+loaded kernel module are executing on different machines, there&#8217;s no way for gdb
+to know kernel module&#8217;s location in the memory after executing <code>insmod</code>. Here&#8217;s
 my solution:</p>
 
 <p>要解決這個問題，需要使用 gdb 中的 add-symbol-file 命令來讀入包含 debug
@@ -139,12 +140,13 @@ points.</li>
 prevent optimization.</li>
 <li>With the VM connected to gdb, use <code>insmod</code> to load the module. The VM will
 stop at <code>init_module</code>, use <code>c</code> in gdb to continue running the kernel for now.</li>
-<li>You can now find the module&#39;s location in memory in the file
+<li>You can now find the module&#8217;s location in memory in the file
 <code>/sys/modules/&lt;module_name&gt;/sections/.text</code>. Copy it, and use other break points
 to stop the kernel without reloading the module.</li>
 <li>In gdb, execute <code>add-symbol-file &lt;module&gt; &lt;location&gt;</code> to load the debug
 information.</li>
 </ol>
+
 
 <p><a href="http://www.flickr.com/photos/bizkit/5233432557/" title="Screen shot
 2010-12-05 at 4.55.43 PM by bizkit@tw, on Flickr"><img
@@ -153,7 +155,7 @@ height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
 
 <p>Now you can list and step through module code in gdb.</p>
 
-<p>Ref: <a href="http://www.linuxjournal.com/article/4525?page=0,1">http://www.linuxjournal.com/article/4525?page=0,1</a></p>
+<p>Ref: http://www.linuxjournal.com/article/4525?page=0,1</p>
 
   </div>
 
@@ -260,7 +262,7 @@ height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
   <div class="container">
     <p class="pull-left">
   <a href="/">Joseph Chee Chang</a>
-  - Copyright &copy; 2020 - Joseph Chee Chang
+  - Copyright &copy; 2021 - Joseph Chee Chang
 </p>
 <p class="pull-right">
   <span>Powered by <a href="http://git-scm.com">Git</a>, <a href="http://github.com/">GitHub</a> and <a href="http://octopress.org/">Octopress</a>.</span>

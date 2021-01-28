@@ -4,7 +4,7 @@
   <title><![CDATA[Category: app | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/app/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2020-12-14T13:28:22+08:00</updated>
+  <updated>2021-01-28T17:28:59+08:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -32,6 +32,7 @@ benchmarks (either in native C or Java) to suit their needs.</p>
 
 <!-- more -->
 
+
 <p>0xBench is now on the Android Market. If you wish to try it on your phone,
 please search for “0xBench” in the Market or scan the following QR code with
 your phone.</p>
@@ -41,7 +42,7 @@ simple web service that stores and visualizes your benchmarking results. After
 finish running benchmarks on your phone, you can choose to upload your results
 to 0xBenchWeb.</p>
 
-<p>You can find binary, source code, and documentation in following links: </p>
+<p>You can find binary, source code, and documentation in following links:</p>
 
 <ul>
 <li><a href="http://code.google.com/p/0xbench/w/list">Documentation on Google Code wiki</a></li>
@@ -50,6 +51,7 @@ to 0xBenchWeb.</p>
 <li><a href="http://0xbenchmark.appspot.com/">0xBenchWeb on Google App Engine</a></li>
 <li><a href="http://0xbenchmark.appspot.com/run/bizkit.tw@gmail.com/Demo">Comparison between HTC Hero, HTC Desire, Google Nexus One</a></li>
 </ul>
+
 ]]></content>
   </entry>
   

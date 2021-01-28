@@ -110,6 +110,7 @@ quite helpful when trying to rebase/merge different branches.</p>
 
 <!-- more -->
 
+
 <p>這幾天和 ftt 跟 傑洛 聚在一起 hackthon ， 想了一個方法用大螢幕即時顯示 git 的 commit
 tree，看起來很有趣， 在 merge 不同 branch 的時候也十分實用。 我們用的程式是 NerdTool，它跟 GeekTool
 類似， 是一個可以把任一 command 的 output 顯示在桌面上。 我最早是在 LifeHacker 發現的， 最大的差別在
@@ -123,7 +124,7 @@ script output on your desktop, and unlike the popular
 src="http://farm7.staticflickr.com/6219/6291810655_0dbd160a39.jpg" width="500" height="375"
 alt="P1030409"></a></p>
 
-<p>So we&#39;ve clone an additional copy of our git repo from BitBucket, and set NerdTool to run <code>git pull</code> and
+<p>So we&#8217;ve clone an additional copy of our git repo from BitBucket, and set NerdTool to run <code>git pull</code> and
 <code>git log</code> every five seconds:</p>
 
 <p>我們先從 bitbucket 上另外 clone 了一份 repo 下來專門用來 watch commit 的變動， 接著讓 NerdTool
@@ -138,6 +139,7 @@ alt="P1030409"></a></p>
 </span><span class='line'>date ;
 </span><span class='line'>git logpretty | head -47
 </span></code></pre></td></tr></table></div></figure>
+
 
 <p><a href="http://www.flickr.com/photos/bizkit/6291827075/" title="Screen Shot 2011-10-30 at 2.11.47 AM by
 bizkit@tw, on Flickr"><img src="http://farm7.staticflickr.com/6056/6291827075_442edc4367.jpg"
@@ -155,6 +157,7 @@ git 設定的 alias:</p>
 </span><span class='line'>--pretty<span class="o">=</span> <span class="se">\ </span>
 </span><span class='line'><span class="s2">&quot;format:%Cblue%h\%Cred%an:%Creset\&quot;%Cgreen%s%Cblue\&quot;\ %Creset%ar&quot;</span>
 </span></code></pre></td></tr></table></div></figure>
+
 
 <p>The final result:</p>
 
@@ -267,7 +270,7 @@ alt="gggg"></a></p>
   <div class="container">
     <p class="pull-left">
   <a href="/">Joseph Chee Chang</a>
-  - Copyright &copy; 2020 - Joseph Chee Chang
+  - Copyright &copy; 2021 - Joseph Chee Chang
 </p>
 <p class="pull-right">
   <span>Powered by <a href="http://git-scm.com">Git</a>, <a href="http://github.com/">GitHub</a> and <a href="http://octopress.org/">Octopress</a>.</span>
