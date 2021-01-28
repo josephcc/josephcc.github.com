@@ -10,7 +10,7 @@ date: 2021-05-08 08:00
 comments: true
 toc: true
 lsi: true
-categories: ['CHI', 'HCI', 'Sensemaking', 'Search', 'Information Retrieval']
+categories: ['CHI', 'HCI', 'Sensemaking', 'Search', 'Information Retrieval', 'Interaction']
 span: 12
 project: true
 img: "/images/projects/tabs.png"
