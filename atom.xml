@@ -4,7 +4,7 @@
   <title><![CDATA[Joseph Chee Chang]]></title>
   <link href="https://joe.cat/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2021-01-28T17:38:09+08:00</updated>
+  <updated>2021-03-16T16:11:03+08:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -18,7 +18,12 @@
     <link href="https://joe.cat/CHI-browser-tabs/"/>
     <updated>2021-05-08T08:00:00+08:00</updated>
     <id>https://joe.cat/CHI-browser-tabs</id>
-    <content type="html"><![CDATA[<p>Tabs have become integral to Web browsing yet have changed little since their
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong></p>
+
+<br/>
+
+
+<p>Tabs have become integral to Web browsing yet have changed little since their
 introduction nearly 20 years ago. In contrast, the internet has gone through
 dramatic changes and increasingly used to support complex sensemaking tasks.
 This paper investigates how tabs today are overloaded with a diverse set of
