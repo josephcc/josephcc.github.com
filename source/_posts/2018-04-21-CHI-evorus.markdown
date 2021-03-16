@@ -10,7 +10,7 @@ date: 2018-04-21 08:00
 comments: true
 toc: true
 lsi: true
-categories: ['CHI', 'SIGCHI', 'HCI', 'Crowdsourcing', 'Machine Learning']
+categories: ['CHI', 'SIGCHI', 'HCI', 'Crowdsourcing', 'Machine Learning', 'Best Papers']
 span: 12
 project: true
 img: "/images/projects/evorus.png"

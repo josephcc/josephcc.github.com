@@ -10,7 +10,7 @@ date: 2021-05-08 08:00
 comments: true
 toc: true
 lsi: true
-categories: ['CHI', 'HCI', 'Sensemaking', 'Search', 'Information Retrieval', 'Interaction']
+categories: ['CHI', 'HCI', 'Sensemaking', 'Search', 'Information Retrieval', 'Interaction', 'Best Papers']
 span: 12
 project: true
 img: "/images/projects/tabs.png"
@@ -18,6 +18,10 @@ imgStyleIndex: 'width: 50%; float: right; margin-left: 28px; border: 1px solid l
 imgStylePost: 'width: 80%; margin-left: auto; margin-right: auto; margin-top: 28px; border: 1px solid lightgray;'
 
 ---
+
+
+***<i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION***
+<br/>
 
 Tabs have become integral to Web browsing yet have changed little since their
 introduction nearly 20 years ago. In contrast, the internet has gone through

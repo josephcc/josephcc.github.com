@@ -10,7 +10,7 @@ venue: "ACM SIGCHI 2016"
 stats: "(r=23% N=2435)"
 toc: true
 lsi: true
-categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Information Retrieval', 'Information Foraging']
+categories: ['SIGCHI', 'HCI', 'Crowdsourcing', 'Sensemaking', 'Information Synthesis', 'Information Retrieval', 'Information Foraging', 'Best Papers']
 span: 12
 project: true
 img: "/images/projects/ka.png"
