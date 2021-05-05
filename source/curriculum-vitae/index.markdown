@@ -9,12 +9,17 @@ toc: false
 ---
 
 
-<div style='margin-top: 24px;'>
 
-<a href="/curriculum-vitae/joseph_chang_resume.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">Download PDF</a>
-<iframe src="/curriculum-vitae/joseph_chang_resume.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
-  Resume
-</iframe>
+<div style='display: flex; margin-top: 48px;'>
+<div style='width: 340px;'>
+{% include custom/asides/contact.html %}
+</div>
+<div style='flex-grow: 1;'>
+{% include custom/asides/map.html %}
+</div>
+</div>
+
+<div style='margin-top: 24px;'>
 
 <a href="/curriculum-vitae/joseph_chang_cv.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">Download PDF</a>
 <iframe src="/curriculum-vitae/joseph_chang_cv.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
@@ -24,16 +29,10 @@ toc: false
 
 
 
-
-<h2 style='margin-top: 24px;'>contact</h2>
-<div style='display: flex;'>
-<div style='width: 340px;'>
-{% include custom/asides/contact.html %}
-</div>
-<div style='flex-grow: 1;'>
-{% include custom/asides/map.html %}
-</div>
-</div>
+<a href="/curriculum-vitae/joseph_chang_resume.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">Download PDF</a>
+<iframe src="/curriculum-vitae/joseph_chang_resume.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
+  Resume
+</iframe>
 
 
 <div>
