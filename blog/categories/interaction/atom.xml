@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Interaction | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/interaction/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2021-05-06T01:58:30+08:00</updated>
+  <updated>2021-05-11T00:16:26+08:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -52,6 +52,11 @@ over two weeks. We uncovered competing pressures pushing for keeping tabs open
 estimate the frequencies of these pressures at scale. Finally, we developed
 design implications for future browser interfaces that can better support
 managing these pressures</p>
+
+<h2>Presentation (SIGCHI 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pBjIrX9H-Ns" frameborder="0" allowfullscreen></iframe>
+
 
 <h2>Downloads</h2>
 
