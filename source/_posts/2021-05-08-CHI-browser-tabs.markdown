@@ -65,6 +65,18 @@ Downloads
 ----------------------
 <a class="btn btn-default" href="/images/papers/tabs.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 
+Media Coverage
+----------------------
+- MetroNews UK: [Suffer from "tab overload"? Scientists study why we have so many open](https://metro.co.uk/2021/05/10/suffer-from-tab-overload-scientists-study-why-we-have-so-many-open-14540577/amp/)
+- Fast Company: [The twisted psychology of browser tabs—and why we can't get rid of them](https://www.fastcompany.com/90635776/the-twisted-psychology-of-browser-tabs-and-why-we-cant-get-rid-of-them)
+- HackerNews: [When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage](https://news.ycombinator.com/item?id=27095701)
+- Science Alert: [We're Getting Buried in Browser Tabs And Scientists Want to Fix It](https://www.sciencealert.com/tab-overload-is-a-common-problem-for-people-browsing-the-internet-survey-finds)
+- EurekAlert: [Overcoming tab overload](https://www.eurekalert.org/pub_releases/2021-05/cmu-oto050721.php)
+- NewsGram: [Skeema: This Tool Will Assist You In Managing Your Browser Tabs More Effectively](https://www.newsgram.com/skeema-this-tool-will-assist-you-in-managing-your-browser-tabs-more-effectively/)
+- Sify: [This tool can help you better manage browser tabs](https://www.sify.com/news/this-tool-can-help-you-better-manage-browser-tabs-news-education-vfjl5Ebfaiifc.html)
+- Revyuh: [Browser Tabs: Scientists Find New Way to Overcome Fear of Black Hole Effect](https://www.revyuh.com/news/software/apps/browser-tabs-scientists-find-new-way-to-overcome-fear-of-black-hole-effect/)
+- Carnegie Mellon University: [Overcoming Tab Overload](https://www.cmu.edu/news/stories/archives/2021/may/overcoming-tab-overload.html)
+
 Citation
 ----------------------
 ```
