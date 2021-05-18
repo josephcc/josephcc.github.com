@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sensemaking | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/sensemaking/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2021-05-15T21:25:00+08:00</updated>
+  <updated>2021-05-18T16:41:50-07:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[When the Tab Comes Due]]></title>
     <link href="https://joe.cat/CHI-browser-tabs/"/>
-    <updated>2021-05-08T08:00:00+08:00</updated>
+    <updated>2021-05-08T08:00:00-07:00</updated>
     <id>https://joe.cat/CHI-browser-tabs</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong></p>
 
@@ -65,8 +65,9 @@ managing these pressures</p>
 <h2>Media Coverage</h2>
 
 <ul>
-<li>MetroNews UK: <a href="https://metro.co.uk/2021/05/10/suffer-from-tab-overload-scientists-study-why-we-have-so-many-open-14540577/amp/">Suffer from "tab overload"? Scientists study why we have so many open</a></li>
 <li>Fast Company: <a href="https://www.fastcompany.com/90635776/the-twisted-psychology-of-browser-tabs-and-why-we-cant-get-rid-of-them">The twisted psychology of browser tabs—and why we can't get rid of them</a></li>
+<li>MetroNews UK: <a href="https://metro.co.uk/2021/05/10/suffer-from-tab-overload-scientists-study-why-we-have-so-many-open-14540577/amp/">Suffer from "tab overload"? Scientists study why we have so many open</a></li>
+<li>Inc.: <a href="https://www.inc.com/jessica-stillman/productivity-browser-tabs-carnegie-mellon.html">Stressed Out by Your 87 Open Browser Tabs? New Science Offers a Fix</a></li>
 <li>HackerNews: <a href="https://news.ycombinator.com/item?id=27095701">When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage</a></li>
 <li>HackerNews: <a href="https://news.ycombinator.com/item?id=27157225">Overcoming tab overload</a></li>
 <li>Science Alert: <a href="https://www.sciencealert.com/tab-overload-is-a-common-problem-for-people-browsing-the-internet-survey-finds">We're Getting Buried in Browser Tabs And Scientists Want to Fix It</a></li>
@@ -114,7 +115,7 @@ ACM, New York, NY, USA, 15 pages. DOI: http://dx.doi.org/10.1145/
   <entry>
     <title type="html"><![CDATA[Mesh]]></title>
     <link href="https://joe.cat/UIST-mesh/"/>
-    <updated>2020-10-20T08:00:00+08:00</updated>
+    <updated>2020-10-20T08:00:00-07:00</updated>
     <id>https://joe.cat/UIST-mesh</id>
     <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
 the tens of thousands of online evidence about each of their options.  However,
@@ -194,7 +195,7 @@ In Proceedings of the 33rd ACM User Interface Software and Technology Symposium:
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
     <link href="https://joe.cat/IUI-searchlens/"/>
-    <updated>2019-03-17T08:00:00+08:00</updated>
+    <updated>2019-03-17T08:00:00-07:00</updated>
     <id>https://joe.cat/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, reviews and forum posts are often a significant factor in
@@ -263,7 +264,7 @@ In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Inter
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
     <link href="https://joe.cat/CSCW-solvent/"/>
-    <updated>2018-11-03T08:00:00+08:00</updated>
+    <updated>2018-11-03T08:00:00-07:00</updated>
     <id>https://joe.cat/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
@@ -324,7 +325,7 @@ In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
     <link href="https://joe.cat/CHI-bento/"/>
-    <updated>2018-04-21T08:01:00+08:00</updated>
+    <updated>2018-04-21T08:01:00-07:00</updated>
     <id>https://joe.cat/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
 make conducting searches on mobile devices especially difficult where screen

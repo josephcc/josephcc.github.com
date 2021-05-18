@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Classification | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/classification/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2021-05-15T21:25:00+08:00</updated>
+  <updated>2021-05-18T16:41:50-07:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
     <link href="https://joe.cat/CHI-revolt/"/>
-    <updated>2017-05-06T08:00:00+08:00</updated>
+    <updated>2017-05-06T08:00:00-07:00</updated>
     <id>https://joe.cat/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>

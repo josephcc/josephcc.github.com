@@ -4,7 +4,7 @@
   <title><![CDATA[Category: PACLIC | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/paclic/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2021-05-15T21:25:00+08:00</updated>
+  <updated>2021-05-18T16:41:50-07:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[WikiSense]]></title>
     <link href="https://joe.cat/wikisense/"/>
-    <updated>2009-12-03T08:00:00+08:00</updated>
+    <updated>2009-12-03T08:00:00-08:00</updated>
     <id>https://joe.cat/wikisense</id>
     <content type="html"><![CDATA[<p>We introduced a method for classifying named-entities into broad semantic
 categories in WordNet. We extracted rich features from Wikipedia, allowing us
