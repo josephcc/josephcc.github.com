@@ -67,8 +67,9 @@ Downloads
 
 Media Coverage
 ----------------------
-- MetroNews UK: [Suffer from "tab overload"? Scientists study why we have so many open](https://metro.co.uk/2021/05/10/suffer-from-tab-overload-scientists-study-why-we-have-so-many-open-14540577/amp/)
 - Fast Company: [The twisted psychology of browser tabs—and why we can't get rid of them](https://www.fastcompany.com/90635776/the-twisted-psychology-of-browser-tabs-and-why-we-cant-get-rid-of-them)
+- MetroNews UK: [Suffer from "tab overload"? Scientists study why we have so many open](https://metro.co.uk/2021/05/10/suffer-from-tab-overload-scientists-study-why-we-have-so-many-open-14540577/amp/)
+- Inc.: [Stressed Out by Your 87 Open Browser Tabs? New Science Offers a Fix](https://www.inc.com/jessica-stillman/productivity-browser-tabs-carnegie-mellon.html)
 - HackerNews: [When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage](https://news.ycombinator.com/item?id=27095701)
 - HackerNews: [Overcoming tab overload](https://news.ycombinator.com/item?id=27157225)
 - Science Alert: [We're Getting Buried in Browser Tabs And Scientists Want to Fix It](https://www.sciencealert.com/tab-overload-is-a-common-problem-for-people-browsing-the-internet-survey-finds)
