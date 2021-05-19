@@ -1,4 +1,4 @@
-.container {
+.vcontainer {
   background-color: none;
 }
 
@@ -43,8 +43,8 @@ animation: AnimationName 24s ease infinite;
     height: auto;
   }
   @media only screen and (min-width: 768px)  {
-    margin-top: 50%;
-    transform: transformY(-50%);
+    margin-top: 40%;
+//    transform: translateY(-50%);
     max-width: 80%;
     width: auto;
     height: auto;
