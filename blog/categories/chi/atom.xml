@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CHI | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/chi/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2021-05-19T07:30:12-07:00</updated>
+  <updated>2021-06-18T18:44:27-04:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[When the Tab Comes Due]]></title>
     <link href="https://joe.cat/CHI-browser-tabs/"/>
-    <updated>2021-05-08T08:00:00-07:00</updated>
+    <updated>2021-05-08T08:00:00-04:00</updated>
     <id>https://joe.cat/CHI-browser-tabs</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong></p>
 
@@ -115,7 +115,7 @@ ACM, New York, NY, USA, 15 pages. DOI: http://dx.doi.org/10.1145/
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
     <link href="https://joe.cat/CHI-bento/"/>
-    <updated>2018-04-21T08:01:00-07:00</updated>
+    <updated>2018-04-21T08:01:00-04:00</updated>
     <id>https://joe.cat/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
 make conducting searches on mobile devices especially difficult where screen
@@ -202,7 +202,7 @@ ACM, Montreal, QC, Canada.
   <entry>
     <title type="html"><![CDATA[Evorus]]></title>
     <link href="https://joe.cat/CHI-evorus/"/>
-    <updated>2018-04-21T08:00:00-07:00</updated>
+    <updated>2018-04-21T08:00:00-04:00</updated>
     <id>https://joe.cat/CHI-evorus</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong></p>
 
@@ -290,7 +290,7 @@ ACM, Montreal, QC, Canada.
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
     <link href="https://joe.cat/CHI-revolt/"/>
-    <updated>2017-05-06T08:00:00-07:00</updated>
+    <updated>2017-05-06T08:00:00-04:00</updated>
     <id>https://joe.cat/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
