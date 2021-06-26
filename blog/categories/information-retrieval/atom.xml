@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Information Retrieval | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/information-retrieval/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2021-06-18T18:45:54-04:00</updated>
+  <updated>2021-06-26T19:08:42-04:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tabs.do]]></title>
+    <link href="https://joe.cat/tabsdo/"/>
+    <updated>2021-10-10T08:00:00-04:00</updated>
+    <id>https://joe.cat/tabsdo</id>
+    <content type="html"><![CDATA[<p>The nature of people’s online activities has gone through dramatic changes in
+past decades, yet browser interfaces have stayed largely the same since tabs
+were introduced nearly 20 years ago. The divide between browser interfaces that
+only provide affordances for managing individual tabs and users who manage
+their attention at the task level can lead to an "tab overload" problem. We
+explored a task-centric tab manager called which enables users to save their
+open tabs to manage them with task structures and affordances that better
+reflect their mental models. To lower the cost of importing, Tabs.do uses a
+neural network in the browser to make suggestions for grouping users' open tabs
+by tasks.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>The nature of people’s online activities has gone through dramatic changes in
+past decades as significant portions of our productivity and sensemaking tasks
+continue to migrate to “the cloud,” yet browser interfaces have stayed
+largely the same since tabs were introduced nearly 20 years ago. The divide
+between browser interfaces that only provide affordances for managing
+individual tabs and users who manage their attention at the task level can lead
+to serious adverse effects -- commonly referred to as “tab overload.” This
+paper explores the design of a task-centric tab manager called Tabs.do, which
+enables users to import and close their open tabs to manage them as tasks.
+Users can structure and prioritize their tasks to better reflect their mental
+models and resume progress by reopening tasks into open tabs. To lower the cost
+of importing, Tabs.do uses machine learning to make intelligent suggestions for
+grouping users’ open tabs into task bundles with high precision by exploiting
+behavioral and semantic features. Tabs.do bridges the gap between current
+browser designs that treat tabs as stacks of independent webpages and users who
+manage their workflow and attention at the tasks level. We conducted a field
+deployment study where participants used Tabs.do with their real-life tasks and
+tabs in the wild and uncovered insights around the costs, benefits, and
+limitations of a task-centric approach to tab management.</p>
+
+<h2>Downloads</h2>
+
+<p>Coming soon...</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[When the Tab Comes Due]]></title>
@@ -317,93 +364,6 @@ In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
   booktitle = {Proceedings of the 2018 ACM Human-Computer Interaction: CSCW},
   series = {CSCW'18},
   year={2018}
-}
-</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bento Browser]]></title>
-    <link href="https://joe.cat/CHI-bento/"/>
-    <updated>2018-04-21T08:01:00-04:00</updated>
-    <id>https://joe.cat/CHI-bento</id>
-    <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
-make conducting searches on mobile devices especially difficult where screen
-real-estate is limited, and progress can often be interrupted. Rather than
-using tabs to manage information, we introduce browsing through scaffolding.
-Search result lists serve as mutable workspaces where progress can be suspended
-and resumed. BentoBrowser is available for <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download from the iPhone AppStore</a>.</p>
-
-<!--more-->
-
-
-<h2>Abstract</h2>
-
-<p>People engaged in complex searches such as planning a vacation or understanding
-their medical symptoms are often overwhelmed by opening and managing many tabs.
-These challenges are exacerbated as search moves to smartphones and mobile
-devices where screen real-estate is limited and tasks are frequently suspended,
-resumed, and interleaved. Rather than continue to utilize tab-based browsing
-for complex search, we introduce a new way of browsing through a scaffolded
-interface. The list of search results serves as a mutable workspace, where a
-user can track progress on a specific information query. The search query
-serves as a gateway into this workspace, accessed through a task-subtask
-hierarchy. We instantiate this in the Bento mobile search system and
-investigate its effectiveness in three studies. We find converging evidence
-that users were able to make progress on their complex searching tasks with
-this structure, and find it more organized and easier to revisit.</p>
-
-<h2>Install Bento Browser</h2>
-
-<p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
-
-<p><img src="https://joe.cat/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
-
-<p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
-
-<h2>Video Demo</h2>
-
-<p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
-<h2>Media Coverage</h2>
-
-<ul>
-<li>Tech Explorist: <a href="https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/">A new web browser makes it easier to search on mobile devices</a></li>
-<li>THE Journal: <a href="https://thejournal.com/articles/2018/05/02/carnegie-mellons-bento-browser-organizes-complex-mobile-searches.aspx">New Bento Browser Organizes Complex Mobile Searches</a></li>
-<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2018/04/180425093747.htm">Bento browser makes it easier to search on mobile devices</a></li>
-<li>Prikk: <a href="https://www.prikk.world/en/news/wirtschaft/innovation/bento-erleichtert-websuche-auf-mobilgeraten">"BENTO" ERLEICHTERT WEBSUCHE AUF MOBILGERÄTEN</a></li>
-<li>CMU News: <a href="https://www.cmu.edu/news/stories/archives/2018/april/bento-browser.html">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
-<li>CMU HCII: <a href="https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
-</ul>
-
-
-<h2>Downloads</h2>
-
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
-
-<h2>Citation</h2>
-
-<p><code>
-Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
-Bento Browser: Complex Mobile Search Without Tabs.
-In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18).
-ACM, Montreal, QC, Canada.
-</code></p>
-
-<h2>Bibtex</h2>
-
-<p><code>
-@inproceedings{Hahn:2018:Bento,
- author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
- title = {Bento Browser: Complex Mobile Search Without Tabs.},
- booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
- series = {CHI '18},
- year = {2018},
- publisher = {ACM},
- address = {Montreal, QC, Canada},
 }
 </code></p>
 ]]></content>

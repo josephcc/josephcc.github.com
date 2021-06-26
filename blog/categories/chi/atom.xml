@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CHI | Joseph Chee Chang]]></title>
   <link href="https://joe.cat/blog/categories/chi/atom.xml" rel="self"/>
   <link href="https://joe.cat/"/>
-  <updated>2021-06-18T18:45:54-04:00</updated>
+  <updated>2021-06-26T19:08:42-04:00</updated>
   <id>https://joe.cat/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tabs.do]]></title>
+    <link href="https://joe.cat/tabsdo/"/>
+    <updated>2021-10-10T08:00:00-04:00</updated>
+    <id>https://joe.cat/tabsdo</id>
+    <content type="html"><![CDATA[<p>The nature of people’s online activities has gone through dramatic changes in
+past decades, yet browser interfaces have stayed largely the same since tabs
+were introduced nearly 20 years ago. The divide between browser interfaces that
+only provide affordances for managing individual tabs and users who manage
+their attention at the task level can lead to an "tab overload" problem. We
+explored a task-centric tab manager called which enables users to save their
+open tabs to manage them with task structures and affordances that better
+reflect their mental models. To lower the cost of importing, Tabs.do uses a
+neural network in the browser to make suggestions for grouping users' open tabs
+by tasks.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>The nature of people’s online activities has gone through dramatic changes in
+past decades as significant portions of our productivity and sensemaking tasks
+continue to migrate to “the cloud,” yet browser interfaces have stayed
+largely the same since tabs were introduced nearly 20 years ago. The divide
+between browser interfaces that only provide affordances for managing
+individual tabs and users who manage their attention at the task level can lead
+to serious adverse effects -- commonly referred to as “tab overload.” This
+paper explores the design of a task-centric tab manager called Tabs.do, which
+enables users to import and close their open tabs to manage them as tasks.
+Users can structure and prioritize their tasks to better reflect their mental
+models and resume progress by reopening tasks into open tabs. To lower the cost
+of importing, Tabs.do uses machine learning to make intelligent suggestions for
+grouping users’ open tabs into task bundles with high precision by exploiting
+behavioral and semantic features. Tabs.do bridges the gap between current
+browser designs that treat tabs as stacks of independent webpages and users who
+manage their workflow and attention at the tasks level. We conducted a field
+deployment study where participants used Tabs.do with their real-life tasks and
+tabs in the wild and uncovered insights around the costs, benefits, and
+limitations of a task-centric approach to tab management.</p>
+
+<h2>Downloads</h2>
+
+<p>Coming soon...</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[When the Tab Comes Due]]></title>
