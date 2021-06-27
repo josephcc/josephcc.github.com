@@ -5,7 +5,7 @@ subtitle: "Recurrent-Neural-Network for Language Detection on Twitter Code-Switc
 seotitle: "Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus"
 date: 2014-12-22 08:00
 authors: "Joseph Chee Chang, Chu-Cheng Lin."
-venue: "arXiv"
+venue: "arXiv (course final project)"
 comments: true
 toc: true
 lsi: true

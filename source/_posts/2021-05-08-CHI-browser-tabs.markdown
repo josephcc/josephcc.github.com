@@ -5,7 +5,7 @@ subtitle: "Challenges in the Cost Structure of Browser Tab Usage"
 seotitle: "When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage"
 authors: "Joseph Chee Chang, Nathan Hahn, Yongsung Kim, Julina Coupland, Bradley Breneisen, Hannah S Kim, John Hwong, Aniket Kittur."
 venue: "ACM CHI 2021"
-stats: "(N=2844)"
+stats: "(r=26%, N=2845)"
 date: 2021-05-08 08:00
 comments: true
 toc: true
