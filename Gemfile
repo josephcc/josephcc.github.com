@@ -4,8 +4,8 @@ group :development do
   gem 'rake', '~> 0.9.2'
   gem 'rack', '~> 1.4.1'
   gem 'jekyll', '~> 0.11.2'
-  gem 'rdiscount', '~> 1.6.8'
-  gem 'pygments.rb', '~> 0.2.12'
+  gem 'rdiscount', '~> 2.2.0.2'
+  gem 'pygments.rb', '~> 2.0.0'
   gem 'RedCloth', '~> 4.2.9'
   gem 'haml', '~> 3.1.6'
   gem 'compass', '= 0.12.2'
@@ -19,6 +19,7 @@ group :development do
   gem 'bibtex-ruby', '~> 2.1.1'
   gem 'citeproc-ruby', '~> 0.0.6'
   gem 'unicode'
+  gem 'ffi', '~> 1.14.0'
 end
 
 gem 'sinatra', '~> 1.3.2'
