@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CHI | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/chi/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/chi/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tabs.do]]></title>
-    <link href="https://joe.cat/UIST-tabsdo/"/>
+    <link href="http://josephcc.github.com/UIST-tabsdo/"/>
     <updated>2021-10-10T08:00:00-04:00</updated>
-    <id>https://joe.cat/UIST-tabsdo</id>
+    <id>http://josephcc.github.com/UIST-tabsdo</id>
     <content type="html"><![CDATA[<p>The nature of people’s online activities has gone through dramatic changes in
 past decades, yet browser interfaces have stayed largely the same since tabs
 were introduced nearly 20 years ago. The divide between browser interfaces that
@@ -62,9 +62,9 @@ limitations of a task-centric approach to tab management.</p>
   
   <entry>
     <title type="html"><![CDATA[When the Tab Comes Due]]></title>
-    <link href="https://joe.cat/CHI-browser-tabs/"/>
+    <link href="http://josephcc.github.com/CHI-browser-tabs/"/>
     <updated>2021-05-08T08:00:00-04:00</updated>
-    <id>https://joe.cat/CHI-browser-tabs</id>
+    <id>http://josephcc.github.com/CHI-browser-tabs</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/></p>
 
@@ -105,7 +105,7 @@ managing these pressures</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/tabs.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/tabs.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2>Media Coverage</h2>
 
@@ -157,9 +157,9 @@ ACM, New York, NY, USA, 15 pages. DOI: http://dx.doi.org/10.1145/
   
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
-    <link href="https://joe.cat/CHI-bento/"/>
+    <link href="http://josephcc.github.com/CHI-bento/"/>
     <updated>2018-04-21T08:01:00-04:00</updated>
-    <id>https://joe.cat/CHI-bento</id>
+    <id>http://josephcc.github.com/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
 make conducting searches on mobile devices especially difficult where screen
 real-estate is limited, and progress can often be interrupted. Rather than
@@ -190,7 +190,7 @@ this structure, and find it more organized and easier to revisit.</p>
 
 <p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
 
-<p><img src="https://joe.cat/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
+<p><img src="http://josephcc.github.com/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
 
 <p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
 
@@ -215,7 +215,7 @@ this structure, and find it more organized and easier to revisit.</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2>Citation</h2>
 
@@ -242,9 +242,9 @@ ACM, Montreal, QC, Canada.
   
   <entry>
     <title type="html"><![CDATA[Evorus]]></title>
-    <link href="https://joe.cat/CHI-evorus/"/>
+    <link href="http://josephcc.github.com/CHI-evorus/"/>
     <updated>2018-04-21T08:00:00-04:00</updated>
-    <id>https://joe.cat/CHI-evorus</id>
+    <id>http://josephcc.github.com/CHI-evorus</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 Crowd-powered chatbots are robust than current pure AI approach, but can be
@@ -297,7 +297,7 @@ dialog system.</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
 
 <h2>Citation</h2>
@@ -325,9 +325,9 @@ ACM, Montreal, QC, Canada.
   
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
-    <link href="https://joe.cat/CHI-revolt/"/>
+    <link href="http://josephcc.github.com/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
-    <id>https://joe.cat/CHI-revolt</id>
+    <id>http://josephcc.github.com/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
@@ -365,9 +365,9 @@ higher label accuracy with lower monetary cost.</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
-<a class="btn btn-default" href="https://joe.cat/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
+<a class="btn btn-default" href="http://josephcc.github.com/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
 <h2>Citation</h2>
 

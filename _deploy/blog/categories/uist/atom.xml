@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: UIST | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/uist/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/uist/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mesh]]></title>
-    <link href="https://joe.cat/UIST-mesh/"/>
+    <link href="http://josephcc.github.com/UIST-mesh/"/>
     <updated>2020-10-20T08:00:00-04:00</updated>
-    <id>https://joe.cat/UIST-mesh</id>
+    <id>http://josephcc.github.com/UIST-mesh</id>
     <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
 the tens of thousands of online evidence about each of their options.  However,
 to synthesize this information into confident decisions can incur high
@@ -68,7 +68,7 @@ personalized criteria enabling users to gain deeper insights from data.</p>
 
 <h2>Download</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3379337.3415865" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2>Citation</h2>
@@ -93,9 +93,9 @@ In Proceedings of the 33rd ACM User Interface Software and Technology Symposium:
   
   <entry>
     <title type="html"><![CDATA[Intentionally Uncertain Input]]></title>
-    <link href="https://joe.cat/UIST-highlight/"/>
+    <link href="http://josephcc.github.com/UIST-highlight/"/>
     <updated>2016-10-16T08:00:00-04:00</updated>
-    <id>https://joe.cat/UIST-highlight</id>
+    <id>http://josephcc.github.com/UIST-highlight</id>
     <content type="html"><![CDATA[<p>Highlighting can be mentally taxing for learners who are often unsure about how
 much information they needed to include.  We introduce the idea of
 intentionally uncertain input in the context of highlighting on mobile devices.
@@ -138,7 +138,7 @@ by participants over the default system text selection method.</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2>Citation</h2>

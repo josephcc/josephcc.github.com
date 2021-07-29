@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: pre-print | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/pre-print/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/pre-print/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Twitter Code-Switching]]></title>
-    <link href="https://joe.cat/arXiv-twitter-code-switching/"/>
+    <link href="http://josephcc.github.com/arXiv-twitter-code-switching/"/>
     <updated>2014-12-22T08:00:00-05:00</updated>
-    <id>https://joe.cat/arXiv-twitter-code-switching</id>
+    <id>http://josephcc.github.com/arXiv-twitter-code-switching</id>
     <content type="html"><![CDATA[<p>Code-switching behavior is a common phenomenon on social media to express
 solidarity or establish authority. While past work on automatic code-switching
 detection depends on dictionary look-up or named-entity recognition, our

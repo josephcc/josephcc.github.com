@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: kernel | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/kernel/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/kernel/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Module debugging with gdb]]></title>
-    <link href="https://joe.cat/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
+    <link href="http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
     <updated>2011-12-05T21:12:00-05:00</updated>
-    <id>https://joe.cat/linux-kernel-dev-module-debugging-gdb-kdgb</id>
+    <id>http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb</id>
     <content type="html"><![CDATA[<p>This is post continues my previous post on
 <a href="http://joe.cat/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
 and explain how to do the same for debugging kernel modules.</p>
@@ -81,9 +81,9 @@ height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
   
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Hooking System Calls on 2.6+]]></title>
-    <link href="https://joe.cat/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
+    <link href="http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
     <updated>2011-10-23T22:03:00-04:00</updated>
-    <id>https://joe.cat/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
+    <id>http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
     <content type="html"><![CDATA[<p>This post explains how to add, or override, system calls by loading custom
 kernel modules using system call hooking techniques. This
 is sometimes called system call hijacking, and is used by viruses and rootkits.</p>
@@ -216,9 +216,9 @@ hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http:/
   
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Debugging with QEMU and kgdb]]></title>
-    <link href="https://joe.cat/linux-kernel-dev-debug-qemu-kgdb/"/>
+    <link href="http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb/"/>
     <updated>2011-10-17T07:49:00-04:00</updated>
-    <id>https://joe.cat/linux-kernel-dev-debug-qemu-kgdb</id>
+    <id>http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb</id>
     <content type="html"><![CDATA[<p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
 the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and
 KGDB for real-time kernel debugging.</p>

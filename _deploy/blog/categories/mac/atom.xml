@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: mac | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/mac/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/mac/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Git: Displaying commit tree with NerdTool]]></title>
-    <link href="https://joe.cat/nerdtool-commit-tree/"/>
+    <link href="http://josephcc.github.com/nerdtool-commit-tree/"/>
     <updated>2011-11-30T17:26:00-05:00</updated>
-    <id>https://joe.cat/nerdtool-commit-tree</id>
+    <id>http://josephcc.github.com/nerdtool-commit-tree</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/bizkit/6291809011/" title="P1030408 by bizkit@tw, on Flickr"><img
 src="http://farm7.staticflickr.com/6233/6291809011_58ca7d80bc.jpg" width="500" height="347"
 alt="P1030408"></a></p>

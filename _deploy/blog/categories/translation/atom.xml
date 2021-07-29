@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Translation | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/translation/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/translation/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[TermMine]]></title>
-    <link href="https://joe.cat/ACL-termmine/"/>
+    <link href="http://josephcc.github.com/ACL-termmine/"/>
     <updated>2012-07-08T08:00:00-04:00</updated>
-    <id>https://joe.cat/ACL-termmine</id>
+    <id>http://josephcc.github.com/ACL-termmine</id>
     <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
 translation pairs of terms from the web. We used a small set of terms and
 translations to gather mixed-code text from the web to train a CRF model that

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Classification | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/classification/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/classification/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
-    <link href="https://joe.cat/CHI-revolt/"/>
+    <link href="http://josephcc.github.com/CHI-revolt/"/>
     <updated>2017-05-06T08:00:00-04:00</updated>
-    <id>https://joe.cat/CHI-revolt</id>
+    <id>http://josephcc.github.com/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
 to identify ambiguous concepts in the data and coordinates the crowd to
@@ -55,9 +55,9 @@ higher label accuracy with lower monetary cost.</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
-<a class="btn btn-default" href="https://joe.cat/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
+<a class="btn btn-default" href="http://josephcc.github.com/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
 
 <h2>Citation</h2>
 

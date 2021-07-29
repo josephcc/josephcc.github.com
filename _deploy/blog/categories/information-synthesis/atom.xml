@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Information Synthesis | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/information-synthesis/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/information-synthesis/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Alloy]]></title>
-    <link href="https://joe.cat/CHI-alloy/"/>
+    <link href="http://josephcc.github.com/CHI-alloy/"/>
     <updated>2016-05-07T08:00:00-04:00</updated>
-    <id>https://joe.cat/CHI-alloy</id>
+    <id>http://josephcc.github.com/CHI-alloy</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 <strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
@@ -51,7 +51,7 @@ to stitch together different types of judgment tasks.</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
 
 <h2>Media Coverage</h2>
@@ -106,9 +106,9 @@ ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.285841
   
   <entry>
     <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
-    <link href="https://joe.cat/CHI-ka/"/>
+    <link href="http://josephcc.github.com/CHI-ka/"/>
     <updated>2016-05-07T07:00:00-04:00</updated>
-    <id>https://joe.cat/CHI-ka</id>
+    <id>http://josephcc.github.com/CHI-ka</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
 Answering complex questions such as "How do I grow better tomatoes?" often
@@ -139,7 +139,7 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2>Media Coverage</h2>

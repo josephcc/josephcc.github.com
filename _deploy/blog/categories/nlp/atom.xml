@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: NLP | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/nlp/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/nlp/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Twitter Code-Switching]]></title>
-    <link href="https://joe.cat/arXiv-twitter-code-switching/"/>
+    <link href="http://josephcc.github.com/arXiv-twitter-code-switching/"/>
     <updated>2014-12-22T08:00:00-05:00</updated>
-    <id>https://joe.cat/arXiv-twitter-code-switching</id>
+    <id>http://josephcc.github.com/arXiv-twitter-code-switching</id>
     <content type="html"><![CDATA[<p>Code-switching behavior is a common phenomenon on social media to express
 solidarity or establish authority. While past work on automatic code-switching
 detection depends on dictionary look-up or named-entity recognition, our
@@ -73,9 +73,9 @@ arXiv preprint arXiv:1412.4314 (2014).
   
   <entry>
     <title type="html"><![CDATA[A Hangman Game Solver based on Language Models]]></title>
-    <link href="https://joe.cat/hangman/"/>
+    <link href="http://josephcc.github.com/hangman/"/>
     <updated>2012-11-04T21:14:00-05:00</updated>
-    <id>https://joe.cat/hangman</id>
+    <id>http://josephcc.github.com/hangman</id>
     <content type="html"><![CDATA[<p>I've recently wrote a program for solving sentence-based hangman game automatically. Here's a post
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a>
 language model and hidden Markov model.</p>
@@ -326,9 +326,9 @@ stages as different strategies and use genetic algorithm to apply them alternate
   
   <entry>
     <title type="html"><![CDATA[TermMine]]></title>
-    <link href="https://joe.cat/ACL-termmine/"/>
+    <link href="http://josephcc.github.com/ACL-termmine/"/>
     <updated>2012-07-08T08:00:00-04:00</updated>
-    <id>https://joe.cat/ACL-termmine</id>
+    <id>http://josephcc.github.com/ACL-termmine</id>
     <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
 translation pairs of terms from the web. We used a small set of terms and
 translations to gather mixed-code text from the web to train a CRF model that
@@ -383,9 +383,9 @@ Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
   
   <entry>
     <title type="html"><![CDATA[WikiSense]]></title>
-    <link href="https://joe.cat/wikisense/"/>
+    <link href="http://josephcc.github.com/wikisense/"/>
     <updated>2009-12-03T08:00:00-05:00</updated>
-    <id>https://joe.cat/wikisense</id>
+    <id>http://josephcc.github.com/wikisense</id>
     <content type="html"><![CDATA[<p>We introduced a method for classifying named-entities into broad semantic
 categories in WordNet. We extracted rich features from Wikipedia, allowing us
 to classify named-entities with high precision and coverage. The result is a

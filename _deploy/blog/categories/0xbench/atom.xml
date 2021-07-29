@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 0xbench | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/0xbench/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/0xbench/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Introducing 0xbench]]></title>
-    <link href="https://joe.cat/introducing-0xbench/"/>
+    <link href="http://josephcc.github.com/introducing-0xbench/"/>
     <updated>2011-08-13T21:38:00-04:00</updated>
-    <id>https://joe.cat/introducing-0xbench</id>
+    <id>http://josephcc.github.com/introducing-0xbench</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/bizkit/4898571830/"
 title="4898520412_4f9ba92569_b by bizkit@tw, on Flickr"><img
 src="http://farm5.staticflickr.com/4115/4898571830_372a9599a5.jpg" width="500"

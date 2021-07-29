@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CSCW | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/cscw/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/cscw/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
-    <link href="https://joe.cat/CSCW-solvent/"/>
+    <link href="http://josephcc.github.com/CSCW-solvent/"/>
     <updated>2018-11-03T08:00:00-04:00</updated>
-    <id>https://joe.cat/CSCW-solvent</id>
+    <id>http://josephcc.github.com/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
 unfamiliar domains as search engines poorly support it. We introduce Solvent, a
@@ -50,7 +50,7 @@ research communities.</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2>Citation</h2>
 

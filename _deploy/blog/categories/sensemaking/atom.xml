@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Sensemaking | Joseph Chee Chang]]></title>
-  <link href="https://joe.cat/blog/categories/sensemaking/atom.xml" rel="self"/>
-  <link href="https://joe.cat/"/>
-  <updated>2021-07-29T10:12:12-04:00</updated>
-  <id>https://joe.cat/</id>
+  <link href="http://josephcc.github.com/blog/categories/sensemaking/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-07-29T10:21:38-04:00</updated>
+  <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
     <email><![CDATA[josephcc@cmu.edu]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tabs.do]]></title>
-    <link href="https://joe.cat/UIST-tabsdo/"/>
+    <link href="http://josephcc.github.com/UIST-tabsdo/"/>
     <updated>2021-10-10T08:00:00-04:00</updated>
-    <id>https://joe.cat/UIST-tabsdo</id>
+    <id>http://josephcc.github.com/UIST-tabsdo</id>
     <content type="html"><![CDATA[<p>The nature of people’s online activities has gone through dramatic changes in
 past decades, yet browser interfaces have stayed largely the same since tabs
 were introduced nearly 20 years ago. The divide between browser interfaces that
@@ -62,9 +62,9 @@ limitations of a task-centric approach to tab management.</p>
   
   <entry>
     <title type="html"><![CDATA[When the Tab Comes Due]]></title>
-    <link href="https://joe.cat/CHI-browser-tabs/"/>
+    <link href="http://josephcc.github.com/CHI-browser-tabs/"/>
     <updated>2021-05-08T08:00:00-04:00</updated>
-    <id>https://joe.cat/CHI-browser-tabs</id>
+    <id>http://josephcc.github.com/CHI-browser-tabs</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/></p>
 
@@ -105,7 +105,7 @@ managing these pressures</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/tabs.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/tabs.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2>Media Coverage</h2>
 
@@ -157,9 +157,9 @@ ACM, New York, NY, USA, 15 pages. DOI: http://dx.doi.org/10.1145/
   
   <entry>
     <title type="html"><![CDATA[Mesh]]></title>
-    <link href="https://joe.cat/UIST-mesh/"/>
+    <link href="http://josephcc.github.com/UIST-mesh/"/>
     <updated>2020-10-20T08:00:00-04:00</updated>
-    <id>https://joe.cat/UIST-mesh</id>
+    <id>http://josephcc.github.com/UIST-mesh</id>
     <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
 the tens of thousands of online evidence about each of their options.  However,
 to synthesize this information into confident decisions can incur high
@@ -210,7 +210,7 @@ personalized criteria enabling users to gain deeper insights from data.</p>
 
 <h2>Download</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3379337.3415865" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2>Citation</h2>
@@ -235,9 +235,9 @@ In Proceedings of the 33rd ACM User Interface Software and Technology Symposium:
   
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
-    <link href="https://joe.cat/IUI-searchlens/"/>
+    <link href="http://josephcc.github.com/IUI-searchlens/"/>
     <updated>2019-03-17T08:00:00-04:00</updated>
-    <id>https://joe.cat/IUI-searchlens</id>
+    <id>http://josephcc.github.com/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, reviews and forum posts are often a significant factor in
 online decision making. However, making sense of these rich repositories of
@@ -277,7 +277,7 @@ participants found benefits in SearchLens while conducting their own tasks.</p>
 
 <h2>Download</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
 <a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a></p>
 
 <h2>Citation</h2>
@@ -302,9 +302,9 @@ In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Inter
   
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
-    <link href="https://joe.cat/CSCW-solvent/"/>
+    <link href="http://josephcc.github.com/CSCW-solvent/"/>
     <updated>2018-11-03T08:00:00-04:00</updated>
-    <id>https://joe.cat/CSCW-solvent</id>
+    <id>http://josephcc.github.com/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
 unfamiliar domains as search engines poorly support it. We introduce Solvent, a
@@ -337,7 +337,7 @@ research communities.</p>
 
 <h2>Downloads</h2>
 
-<p><a class="btn btn-default" href="https://joe.cat/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
 
 <h2>Citation</h2>
 
