@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Git: Displaying commit tree with NerdTool - Joseph Chee Chang</title>
+  <meta name="author" content="Joseph Chee Chang">
+  <link rel="author" href="humans.txt">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  
+    
+  
+  
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://joe.cat/nerdtool-commit-tree/">
+  <link rel="icon" type="image/png"  href="/favicon.png">
+  <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/custom/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Joseph Chee Chang" type="application/atom+xml">
+  <meta name="og:type" content="website" />
+  <meta name="og:site_name" content="Joseph Chee Chang" />
+  <meta name="og:title" content="Git: Displaying commit tree with NerdTool" />
+  <meta name="og:url" content="https://joe.cat/nerdtool-commit-tree/"/>
+  <meta name="url" content="https://joe.cat/nerdtool-commit-tree/">
+  
+  <meta name="subject" content="gitmac"/>
+  <meta name="category" content="gitmac"/>
+  
+  <meta name="distribution" content="global">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+</script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src='https://www.googletagmanager.com/gtag/js?id=UA-345192-22'></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-345192-22');
+	</script>
+
+
+  <script src="https://use.fontawesome.com/13f8def07e.js"></script>
+</head>
+
+<body   >
+  <nav role="navigation"><div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="/">Joseph Chee Chang</a>
+    <ul class="nav">
+      <li><a href="/">Research</a></li>
+      <li><a href="/curriculum-vitae/">Resume</a></li>
+      <li><a href="/portfolio/">Random</a></li>
+    </ul>
+    
+  </div>
+</div>
+</nav>
+  <div class="wrapper_single">
+    <div class="container">
+      <article class="span10 offset1" role="article">
+        <div class="article-format">
+
+
+  <header>
+    
+      <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>Git: Displaying Commit Tree With NerdTool</h1>
+      <h1 class="entry-title" style='font-size: 1.6em; margin-bottom: 20px;'></h1>
+    
+  </header>
+
+
+
+  <div style='margin-bottom: 18px; margin-top: -18px; color: gray;'>
+    
+    <span style='font-weight: bold;'></span> 
+  </div>
+  <div class="entry-content">
+    
+    <p><a href="http://www.flickr.com/photos/bizkit/6291809011/" title="P1030408 by bizkit@tw, on Flickr"><img
+src="http://farm7.staticflickr.com/6233/6291809011_58ca7d80bc.jpg" width="500" height="347"
+alt="P1030408"></a></p>
+
+<p>I was in a private hackathon with <a href="http://www.facebook.com/itsftt">ftt</a> and
+<a href="http://www.facebook.com/itszero">Zero</a> last weekend, coding a new Android Taipei tour guide app, and we
+were looking for a way to display in real-time our commit tree on a big screen. We ended up using
+NerdTool to render the commit tree. Not only did the result looks pretty cool, it has also proven to be
+quite helpful when trying to rebase/merge different branches.</p>
+
+<!-- more -->
+
+
+<p>這幾天和 ftt 跟 傑洛 聚在一起 hackthon ， 想了一個方法用大螢幕即時顯示 git 的 commit
+tree，看起來很有趣， 在 merge 不同 branch 的時候也十分實用。 我們用的程式是 NerdTool，它跟 GeekTool
+類似， 是一個可以把任一 command 的 output 顯示在桌面上。 我最早是在 LifeHacker 發現的， 最大的差別在
+NerdTool 可以正確的顯示 ASCII colors。</p>
+
+<p><a href="http://mutablecode.com/apps/nerdtool">NerdTool</a> is an application that allows you to display shell
+script output on your desktop, and unlike the popular
+<a href="http://projects.tynsoe.org/en/geektool/">GeekTool</a>, NerdTool support ASCII colors.</p>
+
+<p><a href="http://www.flickr.com/photos/bizkit/6291810655/" title="P1030409 by bizkit@tw, on Flickr"><img
+src="http://farm7.staticflickr.com/6219/6291810655_0dbd160a39.jpg" width="500" height="375"
+alt="P1030409"></a></p>
+
+<p>So we&#8217;ve clone an additional copy of our git repo from BitBucket, and set NerdTool to run <code>git pull</code> and
+<code>git log</code> every five seconds:</p>
+
+<p>我們先從 bitbucket 上另外 clone 了一份 repo 下來專門用來 watch commit 的變動， 接著讓 NerdTool
+三秒跑一次 git pull 並用樹狀圖顯示 log 在桌面上：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span><span class="nb">cd</span> ~/.gitwatch/&lt;repo_name&gt; <span class="p">;</span>
+</span><span class='line'>git pull <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span> &gt; /dev/null <span class="p">;</span>
+</span><span class='line'>date <span class="p">;</span>
+</span><span class='line'>git logpretty <span class="p">|</span> head -47
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><a href="http://www.flickr.com/photos/bizkit/6291827075/" title="Screen Shot 2011-10-30 at 2.11.47 AM by
+bizkit@tw, on Flickr"><img src="http://farm7.staticflickr.com/6056/6291827075_442edc4367.jpg"
+width="500" height="461" alt="Screen Shot 2011-10-30 at 2.11.47 AM"></a></p>
+
+<p><code>git logpretty</code> is my git alias, setup as following:
+git 設定的 alias:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span><span class="nv">logpretty</span> <span class="o">=</span> log --abbrev-commit <span class="se">\ </span>
+</span><span class='line'>--decorate --graph --color --date-order <span class="se">\</span>
+</span><span class='line'>--pretty<span class="o">=</span> <span class="se">\ </span>
+</span><span class='line'><span class="s2">&quot;format:%Cblue%h\%Cred%an:%Creset\&quot;%Cgreen%s%Cblue\&quot;\ %Creset%ar&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The final result:</p>
+
+<p><a href="http://www.flickr.com/photos/bizkit/6291957695/" title="gggg by bizkit@tw, on Flickr"><img
+src="http://farm7.staticflickr.com/6226/6291957695_915e406f17_z.jpg" width="640" height="400"
+alt="gggg"></a></p>
+
+  </div>
+
+<br/>
+
+
+
+
+
+  <footer>
+    <p class="meta" style='margin-bottom: 0px;'>
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-30T17:26:00-05:00" pubdate data-updated="true">Nov 30<span>th</span>, 2011</time> - 
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/mac/'>mac</a>
+  
+</span>
+
+
+    </p>
+  </footer>
+
+</div>
+
+
+          
+          </div>
+
+      </article>
+    </div>
+  </div>
+  <div id="footer-widgets">
+  <div class="container">
+    <div id='contact' class="row">
+  <div class="span2">
+    
+<h2>contact</h2>
+<a href="emailjosephcc@cmu.edu">josephcc@cmu.edu</a>
+
+
+<h2>found on</h2>
+
+<a href="https://github.com/josephcc/" rel="tooltip" title="Github"><img class="social_icon" title="Github" alt="github icon" src="/images/glyphicons_381_github.png"></a>
+
+
+
+
+
+<a href="http://www.linkedin.com/in/josephcheechang" rel="tooltip" title="Linkedin"><img class="social_icon" title="Linkedin" alt="Linkedin icon" src="/images/glyphicons_377_linked_in.png"></a>
+
+
+
+<a href="http://twitter.com/josephcc" rel="tooltip" title="Twitter"><img class="social_icon" title="Twitter" alt="Twitter icon" src="/images/glyphicons_391_twitter_t.png"></a>
+
+
+
+
+
+
+
+  </div>
+  <div class="span7">
+    <h2>recent activities</h2>
+<table class='activity'>
+  <tr><th>May 8, 2021</th><th>SIGCHI - online. Best Paper Honorable Mentions Award.</th></tr>
+  <tr><th>Oct 20, 2020</th><th>UIST - online.</th></tr>
+  <tr><th>Mar 16, 2019</th><th>IUI - Los Angeles, California.</th></tr>
+  <tr><th>Apr 21, 2018</th><th>SIGCHI - Montreal, Canada. Best Paper Honorable Mentions Award.</th></tr>
+  <tr><th>May 8, 2017</th><th>SIGCHI - Denver, Colorado.</th></tr>
+  <tr><th>Oct 30, 2016</th><th>HCOMP - Austin, Texas. Invited Talk.</th></tr>
+  <tr><th>Oct 16, 2016</th><th>UIST - Tokyo, Japan.</th></tr>
+  <tr><th>May 16, 2016</th><th>Microsoft Research Internship - Redmond, Washington.</th></tr>
+  <tr><th>May 7, 2016</th><th>SIGCHI - San Jose, California. Best Paper Honorable Mentions Award x2.</th></tr>
+  <tr><th>Mar 13 2016</th><th>CHIIR (student volunteer) - Chapel Hill, North Carolina.</th></tr>
+</table>
+
+  </div>
+  <div class="span3">
+    <h2>random</h2>
+
+- Here's <a href='/portfolio' target='_blank'>a list</a> of selected fun projects I did (mostly) before grad school.<br/>
+- I like taking pictures. You can find some of them on my <a href='http://josephcc.500px.com/' target='_blank'>500px page</a>.
+
+
+  </div>
+</div>
+
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-left">
+  <a href="/">Joseph Chee Chang</a>
+  - Copyright &copy; 2021 - Joseph Chee Chang
+</p>
+<p class="pull-right">
+  <span>Powered by <a href="http://git-scm.com">Git</a>, <a href="http://github.com/">GitHub</a> and <a href="http://octopress.org/">Octopress</a>.</span>
+  
+</p>
+
+  </div>
+</footer>
+
+  <script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"><\/script>')</script>
+<script src="/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.tweet.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.instagram.js" type="text/javascript"></script>
+<script src="/javascripts/libs/jquery.masonry.min.js" type="text/javascript"></script>
+<script src="/javascripts/libs/particles.min.js" type="text/javascript"></script>
+<script src="/javascripts/custom.js" type="text/javascript"></script>
+<script src="/javascripts/IE9_fix_for_imagesLoaded_plugin_issue.js" type="text/javascript"></script>
+
+<script src="/javascripts/jquery.qtip-1.0.0-rc3.min.js" type="text/javascript"></script>
+<script src="/javascripts/bibtex-popup.js" type="text/javascript"></script>
+<script src="/javascripts/portfolio.js" type="text/javascript"></script>
+
+<!-- styles needed by jScrollPane -->
+<link type="text/css" href="/javascripts/jScrollPane/style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!-- the mousewheel plugin - optional to provide mousewheel support -->
+<script type="text/javascript" src="/javascripts/jScrollPane/script/jquery.mousewheel.js"></script>
+
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="/javascripts/jScrollPane/script/jquery.jscrollpane.min.js"></script>
+
+<script src="/javascripts/libs/particles.min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    bindBibtexQtips();
+  });
+
+  var hero = document.getElementById('hero')
+  if (hero !== undefined && hero !== null) {
+    particlesJS.load('hero', '/javascripts/libs/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>WikiSense: Supersense Tagging Named Entities on Wikipedia - Joseph Chee Chang</title>
+  <meta name="author" content="Joseph Chee Chang">
+  <link rel="author" href="humans.txt">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  
+    
+  
+  
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://joe.cat/wikisense/">
+  <link rel="icon" type="image/png"  href="/favicon.png">
+  <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/custom/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Joseph Chee Chang" type="application/atom+xml">
+  <meta name="og:type" content="website" />
+  <meta name="og:site_name" content="Joseph Chee Chang" />
+  <meta name="og:title" content="WikiSense" />
+  <meta name="og:url" content="https://joe.cat/wikisense/"/>
+  <meta name="url" content="https://joe.cat/wikisense/">
+  
+  <meta name="subject" content="Information ExtractionMachine LearningNLPPACLIC"/>
+  <meta name="category" content="Information ExtractionMachine LearningNLPPACLIC"/>
+  
+  <meta name="distribution" content="global">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+</script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src='https://www.googletagmanager.com/gtag/js?id=UA-345192-22'></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-345192-22');
+	</script>
+
+
+  <script src="https://use.fontawesome.com/13f8def07e.js"></script>
+</head>
+
+<body   >
+  <nav role="navigation"><div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="/">Joseph Chee Chang</a>
+    <ul class="nav">
+      <li><a href="/">Research</a></li>
+      <li><a href="/curriculum-vitae/">Resume</a></li>
+      <li><a href="/portfolio/">Random</a></li>
+    </ul>
+    
+  </div>
+</div>
+</nav>
+  <div class="wrapper_single">
+    <div class="container">
+      <article class="span10 offset1" role="article">
+        <div class="article-format">
+
+
+  <header>
+    
+      <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>WikiSense</h1>
+      <h1 class="entry-title" style='font-size: 1.6em; margin-bottom: 20px;'>Supersense Tagging Named Entities on Wikipedia</h1>
+    
+  </header>
+
+
+
+  <div style='margin-bottom: 18px; margin-top: -18px; color: gray;'>
+    Joseph Chee Chang, Richard Tsai, Jason S. Chang.
+    <span style='font-weight: bold;'>PACLIC 2009</span> 
+  </div>
+  <div class="entry-content">
+    
+    <p>We introduced a method for classifying named-entities into broad semantic
+categories in WordNet. We extracted rich features from Wikipedia, allowing us
+to classify named-entities with high precision and coverage. The result is a
+large scale named-entity semantic database with 1.2 million entries and over
+95% accuracy, covering 80% of all named-entities found on Wikipedia.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>In this paper, we introduce a minimally supervised method for learning to
+classify named-entity titles in a given encyclopedia into broad semantic
+categories in an existing ontology. Our main idea involves using overlapping
+entries in the encyclopedia and ontology and a small set of 30 handed tagged
+parenthetic explanations to automatically generate the training data. The
+proposed method involves automatically recognizing whether a title is a named
+entity, automatically generating two sets of training data, and automatically
+building a classification model for training a classification model based on
+textual and non-textual features. We present WikiSense, an implementation of
+the proposed method for extending the named entity coverage of WordNet by sense
+tagging Wikipedia titles. Experimental results show WikiSense achieves accuracy
+of over 95% and near 80% applicability for all NE titles in Wikipedia.
+WikiSense cleanly produces over 1.2 million of NEs tagged with broad
+categories, based on the lexicographers’ files of WordNet, effectively
+extending WordNet to form a very large scale semantic category, a potentially
+useful resource for many natural language related tasks.</p>
+
+<h2>Demo</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>WikiID    Supersense     PE          NE                                   Note
+</span><span class='line'>----------------------------------------------------------------------------------------------
+</span><span class='line'>11983070  person         None        Johnny Cash                          singer
+</span><span class='line'>203407    person         None        Celine Dion                          singer
+</span><span class='line'>2773076   group          None        Guns N' Roses                        band
+</span><span class='line'>
+</span><span class='line'>945778    location       None        Hsinchu Science and Industrial Park
+</span><span class='line'>951038    location       None        Linbian, Pingtung                    name of city
+</span><span class='line'>
+</span><span class='line'>19299838  communication  None        Cape No. 7                           movie
+</span><span class='line'>543675    person         None        Jay Chou                             singer
+</span><span class='line'>
+</span><span class='line'>1374293   group          None        National Chung Hsing University
+</span><span class='line'>2012972   group          None        Yuan Ze University
+</span><span class='line'>
+</span><span class='line'>412376    animal         butterfly   Queen                                namd of speices
+</span><span class='line'>42010     group          band        Queen                                name of band
+</span><span class='line'>10309519  communication  magazine    Queen                                name of maagazine
+</span><span class='line'>559004    artifcact      automobile  Queen                                car model name
+</span><span class='line'>718750    communication  album       Queen                                music album
+</span><span class='line'>570546    person         Snow White  Queen                                fictional character
+</span><span class='line'>130425    artifcact      TTC         Queen                                subway station
+</span><span class='line'>----------------------------------------------------------------------------------------------</span></code></pre></td></tr></table></div></figure>
+
+
+<p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Chang, J., Tsai, R. T.-H., & Chang, J. S. (2009).
+</span><span class='line'>WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
+</span><span class='line'>In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
+</span><span class='line'>Hong Kong, China. </span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang-EtAl:2009:PACLIC2009,
+</span><span class='line'>  author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
+</span><span class='line'>  title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
+</span><span class='line'>  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)},
+</span><span class='line'>  year = {2009},
+</span><span class='line'>  month = {dec},
+</span><span class='line'>  address = {Hong Kong, China},
+</span><span class='line'>  pages = {72--81},
+</span><span class='line'>  url = {http://www.aclweb.org/anthology/Y09-1009}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+
+  </div>
+
+<br/>
+
+
+
+
+
+  <footer>
+    <p class="meta" style='margin-bottom: 0px;'>
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-12-03T08:00:00-05:00" pubdate data-updated="true">Dec 3<span>rd</span>, 2009</time> - 
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/information-extraction/'>Information Extraction</a>, <a class='category' href='/blog/categories/machine-learning/'>Machine Learning</a>, <a class='category' href='/blog/categories/nlp/'>NLP</a>, <a class='category' href='/blog/categories/paclic/'>PACLIC</a>
+  
+</span>
+
+
+    </p>
+  </footer>
+
+</div>
+
+
+          
+          </div>
+
+      </article>
+    </div>
+  </div>
+  <div id="footer-widgets">
+  <div class="container">
+    <div id='contact' class="row">
+  <div class="span2">
+    
+<h2>contact</h2>
+<a href="emailjosephcc@cmu.edu">josephcc@cmu.edu</a>
+
+
+<h2>found on</h2>
+
+<a href="https://github.com/josephcc/" rel="tooltip" title="Github"><img class="social_icon" title="Github" alt="github icon" src="/images/glyphicons_381_github.png"></a>
+
+
+
+
+
+<a href="http://www.linkedin.com/in/josephcheechang" rel="tooltip" title="Linkedin"><img class="social_icon" title="Linkedin" alt="Linkedin icon" src="/images/glyphicons_377_linked_in.png"></a>
+
+
+
+<a href="http://twitter.com/josephcc" rel="tooltip" title="Twitter"><img class="social_icon" title="Twitter" alt="Twitter icon" src="/images/glyphicons_391_twitter_t.png"></a>
+
+
+
+
+
+
+
+  </div>
+  <div class="span7">
+    <h2>recent activities</h2>
+<table class='activity'>
+  <tr><th>May 8, 2021</th><th>SIGCHI - online. Best Paper Honorable Mentions Award.</th></tr>
+  <tr><th>Oct 20, 2020</th><th>UIST - online.</th></tr>
+  <tr><th>Mar 16, 2019</th><th>IUI - Los Angeles, California.</th></tr>
+  <tr><th>Apr 21, 2018</th><th>SIGCHI - Montreal, Canada. Best Paper Honorable Mentions Award.</th></tr>
+  <tr><th>May 8, 2017</th><th>SIGCHI - Denver, Colorado.</th></tr>
+  <tr><th>Oct 30, 2016</th><th>HCOMP - Austin, Texas. Invited Talk.</th></tr>
+  <tr><th>Oct 16, 2016</th><th>UIST - Tokyo, Japan.</th></tr>
+  <tr><th>May 16, 2016</th><th>Microsoft Research Internship - Redmond, Washington.</th></tr>
+  <tr><th>May 7, 2016</th><th>SIGCHI - San Jose, California. Best Paper Honorable Mentions Award x2.</th></tr>
+  <tr><th>Mar 13 2016</th><th>CHIIR (student volunteer) - Chapel Hill, North Carolina.</th></tr>
+</table>
+
+  </div>
+  <div class="span3">
+    <h2>random</h2>
+
+- Here's <a href='/portfolio' target='_blank'>a list</a> of selected fun projects I did (mostly) before grad school.<br/>
+- I like taking pictures. You can find some of them on my <a href='http://josephcc.500px.com/' target='_blank'>500px page</a>.
+
+
+  </div>
+</div>
+
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-left">
+  <a href="/">Joseph Chee Chang</a>
+  - Copyright &copy; 2021 - Joseph Chee Chang
+</p>
+<p class="pull-right">
+  <span>Powered by <a href="http://git-scm.com">Git</a>, <a href="http://github.com/">GitHub</a> and <a href="http://octopress.org/">Octopress</a>.</span>
+  
+</p>
+
+  </div>
+</footer>
+
+  <script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"><\/script>')</script>
+<script src="/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.tweet.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.instagram.js" type="text/javascript"></script>
+<script src="/javascripts/libs/jquery.masonry.min.js" type="text/javascript"></script>
+<script src="/javascripts/libs/particles.min.js" type="text/javascript"></script>
+<script src="/javascripts/custom.js" type="text/javascript"></script>
+<script src="/javascripts/IE9_fix_for_imagesLoaded_plugin_issue.js" type="text/javascript"></script>
+
+<script src="/javascripts/jquery.qtip-1.0.0-rc3.min.js" type="text/javascript"></script>
+<script src="/javascripts/bibtex-popup.js" type="text/javascript"></script>
+<script src="/javascripts/portfolio.js" type="text/javascript"></script>
+
+<!-- styles needed by jScrollPane -->
+<link type="text/css" href="/javascripts/jScrollPane/style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!-- the mousewheel plugin - optional to provide mousewheel support -->
+<script type="text/javascript" src="/javascripts/jScrollPane/script/jquery.mousewheel.js"></script>
+
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="/javascripts/jScrollPane/script/jquery.jscrollpane.min.js"></script>
+
+<script src="/javascripts/libs/particles.min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    bindBibtexQtips();
+  });
+
+  var hero = document.getElementById('hero')
+  if (hero !== undefined && hero !== null) {
+    particlesJS.load('hero', '/javascripts/libs/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

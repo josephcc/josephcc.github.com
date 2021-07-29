@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: UIST | Joseph Chee Chang]]></title>
+  <link href="https://joe.cat/blog/categories/uist/atom.xml" rel="self"/>
+  <link href="https://joe.cat/"/>
+  <updated>2021-07-29T10:12:12-04:00</updated>
+  <id>https://joe.cat/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mesh]]></title>
+    <link href="https://joe.cat/UIST-mesh/"/>
+    <updated>2020-10-20T08:00:00-04:00</updated>
+    <id>https://joe.cat/UIST-mesh</id>
+    <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
+the tens of thousands of online evidence about each of their options.  However,
+to synthesize this information into confident decisions can incur high
+interaction and cognitive costs. Online information is scattered across
+different sources, and evidence such as reviews can be subjective and
+conflicting, requiring users to interpret them under their personal context. We
+introduce Mesh, which scaffolds users in iteratively building up a better
+understanding of both their choices by evaluating evidence gathered across
+sources. Lab and field deployment studies found that Mesh significantly reduces
+the costs of gathering and evaluating evidence and scaffolds decision-making
+through personalized criteria enabling users to gain deeper insights from data
+to make confident purchase decisions.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>While there is an enormous amount of information online for making decisions
+such as choosing a product, restaurant, or school, it can be costly for users
+to synthesize that information into confident decisions. Information for users'
+many different criteria needs to be gathered from many different sources into a
+structure where they can be compared and contrasted. The usefulness of each
+criterion for differentiating potential options can be opaque to users, and
+evidence such as reviews may be subjective and conflicting, requiring users to
+interpret each under their personal context. We introduce Mesh, which
+scaffolds users in iteratively building up a better understanding of both their
+criteria and options by evaluating evidence gathered across sources in the
+context of consumer decision making. Mesh bridges the gap between decision
+support systems that typically have rigid structures and the fluid and dynamic
+process of exploratory search, changing the cost structure to provide
+increasing payoffs with greater user investment. Our lab and field deployment
+studies found evidence that Mesh significantly reduces the costs of
+gathering and evaluating evidence and scaffolds decision-making through
+personalized criteria enabling users to gain deeper insights from data.</p>
+
+<h2>Video Figure</h2>
+
+<h4>5-minute virtual conference presentation</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LNASh9rq9-I?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h4>3-minute video abstract</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NqriHlTfVhU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3379337.3415865" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Mesh: Scaffolding Comparison Tables for Online Decision Making.
+Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{chang2020mesh,
+  title={Mesh: Scaffolding Comparison Tables for Online Decision Making},
+  author={Chang, Joseph Chee and Hahn, Nathan, and Kittur, Aniket},
+  booktitle = {Proceedings of the 33rd ACM User Interface Software and Technology Symposium},
+  series = {UIST'20},
+  year={2020}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Intentionally Uncertain Input]]></title>
+    <link href="https://joe.cat/UIST-highlight/"/>
+    <updated>2016-10-16T08:00:00-04:00</updated>
+    <id>https://joe.cat/UIST-highlight</id>
+    <content type="html"><![CDATA[<p>Highlighting can be mentally taxing for learners who are often unsure about how
+much information they needed to include.  We introduce the idea of
+intentionally uncertain input in the context of highlighting on mobile devices.
+We present a system that uses force touch and fuzzy bounding boxes to support
+saving information while users are uncertain about where to highlight.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Patients researching medical diagnoses, scientist exploring new fields of
+literature, and students learning about new domains are all faced with the
+challenge of capturing information they find for later use. However, saving
+information is challenging on mobile devices, where the small screen and font
+sizes combined with the inaccuracy of finger based touch screens makes it time
+consuming and stressful for people to select and save text for future use.
+Furthermore, beyond the challenge of simply selecting a region of bounded text
+on a mobile device, in many learning and data exploration tasks the boundaries
+of what text may be relevant and useful later are themselves uncertain for the
+user. In contrast to previous approaches which focused on speeding up the
+selection process by making the identification of hard boundaries faster, we
+introduce the idea of intentionally supporting uncertain input in the context
+of saving information during complex reading and information exploration. We
+embody this idea in a system that uses force touch and fuzzy bounding boxes
+along with posthoc expandable context to support identifying and saving
+information in an intentionally uncertain way on mobile devices. In a two part
+user study we find that this approach reduced selection time and was preferred
+by participants over the default system text selection method.</p>
+
+<h2>Presentation (UIST 2016)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Demo Video</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="https://joe.cat/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. 2016.
+Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting.
+In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16).
+ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Chang:2016:SMS:2984511.2984538,
+ author = {Chang, Joseph Chee and Hahn, Nathan and Kittur, Aniket},
+ title = {Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting},
+ booktitle = {Proceedings of the 29th Annual Symposium on User Interface Software and Technology},
+ series = {UIST '16},
+ year = {2016},
+ isbn = {978-1-4503-4189-9},
+ location = {Tokyo, Japan},
+ pages = {61--68},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/2984511.2984538},
+ doi = {10.1145/2984511.2984538},
+ acmid = {2984538},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {annotation, capture, copy-paste, highlighting., information, saving, sensemaking},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
