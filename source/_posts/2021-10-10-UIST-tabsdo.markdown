@@ -58,4 +58,4 @@ limitations of a task-centric approach to tab management.
 
 Downloads
 ----------------------
-Coming soon...
+<a class="btn btn-default" href="/images/papers/tabs.do.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabsDo', 'PDF']);" role="button">PDF Download</a>

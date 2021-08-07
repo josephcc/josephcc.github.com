@@ -63,7 +63,8 @@ Presentation (SIGCHI 2021)
 
 Downloads
 ----------------------
-<a class="btn btn-default" href="/images/papers/tabs.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="/images/papers/tabs.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabHoarders', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3411764.3445585" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabHoarders', 'ACM']);"  role="button">ACM Digital Library</a>
 
 Media Coverage
 ----------------------
