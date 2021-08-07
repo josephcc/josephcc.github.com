@@ -5,7 +5,7 @@ subtitle: "Task-Centric Browser Tab Management"
 seotitle: "Tabs.do: Task-Centric Browser Tab Management"
 authors: "Joseph Chee Chang, Yongsung Kim, Victor Miller, Michael Xieyang Liu, Brad Myers, Aniket Kittur."
 venue: "ACM UIST 2021"
-stats: "(conditional)"
+stats: "(r=25.9%, N=367)"
 date: 2021-10-10 08:00
 comments: true
 toc: true
