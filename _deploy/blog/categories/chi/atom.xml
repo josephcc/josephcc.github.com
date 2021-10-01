@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CHI | Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/blog/categories/chi/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2021-08-06T22:32:48-04:00</updated>
+  <updated>2021-09-30T23:38:53-07:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Tabs.do]]></title>
     <link href="http://josephcc.github.com/UIST-tabsdo/"/>
-    <updated>2021-10-10T08:00:00-04:00</updated>
+    <updated>2021-10-10T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/UIST-tabsdo</id>
     <content type="html"><![CDATA[<p>The nature of people’s online activities has gone through dramatic changes in
 past decades, yet browser interfaces have stayed largely the same since tabs
@@ -54,16 +54,44 @@ deployment study where participants used Tabs.do with their real-life tasks and
 tabs in the wild and uncovered insights around the costs, benefits, and
 limitations of a task-centric approach to tab management.</p>
 
+<h2>30 Seconds Preview (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/he--Ly0UQ-4" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Presentation (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZwbVzDRFbGs" frameborder="0" allowfullscreen></iframe>
+
+
 <h2>Downloads</h2>
 
 <p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/tabs.do.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabsDo', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Yongsung Kim, Victor Miller, Michael Xieyang Liu, Brad Myers, Aniket Kittur.
+Tabs.do: Task-Centric Browser Tab Management.
+In Proceedings of the 34th ACM User Interface Software and Technology Symposium: UIST 2021.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{chang2021tabsdo,
+  title={Tabs.do: Task-Centric Browser Tab Management.},
+  author={Chang, Joseph Chee and Kim, Yongsung and Miller, Victor and Liu, Michael Xieyang and Myers, Brad and Kittur, Aniket},
+  booktitle = {Proceedings of the 34th ACM User Interface Software and Technology Symposium},
+  series = {UIST'21},
+  year={2021}
+}
+</code></pre>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[When the Tab Comes Due]]></title>
     <link href="http://josephcc.github.com/CHI-browser-tabs/"/>
-    <updated>2021-05-08T08:00:00-04:00</updated>
+    <updated>2021-05-08T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-browser-tabs</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/></p>
@@ -159,7 +187,7 @@ ACM, New York, NY, USA, 15 pages. DOI: http://dx.doi.org/10.1145/
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
     <link href="http://josephcc.github.com/CHI-bento/"/>
-    <updated>2018-04-21T08:01:00-04:00</updated>
+    <updated>2018-04-21T08:01:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
 make conducting searches on mobile devices especially difficult where screen
@@ -244,7 +272,7 @@ ACM, Montreal, QC, Canada.
   <entry>
     <title type="html"><![CDATA[Evorus]]></title>
     <link href="http://josephcc.github.com/CHI-evorus/"/>
-    <updated>2018-04-21T08:00:00-04:00</updated>
+    <updated>2018-04-21T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-evorus</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
@@ -327,7 +355,7 @@ ACM, Montreal, QC, Canada.
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
     <link href="http://josephcc.github.com/CHI-revolt/"/>
-    <updated>2017-05-06T08:00:00-04:00</updated>
+    <updated>2017-05-06T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>

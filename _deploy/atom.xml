@@ -4,7 +4,7 @@
   <title><![CDATA[Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2021-08-06T22:32:48-04:00</updated>
+  <updated>2021-09-30T23:38:51-07:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Tabs.do]]></title>
     <link href="http://josephcc.github.com/UIST-tabsdo/"/>
-    <updated>2021-10-10T08:00:00-04:00</updated>
+    <updated>2021-10-10T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/UIST-tabsdo</id>
     <content type="html"><![CDATA[<p>The nature of people’s online activities has gone through dramatic changes in
 past decades, yet browser interfaces have stayed largely the same since tabs
@@ -54,16 +54,54 @@ deployment study where participants used Tabs.do with their real-life tasks and
 tabs in the wild and uncovered insights around the costs, benefits, and
 limitations of a task-centric approach to tab management.</p>
 
+<h2>30 Seconds Preview (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/he--Ly0UQ-4" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Presentation (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZwbVzDRFbGs" frameborder="0" allowfullscreen></iframe>
+
+
 <h2>Downloads</h2>
 
 <p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/tabs.do.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabsDo', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Yongsung Kim, Victor Miller, Michael Xieyang Liu, Brad Myers, Aniket Kittur.
+</span><span class='line'>Tabs.do: Task-Centric Browser Tab Management.
+</span><span class='line'>In Proceedings of the 34th ACM User Interface Software and Technology Symposium: UIST 2021.</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@article{chang2021tabsdo,
+</span><span class='line'>  title={Tabs.do: Task-Centric Browser Tab Management.},
+</span><span class='line'>  author={Chang, Joseph Chee and Kim, Yongsung and Miller, Victor and Liu, Michael Xieyang and Myers, Brad and Kittur, Aniket},
+</span><span class='line'>  booktitle = {Proceedings of the 34th ACM User Interface Software and Technology Symposium},
+</span><span class='line'>  series = {UIST'21},
+</span><span class='line'>  year={2021}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[When the Tab Comes Due]]></title>
     <link href="http://josephcc.github.com/CHI-browser-tabs/"/>
-    <updated>2021-05-08T08:00:00-04:00</updated>
+    <updated>2021-05-08T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-browser-tabs</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/></p>
@@ -180,7 +218,7 @@ managing these pressures</p>
   <entry>
     <title type="html"><![CDATA[Mesh]]></title>
     <link href="http://josephcc.github.com/UIST-mesh/"/>
-    <updated>2020-10-20T08:00:00-04:00</updated>
+    <updated>2020-10-20T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/UIST-mesh</id>
     <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
 the tens of thousands of online evidence about each of their options.  However,
@@ -240,8 +278,8 @@ personalized criteria enabling users to gain deeper insights from data.</p>
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Mesh: Scaffolding Comparison Tables for Online Decision Making.
-</span><span class='line'>Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+</span><span class='line'>Mesh: Scaffolding Comparison Tables for Online Decision Making.
 </span><span class='line'>In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.</span></code></pre></td></tr></table></div></figure>
 
 
@@ -268,7 +306,7 @@ personalized criteria enabling users to gain deeper insights from data.</p>
   <entry>
     <title type="html"><![CDATA[Ph.D Thesis]]></title>
     <link href="http://josephcc.github.com/CMU-thesis/"/>
-    <updated>2020-06-02T08:00:00-04:00</updated>
+    <updated>2020-06-02T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CMU-thesis</id>
     <content type="html"><![CDATA[<!--more-->
 
@@ -285,7 +323,7 @@ personalized criteria enabling users to gain deeper insights from data.</p>
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
     <link href="http://josephcc.github.com/IUI-searchlens/"/>
-    <updated>2019-03-17T08:00:00-04:00</updated>
+    <updated>2019-03-17T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, reviews and forum posts are often a significant factor in
@@ -362,7 +400,7 @@ participants found benefits in SearchLens while conducting their own tasks.</p>
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
     <link href="http://josephcc.github.com/CSCW-solvent/"/>
-    <updated>2018-11-03T08:00:00-04:00</updated>
+    <updated>2018-11-03T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from
@@ -431,7 +469,7 @@ research communities.</p>
   <entry>
     <title type="html"><![CDATA[Bento Browser]]></title>
     <link href="http://josephcc.github.com/CHI-bento/"/>
-    <updated>2018-04-21T08:01:00-04:00</updated>
+    <updated>2018-04-21T08:01:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-bento</id>
     <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
 make conducting searches on mobile devices especially difficult where screen
@@ -529,7 +567,7 @@ this structure, and find it more organized and easier to revisit.</p>
   <entry>
     <title type="html"><![CDATA[Evorus]]></title>
     <link href="http://josephcc.github.com/CHI-evorus/"/>
-    <updated>2018-04-21T08:00:00-04:00</updated>
+    <updated>2018-04-21T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-evorus</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
@@ -625,7 +663,7 @@ dialog system.</p>
   <entry>
     <title type="html"><![CDATA[Revolt]]></title>
     <link href="http://josephcc.github.com/CHI-revolt/"/>
-    <updated>2017-05-06T08:00:00-04:00</updated>
+    <updated>2017-05-06T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-revolt</id>
     <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
 challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
@@ -711,7 +749,7 @@ higher label accuracy with lower monetary cost.</p>
   <entry>
     <title type="html"><![CDATA[Intentionally Uncertain Input]]></title>
     <link href="http://josephcc.github.com/UIST-highlight/"/>
-    <updated>2016-10-16T08:00:00-04:00</updated>
+    <updated>2016-10-16T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/UIST-highlight</id>
     <content type="html"><![CDATA[<p>Highlighting can be mentally taxing for learners who are often unsure about how
 much information they needed to include.  We introduce the idea of
@@ -813,7 +851,7 @@ by participants over the default system text selection method.</p>
   <entry>
     <title type="html"><![CDATA[Alloy]]></title>
     <link href="http://josephcc.github.com/CHI-alloy/"/>
-    <updated>2016-05-07T08:00:00-04:00</updated>
+    <updated>2016-05-07T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-alloy</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
@@ -924,7 +962,7 @@ to stitch together different types of judgment tasks.</p>
   <entry>
     <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
     <link href="http://josephcc.github.com/CHI-ka/"/>
-    <updated>2016-05-07T07:00:00-04:00</updated>
+    <updated>2016-05-07T07:00:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-ka</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/>
@@ -1035,7 +1073,7 @@ systemsaimed at supporting big picture thinking in small pieces.</p>
   <entry>
     <title type="html"><![CDATA[Twitter Code-Switching]]></title>
     <link href="http://josephcc.github.com/arXiv-twitter-code-switching/"/>
-    <updated>2014-12-22T08:00:00-05:00</updated>
+    <updated>2014-12-22T08:00:00-08:00</updated>
     <id>http://josephcc.github.com/arXiv-twitter-code-switching</id>
     <content type="html"><![CDATA[<p>Code-switching behavior is a common phenomenon on social media to express
 solidarity or establish authority. While past work on automatic code-switching
@@ -1102,7 +1140,7 @@ accuracy, or by 17% in error rate reduction.</p>
   <entry>
     <title type="html"><![CDATA[A Hangman Game Solver based on Language Models]]></title>
     <link href="http://josephcc.github.com/hangman/"/>
-    <updated>2012-11-04T21:14:00-05:00</updated>
+    <updated>2012-11-04T21:14:00-08:00</updated>
     <id>http://josephcc.github.com/hangman</id>
     <content type="html"><![CDATA[<p>I&#8217;ve recently wrote a program for solving sentence-based hangman game automatically. Here&#8217;s a post
 explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a>
@@ -1355,7 +1393,7 @@ stages as different strategies and use genetic algorithm to apply them alternate
   <entry>
     <title type="html"><![CDATA[TermMine]]></title>
     <link href="http://josephcc.github.com/ACL-termmine/"/>
-    <updated>2012-07-08T08:00:00-04:00</updated>
+    <updated>2012-07-08T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/ACL-termmine</id>
     <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
 translation pairs of terms from the web. We used a small set of terms and
@@ -1430,7 +1468,7 @@ system that outperforms previous work.</p>
   <entry>
     <title type="html"><![CDATA[Git: Remove (un-add) files from last commit]]></title>
     <link href="http://josephcc.github.com/git-reverse-amend/"/>
-    <updated>2012-04-27T03:07:00-04:00</updated>
+    <updated>2012-04-27T03:07:00-07:00</updated>
     <id>http://josephcc.github.com/git-reverse-amend</id>
     <content type="html"><![CDATA[<p>A lot of times we use <code>git commit --amend</code> to add the files that we have forgotten to the last
 commit (usually HEAD), or simply to fix typos in its commit message. However, you can&#8217;t remove, or un-add,
@@ -1481,7 +1519,7 @@ changes from the staging area (or index), and add the files you originally inten
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Module debugging with gdb]]></title>
     <link href="http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
-    <updated>2011-12-05T21:12:00-05:00</updated>
+    <updated>2011-12-05T21:12:00-08:00</updated>
     <id>http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb</id>
     <content type="html"><![CDATA[<p>This is post continues my previous post on
 <a href="http://joe.cat/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
@@ -1547,7 +1585,7 @@ height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
   <entry>
     <title type="html"><![CDATA[Git: Displaying commit tree with NerdTool]]></title>
     <link href="http://josephcc.github.com/nerdtool-commit-tree/"/>
-    <updated>2011-11-30T17:26:00-05:00</updated>
+    <updated>2011-11-30T17:26:00-08:00</updated>
     <id>http://josephcc.github.com/nerdtool-commit-tree</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/bizkit/6291809011/" title="P1030408 by bizkit@tw, on Flickr"><img
 src="http://farm7.staticflickr.com/6233/6291809011_58ca7d80bc.jpg" width="500" height="347"
@@ -1621,7 +1659,7 @@ alt="gggg"></a></p>
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Hooking System Calls on 2.6+]]></title>
     <link href="http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
-    <updated>2011-10-23T22:03:00-04:00</updated>
+    <updated>2011-10-23T22:03:00-07:00</updated>
     <id>http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
     <content type="html"><![CDATA[<p>This post explains how to add, or override, system calls by loading custom
 kernel modules using system call hooking techniques. This
@@ -1751,7 +1789,7 @@ hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http:/
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Debugging with QEMU and kgdb]]></title>
     <link href="http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb/"/>
-    <updated>2011-10-17T07:49:00-04:00</updated>
+    <updated>2011-10-17T07:49:00-07:00</updated>
     <id>http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb</id>
     <content type="html"><![CDATA[<p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
 the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and

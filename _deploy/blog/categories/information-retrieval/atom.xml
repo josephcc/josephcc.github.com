@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Information Retrieval | Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/blog/categories/information-retrieval/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2021-08-06T22:32:48-04:00</updated>
+  <updated>2021-09-30T23:38:53-07:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Tabs.do]]></title>
     <link href="http://josephcc.github.com/UIST-tabsdo/"/>
-    <updated>2021-10-10T08:00:00-04:00</updated>
+    <updated>2021-10-10T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/UIST-tabsdo</id>
     <content type="html"><![CDATA[<p>The nature of people’s online activities has gone through dramatic changes in
 past decades, yet browser interfaces have stayed largely the same since tabs
@@ -54,16 +54,44 @@ deployment study where participants used Tabs.do with their real-life tasks and
 tabs in the wild and uncovered insights around the costs, benefits, and
 limitations of a task-centric approach to tab management.</p>
 
+<h2>30 Seconds Preview (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/he--Ly0UQ-4" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Presentation (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZwbVzDRFbGs" frameborder="0" allowfullscreen></iframe>
+
+
 <h2>Downloads</h2>
 
 <p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/tabs.do.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabsDo', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Yongsung Kim, Victor Miller, Michael Xieyang Liu, Brad Myers, Aniket Kittur.
+Tabs.do: Task-Centric Browser Tab Management.
+In Proceedings of the 34th ACM User Interface Software and Technology Symposium: UIST 2021.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{chang2021tabsdo,
+  title={Tabs.do: Task-Centric Browser Tab Management.},
+  author={Chang, Joseph Chee and Kim, Yongsung and Miller, Victor and Liu, Michael Xieyang and Myers, Brad and Kittur, Aniket},
+  booktitle = {Proceedings of the 34th ACM User Interface Software and Technology Symposium},
+  series = {UIST'21},
+  year={2021}
+}
+</code></pre>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[When the Tab Comes Due]]></title>
     <link href="http://josephcc.github.com/CHI-browser-tabs/"/>
-    <updated>2021-05-08T08:00:00-04:00</updated>
+    <updated>2021-05-08T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-browser-tabs</id>
     <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
 <br/></p>
@@ -159,7 +187,7 @@ ACM, New York, NY, USA, 15 pages. DOI: http://dx.doi.org/10.1145/
   <entry>
     <title type="html"><![CDATA[Mesh]]></title>
     <link href="http://josephcc.github.com/UIST-mesh/"/>
-    <updated>2020-10-20T08:00:00-04:00</updated>
+    <updated>2020-10-20T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/UIST-mesh</id>
     <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
 the tens of thousands of online evidence about each of their options.  However,
@@ -216,8 +244,8 @@ personalized criteria enabling users to gain deeper insights from data.</p>
 
 <h2>Citation</h2>
 
-<pre><code>Mesh: Scaffolding Comparison Tables for Online Decision Making.
-Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+<pre><code>Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+Mesh: Scaffolding Comparison Tables for Online Decision Making.
 In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.
 </code></pre>
 
@@ -237,7 +265,7 @@ In Proceedings of the 33rd ACM User Interface Software and Technology Symposium:
   <entry>
     <title type="html"><![CDATA[SearchLens]]></title>
     <link href="http://josephcc.github.com/IUI-searchlens/"/>
-    <updated>2019-03-17T08:00:00-04:00</updated>
+    <updated>2019-03-17T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/IUI-searchlens</id>
     <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
 apartment to live in, reviews and forum posts are often a significant factor in
@@ -304,7 +332,7 @@ In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Inter
   <entry>
     <title type="html"><![CDATA[Solvent]]></title>
     <link href="http://josephcc.github.com/CSCW-solvent/"/>
-    <updated>2018-11-03T08:00:00-04:00</updated>
+    <updated>2018-11-03T08:00:00-07:00</updated>
     <id>http://josephcc.github.com/CSCW-solvent</id>
     <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
 can be prohibitively difficult for researchers to find useful analogies from

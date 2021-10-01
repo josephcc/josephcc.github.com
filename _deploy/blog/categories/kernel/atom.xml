@@ -4,7 +4,7 @@
   <title><![CDATA[Category: kernel | Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/blog/categories/kernel/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2021-08-06T22:32:48-04:00</updated>
+  <updated>2021-09-30T23:38:53-07:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Module debugging with gdb]]></title>
     <link href="http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
-    <updated>2011-12-05T21:12:00-05:00</updated>
+    <updated>2011-12-05T21:12:00-08:00</updated>
     <id>http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb</id>
     <content type="html"><![CDATA[<p>This is post continues my previous post on
 <a href="http://joe.cat/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
@@ -82,7 +82,7 @@ height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Hooking System Calls on 2.6+]]></title>
     <link href="http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
-    <updated>2011-10-23T22:03:00-04:00</updated>
+    <updated>2011-10-23T22:03:00-07:00</updated>
     <id>http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
     <content type="html"><![CDATA[<p>This post explains how to add, or override, system calls by loading custom
 kernel modules using system call hooking techniques. This
@@ -150,19 +150,12 @@ your own machine, the easiest way is to add the following lines to the kernel
 <code>sys_call_table</code> export 成 global。只要在 arch/x86/kernel/i386_ksyms_32.c
 加入以下兩行就可以了：</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">extern</span> <span class="kt">void</span><span class="o">*</span> <span class="n">sys_call_table</span><span class="p">[];</span>
-</span><span class='line'><span class="n">EXPORT_SYMBOL</span><span class="p">(</span><span class="n">sys_call_table</span><span class="p">);</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:c%}</p>
+
+<p>extern void* sys_call_table[];
+EXPORT_SYMBOL(sys_call_table);</p>
+
+<p>{% endcodeblock %}</p>
 
 <p>Now kernel modules will be able to access system call table via
 <code>sys_call_table</code>. However, in many distro, the table is in read only stats, so
@@ -172,9 +165,9 @@ make sure you also have the following in your kernel <code>.config</code> file.<
 預設的狀況下 system call table 是唯讀的，因此在上述的第二步便會失敗。只要在
 .config 裡將 CONFIG_DEBUG_RODATA 設為 n 後便可以成功的 hook 到 system calls。</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="n">CONFIG_DEBUG_RODATA</span><span class="o">=</span><span class="n">n</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:c%}
+CONFIG_DEBUG_RODATA=n
+{% endcodeblock %}</p>
 
 <h2>System call hooking</h2>
 
@@ -185,11 +178,10 @@ following code:</p>
 這個陣列來取得某個 syscall 的位置。備份後，將其改為自行撰寫的
 function。用程式碼的方式來呈現或許會更清楚：</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="n">original_sys_exit</span> <span class="o">=</span> <span class="n">sys_call_table</span><span class="p">[</span><span class="o">&lt;</span><span class="n">strong</span><span class="o">&gt;</span><span class="n">NR_exit</span><span class="p">];</span>
-</span><span class='line'><span class="n">sys_call_table</span><span class="p">[</span><span class="o">&lt;/</span><span class="n">strong</span><span class="o">&gt;</span><span class="n">NR_exit</span><span class="p">]</span> <span class="o">=</span> <span class="n">fake_exit_function</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:c%}
+original_sys_exit = sys_call_table[<strong>NR_exit];
+sys_call_table[</strong>NR_exit] = fake_exit_function;
+{% endcodeblock %}</p>
 
 <p>The above code locates the location of the <code>exit()</code> system call, backs up to
 <code>original_sys_exit</code>, and overwrites it with <code>fake_exit_function</code> pointer. At the
@@ -217,7 +209,7 @@ hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http:/
   <entry>
     <title type="html"><![CDATA[Linux Kernel: Debugging with QEMU and kgdb]]></title>
     <link href="http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb/"/>
-    <updated>2011-10-17T07:49:00-04:00</updated>
+    <updated>2011-10-17T07:49:00-07:00</updated>
     <id>http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb</id>
     <content type="html"><![CDATA[<p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
 the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and
@@ -243,9 +235,9 @@ complete operating system is needed.</p>
 
 <p>首先，要在安裝一份運行再 QEMU 上的 Debian 系統，第一步是用 qemu-img 產生一份硬碟 image：</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu-img create -f qcow2 image.qcow2 5G
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}
+qemu-img create -f qcow2 image.qcow2 5G
+{% endcodeblock %}</p>
 
 <p>This will create a 5GB image with the qcow2 format, which incrementally
 increase the image size as you put more files on it. <code>qemu-img</code> also provide
@@ -255,21 +247,19 @@ snapshotting, store directly inside the image file.</p>
 qcow2，會隨著硬碟的使用長大映像檔的大小。另外，qemu-img 也提供了硬碟 snapshot
 的功能，而且是直接存在 image 內：</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu-img snapshot -c snapshot_name image.qcow2  // create snapshot
-</span><span class='line'>qemu-img snapshot -l image.qcow2                // list all snapshots
-</span><span class='line'>qemu-img snapshot -a snapshot_name image.qcow2  // apply snapshot
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}
+qemu-img snapshot -c snapshot_name image.qcow2  // create snapshot
+qemu-img snapshot -l image.qcow2                // list all snapshots
+qemu-img snapshot -a snapshot_name image.qcow2  // apply snapshot
+{% endcodeblock %}</p>
 
 <p>After generating the disk image, setup QEMU to boot from a Debian install disk:</p>
 
 <p>產生好硬碟檔之後，讓 QEMU 從抓好的 Debian 安裝光碟開機：</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu -boot d -cdrom debian.iso -hda image.qcow2
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}
+qemu -boot d -cdrom debian.iso -hda image.qcow2
+{% endcodeblock %}</p>
 
 <p>Somehow the <code>-boot</code> parameters of QEMU looks a bit similar to DOS, you use <code>c</code>
 for disk, <code>d</code> for cdrom, and <code>a</code> or <code>b</code> for floppy. <code>-cdrom</code> and <code>-hda</code> are
@@ -286,23 +276,20 @@ Windows 裝置命名習慣（C代表硬碟開機、D代表光碟、A/B代表軟�
 <p>Finally, use the command to boot your VM:
 安裝完畢之後便可以開機：</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu -boot c -hda image.qcow2
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}
+qemu -boot c -hda image.qcow2
+{% endcodeblock %}</p>
 
 <p>Here are some boot options that might come in handy:</p>
 
 <p>看到 Debian 系統正確開機，第一步驟便完成了。另外列幾個我常用 QEMU 參數。</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>-k en-us    // keyboard layout
-</span><span class='line'>-m size     // memory size
-</span><span class='line'>-redir tcp:2222::22   &lt;br/&gt;
-</span><span class='line'>            // tunnel port <span class="m">2222</span> to VM<span class="err">&#39;</span>s port <span class="m">22</span> <span class="k">for</span> remote ssh
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}
+-k en-us    // keyboard layout
+-m size     // memory size
+-redir tcp:2222::22   <br/>
+            // tunnel port 2222 to VM's port 22 for remote ssh
+{% endcodeblock %}</p>
 
 <h2>Compiling the Kernel</h2>
 
@@ -320,32 +307,22 @@ bug，一個是很小的 include 問題，最後一個我忘了XDDDD。寫筆記
 it to the source directory <code>linux-source-2.6.32</code>. To enable kernel support for
 KGDB debugging, append the following lines to the config file:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span><span class="nv">CONFIG_DEBUG_INFO</span><span class="o">=</span>y
-</span><span class='line'><span class="nv">CONFIG_KGDB</span><span class="o">=</span>y
-</span><span class='line'><span class="nv">CONFIG_KGDB_SERIAL_CONSOLE</span><span class="o">=</span>y
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}
+CONFIG_DEBUG_INFO=y
+CONFIG_KGDB=y
+CONFIG_KGDB_SERIAL_CONSOLE=y
+{% endcodeblock %}</p>
 
 <p>Apply <a href="https://gist.github.com/703480">this patch</a> to prevent the KGDB error
 with message <code>trace API error 0x2</code>, and run <code>make</code> to compile the kernel image. Finally, run the following commands to generate <code>initrd</code>:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;make modules
-</span><span class='line'>sudo make modules_install
-</span><span class='line'>mkinitramfs -o initrd-2.6.32 <span class="m">2</span>.6.32&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}</p>
+
+<p>make modules
+sudo make modules_install
+mkinitramfs -o initrd-2.6.32 2.6.32</p>
+
+<p>{% endcodeblock %}</p>
 
 <p>The last command will install the module files under <code>/lib/modules</code>. Now you
 will have produced three files that you will need in next step, they are <code>initrd-2.6.32</code>, <code>vmlinux</code> and <code>arch/i386/boot/bzImage</code>.</p>
@@ -368,25 +345,20 @@ will have produced three files that you will need in next step, they are <code>i
 
 <p>最後一個步驟，我們要跳過 grub ，直接用 qemu 內建*的 boot loader (?) 從參數指定 kernel image 來開機，並傳入 kgdb 的參數：</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu <span class="se">\</span>
-</span><span class='line'>    -hda hd.image <span class="se">\</span>
-</span><span class='line'>    -serial <span class="s2">&quot;tcp::4321,serve&quot;</span>
-</span><span class='line'>    -initrd initrd-2.6.32 <span class="se">\</span>
-</span><span class='line'>    -kernel bzImage <span class="se">\</span>
-</span><span class='line'>    -append <span class="s2">&quot;root=/dev/sda kgdboc=ttyS0 kgdbwait&quot;</span> <span class="se">\</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}
+qemu \
+    -hda hd.image \
+    -serial "tcp::4321,serve"
+    -initrd initrd-2.6.32 \
+    -kernel bzImage \
+    -append "root=/dev/sda kgdboc=ttyS0 kgdbwait" \
+{% endcodeblock %}</p>
 
 <p>During boot, the VM will hang on:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>QEMU waiting <span class="k">for</span> connection on tcp:0.0.0.0:4321,server
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}
+QEMU waiting for connection on tcp:0.0.0.0:4321,server
+{% endcodeblock %}</p>
 
 <p>On the host machine, run <code>gdb vmlinux</code> and execute
 <code>target remote localhost:4321</code> to connect to the kernel.</p>
@@ -426,9 +398,9 @@ stub，讓執行到該位置時開始 debug 程序。對於 kgdb / gdb
 的運作模式並不是狠清楚，無法詳細描述）
 只要在想要 debug 區段的開頭加上:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="k">asm</span><span class="p">(</span> <span class="s">&quot; int $3&quot;</span><span class="p">);</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:c %}
+asm( " int $3");
+{% endcodeblock %}</p>
 
 <p>便會在執行到該區段時 issue 一個 debug/breakpoint interrupt，中斷 kernel 的執行。接著就可以在 gdb 中 step through code，或是動態的加入新的 breakpoints。</p>
 ]]></content>
