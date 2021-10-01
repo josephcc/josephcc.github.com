@@ -75,8 +75,8 @@ Download
 Citation
 ----------------------
 ```
-Mesh: Scaffolding Comparison Tables for Online Decision Making.
 Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+Mesh: Scaffolding Comparison Tables for Online Decision Making.
 In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.
 ```
 

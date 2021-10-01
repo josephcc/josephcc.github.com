@@ -56,6 +56,37 @@ tabs in the wild and uncovered insights around the costs, benefits, and
 limitations of a task-centric approach to tab management.
 
 
+30 Seconds Preview (UIST 2021)
+----------------------
+<iframe width="560" height="315" src="https://www.youtube.com/embed/he--Ly0UQ-4" frameborder="0" allowfullscreen></iframe>
+
+
+Presentation (UIST 2021)
+----------------------
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZwbVzDRFbGs" frameborder="0" allowfullscreen></iframe>
+
+
 Downloads
 ----------------------
 <a class="btn btn-default" href="/images/papers/tabs.do.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabsDo', 'PDF']);" role="button">PDF Download</a>
+
+
+Citation
+----------------------
+```
+Joseph Chee Chang, Yongsung Kim, Victor Miller, Michael Xieyang Liu, Brad Myers, Aniket Kittur.
+Tabs.do: Task-Centric Browser Tab Management.
+In Proceedings of the 34th ACM User Interface Software and Technology Symposium: UIST 2021.
+```
+
+Bibtex
+----------------------
+```
+@article{chang2021tabsdo,
+  title={Tabs.do: Task-Centric Browser Tab Management.},
+  author={Chang, Joseph Chee and Kim, Yongsung and Miller, Victor and Liu, Michael Xieyang and Myers, Brad and Kittur, Aniket},
+  booktitle = {Proceedings of the 34th ACM User Interface Software and Technology Symposium},
+  series = {UIST'21},
+  year={2021}
+}
+```
