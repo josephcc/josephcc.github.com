@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Information Synthesis | Joseph Chee Chang]]></title>
+  <link href="http://josephcc.github.com/blog/categories/information-synthesis/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-11-26T07:55:48-08:00</updated>
+  <id>http://josephcc.github.com/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Alloy]]></title>
+    <link href="http://josephcc.github.com/CHI-alloy/"/>
+    <updated>2016-05-07T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-alloy</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+<strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
+<br/>
+Many crowd clustering approaches have difficulties providing global context to
+workers in order to generate meaningful categories. Alloy uses a
+<em>sample-and-search</em> technique to provide a better understanding of the global
+context. It also combines the in-depth semantic knowledge from human
+computation and the scalability of machine learning models to create rich
+structures from unorganized documents with high quality and efficiency.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowdsourced clustering approaches present a promising way to harness deep
+semantic knowledge for clustering complex information. However, existing
+approaches have difficulties supporting the global context needed for workers
+to generate meaningful categories, and are costly because all items require
+human judgments. We introduce Alloy, a hybrid approach that combines the
+richness of human judgments with the power of machine algorithms. Alloy
+supports greater global context through a new <em>sample and search</em>
+crowd pattern which changes the crowd's task from classifying a fixed subset of
+items to actively sampling and querying the entire dataset.  It also improves
+efficiency through a two phase process in which crowds provide examples to help
+a machine cluster the head of the distribution, then classify low-confidence
+examples in the tail. To accomplish this, Alloy introduces a modular
+<em>cast and gather</em> approach which leverages a machine learning backbone
+to stitch together different types of judgment tasks.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
+<li>Campus Technology: <a href="https://campustechnology.com/articles/2016/05/10/research-project-mixes-humans-and-machines-for-better-crowdsourcing.aspx">Research Project Mixes Humans and Machines for Better Crowdsourcing</a></li>
+<li>Neuraoscience News: <a href="http://neurosciencenews.com/human-machine-intelligence-framework-4221/">Crowd Augmented Cognition: Combining Human and Machine Intelligence to Accelerate Learning</a></li>
+<li>DZone: <a href="https://dzone.com/articles/researchers-work-on-automated-means-of-managing-th">Research Suggests AI Managers Effective for Crowdsourcing</a></li>
+<li>PhysOrg: <a href="https://phys.org/news/2016-05-crowd-augmented-cognition-team-tools-combine.html">Crowd-augmented cognition: Team develops tools that combine human and machine intelligence to accelerate learning</a></li>
+<li>TechExplore: <a href="https://techxplore.com/news/2016-05-big-small-pieces-humans-crowdsourced.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>Spend Matters: <a href="http://spendmatters.com/2016/06/09/crowdsourcing-and-cognitive-computing-are-you-ready-for-the-future-of-work/">Crowdsourcing and Cognitive Computing: Are You Ready for the Future of Work?</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2016/05/160511210628.htm">Crowd-augmented cognition - combine human, machine intelligence to accelerate learning</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/cmu-bti051016.php">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/nsf-cc051116.php">Crowd-augmented cognition</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=80586&amp;from=">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=138580&amp;org=NSF">Crowd-augmented cognition</a></li>
+<li>CMU SCS News: <a href="https://www.cmu.edu/news/stories/archives/2016/may/knowledge-accelerator.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
+</ul>
+
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
+Alloy: Clustering with Crowds and Computation.
+In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.2858411
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Chang:2016:ACC:2858036.2858411,
+ author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
+ title = {Alloy: Clustering with Crowds and Computation},
+ booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '16},
+ year = {2016},
+ isbn = {978-1-4503-3362-7},
+ location = {Santa Clara, California, USA},
+ pages = {3180--3191},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2858036.2858411},
+ doi = {10.1145/2858036.2858411},
+ acmid = {2858411},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
+    <link href="http://josephcc.github.com/CHI-ka/"/>
+    <updated>2016-05-07T07:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-ka</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+Answering complex questions such as "How do I grow better tomatoes?" often
+requires individuals to conduct extensive online research and synthesis. Can we
+crowdsource this complex, high context process with 100 crowdworkers conducting
+microtasks distributedly? The Knowledge Accelerator uses crowdworkers to
+extract and synthesize text clips across web pages into coherent articles
+without a centralized coordinator.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
+real  world  tasks  are  often  interdependent,requiring a big picture view of
+the difference pieces involved. Existing  crowdsourcing  approaches  that
+support  such  tasks -- ranging from Wikipedia to flash teams -- are
+bottleneckedby relying on a small number of individuals to maintain thebig
+picture.   In this paper,  we explore the idea that a computational system can
+scaffold an emerging interdependent,big picture view entirely through the small
+contributions ofindividuals, each of whom sees only a part of the whole.
+Toinvestigate the viability, strengths, and weaknesses of this approach we
+instantiate the idea in a prototype system for accomplishing  distributed
+information  synthesis  and  evaluateits output across a variety of topics.  We
+also contribute a setof design patterns that may be informative for other
+systemsaimed at supporting big picture thinking in small pieces.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
+<li>Campus Technology: <a href="https://campustechnology.com/articles/2016/05/10/research-project-mixes-humans-and-machines-for-better-crowdsourcing.aspx">Research Project Mixes Humans and Machines for Better Crowdsourcing</a></li>
+<li>Neuraoscience News: <a href="http://neurosciencenews.com/human-machine-intelligence-framework-4221/">Crowd Augmented Cognition: Combining Human and Machine Intelligence to Accelerate Learning</a></li>
+<li>DZone: <a href="https://dzone.com/articles/researchers-work-on-automated-means-of-managing-th">Research Suggests AI Managers Effective for Crowdsourcing</a></li>
+<li>PhysOrg: <a href="https://phys.org/news/2016-05-crowd-augmented-cognition-team-tools-combine.html">Crowd-augmented cognition: Team develops tools that combine human and machine intelligence to accelerate learning</a></li>
+<li>TechExplore: <a href="https://techxplore.com/news/2016-05-big-small-pieces-humans-crowdsourced.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>Spend Matters: <a href="http://spendmatters.com/2016/06/09/crowdsourcing-and-cognitive-computing-are-you-ready-for-the-future-of-work/">Crowdsourcing and Cognitive Computing: Are You Ready for the Future of Work?</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2016/05/160511210628.htm">Crowd-augmented cognition - combine human, machine intelligence to accelerate learning</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/cmu-bti051016.php">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/nsf-cc051116.php">Crowd-augmented cognition</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=80586&amp;from=">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=138580&amp;org=NSF">Crowd-augmented cognition</a></li>
+<li>CMU SCS News: <a href="https://www.cmu.edu/news/stories/archives/2016/may/knowledge-accelerator.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
+</ul>
+
+
+<h2>Citation</h2>
+
+<pre><code>Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
+The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
+In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.2858364
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Hahn:2016:KAB:2858036.2858364,
+ author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
+ title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
+ booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '16},
+ year = {2016},
+ isbn = {978-1-4503-3362-7},
+ location = {Santa Clara, California, USA},
+ pages = {2258--2270},
+ numpages = {13},
+ url = {http://doi.acm.org/10.1145/2858036.2858364},
+ doi = {10.1145/2858036.2858364},
+ acmid = {2858364},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {complex workflow, crowd work, crowdsourcing, design patterns, information synthesis},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
