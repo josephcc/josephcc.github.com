@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Linux Kernel: Hooking System Calls on 2.6+ - Joseph Chee Chang</title>
+  <meta name="author" content="Joseph Chee Chang">
+  <link rel="author" href="humans.txt">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  
+    
+  
+  
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6/">
+  <link rel="icon" type="image/png"  href="/favicon.png">
+  <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/custom/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Joseph Chee Chang" type="application/atom+xml">
+  <meta name="og:type" content="website" />
+  <meta name="og:site_name" content="Joseph Chee Chang" />
+  <meta name="og:title" content="Linux Kernel: Hooking System Calls on 2.6+" />
+  <meta name="og:url" content="http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
+  <meta name="url" content="http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6/">
+  
+  <meta name="subject" content="kernellinux"/>
+  <meta name="category" content="kernellinux"/>
+  
+  <meta name="distribution" content="global">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+</script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src='https://www.googletagmanager.com/gtag/js?id=UA-345192-22'></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-345192-22');
+	</script>
+
+
+  <script src="https://use.fontawesome.com/13f8def07e.js"></script>
+</head>
+
+<body   >
+  <nav role="navigation"><div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="/">Joseph Chee Chang</a>
+    <ul class="nav">
+      <li><a href="/">Research</a></li>
+      <li><a href="/curriculum-vitae/">Resume</a></li>
+      <li><a href="/portfolio/">Random</a></li>
+    </ul>
+    
+  </div>
+</div>
+</nav>
+  <div class="wrapper_single">
+    <div class="container">
+      <article class="span10 offset1" role="article">
+        <div class="article-format">
+
+
+  <header>
+    
+      <h1 class="entry-title" style='border-bottom: 1px solid darkgray; margin-bottom: 2px; color: #0088cc;'>Linux Kernel: Hooking System Calls on 2.6+</h1>
+      <h1 class="entry-title" style='font-size: 1.6em; margin-bottom: 20px;'></h1>
+    
+  </header>
+
+
+
+  <div style='margin-bottom: 18px; margin-top: -18px; color: gray;'>
+    
+    <span style='font-weight: bold;'></span> 
+  </div>
+  <div class="entry-content">
+    
+    <p>This post explains how to add, or override, system calls by loading custom
+kernel modules using system call hooking techniques. This
+is sometimes called system call hijacking, and is used by viruses and rootkits.</p>
+
+<!-- more -->
+
+
+<p> The mechanism is not
+difficult to understand, you basically need to find the location of the kernel
+system call table, override an entry with a function inside your kernel module.
+At the end of you function you call the original system call and return with its
+returned value, so that user-space processes is not aware of any changes.</p>
+
+<p>This is a very dangerous technique since every process running on the machine
+will be effected. So obviously Linux kernel does not reveal the location of the
+call table to kernel modules. This post is not intended to explain how to
+exploit the kernel to find the location of the call table, but rather recompiles
+the kernel once to reveal the location for an alternative development process.
+With the ability to hook system calls, you won&#8217;t need to recompile and reboot
+the kernel every time you want to change something, you can simply reload the
+kernel module.</p>
+
+<p>What I actually did was that I added a new system call to the kernel first,
+expose the system call table, and dynamically hooking my system call by loading
+kernel modules at runtime.</p>
+
+<p>修課的作業要求在核心新增一個 system call
+提供一個分析記憶體狀態的介面，不過助教學長說我們也可以寫成 kernel
+module，於是便起了在 kernel module 中寫 system call
+的想法。查了一下，要達到這樣的效果要靠 system call hooking 來達成，也就是去
+hijack 目前存在的 system call，讓所有程式在呼叫該 system call 時都會變成執行到
+module 中的某個 function，該 function 最後會再去呼叫正常的 system call routine。</p>
+
+<p>目前的計畫是在 kernel 中新增一個 system call 來給自己的 module 來
+hijack，不知道會不會是很沒有道理開發模式。
+這是篇是今晚的筆記，雖然內容不多，但在精神不濟的時刻，相信我更需要做點筆記。:p</p>
+
+<h2>Adding a new system call</h2>
+
+<p>There are already many tutorials that explain how to add system calls to the
+kernel. The ones I read are <a href="http://140.120.13.13/~s9356048/OSLab/">the tutorial from Advance Defence Lab</a> in
+Chinese and <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">The Linux Kernel Module Programming Guide</a> in English.</p>
+
+<p>今天讀了幾篇簡單的 tutorial，分別是介紹如何新增 system call 以及撰寫自己的
+kernel module。並實際寫了一個簡單的 hello world kernel module。不得不說「寫
+syscall 與 kernel
+module」或許聽起來很嚇人，但其實不難入門。當然真正難的一定是在入門之後。</p>
+
+<p>新增 system call 的部份看了實驗室學長以及阿怪寫的兩篇 tutorial <a href="http://140.120.13.13/~s9356048/OSLab/">1</a>
+，大概了解一下狀況，後來參考 The Linux Kernel Module
+Programming Guide <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">2</a> 寫了一個簡單的 hello world 模組。</p>
+
+<h2>Exposing the system call table</h2>
+
+<p>Even though starting from 2.6, the kernel no longer exposes <code>sys_call_table</code> to
+modules, there are probably techniques you can use <a href="http://www.epanastasi.com/?page_id=52">exploits</a> to find it. On
+your own machine, the easiest way is to add the following lines to the kernel
+(<code>arch/x86/kernel/i386_ksyms_32.c</code>) and boot into the recompiled kernel:</p>
+
+<p>在 2.6 版本的核心中，為了保護系統免於 kernel rootkit 的攻擊， <code>sys_call_table</code>
+不再能被 kernel module 中所任意存取。在 insmod 的時候便會發生 symbol not found
+的錯誤而失敗。雖然還是有許多 hacking 方式可以取的 <code>sys_call_table</code>
+<a href="http://www.epanastasi.com/?page_id=52">3</a>，但本人實在白的發亮（又弱的可以），所以直接修改 kernel 的程式碼來把
+<code>sys_call_table</code> export 成 global。只要在 arch/x86/kernel/i386_ksyms_32.c
+加入以下兩行就可以了：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="k">extern</span> <span class="kt">void</span><span class="o">*</span> <span class="n">sys_call_table</span><span class="p">[];</span>
+</span><span class='line'><span class="n">EXPORT_SYMBOL</span><span class="p">(</span><span class="n">sys_call_table</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now kernel modules will be able to access system call table via
+<code>sys_call_table</code>. However, in many distro, the table is in read only stats, so
+make sure you also have the following in your kernel <code>.config</code> file.</p>
+
+<p>如此一來，kernel module 內便可以存取 <code>sys_call_table</code>。但在 2.6 許多 distro
+預設的狀況下 system call table 是唯讀的，因此在上述的第二步便會失敗。只要在
+.config 裡將 CONFIG_DEBUG_RODATA 設為 n 後便可以成功的 hook 到 system calls。</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="n">CONFIG_DEBUG_RODATA</span><span class="o">=</span><span class="n">n</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>System call hooking</h2>
+
+<p>Finally, the actual syscall hooking process is done in a kernel module with the
+following code:</p>
+
+<p>System call hooking 的機制是在 kernel module 中，透過 sys_call_table
+這個陣列來取得某個 syscall 的位置。備份後，將其改為自行撰寫的
+function。用程式碼的方式來呈現或許會更清楚：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="n">original_sys_exit</span> <span class="o">=</span> <span class="n">sys_call_table</span><span class="p">[</span><span class="n">__NR_exit</span><span class="p">];</span>
+</span><span class='line'><span class="n">sys_call_table</span><span class="p">[</span><span class="n">__NR_exit</span><span class="p">]</span> <span class="o">=</span> <span class="n">fake_exit_function</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The above code locates the location of the <code>exit()</code> system call, backs up to
+<code>original_sys_exit</code>, and overwrites it with <code>fake_exit_function</code> pointer. At the
+end of the <code>fake_exit_function()</code> a function all to the original <code>exit()</code> is
+made, so that the user-space process can terminate correctly. More information
+on system call hooking can be found on <a href="http://www.linuxjournal.com/article/4378">Linux Journal</a></p>
+
+<p>指到自行撰寫的 function
+接著，在 our_fake_exit_function 撰寫要 hook 的程式碼，並在 function
+結束前呼叫備份的 original_sys_exit 便完成 hooking 的動作。詳細的 System call
+hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http://www.linuxjournal.com/article/4378">4</a>中找到。</p>
+
+<h2>References</h2>
+
+<ol>
+<li>http://140.120.13.13/~s9356048/OSLab/</li>
+<li>http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html</li>
+<li>http://www.epanastasi.com/?page_id=52</li>
+<li>http://www.linuxjournal.com/article/4378</li>
+</ol>
+
+
+  </div>
+
+<br/>
+
+
+
+
+
+  <footer>
+    <p class="meta" style='margin-bottom: 0px;'>
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-10-23T22:03:00-07:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2011</time> - 
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/kernel/'>kernel</a>, <a class='category' href='/blog/categories/linux/'>linux</a>
+  
+</span>
+
+
+    </p>
+  </footer>
+
+</div>
+
+
+          
+          </div>
+
+      </article>
+    </div>
+  </div>
+  <div id="footer-widgets">
+  <div class="container">
+    <div id='contact' class="row">
+  <div class="span2">
+    
+<h2>contact</h2>
+<a href="emailjosephcc@cmu.edu">josephcc@cmu.edu</a>
+
+
+<h2>found on</h2>
+
+<a href="https://github.com/josephcc/" rel="tooltip" title="Github"><img class="social_icon" title="Github" alt="github icon" src="/images/glyphicons_381_github.png"></a>
+
+
+
+
+
+<a href="http://www.linkedin.com/in/josephcheechang" rel="tooltip" title="Linkedin"><img class="social_icon" title="Linkedin" alt="Linkedin icon" src="/images/glyphicons_377_linked_in.png"></a>
+
+
+
+<a href="http://twitter.com/josephcc" rel="tooltip" title="Twitter"><img class="social_icon" title="Twitter" alt="Twitter icon" src="/images/glyphicons_391_twitter_t.png"></a>
+
+
+
+
+
+
+
+  </div>
+  <div class="span7">
+    <h2>recent activities</h2>
+<table class='activity'>
+  <tr><th>Oct 10, 2021</th><th>UIST - online.</th></tr>
+  <tr><th>Jun 15, 2021</th><th>Google Research - Invited Talk.</th></tr>
+  <tr><th>May 8, 2021</th><th>SIGCHI - online. Best Paper Honorable Mentions Award.</th></tr>
+  <tr><th>Oct 20, 2020</th><th>UIST - online.</th></tr>
+  <tr><th>Aug 6, 2020</th><th>AI2 - Invited Talk.</th></tr>
+  <tr><th>Mar 16, 2019</th><th>IUI - Los Angeles, California.</th></tr>
+  <tr><th>Apr 21, 2018</th><th>SIGCHI - Montreal, Canada. Best Paper Honorable Mentions Award.</th></tr>
+  <tr><th>May 8, 2017</th><th>SIGCHI - Denver, Colorado.</th></tr>
+  <tr><th>Oct 30, 2016</th><th>HCOMP - Austin, Texas. Invited Talk.</th></tr>
+  <tr><th>Oct 16, 2016</th><th>UIST - Tokyo, Japan.</th></tr>
+  <tr><th>May 16, 2016</th><th>Microsoft Research Internship - Redmond, Washington.</th></tr>
+  <tr><th>May 7, 2016</th><th>SIGCHI - San Jose, California. Best Paper Honorable Mentions Award x2.</th></tr>
+  <tr><th>Mar 13 2016</th><th>CHIIR (student volunteer) - Chapel Hill, North Carolina.</th></tr>
+</table>
+
+  </div>
+  <div class="span3">
+    <h2>random</h2>
+
+- Here's <a href='/portfolio' target='_blank'>a list</a> of selected fun projects I did (mostly) before grad school.<br/>
+- I like taking pictures. You can find some of them on my <a href='http://josephcc.500px.com/' target='_blank'>500px page</a>.
+
+
+  </div>
+</div>
+
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-left">
+  <a href="/">Joseph Chee Chang</a>
+  - Copyright &copy; 2021 - Joseph Chee Chang
+</p>
+<p class="pull-right">
+  <span>Powered by <a href="http://git-scm.com">Git</a>, <a href="http://github.com/">GitHub</a> and <a href="http://octopress.org/">Octopress</a>.</span>
+  
+</p>
+
+  </div>
+</footer>
+
+  <script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"><\/script>')</script>
+<script src="/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.tweet.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.instagram.js" type="text/javascript"></script>
+<script src="/javascripts/libs/jquery.masonry.min.js" type="text/javascript"></script>
+<script src="/javascripts/libs/particles.min.js" type="text/javascript"></script>
+<script src="/javascripts/custom.js" type="text/javascript"></script>
+<script src="/javascripts/IE9_fix_for_imagesLoaded_plugin_issue.js" type="text/javascript"></script>
+
+<script src="/javascripts/jquery.qtip-1.0.0-rc3.min.js" type="text/javascript"></script>
+<script src="/javascripts/bibtex-popup.js" type="text/javascript"></script>
+<script src="/javascripts/portfolio.js" type="text/javascript"></script>
+
+<!-- styles needed by jScrollPane -->
+<link type="text/css" href="/javascripts/jScrollPane/style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!-- the mousewheel plugin - optional to provide mousewheel support -->
+<script type="text/javascript" src="/javascripts/jScrollPane/script/jquery.mousewheel.js"></script>
+
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="/javascripts/jScrollPane/script/jquery.jscrollpane.min.js"></script>
+
+<script src="/javascripts/libs/particles.min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    bindBibtexQtips();
+  });
+
+  var hero = document.getElementById('hero')
+  if (hero !== undefined && hero !== null) {
+    particlesJS.load('hero', '/javascripts/libs/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

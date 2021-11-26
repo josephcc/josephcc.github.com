@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: NLP | Joseph Chee Chang]]></title>
+  <link href="http://josephcc.github.com/blog/categories/nlp/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-11-26T07:41:08-08:00</updated>
+  <id>http://josephcc.github.com/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Code-Switching]]></title>
+    <link href="http://josephcc.github.com/arXiv-twitter-code-switching/"/>
+    <updated>2014-12-22T08:00:00-08:00</updated>
+    <id>http://josephcc.github.com/arXiv-twitter-code-switching</id>
+    <content type="html"><![CDATA[<p>Code-switching behavior is a common phenomenon on social media to express
+solidarity or establish authority. While past work on automatic code-switching
+detection depends on dictionary look-up or named-entity recognition, our
+recurrent neural network model that relies on only raw features outperformed
+the top systems in the EMNLP'14 Code-Switching Workshop by 17% in error rate
+reduction.</p>
+
+<p><span style='color: gray'>Final project for the Deep Learning course at CMU.</span></p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Mixed language data is one of the difficult yet less explored domains of
+natural language processing. Most research in fields like machine translation
+or sentiment analysis assume monolingual input. However, people who are capable
+of using more than one language often communicate using multiple languages at
+the same time. Sociolinguists believe this "code-switching" phenomenon to be
+socially motivated. For example, to express solidarity or to establish
+authority. Most past work depend on external tools or resources, such as
+part-of-speech tagging, dictionary look-up, or named-entity recognizers to
+extract rich features for training machine learning models. In this paper, we
+train recurrent neural networks with only raw features, and use word embedding
+to automatically learn meaningful representations. Using the same
+mixed-language Twitter corpus, our system is able to outperform the best
+SVM-based systems reported in the EMNLP'14 Code-Switching Workshop by 1% in
+accuracy, or by 17% in error rate reduction.</p>
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'arXiv']);"  href="https://arxiv.org/abs/1412.4314" role="button">arXiv</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'PDF']);"  href="https://arxiv.org/pdf/1412.4314v2.pdf" role="button">arXiv hosted PDF</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Chang, Joseph Chee, and Chu-Cheng Lin.
+"Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus."
+arXiv preprint arXiv:1412.4314 (2014).
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{chang2014recurrent,
+  title={Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus},
+  author={Chang, Joseph Chee and Lin, Chu-Cheng},
+  journal={arXiv preprint arXiv:1412.4314},
+  year={2014}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Hangman Game Solver based on Language Models]]></title>
+    <link href="http://josephcc.github.com/hangman/"/>
+    <updated>2012-11-04T21:14:00-08:00</updated>
+    <id>http://josephcc.github.com/hangman</id>
+    <content type="html"><![CDATA[<p>I've recently wrote a program for solving sentence-based hangman game automatically. Here's a post
+explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a>
+language model and hidden Markov model.</p>
+
+<h2>The Hangman Game</h2>
+
+<p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
+game of hangman automatically. The rules are
+simple: the questions are short sentences or phrases with their characters
+concealed, i.e. replaced with an underscore, while spaces and punctuations are revealed. The solving
+process is an interactive process in which the solver program will guess a letter, and the question
+system will reveal its locations. If you guessed 3 letters that are not in the sentence,
+you fail the question.</p>
+
+<p>For example, the initial hint for the answer <code>it's a sunny day</code> is <code>__'_ _ _____ ___</code>,
+if a solver program guesses <code>y</code>, the system will respond with <code>__'_ _ ____y __y</code>.</p>
+
+<!--more-->
+
+
+<p>My friend Zero used a statistical approach that first guesses vows with highest frequencies until the first correct
+guess. With one vow revealed, he then repeatedly choose the word with the most portion revealed to
+continue guessing. His approach to guessing a half-revealed word is also statistical, namely to find the
+most frequent English word that matches the pattern.  His method is explained
+in detail in his recent <a href="http://itszero.github.com/blog/2012/10/29/my-way-to-write-a-hangman-ai/">blog post</a>.</p>
+
+<p>The shortcoming of this approach is that it lacks consideration for correlations between words in the
+sentences. For example, even the word <code>sorry</code> has a higher frequency than <code>sunny</code>, the latter is more
+likely to appear before the word <code>day</code>. In my attempt, I trained a
+<a href="http://en.wikipedia.org/wiki/Language_model">Language Model</a> to capture such correlations, and use
+<a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model</a> to guess every word in the sentence
+simultaneously.</p>
+
+<h2>Language Model</h2>
+
+<p>I use the state-of-the-art <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> package to train my
+language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
+the parameters I've used include order-5, Kneser-Ney discount, and interpolation. I use SWIG to
+integrate srilm (in C) with my main program written in Python.</p>
+
+<p>A language model is a statistical model that defines the probability of a sequence of words using
+probability distribution trained on a free text corpus.</p>
+
+<p>For example, given a sequence of words $w_1, w_2, w_3, ..., w_n$, the unigram (one-word) language model
+calculates the probability of such sequence as
+$$P(w<em>{1}w</em>{2}w<em>{3}...w</em>{n}) := P(w_1) * P(w_2) * P(w_3) * ... * P(w_n)$$
+this is sometimes called an order-1 language model. The word probability can be calculated by counting
+its appearances in the corpus:
+$$ P(w) := \frac { count(w) } { |\ corpus\ | } $$
+An order-2 language model, or bigram language model, defines the sequence probability using conditional
+probability:
+$$P(w<em>{1}w</em>{2}w<em>{3}...w</em>{n}) := P(w_1) * P(w_2|w_1) * P(w_3|w_2) * ... * P(w_n|w<em>{n-1})$$
+intuitively, conditional probability can be calculated as:
+$$ P(w_a|w_b) := \frac { count(w</em>{b}w_{a}) } { count(w_b) } $$
+Generally, higher order produces better results but also suffers more severely on the out-of-vocabulary problem
+and therefore sometimes needs to fall back to lower order conditional probabilities. Many theories have been
+proposed to improve the performance of language models, including absolute discount estimation, good turing,
+Kneser-Ney smoothing. Formal definition of language model can be found on
+<a href="http://en.wikipedia.org/wiki/Language_model">Wikipedia</a>.</p>
+
+<h2>Hidden Markov Model</h2>
+
+<p>Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
+observations, state transition probability distribution, and emission probability distribution. For
+example, in speech recognition, the recorded audio speech is the observation, the actual text are the
+hidden states. Another example is the optical character recognition (OCR) where the scanned images are
+the observations. Emission probability distribution indicates the probability from state to observation,
+i.e., from text to audio or image. Language model is commonly used for state transition probability
+distribution.</p>
+
+<p>In the case solving the Hangman game, the hidden states are the English words in the answer sentences, e.g., <code>it's</code>, <code>a</code>,
+<code>sunny</code>, <code>day</code>, and the observations are some half-revealed sequences, e.g., <code>__'s</code>, <code>_</code>, <code>s_nny</code>, <code>__y</code>.
+The state transition probability is calculated by the trained language model, e.g., $P(day | sunny)$ in
+a order-1 language model. I define the emission probability as the normalize probability of all the
+English words that matches the half-revealed pattern, e.g., normalized $P(day), P(pay), P(bay), P(hey),
+P(may), ..., etc$. for state <code>__y</code>, and zero otherwise. With the transition and emission probabilities defined, we
+can use the Viterbi dynamic programming algorithm to calculate the optimal state sequence.</p>
+
+<p>Formal definition and more information on HMM can be found on
+Wikipedia pages <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">here</a> and
+<a href="http://en.wikipedia.org/wiki/Viterbi_algorithm">here</a>, or in a slide I made when I was TA for a NLP course
+<a href="http://hadoop.nlpweb.org/~bizkit/lab3/vtb_example/">here</a> (in Chinese).</p>
+
+<h2>Algorithm</h2>
+
+<p>It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
+Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
+guessing vows only, I also use consonants, hoping that revealing some consonants will help the second
+stage. The sorted list begins with <code>e, a, i, s, r, n, t, o</code>, ..., etc. This
+process stops until it had made one wrong guesses or have revealed more than four letters.</p>
+
+<p>In the second stage, the trained hidden Markov model will tag the half-revealed words with English word
+sequence that yield the highest language model probability and word frequencies. The solver will then
+guess the letter that appears in most words. This process repeats until all characters are
+revealed, and the number of failed guesses are recorded.</p>
+
+<h2>Results</h2>
+
+<p>Here are three examples and results. The interactive guessing progress and some internal states are
+shown in the three tables below.</p>
+
+<h3>"describe what is needed"</h3>
+
+<p>stage   |errors |hint   | HMM prediction| guess
+-----   |-------    |----   |-------    | -----
+1   |0  |<code>________ ____ __ ______</code>  | N/A   | e
+1   |0  |<code>_e_____e ____ __ _ee_e_</code>  | N/A   | a
+1   |0  |<code>_e_____e __a_ __ _ee_e_</code>  | N/A   | i
+1   |0  |<code>_e___i_e __a_ i_ _ee_e_</code>  | N/A   | s
+1   |0  |<code>_es__i_e __a_ is _ee_e_</code>  | N/A   | r
+2   |0  |<code>_es_ri_e __a_ is _ee_e_</code>  | <strong>describe what is needed</strong>   | d
+2   |0  |<code>des_ri_e __a_ is _eeded</code>  | <strong>describe what is needed</strong>   | n
+2   |0  |<code>des_ri_e __a_ is needed</code>  | <strong>describe what is needed</strong>   | t
+2   |0  |<code>des_ri_e __at is needed</code>  | <strong>describe what is needed</strong>   | t
+2   |0  |<code>descri_e __at is needed</code>  | <strong>describe what is needed</strong>   | hbw (abrv.)
+2   |0  |<code>describe what is needed</code>  | (solved)  |
+<br/></p>
+
+<h3>"an honor roll of online options"</h3>
+
+<table>
+<thead>
+<tr>
+<th>stage   </th>
+<th>errors </th>
+<th>hint   </th>
+<th> HMM prediction</th>
+<th> guesses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1   </td>
+<td>0  </td>
+<td><code>__ _____ ____ __ ______ _______</code>  </td>
+<td>N/A    </td>
+<td> eaisr</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>a_ ____r r___ __ ___i_e ___i__s</code>  </td>
+<td>at honor roll of police options    </td>
+<td> o</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>a_ _o_or ro__ o_ o__i_e o__io_s</code>  </td>
+<td>at honor roll of office options    </td>
+<td> n</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>an _onor ro__ o_ on_ine o__ions</code>  </td>
+<td><strong>an honor roll of online options</strong>    </td>
+<td> l</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>an _onor roll o_ online o__ions</code>  </td>
+<td><strong>an honor roll of online options</strong>    </td>
+<td> t</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>an _onor roll o_ online o_tions</code>  </td>
+<td><strong>an honor roll of online options</strong>    </td>
+<td> hpf</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>an honor roll of online options</code>  </td>
+<td>(solved)   </td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>This one shows HMM produces different results as more characters are revealed.
+<br/></p>
+
+<h3>"members of the supreme court"</h3>
+
+<table>
+<thead>
+<tr>
+<th>stage   </th>
+<th>errors </th>
+<th>hint   </th>
+<th> HMM prediction</th>
+<th> guesses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1   </td>
+<td>0  </td>
+<td><code>_______ __ ___ _______ _____</code> </td>
+<td> N/A   </td>
+<td> e</td>
+</tr>
+<tr>
+<td>1   </td>
+<td>0  </td>
+<td><code>_e__e__ __ __e ____e_e _____</code> </td>
+<td> N/A   </td>
+<td> a</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>1  </td>
+<td><code>_e__e__ __ __e ____e_e _____</code> </td>
+<td> <strong>members of the supreme court</strong>  </td>
+<td> rstoumchpbf</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>1  </td>
+<td><code>members of the supreme court</code> </td>
+<td>   </td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>This last one really shows the power of language model. With only <code>e</code> revealed, the HMM process was able to guess the correct result.</p>
+
+<h2>Improvements</h2>
+
+<p>For stage one, instead of using just the highest frequency letters, conditional probability can also be
+a factor for choosing the next letter. For example, if <code>s</code> is revealed as the second to last character
+in some words, <code>t</code> and <code>e</code> may likely to be the last letter of such words.</p>
+
+<p>For the two stages, we can decide to advance from stage 1 to 2 base on different factors instead of
+heuristically. These may include the confident of the HMM results, the percentage of letters revealed,
+the before mentioned conditional probabilities and more. Global optimization approaches can be used to
+find good parameters to determine the timing to start stage two.  Alternatively, we can treat the two
+stages as different strategies and use genetic algorithm to apply them alternately.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TermMine]]></title>
+    <link href="http://josephcc.github.com/ACL-termmine/"/>
+    <updated>2012-07-08T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/ACL-termmine</id>
+    <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
+translation pairs of terms from the web. We used a small set of terms and
+translations to gather mixed-code text from the web to train a CRF model that
+can identify translation pairs at run-time.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>In this paper, we present a new method for learning to finding translations and
+transliterations on the Web for a given term. The approach involves using a
+small set of terms and translations to obtain mixed-code snippets from a search
+engine, and automatically annotating the snippets with tags and features for
+training a conditional random field model. At run-time, the model is used to
+extracting translation candidates for a given term. Preliminary experiments and
+evaluation show our method cleanly combining various features, resulting in a
+system that outperforms previous work.</p>
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
+Learning to find translations and transliterations on the web.
+In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
+Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Chang:2012:LFT:2390665.2390698,
+ author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
+ title = {Learning to Find Translations and Transliterations on the Web},
+ booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics},
+ series = {ACL '12},
+ year = {2012},
+ location = {Jeju Island, Korea},
+ pages = {130--134},
+ numpages = {5},
+ url = {http://dl.acm.org/citation.cfm?id=2390665.2390698},
+ acmid = {2390698},
+ publisher = {Association for Computational Linguistics},
+ address = {Stroudsburg, PA, USA},
+} 
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WikiSense]]></title>
+    <link href="http://josephcc.github.com/wikisense/"/>
+    <updated>2009-12-03T08:00:00-08:00</updated>
+    <id>http://josephcc.github.com/wikisense</id>
+    <content type="html"><![CDATA[<p>We introduced a method for classifying named-entities into broad semantic
+categories in WordNet. We extracted rich features from Wikipedia, allowing us
+to classify named-entities with high precision and coverage. The result is a
+large scale named-entity semantic database with 1.2 million entries and over
+95% accuracy, covering 80% of all named-entities found on Wikipedia.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>In this paper, we introduce a minimally supervised method for learning to
+classify named-entity titles in a given encyclopedia into broad semantic
+categories in an existing ontology. Our main idea involves using overlapping
+entries in the encyclopedia and ontology and a small set of 30 handed tagged
+parenthetic explanations to automatically generate the training data. The
+proposed method involves automatically recognizing whether a title is a named
+entity, automatically generating two sets of training data, and automatically
+building a classification model for training a classification model based on
+textual and non-textual features. We present WikiSense, an implementation of
+the proposed method for extending the named entity coverage of WordNet by sense
+tagging Wikipedia titles. Experimental results show WikiSense achieves accuracy
+of over 95% and near 80% applicability for all NE titles in Wikipedia.
+WikiSense cleanly produces over 1.2 million of NEs tagged with broad
+categories, based on the lexicographers’ files of WordNet, effectively
+extending WordNet to form a very large scale semantic category, a potentially
+useful resource for many natural language related tasks.</p>
+
+<h2>Demo</h2>
+
+<pre><code>WikiID    Supersense     PE          NE                                   Note
+----------------------------------------------------------------------------------------------
+11983070  person         None        Johnny Cash                          singer
+203407    person         None        Celine Dion                          singer
+2773076   group          None        Guns N' Roses                        band
+
+945778    location       None        Hsinchu Science and Industrial Park
+951038    location       None        Linbian, Pingtung                    name of city
+
+19299838  communication  None        Cape No. 7                           movie
+543675    person         None        Jay Chou                             singer
+
+1374293   group          None        National Chung Hsing University
+2012972   group          None        Yuan Ze University
+
+412376    animal         butterfly   Queen                                namd of speices
+42010     group          band        Queen                                name of band
+10309519  communication  magazine    Queen                                name of maagazine
+559004    artifcact      automobile  Queen                                car model name
+718750    communication  album       Queen                                music album
+570546    person         Snow White  Queen                                fictional character
+130425    artifcact      TTC         Queen                                subway station
+----------------------------------------------------------------------------------------------
+</code></pre>
+
+<p>PE, parenthetic explanations, see <a href='http://en.wikipedia.org/wiki/Wikipedia:Disambiguation'>Wikipedia guideline on resolving ambiguous titles</a>.</p>
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'PDF']);" href="http://www.aclweb.org/anthology/Y09-1009" role="button">ACLWeb Hosted PDF</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'WikiSense', 'Dataset']);" href="http://moon.cse.yzu.edu.tw/WikiSense/release.tbz2" role="button">Dataset Download</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Chang, J., Tsai, R. T.-H., &amp; Chang, J. S. (2009).
+WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet.
+In Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC) (72–81)
+Hong Kong, China. 
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Chang-EtAl:2009:PACLIC2009,
+  author = {Chang, Joseph and Tsai, Richard Tzong-Han and Chang, Jason S.},
+  title = {WikiSense: Supersense Tagging of Wikipedia Named Entities Based WordNet},
+  booktitle = {Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation (PACLIC)},
+  year = {2009},
+  month = {dec},
+  address = {Hong Kong, China},
+  pages = {72--81},
+  url = {http://www.aclweb.org/anthology/Y09-1009}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

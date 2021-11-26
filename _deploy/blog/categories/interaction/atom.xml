@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Interaction | Joseph Chee Chang]]></title>
+  <link href="http://josephcc.github.com/blog/categories/interaction/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-11-26T07:41:08-08:00</updated>
+  <id>http://josephcc.github.com/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tabs.do]]></title>
+    <link href="http://josephcc.github.com/UIST-tabsdo/"/>
+    <updated>2021-10-10T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-tabsdo</id>
+    <content type="html"><![CDATA[<p>The nature of people’s online activities has gone through dramatic changes in
+past decades, yet browser interfaces have stayed largely the same since tabs
+were introduced nearly 20 years ago. The divide between browser interfaces that
+only provide affordances for managing individual tabs and users who manage
+their attention at the task level can lead to an "tab overload" problem. We
+explored a task-centric tab manager called which enables users to save their
+open tabs to manage them with task structures and affordances that better
+reflect their mental models. To lower the cost of importing, Tabs.do uses a
+neural network in the browser to make suggestions for grouping users' open tabs
+by tasks.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>The nature of people’s online activities has gone through dramatic changes in
+past decades as significant portions of our productivity and sensemaking tasks
+continue to migrate to “the cloud,” yet browser interfaces have stayed
+largely the same since tabs were introduced nearly 20 years ago. The divide
+between browser interfaces that only provide affordances for managing
+individual tabs and users who manage their attention at the task level can lead
+to serious adverse effects -- commonly referred to as “tab overload.” This
+paper explores the design of a task-centric tab manager called Tabs.do, which
+enables users to import and close their open tabs to manage them as tasks.
+Users can structure and prioritize their tasks to better reflect their mental
+models and resume progress by reopening tasks into open tabs. To lower the cost
+of importing, Tabs.do uses machine learning to make intelligent suggestions for
+grouping users’ open tabs into task bundles with high precision by exploiting
+behavioral and semantic features. Tabs.do bridges the gap between current
+browser designs that treat tabs as stacks of independent webpages and users who
+manage their workflow and attention at the tasks level. We conducted a field
+deployment study where participants used Tabs.do with their real-life tasks and
+tabs in the wild and uncovered insights around the costs, benefits, and
+limitations of a task-centric approach to tab management.</p>
+
+<h2>30 Seconds Preview (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/he--Ly0UQ-4" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Presentation (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZwbVzDRFbGs" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/tabs.do.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabsDo', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Yongsung Kim, Victor Miller, Michael Xieyang Liu, Brad Myers, Aniket Kittur.
+Tabs.do: Task-Centric Browser Tab Management.
+In Proceedings of the 34th ACM User Interface Software and Technology Symposium: UIST 2021.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{chang2021tabsdo,
+  title={Tabs.do: Task-Centric Browser Tab Management.},
+  author={Chang, Joseph Chee and Kim, Yongsung and Miller, Victor and Liu, Michael Xieyang and Myers, Brad and Kittur, Aniket},
+  booktitle = {Proceedings of the 34th ACM User Interface Software and Technology Symposium},
+  series = {UIST'21},
+  year={2021}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[When the Tab Comes Due]]></title>
+    <link href="http://josephcc.github.com/CHI-browser-tabs/"/>
+    <updated>2021-05-08T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-browser-tabs</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/></p>
+
+<p>Tabs have become integral to Web browsing yet have changed little since their
+introduction nearly 20 years ago. In contrast, the internet has gone through
+dramatic changes and increasingly used to support complex sensemaking tasks.
+This paper investigates how tabs today are overloaded with a diverse set of
+functionalities and issues users face when managing them. We uncovered
+competing pressures pushing for keeping tabs open (ranging from interaction to
+emotional costs) versus pushing for closing them (such as limited attention and
+resources). We further developed rich design implications for future browser
+interfaces.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Tabs have become integral to browsing the Web yet have changed little since
+their introduction nearly 20 years ago. In contrast, the internet has gone
+through dramatic changes, with users increasingly moving from navigating to
+websites to exploring information across many sources to support online
+sensemaking. This paper investigates how tabs today are overloaded with a
+diverse set of functionalities and issues users face when managing them. We
+interviewed ten information workers asking about their tab management
+strategies and walk through each open tab on their work computers four times
+over two weeks. We uncovered competing pressures pushing for keeping tabs open
+(ranging from interaction to emotional costs) versus pushing for closing them
+(such as limited attention and resources). We then surveyed 103 participants to
+estimate the frequencies of these pressures at scale. Finally, we developed
+design implications for future browser interfaces that can better support
+managing these pressures</p>
+
+<h2>Presentation (SIGCHI 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pBjIrX9H-Ns" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/tabs.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabHoarders', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3411764.3445585" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabHoarders', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Fast Company: <a href="https://www.fastcompany.com/90635776/the-twisted-psychology-of-browser-tabs-and-why-we-cant-get-rid-of-them">The twisted psychology of browser tabs—and why we can't get rid of them</a></li>
+<li>MetroNews UK: <a href="https://metro.co.uk/2021/05/10/suffer-from-tab-overload-scientists-study-why-we-have-so-many-open-14540577/amp/">Suffer from "tab overload"? Scientists study why we have so many open</a></li>
+<li>Inc.: <a href="https://www.inc.com/jessica-stillman/productivity-browser-tabs-carnegie-mellon.html">Stressed Out by Your 87 Open Browser Tabs? New Science Offers a Fix</a></li>
+<li>HackerNews: <a href="https://news.ycombinator.com/item?id=27095701">When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage</a></li>
+<li>HackerNews: <a href="https://news.ycombinator.com/item?id=27157225">Overcoming tab overload</a></li>
+<li>Science Alert: <a href="https://www.sciencealert.com/tab-overload-is-a-common-problem-for-people-browsing-the-internet-survey-finds">We're Getting Buried in Browser Tabs And Scientists Want to Fix It</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2021-05/cmu-oto050721.php">Overcoming tab overload</a></li>
+<li>NewsGram: <a href="https://www.newsgram.com/skeema-this-tool-will-assist-you-in-managing-your-browser-tabs-more-effectively/">Skeema: This Tool Will Assist You In Managing Your Browser Tabs More Effectively</a></li>
+<li>Sify: <a href="https://www.sify.com/news/this-tool-can-help-you-better-manage-browser-tabs-news-education-vfjl5Ebfaiifc.html">This tool can help you better manage browser tabs</a></li>
+<li>Revyuh: <a href="https://www.revyuh.com/news/software/apps/browser-tabs-scientists-find-new-way-to-overcome-fear-of-black-hole-effect/">Browser Tabs: Scientists Find New Way to Overcome Fear of Black Hole Effect</a></li>
+<li>Carnegie Mellon University: <a href="https://www.cmu.edu/news/stories/archives/2021/may/overcoming-tab-overload.html">Overcoming Tab Overload</a></li>
+</ul>
+
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Nathan Hahn, Yongsung Kim, Julina Coupland, Bradley
+Breneisen, Hannah S Kim, John Hwong, Aniket Kittur. 2021.
+When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage.
+In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21).
+ACM, New York, NY, USA, 15 pages. DOI: http://dx.doi.org/10.1145/
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Chang:tabs:2021,
+ author = {Chang, Joseph Chee and Hahn, Nathan and Kim, Yongsung and Coupland,
+ Julina and Breneisen, Bradley and Kim, Hannah S and Hwong, John and Kittur,
+ Aniket},
+ title = {When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage},
+ booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '21},
+ year = {2021},
+ location = {Online},
+ numpages = {15},
+ url = {http://doi.acm.org/10.1145/3411764.3445585},
+ doi = {10.1145/3411764.3445585},
+ acmid = {3445585},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mesh]]></title>
+    <link href="http://josephcc.github.com/UIST-mesh/"/>
+    <updated>2020-10-20T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-mesh</id>
+    <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
+the tens of thousands of online evidence about each of their options.  However,
+to synthesize this information into confident decisions can incur high
+interaction and cognitive costs. Online information is scattered across
+different sources, and evidence such as reviews can be subjective and
+conflicting, requiring users to interpret them under their personal context. We
+introduce Mesh, which scaffolds users in iteratively building up a better
+understanding of both their choices by evaluating evidence gathered across
+sources. Lab and field deployment studies found that Mesh significantly reduces
+the costs of gathering and evaluating evidence and scaffolds decision-making
+through personalized criteria enabling users to gain deeper insights from data
+to make confident purchase decisions.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>While there is an enormous amount of information online for making decisions
+such as choosing a product, restaurant, or school, it can be costly for users
+to synthesize that information into confident decisions. Information for users'
+many different criteria needs to be gathered from many different sources into a
+structure where they can be compared and contrasted. The usefulness of each
+criterion for differentiating potential options can be opaque to users, and
+evidence such as reviews may be subjective and conflicting, requiring users to
+interpret each under their personal context. We introduce Mesh, which
+scaffolds users in iteratively building up a better understanding of both their
+criteria and options by evaluating evidence gathered across sources in the
+context of consumer decision making. Mesh bridges the gap between decision
+support systems that typically have rigid structures and the fluid and dynamic
+process of exploratory search, changing the cost structure to provide
+increasing payoffs with greater user investment. Our lab and field deployment
+studies found evidence that Mesh significantly reduces the costs of
+gathering and evaluating evidence and scaffolds decision-making through
+personalized criteria enabling users to gain deeper insights from data.</p>
+
+<h2>Video Figure</h2>
+
+<h4>5-minute virtual conference presentation</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LNASh9rq9-I?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h4>3-minute video abstract</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NqriHlTfVhU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3379337.3415865" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+Mesh: Scaffolding Comparison Tables for Online Decision Making.
+In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{chang2020mesh,
+  title={Mesh: Scaffolding Comparison Tables for Online Decision Making},
+  author={Chang, Joseph Chee and Hahn, Nathan, and Kittur, Aniket},
+  booktitle = {Proceedings of the 33rd ACM User Interface Software and Technology Symposium},
+  series = {UIST'20},
+  year={2020}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SearchLens]]></title>
+    <link href="http://josephcc.github.com/IUI-searchlens/"/>
+    <updated>2019-03-17T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/IUI-searchlens</id>
+    <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
+apartment to live in, reviews and forum posts are often a significant factor in
+online decision making. However, making sense of these rich repositories of
+diverse opinions can be prohibitively effortful, searchers need to sift through
+a large number of reviews to characterize each item based on aspects that they
+care about. We introduce a novel system, SearchLens, where searchers build up a
+collection of composable and reusable "Lenses" that reflect their different
+latent interests. Also, the Lenses allowed the system to generate personalized
+interfaces with visual explanations that promote transparency and enable
+in-depth exploration.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Whether figuring out where to eat in an unfamiliar city or deciding which
+apartment to live in, consumer generated data (i.e. reviews and forum posts)
+are often an important influence in online decision making. To make sense of
+these rich repositories of diverse opinions, searchers need to sift through a
+large number of reviews to characterize each item based on aspects that they
+care about. We introduce a novel system, SearchLens, where searchers build up a
+collection of "Lenses" that reflect their different latent interests, and
+compose the Lenses to find relevant items across different contexts. Based on
+the Lenses, SearchLens generates personalized interfaces with visual
+explanations that promotes transparency and enables deeper exploration. While
+prior work found searchers may not wish to put in effort specifying their goals
+without immediate and sufficient benefits, results from a controlled lab study
+suggest that our approach incentivized participants to express their interests
+more richly than in a baseline condition, and a field study showed that
+participants found benefits in SearchLens while conducting their own tasks.</p>
+
+<h2>Video Figure</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dXcTtHMa2DQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.
+Joseph Chee Chang, Nathan Hahn, Adam Perer, Aniket Kittur.
+In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{chang2019searchlens,
+  title={SearchLens: Composing and Capturing Complex User Interests for Exploratory Search},
+  author={Chang, Joseph Chee and Hahn, Nathan, and Perer, Adam and Kittur, Aniket},
+  booktitle = {Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces},
+  series = {IUI'19},
+  year={2019}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bento Browser]]></title>
+    <link href="http://josephcc.github.com/CHI-bento/"/>
+    <updated>2018-04-21T08:01:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-bento</id>
+    <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
+make conducting searches on mobile devices especially difficult where screen
+real-estate is limited, and progress can often be interrupted. Rather than
+using tabs to manage information, we introduce browsing through scaffolding.
+Search result lists serve as mutable workspaces where progress can be suspended
+and resumed. BentoBrowser is available for <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download from the iPhone AppStore</a>.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>People engaged in complex searches such as planning a vacation or understanding
+their medical symptoms are often overwhelmed by opening and managing many tabs.
+These challenges are exacerbated as search moves to smartphones and mobile
+devices where screen real-estate is limited and tasks are frequently suspended,
+resumed, and interleaved. Rather than continue to utilize tab-based browsing
+for complex search, we introduce a new way of browsing through a scaffolded
+interface. The list of search results serves as a mutable workspace, where a
+user can track progress on a specific information query. The search query
+serves as a gateway into this workspace, accessed through a task-subtask
+hierarchy. We instantiate this in the Bento mobile search system and
+investigate its effectiveness in three studies. We find converging evidence
+that users were able to make progress on their complex searching tasks with
+this structure, and find it more organized and easier to revisit.</p>
+
+<h2>Install Bento Browser</h2>
+
+<p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
+
+<p><img src="http://josephcc.github.com/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
+
+<p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
+
+<h2>Video Demo</h2>
+
+<p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Tech Explorist: <a href="https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/">A new web browser makes it easier to search on mobile devices</a></li>
+<li>THE Journal: <a href="https://thejournal.com/articles/2018/05/02/carnegie-mellons-bento-browser-organizes-complex-mobile-searches.aspx">New Bento Browser Organizes Complex Mobile Searches</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2018/04/180425093747.htm">Bento browser makes it easier to search on mobile devices</a></li>
+<li>Prikk: <a href="https://www.prikk.world/en/news/wirtschaft/innovation/bento-erleichtert-websuche-auf-mobilgeraten">"BENTO" ERLEICHTERT WEBSUCHE AUF MOBILGERÄTEN</a></li>
+<li>CMU News: <a href="https://www.cmu.edu/news/stories/archives/2018/april/bento-browser.html">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
+<li>CMU HCII: <a href="https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
+</ul>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
+Bento Browser: Complex Mobile Search Without Tabs.
+In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18).
+ACM, Montreal, QC, Canada.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Hahn:2018:Bento,
+ author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
+ title = {Bento Browser: Complex Mobile Search Without Tabs.},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '18},
+ year = {2018},
+ publisher = {ACM},
+ address = {Montreal, QC, Canada},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

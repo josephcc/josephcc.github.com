@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: kernel | Joseph Chee Chang]]></title>
+  <link href="http://josephcc.github.com/blog/categories/kernel/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-11-26T07:41:08-08:00</updated>
+  <id>http://josephcc.github.com/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Linux Kernel: Module debugging with gdb]]></title>
+    <link href="http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
+    <updated>2011-12-05T21:12:00-08:00</updated>
+    <id>http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb</id>
+    <content type="html"><![CDATA[<p>This is post continues my previous post on
+<a href="http://joe.cat/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
+and explain how to do the same for debugging kernel modules.</p>
+
+<!-- more -->
+
+
+<p>此篇文章延續前文 ，簡單介紹如何使用 gdb / kgdb 對核心模組 (kernel module)
+進行即時的 debugging。</p>
+
+<p>The previous post explained how to use QEMU, kgdb and gdb to debug the Linux
+kernel in realtime. Adding parameters to <code>.config</code>, debug information is
+included in <code>vmlinux</code>, so that in gdb you can press <code>l</code> to list currently
+running kernel codes. However, kernel modules are dynamically loaded, even with
+the <code>-g</code> compile flag, the debug information is not loaded with <code>vmlinux</code>
+into gdb.</p>
+
+<p>在先前的文章中，介紹了如何使用 qemu、kgdb、gdb 對核心進行動態的
+debugging，並在編譯核心時在 vmlinux 中包含 debug information，使 debug
+時能夠直接瀏覽原始碼以及對變數進行存取。然而，kernel module
+是在核心之外的，因次就算編譯時加上 -g GCCFLAG 也無法直接在 gdb 中存取其
+debug information。</p>
+
+<p>To solve this issue, we need to use the <code>add-symbol-file</code> to let gdb read
+additional debug information. Since in my setup, gdb and the dynamically
+loaded kernel module are executing on different machines, there's no way for gdb
+to know kernel module's location in the memory after executing <code>insmod</code>. Here's
+my solution:</p>
+
+<p>要解決這個問題，需要使用 gdb 中的 add-symbol-file 命令來讀入包含 debug
+information 的 kernel module。gdb 與核心、模組是執行在完全不同的電腦上，因次
+gdb 是無法直接得知 insmod 之後 kernel module 被載入到記憶體中的位置，也讓
+module debugging 變得比較 tricky 一點。以下是我的作法：</p>
+
+<ol>
+<li>In the kernel module, add a break point stub in <code>init_module</code>, so that the
+kernel is immediately stopped when the module is loaded for us to add more break
+points.</li>
+<li>When compiling the module, use <code>-g -O0</code> to produce debug information and
+prevent optimization.</li>
+<li>With the VM connected to gdb, use <code>insmod</code> to load the module. The VM will
+stop at <code>init_module</code>, use <code>c</code> in gdb to continue running the kernel for now.</li>
+<li>You can now find the module's location in memory in the file
+<code>/sys/modules/&lt;module_name&gt;/sections/.text</code>. Copy it, and use other break points
+to stop the kernel without reloading the module.</li>
+<li>In gdb, execute <code>add-symbol-file &lt;module&gt; &lt;location&gt;</code> to load the debug
+information.</li>
+</ol>
+
+
+<p><a href="http://www.flickr.com/photos/bizkit/5233432557/" title="Screen shot
+2010-12-05 at 4.55.43 PM by bizkit@tw, on Flickr"><img
+src="http://farm6.staticflickr.com/5163/5233432557_a05d118698_z.jpg" width="640"
+height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
+
+<p>Now you can list and step through module code in gdb.</p>
+
+<p>Ref: http://www.linuxjournal.com/article/4525?page=0,1</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Linux Kernel: Hooking System Calls on 2.6+]]></title>
+    <link href="http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
+    <updated>2011-10-23T22:03:00-07:00</updated>
+    <id>http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
+    <content type="html"><![CDATA[<p>This post explains how to add, or override, system calls by loading custom
+kernel modules using system call hooking techniques. This
+is sometimes called system call hijacking, and is used by viruses and rootkits.</p>
+
+<!-- more -->
+
+
+<p> The mechanism is not
+difficult to understand, you basically need to find the location of the kernel
+system call table, override an entry with a function inside your kernel module.
+At the end of you function you call the original system call and return with its
+returned value, so that user-space processes is not aware of any changes.</p>
+
+<p>This is a very dangerous technique since every process running on the machine
+will be effected. So obviously Linux kernel does not reveal the location of the
+call table to kernel modules. This post is not intended to explain how to
+exploit the kernel to find the location of the call table, but rather recompiles
+the kernel once to reveal the location for an alternative development process.
+With the ability to hook system calls, you won't need to recompile and reboot
+the kernel every time you want to change something, you can simply reload the
+kernel module.</p>
+
+<p>What I actually did was that I added a new system call to the kernel first,
+expose the system call table, and dynamically hooking my system call by loading
+kernel modules at runtime.</p>
+
+<p>修課的作業要求在核心新增一個 system call
+提供一個分析記憶體狀態的介面，不過助教學長說我們也可以寫成 kernel
+module，於是便起了在 kernel module 中寫 system call
+的想法。查了一下，要達到這樣的效果要靠 system call hooking 來達成，也就是去
+hijack 目前存在的 system call，讓所有程式在呼叫該 system call 時都會變成執行到
+module 中的某個 function，該 function 最後會再去呼叫正常的 system call routine。</p>
+
+<p>目前的計畫是在 kernel 中新增一個 system call 來給自己的 module 來
+hijack，不知道會不會是很沒有道理開發模式。
+這是篇是今晚的筆記，雖然內容不多，但在精神不濟的時刻，相信我更需要做點筆記。:p</p>
+
+<h2>Adding a new system call</h2>
+
+<p>There are already many tutorials that explain how to add system calls to the
+kernel. The ones I read are <a href="http://140.120.13.13/~s9356048/OSLab/">the tutorial from Advance Defence Lab</a> in
+Chinese and <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">The Linux Kernel Module Programming Guide</a> in English.</p>
+
+<p>今天讀了幾篇簡單的 tutorial，分別是介紹如何新增 system call 以及撰寫自己的
+kernel module。並實際寫了一個簡單的 hello world kernel module。不得不說「寫
+syscall 與 kernel
+module」或許聽起來很嚇人，但其實不難入門。當然真正難的一定是在入門之後。</p>
+
+<p>新增 system call 的部份看了實驗室學長以及阿怪寫的兩篇 tutorial <a href="http://140.120.13.13/~s9356048/OSLab/">1</a>
+，大概了解一下狀況，後來參考 The Linux Kernel Module
+Programming Guide <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">2</a> 寫了一個簡單的 hello world 模組。</p>
+
+<h2>Exposing the system call table</h2>
+
+<p>Even though starting from 2.6, the kernel no longer exposes <code>sys_call_table</code> to
+modules, there are probably techniques you can use <a href="http://www.epanastasi.com/?page_id=52">exploits</a> to find it. On
+your own machine, the easiest way is to add the following lines to the kernel
+(<code>arch/x86/kernel/i386_ksyms_32.c</code>) and boot into the recompiled kernel:</p>
+
+<p>在 2.6 版本的核心中，為了保護系統免於 kernel rootkit 的攻擊， <code>sys_call_table</code>
+不再能被 kernel module 中所任意存取。在 insmod 的時候便會發生 symbol not found
+的錯誤而失敗。雖然還是有許多 hacking 方式可以取的 <code>sys_call_table</code>
+<a href="http://www.epanastasi.com/?page_id=52">3</a>，但本人實在白的發亮（又弱的可以），所以直接修改 kernel 的程式碼來把
+<code>sys_call_table</code> export 成 global。只要在 arch/x86/kernel/i386_ksyms_32.c
+加入以下兩行就可以了：</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">extern</span> <span class="kt">void</span><span class="o">*</span> <span class="n">sys_call_table</span><span class="p">[];</span>
+</span><span class='line'><span class="n">EXPORT_SYMBOL</span><span class="p">(</span><span class="n">sys_call_table</span><span class="p">);</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Now kernel modules will be able to access system call table via
+<code>sys_call_table</code>. However, in many distro, the table is in read only stats, so
+make sure you also have the following in your kernel <code>.config</code> file.</p>
+
+<p>如此一來，kernel module 內便可以存取 <code>sys_call_table</code>。但在 2.6 許多 distro
+預設的狀況下 system call table 是唯讀的，因此在上述的第二步便會失敗。只要在
+.config 裡將 CONFIG_DEBUG_RODATA 設為 n 後便可以成功的 hook 到 system calls。</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="n">CONFIG_DEBUG_RODATA</span><span class="o">=</span><span class="n">n</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>System call hooking</h2>
+
+<p>Finally, the actual syscall hooking process is done in a kernel module with the
+following code:</p>
+
+<p>System call hooking 的機制是在 kernel module 中，透過 sys_call_table
+這個陣列來取得某個 syscall 的位置。備份後，將其改為自行撰寫的
+function。用程式碼的方式來呈現或許會更清楚：</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="n">original_sys_exit</span> <span class="o">=</span> <span class="n">sys_call_table</span><span class="p">[</span><span class="o">&lt;</span><span class="n">strong</span><span class="o">&gt;</span><span class="n">NR_exit</span><span class="p">];</span>
+</span><span class='line'><span class="n">sys_call_table</span><span class="p">[</span><span class="o">&lt;/</span><span class="n">strong</span><span class="o">&gt;</span><span class="n">NR_exit</span><span class="p">]</span> <span class="o">=</span> <span class="n">fake_exit_function</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>The above code locates the location of the <code>exit()</code> system call, backs up to
+<code>original_sys_exit</code>, and overwrites it with <code>fake_exit_function</code> pointer. At the
+end of the <code>fake_exit_function()</code> a function all to the original <code>exit()</code> is
+made, so that the user-space process can terminate correctly. More information
+on system call hooking can be found on <a href="http://www.linuxjournal.com/article/4378">Linux Journal</a></p>
+
+<p>指到自行撰寫的 function
+接著，在 our_fake_exit_function 撰寫要 hook 的程式碼，並在 function
+結束前呼叫備份的 original_sys_exit 便完成 hooking 的動作。詳細的 System call
+hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http://www.linuxjournal.com/article/4378">4</a>中找到。</p>
+
+<h2>References</h2>
+
+<ol>
+<li>http://140.120.13.13/~s9356048/OSLab/</li>
+<li>http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html</li>
+<li>http://www.epanastasi.com/?page_id=52</li>
+<li>http://www.linuxjournal.com/article/4378</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Linux Kernel: Debugging with QEMU and kgdb]]></title>
+    <link href="http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb/"/>
+    <updated>2011-10-17T07:49:00-07:00</updated>
+    <id>http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb</id>
+    <content type="html"><![CDATA[<p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
+the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and
+KGDB for real-time kernel debugging.</p>
+
+<!-- more -->
+
+
+<p>這篇文章是這幾天摸索的心得，其實還沒包含如何去玩 kernel debugging ，因為我還不會XD。
+文章分成三個部份：1. 設定與安裝 Debian 於 QEMU 虛擬機器、2. 編譯 Linux 支援 kgdb 的核心以及 initrd、3.
+使用 gdb/kgdb 做核心除錯。</p>
+
+<p>There are many online tutorials that boot a pre-compiled kernel image with busybox to boot in QEMU.
+However, my school project requires me to examine the physical memory while running Firefox, a more
+complete operating system is needed.</p>
+
+<p>網路上許多 kgdb 的教學都是拿編好的 kernel image 搭配 busybox 來載入 QEMU
+開機，但這次學校作業內容包含執行 Firefox，所以需要跑在一個較完整的作業系統上。</p>
+
+<h2>Setup QEMU VM</h2>
+
+<p>First, we need to create a HDD image with <code>qemu-img</code>:</p>
+
+<p>首先，要在安裝一份運行再 QEMU 上的 Debian 系統，第一步是用 qemu-img 產生一份硬碟 image：</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu-img create -f qcow2 image.qcow2 5G
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>This will create a 5GB image with the qcow2 format, which incrementally
+increase the image size as you put more files on it. <code>qemu-img</code> also provide
+snapshotting, store directly inside the image file.</p>
+
+<p>這樣會產生一個容量為 5Gb 的硬碟檔案，映像檔的格式為
+qcow2，會隨著硬碟的使用長大映像檔的大小。另外，qemu-img 也提供了硬碟 snapshot
+的功能，而且是直接存在 image 內：</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu-img snapshot -c snapshot_name image.qcow2  // create snapshot
+</span><span class='line'>qemu-img snapshot -l image.qcow2                // list all snapshots
+</span><span class='line'>qemu-img snapshot -a snapshot_name image.qcow2  // apply snapshot
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>After generating the disk image, setup QEMU to boot from a Debian install disk:</p>
+
+<p>產生好硬碟檔之後，讓 QEMU 從抓好的 Debian 安裝光碟開機：</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu -boot d -cdrom debian.iso -hda image.qcow2
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Somehow the <code>-boot</code> parameters of QEMU looks a bit similar to DOS, you use <code>c</code>
+for disk, <code>d</code> for cdrom, and <code>a</code> or <code>b</code> for floppy. <code>-cdrom</code> and <code>-hda</code> are
+used to indicate CD and HD images. After booted to the Debian-installer, follow
+normal steps of installing a Debian system. QEMU will automatically provide a
+DHCP server for you VM.</p>
+
+<p>QEMU 的參數長得白癡中帶點很可愛，-boot 控制開機裝置，不知道為什麼要接的是類似
+Windows 裝置命名習慣（C代表硬碟開機、D代表光碟、A/B代表軟碟），-cdrom/-hda
+用來指定光碟/硬碟印象擋，十分直覺。執行指令後變可以按照正常程序安裝 Debian
+系統，QEMU 會自動模擬一個 DHCP 伺服器來餵網路到 VM
+內部。</p>
+
+<p>Finally, use the command to boot your VM:
+安裝完畢之後便可以開機：</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu -boot c -hda image.qcow2
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Here are some boot options that might come in handy:</p>
+
+<p>看到 Debian 系統正確開機，第一步驟便完成了。另外列幾個我常用 QEMU 參數。</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>-k en-us    // keyboard layout
+</span><span class='line'>-m size     // memory size
+</span><span class='line'>-redir tcp:2222::22   &lt;br/&gt;
+</span><span class='line'>            // tunnel port <span class="m">2222</span> to VM<span class="err">&#39;</span>s port <span class="m">22</span> <span class="k">for</span> remote ssh
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>Compiling the Kernel</h2>
+
+<p>I'm not really going to explain the process of compiling the Linux kernel, but
+if you use the <code>.config</code> file from Debian kernel packages, its pretty difficult
+to fail. I'm using the <code>linux-source-2.6.32</code> and the <code>linux-header-2.6.32</code>
+packages from Debian.</p>
+
+<p>詳細如何編譯核心不在本文的範疇內，不過如果使用 Debian patch 好的 kernel source
+以及 .config大概很難失敗。我用 aptitude 安裝了 linux-source-2.6.32 以及
+linux-header-2.6.32 用來編譯，只遇到了三個小問題，一個是 kernel 的
+bug，一個是很小的 include 問題，最後一個我忘了XDDDD。寫筆記果然對我很重要orz</p>
+
+<p>You can find the compile settings file in <code>linux-headers-2.6.32/.config</code>, copy
+it to the source directory <code>linux-source-2.6.32</code>. To enable kernel support for
+KGDB debugging, append the following lines to the config file:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span><span class="nv">CONFIG_DEBUG_INFO</span><span class="o">=</span>y
+</span><span class='line'><span class="nv">CONFIG_KGDB</span><span class="o">=</span>y
+</span><span class='line'><span class="nv">CONFIG_KGDB_SERIAL_CONSOLE</span><span class="o">=</span>y
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Apply <a href="https://gist.github.com/703480">this patch</a> to prevent the KGDB error
+with message <code>trace API error 0x2</code>, and run <code>make</code> to compile the kernel image. Finally, run the following commands to generate <code>initrd</code>:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;make modules
+</span><span class='line'>sudo make modules_install
+</span><span class='line'>mkinitramfs -o initrd-2.6.32 <span class="m">2</span>.6.32&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>The last command will install the module files under <code>/lib/modules</code>. Now you
+will have produced three files that you will need in next step, they are <code>initrd-2.6.32</code>, <code>vmlinux</code> and <code>arch/i386/boot/bzImage</code>.</p>
+
+<ul>
+<li>從 linux-headers-2.6.32/ 將 .config 複製到 linux-source-2.6.32，並加入 “CONFIG_DEBUG_INFO=y” “CONFIG_KGDB=y” “CONFIG_KGDB_SERIAL_CONSOLE=y” 三行設定。</li>
+<li>Apply 這個 patch 不然之後連 kgdb 的時候會出現 “ trace API error 0x2.” 錯誤。</li>
+<li>執行 make 產生 kernel image</li>
+<li>執行 make modules ; sudo make modules_install ; mkinitramfs -o initrd-2.6.32 2.6.32 產生 initrd。</li>
+</ul>
+
+
+<p>最後一步驟會把 modules 安裝到 /lib/modules/ 下面，不喜歡的話可能要設定一下 make
+/ mkinitramfs
+的參數。做到這裡，你會產生三個接下來會用到的檔案：initrd-2.6.32、vmlinux、arch/i386/boot/bzImage。</p>
+
+<h2>Connecting gdb to the Linux kernel</h2>
+
+<p>In the last step, we will use QEMU's built-in boot loader instead of grub, and setup the required kernel parameters for KGDB:</p>
+
+<p>最後一個步驟，我們要跳過 grub ，直接用 qemu 內建*的 boot loader (?) 從參數指定 kernel image 來開機，並傳入 kgdb 的參數：</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu <span class="se">\</span>
+</span><span class='line'>    -hda hd.image <span class="se">\</span>
+</span><span class='line'>    -serial <span class="s2">&quot;tcp::4321,serve&quot;</span>
+</span><span class='line'>    -initrd initrd-2.6.32 <span class="se">\</span>
+</span><span class='line'>    -kernel bzImage <span class="se">\</span>
+</span><span class='line'>    -append <span class="s2">&quot;root=/dev/sda kgdboc=ttyS0 kgdbwait&quot;</span> <span class="se">\</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>During boot, the VM will hang on:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>QEMU waiting <span class="k">for</span> connection on tcp:0.0.0.0:4321,server
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>On the host machine, run <code>gdb vmlinux</code> and execute
+<code>target remote localhost:4321</code> to connect to the kernel.</p>
+
+<p>執行之後 qemu 會顯示上述訊息
+並 hang 住，接著執行 gdb vmlinux，並輸入 target remote localhost:4321
+便會繼續開機，並在預設的 breakpoint 停下：</p>
+
+<p><a href="http://www.flickr.com/photos/bizkit/5184827612/" title="Picture 6 by
+bizkit@tw, on Flickr"><img
+src="http://farm5.staticflickr.com/4153/5184827612_2e77a093f1_z.jpg"
+width="575" height="584" alt="Picture 6"></a></p>
+
+<h2>Debugging with KGDB</h2>
+
+<p>Once connected your VM will continue booting and stop only if you have setup
+some break points. You can then use <code>l</code> to view currently running kernel
+source, use <code>n</code> to step through kernel code, or use <code>b</code> to add a new break
+point. For example, if you execute <code>b printk</code>, the kernel will break before
+every kernel messages, and you can use <code>c</code> to continue running the kernel until
+before the next message is printed.</p>
+
+<p>接著你就可以使用 l 來看 kernel source code、用 n 來 step through code、用 b
+設定 breakpoints。例如：設定 b printk，就可以看到每一次執行 continue
+變會多印出一行 kernel message ～</p>
+
+<p>Unlike debugging userspace programs, you cannot use C-c in gdb to stop the
+kernel, so if no break points are setuped before booting, there's almost no way
+to stop the kernel. However, you can stop the kernel with a software inturrupt
+by adding the following to your code:</p>
+
+<p>與一般 process 不同，我不能在 gdb 中按 C-c 來把 kernel
+的執行中斷。因此，如果沒有在一開始預設 break point 設定其他 break point
+便讓執行 continue 的話，便無法再次成功中斷 kernel。找到的解決方法是在需要 debug
+的區域自行加上 ”break point”。(比較正確的說法好像是：在程式碼中加入 debug
+stub，讓執行到該位置時開始 debug 程序。對於 kgdb / gdb
+的運作模式並不是狠清楚，無法詳細描述）
+只要在想要 debug 區段的開頭加上:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="k">asm</span><span class="p">(</span> <span class="s">&quot; int $3&quot;</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>便會在執行到該區段時 issue 一個 debug/breakpoint interrupt，中斷 kernel 的執行。接著就可以在 gdb 中 step through code，或是動態的加入新的 breakpoints。</p>
+]]></content>
+  </entry>
+  
+</feed>

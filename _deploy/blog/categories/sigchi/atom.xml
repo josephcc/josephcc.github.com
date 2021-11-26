@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: SIGCHI | Joseph Chee Chang]]></title>
+  <link href="http://josephcc.github.com/blog/categories/sigchi/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-11-26T07:41:08-08:00</updated>
+  <id>http://josephcc.github.com/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bento Browser]]></title>
+    <link href="http://josephcc.github.com/CHI-bento/"/>
+    <updated>2018-04-21T08:01:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-bento</id>
+    <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
+make conducting searches on mobile devices especially difficult where screen
+real-estate is limited, and progress can often be interrupted. Rather than
+using tabs to manage information, we introduce browsing through scaffolding.
+Search result lists serve as mutable workspaces where progress can be suspended
+and resumed. BentoBrowser is available for <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download from the iPhone AppStore</a>.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>People engaged in complex searches such as planning a vacation or understanding
+their medical symptoms are often overwhelmed by opening and managing many tabs.
+These challenges are exacerbated as search moves to smartphones and mobile
+devices where screen real-estate is limited and tasks are frequently suspended,
+resumed, and interleaved. Rather than continue to utilize tab-based browsing
+for complex search, we introduce a new way of browsing through a scaffolded
+interface. The list of search results serves as a mutable workspace, where a
+user can track progress on a specific information query. The search query
+serves as a gateway into this workspace, accessed through a task-subtask
+hierarchy. We instantiate this in the Bento mobile search system and
+investigate its effectiveness in three studies. We find converging evidence
+that users were able to make progress on their complex searching tasks with
+this structure, and find it more organized and easier to revisit.</p>
+
+<h2>Install Bento Browser</h2>
+
+<p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
+
+<p><img src="http://josephcc.github.com/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
+
+<p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
+
+<h2>Video Demo</h2>
+
+<p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Tech Explorist: <a href="https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/">A new web browser makes it easier to search on mobile devices</a></li>
+<li>THE Journal: <a href="https://thejournal.com/articles/2018/05/02/carnegie-mellons-bento-browser-organizes-complex-mobile-searches.aspx">New Bento Browser Organizes Complex Mobile Searches</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2018/04/180425093747.htm">Bento browser makes it easier to search on mobile devices</a></li>
+<li>Prikk: <a href="https://www.prikk.world/en/news/wirtschaft/innovation/bento-erleichtert-websuche-auf-mobilgeraten">"BENTO" ERLEICHTERT WEBSUCHE AUF MOBILGERÄTEN</a></li>
+<li>CMU News: <a href="https://www.cmu.edu/news/stories/archives/2018/april/bento-browser.html">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
+<li>CMU HCII: <a href="https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
+</ul>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
+Bento Browser: Complex Mobile Search Without Tabs.
+In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18).
+ACM, Montreal, QC, Canada.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Hahn:2018:Bento,
+ author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
+ title = {Bento Browser: Complex Mobile Search Without Tabs.},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '18},
+ year = {2018},
+ publisher = {ACM},
+ address = {Montreal, QC, Canada},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Evorus]]></title>
+    <link href="http://josephcc.github.com/CHI-evorus/"/>
+    <updated>2018-04-21T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-evorus</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+Crowd-powered chatbots are robust than current pure AI approach, but can be
+slower and more expensive at runtime. We attempted to combine the two
+approaches for high quality, low latency, and low cost.  We introduce Evorus, a
+crowd-powered chatbot that automate itself over time by learning to integrate
+AI chatbots, reusing responses, and assess response quality. A 5-month-long
+public deployment study shows promising results. You can <a href="http://talkingtothecrowd.org/">try talking to Evorus today</a>.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowd-powered conversational assistants have been shown to be more robust than
+automated systems, but do so at the cost of higher response latency and
+monetary costs.  A promising direction is to combine the two approaches for
+high quality, low latency, and low cost solutions.  In this paper, we introduce
+Evorus, a crowd-powered conversational assistant built to automate itself over
+time by i) allowing new chatbots to be easily integrated to automate more
+scenarios, ii) reusing prior crowd answers, and iii) learning to automatically
+approve response candidates.  Our 5-month-long deployment with 80 participants
+and 281 conversations shows that Evorus can automate itself without
+compromising conversation quality.  Crowd-AI architectures have long been
+proposed as a way to reduce cost and latency for crowd-powered systems; Evorus
+demonstrates how automation can be introduced successfully in a deployed
+system. Its architecture allows future researchers to make further innovation
+on the underlying automated components in the context of a deployed open domain
+dialog system.</p>
+
+<h2>Try Evorus on Google Talk</h2>
+
+<p><a class="btn btn-default" href="http://talkingtothecrowd.org/" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Evorus', 'Website']);" role="button">TalkingToTheCrowd.org</a></p>
+
+<h2>Overview Video</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3SAG8jP-Q-M?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the 'Chorus' chatbot: Unlike Alexa or Siri, it's powered by actual people on the other end</a></li>
+<li>Trib Live: <a href="http://triblive.com/business/technology/13275597-74/chatbot-developed-at-carnegie-mellon-uses-humans-to-answer-questions-ais-cant">Chatbot developed at Carnegie Mellon uses humans to answer questions AIs can't</a></li>
+<li>EurekaAlert!: <a href="https://www.eurekalert.org/pub_releases/2018-02/cmu-cwa020618.php">Crowd workers, AI make conversational agents smarter</a></li>
+<li>CMU News: <a href="https://www.cs.cmu.edu/news/crowd-workers-ai-make-conversational-agents-smarter">Crowd workers, AI make conversational agents smarter</a></li>
+<li>Presstext: <a href="https://www.pressetext.com/#news/20180208014">KI-System "Evorus" wird zunehmend eigenständig</a></li>
+</ul>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Kenneth Huang, Joseph Chee Chang, Jeffrey P. Bigham. 2018.
+Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time.
+In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18).
+ACM, Montreal, QC, Canada.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Huang:2018:Evorus,
+ author = {Huang, Kenneth and Chang, Joseph Chee and Bigham, Jeffrey P.},
+ title = {Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '18},
+ year = {2018},
+ publisher = {ACM},
+ address = {Montreal, QC, Canada},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Revolt]]></title>
+    <link href="http://josephcc.github.com/CHI-revolt/"/>
+    <updated>2017-05-06T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-revolt</id>
+    <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
+challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
+to identify ambiguous concepts in the data and coordinates the crowd to
+<em>collaboratively</em> create rich structures for requesters to make posthoc
+decisions, removing the need for comprehensive guidelines and
+enabling dynamic label boundaries.</p>
+
+<p><span style='color: gray'>Work done during internship at Microsoft Research, Redmond.</span></p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowdsourcing provides a scalable and efficient way to construct labeled
+datasets for training machine learning systems. However, creating comprehensive
+label guidelines for crowdworkers is often prohibitive even for seemingly
+simple concepts. Incomplete or ambiguous label guidelines can then result in
+differing interpretations of concepts and inconsistent labels. Existing
+approaches for improving label quality, such as worker screening or detection
+of poor work, are ineffective for this problem and can lead to rejection of
+honest work and a missed opportunity to capture rich interpretations about
+data. We introduce Revolt, a collaborative approach that brings ideas from
+expert annotation workflows to crowd-based labeling. Revolt eliminates the
+burden of creating detailed label guidelines by harnessing crowd disagreements
+to identify ambiguous concepts and create rich structures (groups of
+semantically related items) for post-hoc label decisions. Experiments comparing
+Revolt to traditional crowdsourced labeling show that Revolt produces high
+quality labels without requiring label guidelines in turn for an increase in
+monetary cost. This up front cost, however, is mitigated by Revolt's ability to
+produce reusable structures that can accommodate a variety of label boundaries
+without requiring new data to be collected. Further comparisons of Revolt's
+collaborative and non-collaborative variants show that collaboration reaches
+higher label accuracy with lower monetary cost.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
+<a class="btn btn-default" href="http://josephcc.github.com/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
+Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
+In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17).
+ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.3026044
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Chang:2017:Revolt,
+ author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
+ title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},
+ booktitle = {Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '17},
+ year = {2017},
+ url = {http://doi.acm.org/10.1145/3025453.3026044},
+ doi = {10.1145/3025453.3026044},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Alloy]]></title>
+    <link href="http://josephcc.github.com/CHI-alloy/"/>
+    <updated>2016-05-07T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-alloy</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+<strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
+<br/>
+Many crowd clustering approaches have difficulties providing global context to
+workers in order to generate meaningful categories. Alloy uses a
+<em>sample-and-search</em> technique to provide a better understanding of the global
+context. It also combines the in-depth semantic knowledge from human
+computation and the scalability of machine learning models to create rich
+structures from unorganized documents with high quality and efficiency.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowdsourced clustering approaches present a promising way to harness deep
+semantic knowledge for clustering complex information. However, existing
+approaches have difficulties supporting the global context needed for workers
+to generate meaningful categories, and are costly because all items require
+human judgments. We introduce Alloy, a hybrid approach that combines the
+richness of human judgments with the power of machine algorithms. Alloy
+supports greater global context through a new <em>sample and search</em>
+crowd pattern which changes the crowd's task from classifying a fixed subset of
+items to actively sampling and querying the entire dataset.  It also improves
+efficiency through a two phase process in which crowds provide examples to help
+a machine cluster the head of the distribution, then classify low-confidence
+examples in the tail. To accomplish this, Alloy introduces a modular
+<em>cast and gather</em> approach which leverages a machine learning backbone
+to stitch together different types of judgment tasks.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
+<li>Campus Technology: <a href="https://campustechnology.com/articles/2016/05/10/research-project-mixes-humans-and-machines-for-better-crowdsourcing.aspx">Research Project Mixes Humans and Machines for Better Crowdsourcing</a></li>
+<li>Neuraoscience News: <a href="http://neurosciencenews.com/human-machine-intelligence-framework-4221/">Crowd Augmented Cognition: Combining Human and Machine Intelligence to Accelerate Learning</a></li>
+<li>DZone: <a href="https://dzone.com/articles/researchers-work-on-automated-means-of-managing-th">Research Suggests AI Managers Effective for Crowdsourcing</a></li>
+<li>PhysOrg: <a href="https://phys.org/news/2016-05-crowd-augmented-cognition-team-tools-combine.html">Crowd-augmented cognition: Team develops tools that combine human and machine intelligence to accelerate learning</a></li>
+<li>TechExplore: <a href="https://techxplore.com/news/2016-05-big-small-pieces-humans-crowdsourced.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>Spend Matters: <a href="http://spendmatters.com/2016/06/09/crowdsourcing-and-cognitive-computing-are-you-ready-for-the-future-of-work/">Crowdsourcing and Cognitive Computing: Are You Ready for the Future of Work?</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2016/05/160511210628.htm">Crowd-augmented cognition - combine human, machine intelligence to accelerate learning</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/cmu-bti051016.php">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/nsf-cc051116.php">Crowd-augmented cognition</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=80586&amp;from=">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=138580&amp;org=NSF">Crowd-augmented cognition</a></li>
+<li>CMU SCS News: <a href="https://www.cmu.edu/news/stories/archives/2016/may/knowledge-accelerator.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
+</ul>
+
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
+Alloy: Clustering with Crowds and Computation.
+In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.2858411
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Chang:2016:ACC:2858036.2858411,
+ author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
+ title = {Alloy: Clustering with Crowds and Computation},
+ booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '16},
+ year = {2016},
+ isbn = {978-1-4503-3362-7},
+ location = {Santa Clara, California, USA},
+ pages = {3180--3191},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2858036.2858411},
+ doi = {10.1145/2858036.2858411},
+ acmid = {2858411},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
+    <link href="http://josephcc.github.com/CHI-ka/"/>
+    <updated>2016-05-07T07:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-ka</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+Answering complex questions such as "How do I grow better tomatoes?" often
+requires individuals to conduct extensive online research and synthesis. Can we
+crowdsource this complex, high context process with 100 crowdworkers conducting
+microtasks distributedly? The Knowledge Accelerator uses crowdworkers to
+extract and synthesize text clips across web pages into coherent articles
+without a centralized coordinator.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
+real  world  tasks  are  often  interdependent,requiring a big picture view of
+the difference pieces involved. Existing  crowdsourcing  approaches  that
+support  such  tasks -- ranging from Wikipedia to flash teams -- are
+bottleneckedby relying on a small number of individuals to maintain thebig
+picture.   In this paper,  we explore the idea that a computational system can
+scaffold an emerging interdependent,big picture view entirely through the small
+contributions ofindividuals, each of whom sees only a part of the whole.
+Toinvestigate the viability, strengths, and weaknesses of this approach we
+instantiate the idea in a prototype system for accomplishing  distributed
+information  synthesis  and  evaluateits output across a variety of topics.  We
+also contribute a setof design patterns that may be informative for other
+systemsaimed at supporting big picture thinking in small pieces.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
+<li>Campus Technology: <a href="https://campustechnology.com/articles/2016/05/10/research-project-mixes-humans-and-machines-for-better-crowdsourcing.aspx">Research Project Mixes Humans and Machines for Better Crowdsourcing</a></li>
+<li>Neuraoscience News: <a href="http://neurosciencenews.com/human-machine-intelligence-framework-4221/">Crowd Augmented Cognition: Combining Human and Machine Intelligence to Accelerate Learning</a></li>
+<li>DZone: <a href="https://dzone.com/articles/researchers-work-on-automated-means-of-managing-th">Research Suggests AI Managers Effective for Crowdsourcing</a></li>
+<li>PhysOrg: <a href="https://phys.org/news/2016-05-crowd-augmented-cognition-team-tools-combine.html">Crowd-augmented cognition: Team develops tools that combine human and machine intelligence to accelerate learning</a></li>
+<li>TechExplore: <a href="https://techxplore.com/news/2016-05-big-small-pieces-humans-crowdsourced.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>Spend Matters: <a href="http://spendmatters.com/2016/06/09/crowdsourcing-and-cognitive-computing-are-you-ready-for-the-future-of-work/">Crowdsourcing and Cognitive Computing: Are You Ready for the Future of Work?</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2016/05/160511210628.htm">Crowd-augmented cognition - combine human, machine intelligence to accelerate learning</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/cmu-bti051016.php">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/nsf-cc051116.php">Crowd-augmented cognition</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=80586&amp;from=">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=138580&amp;org=NSF">Crowd-augmented cognition</a></li>
+<li>CMU SCS News: <a href="https://www.cmu.edu/news/stories/archives/2016/may/knowledge-accelerator.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
+</ul>
+
+
+<h2>Citation</h2>
+
+<pre><code>Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
+The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
+In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.2858364
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@inproceedings{Hahn:2016:KAB:2858036.2858364,
+ author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
+ title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
+ booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '16},
+ year = {2016},
+ isbn = {978-1-4503-3362-7},
+ location = {Santa Clara, California, USA},
+ pages = {2258--2270},
+ numpages = {13},
+ url = {http://doi.acm.org/10.1145/2858036.2858364},
+ doi = {10.1145/2858036.2858364},
+ acmid = {2858364},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {complex workflow, crowd work, crowdsourcing, design patterns, information synthesis},
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
