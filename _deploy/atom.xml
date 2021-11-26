@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Joseph Chee Chang]]></title>
+  <link href="http://josephcc.github.com/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2021-11-26T08:00:28-08:00</updated>
+  <id>http://josephcc.github.com/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephcc@cmu.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tabs.do]]></title>
+    <link href="http://josephcc.github.com/UIST-tabsdo/"/>
+    <updated>2021-10-10T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-tabsdo</id>
+    <content type="html"><![CDATA[<p>The nature of people’s online activities has gone through dramatic changes in
+past decades, yet browser interfaces have stayed largely the same since tabs
+were introduced nearly 20 years ago. The divide between browser interfaces that
+only provide affordances for managing individual tabs and users who manage
+their attention at the task level can lead to an &#8220;tab overload&#8221; problem. We
+explored a task-centric tab manager called which enables users to save their
+open tabs to manage them with task structures and affordances that better
+reflect their mental models. To lower the cost of importing, Tabs.do uses a
+neural network in the browser to make suggestions for grouping users&#8217; open tabs
+by tasks.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>The nature of people’s online activities has gone through dramatic changes in
+past decades as significant portions of our productivity and sensemaking tasks
+continue to migrate to “the cloud,” yet browser interfaces have stayed
+largely the same since tabs were introduced nearly 20 years ago. The divide
+between browser interfaces that only provide affordances for managing
+individual tabs and users who manage their attention at the task level can lead
+to serious adverse effects &#8211; commonly referred to as “tab overload.” This
+paper explores the design of a task-centric tab manager called Tabs.do, which
+enables users to import and close their open tabs to manage them as tasks.
+Users can structure and prioritize their tasks to better reflect their mental
+models and resume progress by reopening tasks into open tabs. To lower the cost
+of importing, Tabs.do uses machine learning to make intelligent suggestions for
+grouping users’ open tabs into task bundles with high precision by exploiting
+behavioral and semantic features. Tabs.do bridges the gap between current
+browser designs that treat tabs as stacks of independent webpages and users who
+manage their workflow and attention at the tasks level. We conducted a field
+deployment study where participants used Tabs.do with their real-life tasks and
+tabs in the wild and uncovered insights around the costs, benefits, and
+limitations of a task-centric approach to tab management.</p>
+
+<h2>30 Seconds Preview (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/he--Ly0UQ-4" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Presentation (UIST 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZwbVzDRFbGs" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/tabs.do.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabsDo', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Yongsung Kim, Victor Miller, Michael Xieyang Liu, Brad Myers, Aniket Kittur.
+</span><span class='line'>Tabs.do: Task-Centric Browser Tab Management.
+</span><span class='line'>In Proceedings of the 34th ACM User Interface Software and Technology Symposium: UIST 2021.</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@article{chang2021tabsdo,
+</span><span class='line'>  title={Tabs.do: Task-Centric Browser Tab Management.},
+</span><span class='line'>  author={Chang, Joseph Chee and Kim, Yongsung and Miller, Victor and Liu, Michael Xieyang and Myers, Brad and Kittur, Aniket},
+</span><span class='line'>  booktitle = {Proceedings of the 34th ACM User Interface Software and Technology Symposium},
+</span><span class='line'>  series = {UIST'21},
+</span><span class='line'>  year={2021}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[When the Tab Comes Due]]></title>
+    <link href="http://josephcc.github.com/CHI-browser-tabs/"/>
+    <updated>2021-05-08T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-browser-tabs</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/></p>
+
+<p>Tabs have become integral to Web browsing yet have changed little since their
+introduction nearly 20 years ago. In contrast, the internet has gone through
+dramatic changes and increasingly used to support complex sensemaking tasks.
+This paper investigates how tabs today are overloaded with a diverse set of
+functionalities and issues users face when managing them. We uncovered
+competing pressures pushing for keeping tabs open (ranging from interaction to
+emotional costs) versus pushing for closing them (such as limited attention and
+resources). We further developed rich design implications for future browser
+interfaces.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Tabs have become integral to browsing the Web yet have changed little since
+their introduction nearly 20 years ago. In contrast, the internet has gone
+through dramatic changes, with users increasingly moving from navigating to
+websites to exploring information across many sources to support online
+sensemaking. This paper investigates how tabs today are overloaded with a
+diverse set of functionalities and issues users face when managing them. We
+interviewed ten information workers asking about their tab management
+strategies and walk through each open tab on their work computers four times
+over two weeks. We uncovered competing pressures pushing for keeping tabs open
+(ranging from interaction to emotional costs) versus pushing for closing them
+(such as limited attention and resources). We then surveyed 103 participants to
+estimate the frequencies of these pressures at scale. Finally, we developed
+design implications for future browser interfaces that can better support
+managing these pressures</p>
+
+<h2>Presentation (SIGCHI 2021)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pBjIrX9H-Ns" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/tabs.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabHoarders', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3411764.3445585" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabHoarders', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Fast Company: <a href="https://www.fastcompany.com/90635776/the-twisted-psychology-of-browser-tabs-and-why-we-cant-get-rid-of-them">The twisted psychology of browser tabs—and why we can&#8217;t get rid of them</a></li>
+<li>MetroNews UK: <a href="https://metro.co.uk/2021/05/10/suffer-from-tab-overload-scientists-study-why-we-have-so-many-open-14540577/amp/">Suffer from &#8220;tab overload&#8221;? Scientists study why we have so many open</a></li>
+<li>Inc.: <a href="https://www.inc.com/jessica-stillman/productivity-browser-tabs-carnegie-mellon.html">Stressed Out by Your 87 Open Browser Tabs? New Science Offers a Fix</a></li>
+<li>HackerNews: <a href="https://news.ycombinator.com/item?id=27095701">When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage</a></li>
+<li>HackerNews: <a href="https://news.ycombinator.com/item?id=27157225">Overcoming tab overload</a></li>
+<li>Science Alert: <a href="https://www.sciencealert.com/tab-overload-is-a-common-problem-for-people-browsing-the-internet-survey-finds">We&#8217;re Getting Buried in Browser Tabs And Scientists Want to Fix It</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2021-05/cmu-oto050721.php">Overcoming tab overload</a></li>
+<li>NewsGram: <a href="https://www.newsgram.com/skeema-this-tool-will-assist-you-in-managing-your-browser-tabs-more-effectively/">Skeema: This Tool Will Assist You In Managing Your Browser Tabs More Effectively</a></li>
+<li>Sify: <a href="https://www.sify.com/news/this-tool-can-help-you-better-manage-browser-tabs-news-education-vfjl5Ebfaiifc.html">This tool can help you better manage browser tabs</a></li>
+<li>Revyuh: <a href="https://www.revyuh.com/news/software/apps/browser-tabs-scientists-find-new-way-to-overcome-fear-of-black-hole-effect/">Browser Tabs: Scientists Find New Way to Overcome Fear of Black Hole Effect</a></li>
+<li>Carnegie Mellon University: <a href="https://www.cmu.edu/news/stories/archives/2021/may/overcoming-tab-overload.html">Overcoming Tab Overload</a></li>
+</ul>
+
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Nathan Hahn, Yongsung Kim, Julina Coupland, Bradley
+</span><span class='line'>Breneisen, Hannah S Kim, John Hwong, Aniket Kittur. 2021.
+</span><span class='line'>When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage.
+</span><span class='line'>In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21).
+</span><span class='line'>ACM, New York, NY, USA, 15 pages. DOI: http://dx.doi.org/10.1145/</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:tabs:2021,
+</span><span class='line'> author = {Chang, Joseph Chee and Hahn, Nathan and Kim, Yongsung and Coupland,
+</span><span class='line'> Julina and Breneisen, Bradley and Kim, Hannah S and Hwong, John and Kittur,
+</span><span class='line'> Aniket},
+</span><span class='line'> title = {When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage},
+</span><span class='line'> booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+</span><span class='line'> series = {CHI '21},
+</span><span class='line'> year = {2021},
+</span><span class='line'> location = {Online},
+</span><span class='line'> numpages = {15},
+</span><span class='line'> url = {http://doi.acm.org/10.1145/3411764.3445585},
+</span><span class='line'> doi = {10.1145/3411764.3445585},
+</span><span class='line'> acmid = {3445585},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {New York, NY, USA},
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mesh]]></title>
+    <link href="http://josephcc.github.com/UIST-mesh/"/>
+    <updated>2020-10-20T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-mesh</id>
+    <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
+the tens of thousands of online evidence about each of their options.  However,
+to synthesize this information into confident decisions can incur high
+interaction and cognitive costs. Online information is scattered across
+different sources, and evidence such as reviews can be subjective and
+conflicting, requiring users to interpret them under their personal context. We
+introduce Mesh, which scaffolds users in iteratively building up a better
+understanding of both their choices by evaluating evidence gathered across
+sources. Lab and field deployment studies found that Mesh significantly reduces
+the costs of gathering and evaluating evidence and scaffolds decision-making
+through personalized criteria enabling users to gain deeper insights from data
+to make confident purchase decisions.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>While there is an enormous amount of information online for making decisions
+such as choosing a product, restaurant, or school, it can be costly for users
+to synthesize that information into confident decisions. Information for users&#8217;
+many different criteria needs to be gathered from many different sources into a
+structure where they can be compared and contrasted. The usefulness of each
+criterion for differentiating potential options can be opaque to users, and
+evidence such as reviews may be subjective and conflicting, requiring users to
+interpret each under their personal context. We introduce Mesh, which
+scaffolds users in iteratively building up a better understanding of both their
+criteria and options by evaluating evidence gathered across sources in the
+context of consumer decision making. Mesh bridges the gap between decision
+support systems that typically have rigid structures and the fluid and dynamic
+process of exploratory search, changing the cost structure to provide
+increasing payoffs with greater user investment. Our lab and field deployment
+studies found evidence that Mesh significantly reduces the costs of
+gathering and evaluating evidence and scaffolds decision-making through
+personalized criteria enabling users to gain deeper insights from data.</p>
+
+<h2>Video Figure</h2>
+
+<h4>5-minute virtual conference presentation</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LNASh9rq9-I?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h4>3-minute video abstract</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NqriHlTfVhU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3379337.3415865" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
+</span><span class='line'>Mesh: Scaffolding Comparison Tables for Online Decision Making.
+</span><span class='line'>In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@article{chang2020mesh,
+</span><span class='line'>  title={Mesh: Scaffolding Comparison Tables for Online Decision Making},
+</span><span class='line'>  author={Chang, Joseph Chee and Hahn, Nathan, and Kittur, Aniket},
+</span><span class='line'>  booktitle = {Proceedings of the 33rd ACM User Interface Software and Technology Symposium},
+</span><span class='line'>  series = {UIST'20},
+</span><span class='line'>  year={2020}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ph.D Thesis]]></title>
+    <link href="http://josephcc.github.com/CMU-thesis/"/>
+    <updated>2020-06-02T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CMU-thesis</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/Thesis.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Thesis', 'PDF']);" role="button">PDF Download</a></p>
+
+<iframe src="http://josephcc.github.com/Thesis.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
+  Thesis
+</iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SearchLens]]></title>
+    <link href="http://josephcc.github.com/IUI-searchlens/"/>
+    <updated>2019-03-17T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/IUI-searchlens</id>
+    <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
+apartment to live in, reviews and forum posts are often a significant factor in
+online decision making. However, making sense of these rich repositories of
+diverse opinions can be prohibitively effortful, searchers need to sift through
+a large number of reviews to characterize each item based on aspects that they
+care about. We introduce a novel system, SearchLens, where searchers build up a
+collection of composable and reusable &#8220;Lenses&#8221; that reflect their different
+latent interests. Also, the Lenses allowed the system to generate personalized
+interfaces with visual explanations that promote transparency and enable
+in-depth exploration.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Whether figuring out where to eat in an unfamiliar city or deciding which
+apartment to live in, consumer generated data (i.e. reviews and forum posts)
+are often an important influence in online decision making. To make sense of
+these rich repositories of diverse opinions, searchers need to sift through a
+large number of reviews to characterize each item based on aspects that they
+care about. We introduce a novel system, SearchLens, where searchers build up a
+collection of &#8220;Lenses&#8221; that reflect their different latent interests, and
+compose the Lenses to find relevant items across different contexts. Based on
+the Lenses, SearchLens generates personalized interfaces with visual
+explanations that promotes transparency and enables deeper exploration. While
+prior work found searchers may not wish to put in effort specifying their goals
+without immediate and sufficient benefits, results from a controlled lab study
+suggest that our approach incentivized participants to express their interests
+more richly than in a baseline condition, and a field study showed that
+participants found benefits in SearchLens while conducting their own tasks.</p>
+
+<h2>Video Figure</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dXcTtHMa2DQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.
+</span><span class='line'>Joseph Chee Chang, Nathan Hahn, Adam Perer, Aniket Kittur.
+</span><span class='line'>In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@article{chang2019searchlens,
+</span><span class='line'>  title={SearchLens: Composing and Capturing Complex User Interests for Exploratory Search},
+</span><span class='line'>  author={Chang, Joseph Chee and Hahn, Nathan, and Perer, Adam and Kittur, Aniket},
+</span><span class='line'>  booktitle = {Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces},
+</span><span class='line'>  series = {IUI'19},
+</span><span class='line'>  year={2019}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Solvent]]></title>
+    <link href="http://josephcc.github.com/CSCW-solvent/"/>
+    <updated>2018-11-03T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CSCW-solvent</id>
+    <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
+can be prohibitively difficult for researchers to find useful analogies from
+unfamiliar domains as search engines poorly support it. We introduce Solvent, a
+mixed-initiative system where annotators structure abstracts of academic papers
+into different aspects and use a semantic model to find analogies among
+research papers and across different domains. These results demonstrate a new
+path towards computationally supported knowledge sharing in research
+communities.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Scientific discoveries are often driven by finding analogies in distant
+domains, but the growing number of papers makes it difficult to find relevant
+ideas in a single discipline, let alone distant analogies in other domains. To
+provide computational support for finding analogies across domains, we
+introduce Solvent, a mixed-initiative system where humans annotate aspects of
+research papers that denote their background (the high-level problems being
+addressed), purpose (the specific problems being addressed), mechanism (how
+they achieved their purpose), and findings (what they learned/achieved), and a
+computational model constructs a semantic representation from these annotations
+that can be used to find analogies among the research papers. We demonstrate
+that this system finds more analogies than baseline information-retrieval
+approaches; that annotators and annotations can generalize beyond domain; and
+that the resulting analogies found are useful to experts. These results
+demonstrate a novel path towards computationally supported knowledge sharing in
+research communities.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
+</span><span class='line'>Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
+</span><span class='line'>In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@article{chan2018solvent,
+</span><span class='line'>  title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
+</span><span class='line'>  author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
+</span><span class='line'>  booktitle = {Proceedings of the 2018 ACM Human-Computer Interaction: CSCW},
+</span><span class='line'>  series = {CSCW'18},
+</span><span class='line'>  year={2018}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bento Browser]]></title>
+    <link href="http://josephcc.github.com/CHI-bento/"/>
+    <updated>2018-04-21T08:01:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-bento</id>
+    <content type="html"><![CDATA[<p>Complex searches can be overwhelming, leading to lots of opened tabs. This tab overload can
+make conducting searches on mobile devices especially difficult where screen
+real-estate is limited, and progress can often be interrupted. Rather than
+using tabs to manage information, we introduce browsing through scaffolding.
+Search result lists serve as mutable workspaces where progress can be suspended
+and resumed. BentoBrowser is available for <a href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8">download from the iPhone AppStore</a>.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>People engaged in complex searches such as planning a vacation or understanding
+their medical symptoms are often overwhelmed by opening and managing many tabs.
+These challenges are exacerbated as search moves to smartphones and mobile
+devices where screen real-estate is limited and tasks are frequently suspended,
+resumed, and interleaved. Rather than continue to utilize tab-based browsing
+for complex search, we introduce a new way of browsing through a scaffolded
+interface. The list of search results serves as a mutable workspace, where a
+user can track progress on a specific information query. The search query
+serves as a gateway into this workspace, accessed through a task-subtask
+hierarchy. We instantiate this in the Bento mobile search system and
+investigate its effectiveness in three studies. We find converging evidence
+that users were able to make progress on their complex searching tasks with
+this structure, and find it more organized and easier to revisit.</p>
+
+<h2>Install Bento Browser</h2>
+
+<p>The version on the AppStore is the third iteration of the version from the CHI 2018 paper.</p>
+
+<p><img src="http://josephcc.github.com/images/projects/bento_screenshots.png" style='width: 100%;'/></p>
+
+<p><a class="btn btn-default" href="https://itunes.apple.com/us/app/bento-browser/id1101530325?mt=8" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Bento', 'AppStore']);" role="button">iPhone App (AppStore)</a></p>
+
+<h2>Video Demo</h2>
+
+<p>The version in the video is the second iteration of the version from the CHI 2018 paper.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fm5zK1vm1Q8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Tech Explorist: <a href="https://www.techexplorist.com/new-web-browser-easier-search-mobile-devices/13794/">A new web browser makes it easier to search on mobile devices</a></li>
+<li>THE Journal: <a href="https://thejournal.com/articles/2018/05/02/carnegie-mellons-bento-browser-organizes-complex-mobile-searches.aspx">New Bento Browser Organizes Complex Mobile Searches</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2018/04/180425093747.htm">Bento browser makes it easier to search on mobile devices</a></li>
+<li>Prikk: <a href="https://www.prikk.world/en/news/wirtschaft/innovation/bento-erleichtert-websuche-auf-mobilgeraten">&#8220;BENTO&#8221; ERLEICHTERT WEBSUCHE AUF MOBILGERÄTEN</a></li>
+<li>CMU News: <a href="https://www.cmu.edu/news/stories/archives/2018/april/bento-browser.html">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
+<li>CMU HCII: <a href="https://hcii.cmu.edu/news/2018/bento-browser-makes-it-easier-search-mobile-devices">Bento Browser Makes it Easier To Search on Mobile Devices</a></li>
+</ul>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/bento.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Nathan Hahn, Joseph Chee Chang, Aniket Kittur. 2018.
+</span><span class='line'>Bento Browser: Complex Mobile Search Without Tabs.
+</span><span class='line'>In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18).
+</span><span class='line'>ACM, Montreal, QC, Canada.</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Hahn:2018:Bento,
+</span><span class='line'> author = {Hahn, Nathan and Chang, Joseph Chee and Kittur, Aniket},
+</span><span class='line'> title = {Bento Browser: Complex Mobile Search Without Tabs.},
+</span><span class='line'> booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+</span><span class='line'> series = {CHI '18},
+</span><span class='line'> year = {2018},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {Montreal, QC, Canada},
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Evorus]]></title>
+    <link href="http://josephcc.github.com/CHI-evorus/"/>
+    <updated>2018-04-21T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-evorus</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+Crowd-powered chatbots are robust than current pure AI approach, but can be
+slower and more expensive at runtime. We attempted to combine the two
+approaches for high quality, low latency, and low cost.  We introduce Evorus, a
+crowd-powered chatbot that automate itself over time by learning to integrate
+AI chatbots, reusing responses, and assess response quality. A 5-month-long
+public deployment study shows promising results. You can <a href="http://talkingtothecrowd.org/">try talking to Evorus today</a>.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowd-powered conversational assistants have been shown to be more robust than
+automated systems, but do so at the cost of higher response latency and
+monetary costs.  A promising direction is to combine the two approaches for
+high quality, low latency, and low cost solutions.  In this paper, we introduce
+Evorus, a crowd-powered conversational assistant built to automate itself over
+time by i) allowing new chatbots to be easily integrated to automate more
+scenarios, ii) reusing prior crowd answers, and iii) learning to automatically
+approve response candidates.  Our 5-month-long deployment with 80 participants
+and 281 conversations shows that Evorus can automate itself without
+compromising conversation quality.  Crowd-AI architectures have long been
+proposed as a way to reduce cost and latency for crowd-powered systems; Evorus
+demonstrates how automation can be introduced successfully in a deployed
+system. Its architecture allows future researchers to make further innovation
+on the underlying automated components in the context of a deployed open domain
+dialog system.</p>
+
+<h2>Try Evorus on Google Talk</h2>
+
+<p><a class="btn btn-default" href="http://talkingtothecrowd.org/" target='_blank' onclick="_gaq.push(['_trackEvent', 'Demo', 'Evorus', 'Website']);" role="button">TalkingToTheCrowd.org</a></p>
+
+<h2>Overview Video</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3SAG8jP-Q-M?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>WTAE TV News: <a href="http://www.wtae.com/article/chorus-chatbot-carnegie-mellon-university-pittsburgh/16870459">Meet the &#8216;Chorus&#8217; chatbot: Unlike Alexa or Siri, it&#8217;s powered by actual people on the other end</a></li>
+<li>Trib Live: <a href="http://triblive.com/business/technology/13275597-74/chatbot-developed-at-carnegie-mellon-uses-humans-to-answer-questions-ais-cant">Chatbot developed at Carnegie Mellon uses humans to answer questions AIs can&#8217;t</a></li>
+<li>EurekaAlert!: <a href="https://www.eurekalert.org/pub_releases/2018-02/cmu-cwa020618.php">Crowd workers, AI make conversational agents smarter</a></li>
+<li>CMU News: <a href="https://www.cs.cmu.edu/news/crowd-workers-ai-make-conversational-agents-smarter">Crowd workers, AI make conversational agents smarter</a></li>
+<li>Presstext: <a href="https://www.pressetext.com/#news/20180208014">KI-System &#8220;Evorus&#8221; wird zunehmend eigenständig</a></li>
+</ul>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/evorus.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/1801.02668" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Evorus', 'arXiv']);" role="button">arXiv</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Kenneth Huang, Joseph Chee Chang, Jeffrey P. Bigham. 2018.
+</span><span class='line'>Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time.
+</span><span class='line'>In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18).
+</span><span class='line'>ACM, Montreal, QC, Canada.</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Huang:2018:Evorus,
+</span><span class='line'> author = {Huang, Kenneth and Chang, Joseph Chee and Bigham, Jeffrey P.},
+</span><span class='line'> title = {Evorus: A Crowd-powered Conversational AssistantBuilt to Automate Itself Over Time},
+</span><span class='line'> booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+</span><span class='line'> series = {CHI '18},
+</span><span class='line'> year = {2018},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {Montreal, QC, Canada},
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Revolt]]></title>
+    <link href="http://josephcc.github.com/CHI-revolt/"/>
+    <updated>2017-05-06T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-revolt</id>
+    <content type="html"><![CDATA[<p>Generating comprehensive labeling guidelines for crowdworkers can be
+challenging for complex datasets.  Revolt harnesses <em>crowd disagreements</em>
+to identify ambiguous concepts in the data and coordinates the crowd to
+<em>collaboratively</em> create rich structures for requesters to make posthoc
+decisions, removing the need for comprehensive guidelines and
+enabling dynamic label boundaries.</p>
+
+<p><span style='color: gray'>Work done during internship at Microsoft Research, Redmond.</span></p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowdsourcing provides a scalable and efficient way to construct labeled
+datasets for training machine learning systems. However, creating comprehensive
+label guidelines for crowdworkers is often prohibitive even for seemingly
+simple concepts. Incomplete or ambiguous label guidelines can then result in
+differing interpretations of concepts and inconsistent labels. Existing
+approaches for improving label quality, such as worker screening or detection
+of poor work, are ineffective for this problem and can lead to rejection of
+honest work and a missed opportunity to capture rich interpretations about
+data. We introduce Revolt, a collaborative approach that brings ideas from
+expert annotation workflows to crowd-based labeling. Revolt eliminates the
+burden of creating detailed label guidelines by harnessing crowd disagreements
+to identify ambiguous concepts and create rich structures (groups of
+semantically related items) for post-hoc label decisions. Experiments comparing
+Revolt to traditional crowdsourced labeling show that Revolt produces high
+quality labels without requiring label guidelines in turn for an increase in
+monetary cost. This up front cost, however, is mitigated by Revolt&#8217;s ability to
+produce reusable structures that can accommodate a variety of label boundaries
+without requiring new data to be collected. Further comparisons of Revolt&#8217;s
+collaborative and non-collaborative variants show that collaboration reaches
+higher label accuracy with lower monetary cost.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/revolt-crowd-labeling.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=3026044" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Revolt', 'ACM']);" role="button">ACM Digital Library</a>
+<a class="btn btn-default" href="http://josephcc.github.com/images/papers/revolt-notes.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Notes', 'Revolt', 'PDF']);" role="button">Technical and Design Notes (draft)</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Saleema Amershi, and Ece Kamar. 2017.
+</span><span class='line'>Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets.
+</span><span class='line'>In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17).
+</span><span class='line'>ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/3025453.3026044</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:2017:Revolt,
+</span><span class='line'> author = {Chang, Joseph Chee and Amershi, Saleema and Kamar, Ece},
+</span><span class='line'> title = {Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets},
+</span><span class='line'> booktitle = {Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
+</span><span class='line'> series = {CHI '17},
+</span><span class='line'> year = {2017},
+</span><span class='line'> url = {http://doi.acm.org/10.1145/3025453.3026044},
+</span><span class='line'> doi = {10.1145/3025453.3026044},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {New York, NY, USA},
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Intentionally Uncertain Input]]></title>
+    <link href="http://josephcc.github.com/UIST-highlight/"/>
+    <updated>2016-10-16T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-highlight</id>
+    <content type="html"><![CDATA[<p>Highlighting can be mentally taxing for learners who are often unsure about how
+much information they needed to include.  We introduce the idea of
+intentionally uncertain input in the context of highlighting on mobile devices.
+We present a system that uses force touch and fuzzy bounding boxes to support
+saving information while users are uncertain about where to highlight.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Patients researching medical diagnoses, scientist exploring new fields of
+literature, and students learning about new domains are all faced with the
+challenge of capturing information they find for later use. However, saving
+information is challenging on mobile devices, where the small screen and font
+sizes combined with the inaccuracy of finger based touch screens makes it time
+consuming and stressful for people to select and save text for future use.
+Furthermore, beyond the challenge of simply selecting a region of bounded text
+on a mobile device, in many learning and data exploration tasks the boundaries
+of what text may be relevant and useful later are themselves uncertain for the
+user. In contrast to previous approaches which focused on speeding up the
+selection process by making the identification of hard boundaries faster, we
+introduce the idea of intentionally supporting uncertain input in the context
+of saving information during complex reading and information exploration. We
+embody this idea in a system that uses force touch and fuzzy bounding boxes
+along with posthoc expandable context to support identifying and saving
+information in an intentionally uncertain way on mobile devices. In a two part
+user study we find that this approach reduced selection time and was preferred
+by participants over the default system text selection method.</p>
+
+<h2>Presentation (UIST 2016)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HPG6NWRTGvY?list=PLqhXYFYmZ-VcUPus2QYpAZdFmw5w6seVR" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Demo Video</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rj_0GFeUQjg?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/mobile-highlighting.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2984538" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Highlight', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Nathan Hahn, and Aniket Kittur. 2016.
+</span><span class='line'>Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting.
+</span><span class='line'>In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16).
+</span><span class='line'>ACM, New York, NY, USA, 61-68. DOI: http://dx.doi.org/10.1145/2984511.2984538</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:2016:SMS:2984511.2984538,
+</span><span class='line'> author = {Chang, Joseph Chee and Hahn, Nathan and Kittur, Aniket},
+</span><span class='line'> title = {Supporting Mobile Sensemaking Through Intentionally Uncertain Highlighting},
+</span><span class='line'> booktitle = {Proceedings of the 29th Annual Symposium on User Interface Software and Technology},
+</span><span class='line'> series = {UIST '16},
+</span><span class='line'> year = {2016},
+</span><span class='line'> isbn = {978-1-4503-4189-9},
+</span><span class='line'> location = {Tokyo, Japan},
+</span><span class='line'> pages = {61--68},
+</span><span class='line'> numpages = {8},
+</span><span class='line'> url = {http://doi.acm.org/10.1145/2984511.2984538},
+</span><span class='line'> doi = {10.1145/2984511.2984538},
+</span><span class='line'> acmid = {2984538},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {New York, NY, USA},
+</span><span class='line'> keywords = {annotation, capture, copy-paste, highlighting., information, saving, sensemaking},
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Alloy]]></title>
+    <link href="http://josephcc.github.com/CHI-alloy/"/>
+    <updated>2016-05-07T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-alloy</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+<strong><em>HCOMP 2016 INVITED ENCORE TALK</em></strong>
+<br/>
+Many crowd clustering approaches have difficulties providing global context to
+workers in order to generate meaningful categories. Alloy uses a
+<em>sample-and-search</em> technique to provide a better understanding of the global
+context. It also combines the in-depth semantic knowledge from human
+computation and the scalability of machine learning models to create rich
+structures from unorganized documents with high quality and efficiency.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowdsourced clustering approaches present a promising way to harness deep
+semantic knowledge for clustering complex information. However, existing
+approaches have difficulties supporting the global context needed for workers
+to generate meaningful categories, and are costly because all items require
+human judgments. We introduce Alloy, a hybrid approach that combines the
+richness of human judgments with the power of machine algorithms. Alloy
+supports greater global context through a new <em>sample and search</em>
+crowd pattern which changes the crowd&#8217;s task from classifying a fixed subset of
+items to actively sampling and querying the entire dataset.  It also improves
+efficiency through a two phase process in which crowds provide examples to help
+a machine cluster the head of the distribution, then classify low-confidence
+examples in the tail. To accomplish this, Alloy introduces a modular
+<em>cast and gather</em> approach which leverages a machine learning backbone
+to stitch together different types of judgment tasks.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/alloy-crowd-clustering.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858411" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Alloy', 'ACM']);" role="button">ACM Digital Library</a></p>
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
+<li>Campus Technology: <a href="https://campustechnology.com/articles/2016/05/10/research-project-mixes-humans-and-machines-for-better-crowdsourcing.aspx">Research Project Mixes Humans and Machines for Better Crowdsourcing</a></li>
+<li>Neuraoscience News: <a href="http://neurosciencenews.com/human-machine-intelligence-framework-4221/">Crowd Augmented Cognition: Combining Human and Machine Intelligence to Accelerate Learning</a></li>
+<li>DZone: <a href="https://dzone.com/articles/researchers-work-on-automated-means-of-managing-th">Research Suggests AI Managers Effective for Crowdsourcing</a></li>
+<li>PhysOrg: <a href="https://phys.org/news/2016-05-crowd-augmented-cognition-team-tools-combine.html">Crowd-augmented cognition: Team develops tools that combine human and machine intelligence to accelerate learning</a></li>
+<li>TechExplore: <a href="https://techxplore.com/news/2016-05-big-small-pieces-humans-crowdsourced.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>Spend Matters: <a href="http://spendmatters.com/2016/06/09/crowdsourcing-and-cognitive-computing-are-you-ready-for-the-future-of-work/">Crowdsourcing and Cognitive Computing: Are You Ready for the Future of Work?</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2016/05/160511210628.htm">Crowd-augmented cognition - combine human, machine intelligence to accelerate learning</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/cmu-bti051016.php">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/nsf-cc051116.php">Crowd-augmented cognition</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=80586&amp;from=">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=138580&amp;org=NSF">Crowd-augmented cognition</a></li>
+<li>CMU SCS News: <a href="https://www.cmu.edu/news/stories/archives/2016/may/knowledge-accelerator.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
+</ul>
+
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Aniket Kittur, and Nathan Hahn. 2016.
+</span><span class='line'>Alloy: Clustering with Crowds and Computation.
+</span><span class='line'>In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+</span><span class='line'>ACM, New York, NY, USA, 3180-3191. DOI: http://dx.doi.org/10.1145/2858036.2858411</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:2016:ACC:2858036.2858411,
+</span><span class='line'> author = {Chang, Joseph Chee and Kittur, Aniket and Hahn, Nathan},
+</span><span class='line'> title = {Alloy: Clustering with Crowds and Computation},
+</span><span class='line'> booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+</span><span class='line'> series = {CHI '16},
+</span><span class='line'> year = {2016},
+</span><span class='line'> isbn = {978-1-4503-3362-7},
+</span><span class='line'> location = {Santa Clara, California, USA},
+</span><span class='line'> pages = {3180--3191},
+</span><span class='line'> numpages = {12},
+</span><span class='line'> url = {http://doi.acm.org/10.1145/2858036.2858411},
+</span><span class='line'> doi = {10.1145/2858036.2858411},
+</span><span class='line'> acmid = {2858411},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {New York, NY, USA},
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Knowledge Accelorator]]></title>
+    <link href="http://josephcc.github.com/CHI-ka/"/>
+    <updated>2016-05-07T07:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-ka</id>
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER NOMINATION</em></strong>
+<br/>
+Answering complex questions such as &#8220;How do I grow better tomatoes?&#8221; often
+requires individuals to conduct extensive online research and synthesis. Can we
+crowdsource this complex, high context process with 100 crowdworkers conducting
+microtasks distributedly? The Knowledge Accelerator uses crowdworkers to
+extract and synthesize text clips across web pages into coherent articles
+without a centralized coordinator.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Crowdsourcing  offers  a  powerful  new  paradigm  for  onlinework.   However,
+real  world  tasks  are  often  interdependent,requiring a big picture view of
+the difference pieces involved. Existing  crowdsourcing  approaches  that
+support  such  tasks &#8211; ranging from Wikipedia to flash teams &#8211; are
+bottleneckedby relying on a small number of individuals to maintain thebig
+picture.   In this paper,  we explore the idea that a computational system can
+scaffold an emerging interdependent,big picture view entirely through the small
+contributions ofindividuals, each of whom sees only a part of the whole.
+Toinvestigate the viability, strengths, and weaknesses of this approach we
+instantiate the idea in a prototype system for accomplishing  distributed
+information  synthesis  and  evaluateits output across a variety of topics.  We
+also contribute a setof design patterns that may be informative for other
+systemsaimed at supporting big picture thinking in small pieces.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/knowledge-accelorator.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="http://dl.acm.org/citation.cfm?id=2858364" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'KA', 'ACM']);"  role="button">ACM Digital Library</a></p>
+
+<h2>Media Coverage</h2>
+
+<ul>
+<li>Pittsburgh Post-Gazette: <a href="http://www.post-gazette.com/business/tech-news/2016/05/11/Crowdsourcing-work-Get-rid-of-the-human-supervisor-CMU/stories/201605100127">Crowdsourcing work? Get rid of the human supervisor</a></li>
+<li>Campus Technology: <a href="https://campustechnology.com/articles/2016/05/10/research-project-mixes-humans-and-machines-for-better-crowdsourcing.aspx">Research Project Mixes Humans and Machines for Better Crowdsourcing</a></li>
+<li>Neuraoscience News: <a href="http://neurosciencenews.com/human-machine-intelligence-framework-4221/">Crowd Augmented Cognition: Combining Human and Machine Intelligence to Accelerate Learning</a></li>
+<li>DZone: <a href="https://dzone.com/articles/researchers-work-on-automated-means-of-managing-th">Research Suggests AI Managers Effective for Crowdsourcing</a></li>
+<li>PhysOrg: <a href="https://phys.org/news/2016-05-crowd-augmented-cognition-team-tools-combine.html">Crowd-augmented cognition: Team develops tools that combine human and machine intelligence to accelerate learning</a></li>
+<li>TechExplore: <a href="https://techxplore.com/news/2016-05-big-small-pieces-humans-crowdsourced.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>Spend Matters: <a href="http://spendmatters.com/2016/06/09/crowdsourcing-and-cognitive-computing-are-you-ready-for-the-future-of-work/">Crowdsourcing and Cognitive Computing: Are You Ready for the Future of Work?</a></li>
+<li>Science Daily: <a href="https://www.sciencedaily.com/releases/2016/05/160511210628.htm">Crowd-augmented cognition - combine human, machine intelligence to accelerate learning</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/cmu-bti051016.php">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>EurekAlert: <a href="https://www.eurekalert.org/pub_releases/2016-05/nsf-cc051116.php">Crowd-augmented cognition</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=80586&amp;from=">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>NSF News: <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=138580&amp;org=NSF">Crowd-augmented cognition</a></li>
+<li>CMU SCS News: <a href="https://www.cmu.edu/news/stories/archives/2016/may/knowledge-accelerator.html">Big thinking in small pieces: Computer guides humans in crowdsourced research</a></li>
+<li>CMU HCII News: <a href="https://hcii.cmu.edu/news/2016/hcii-chi-computer-guides-humans-crowdsourced-research">Computer Guides Humans in Crowdsourced Research</a></li>
+</ul>
+
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Nathan Hahn, Joseph Chang, Ji Eun Kim, and Aniket Kittur. 2016.
+</span><span class='line'>The Knowledge Accelerator: Big Picture Thinking in Small Pieces.
+</span><span class='line'>In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16).
+</span><span class='line'>ACM, New York, NY, USA, 2258-2270. DOI: http://dx.doi.org/10.1145/2858036.2858364</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Hahn:2016:KAB:2858036.2858364,
+</span><span class='line'> author = {Hahn, Nathan and Chang, Joseph and Kim, Ji Eun and Kittur, Aniket},
+</span><span class='line'> title = {The Knowledge Accelerator: Big Picture Thinking in Small Pieces},
+</span><span class='line'> booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+</span><span class='line'> series = {CHI '16},
+</span><span class='line'> year = {2016},
+</span><span class='line'> isbn = {978-1-4503-3362-7},
+</span><span class='line'> location = {Santa Clara, California, USA},
+</span><span class='line'> pages = {2258--2270},
+</span><span class='line'> numpages = {13},
+</span><span class='line'> url = {http://doi.acm.org/10.1145/2858036.2858364},
+</span><span class='line'> doi = {10.1145/2858036.2858364},
+</span><span class='line'> acmid = {2858364},
+</span><span class='line'> publisher = {ACM},
+</span><span class='line'> address = {New York, NY, USA},
+</span><span class='line'> keywords = {complex workflow, crowd work, crowdsourcing, design patterns, information synthesis},
+</span><span class='line'>}
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Code-Switching]]></title>
+    <link href="http://josephcc.github.com/arXiv-twitter-code-switching/"/>
+    <updated>2014-12-22T08:00:00-08:00</updated>
+    <id>http://josephcc.github.com/arXiv-twitter-code-switching</id>
+    <content type="html"><![CDATA[<p>Code-switching behavior is a common phenomenon on social media to express
+solidarity or establish authority. While past work on automatic code-switching
+detection depends on dictionary look-up or named-entity recognition, our
+recurrent neural network model that relies on only raw features outperformed
+the top systems in the EMNLP&#8217;14 Code-Switching Workshop by 17% in error rate
+reduction.</p>
+
+<p><span style='color: gray'>Final project for the Deep Learning course at CMU.</span></p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Mixed language data is one of the difficult yet less explored domains of
+natural language processing. Most research in fields like machine translation
+or sentiment analysis assume monolingual input. However, people who are capable
+of using more than one language often communicate using multiple languages at
+the same time. Sociolinguists believe this &#8220;code-switching&#8221; phenomenon to be
+socially motivated. For example, to express solidarity or to establish
+authority. Most past work depend on external tools or resources, such as
+part-of-speech tagging, dictionary look-up, or named-entity recognizers to
+extract rich features for training machine learning models. In this paper, we
+train recurrent neural networks with only raw features, and use word embedding
+to automatically learn meaningful representations. Using the same
+mixed-language Twitter corpus, our system is able to outperform the best
+SVM-based systems reported in the EMNLP&#8217;14 Code-Switching Workshop by 1% in
+accuracy, or by 17% in error rate reduction.</p>
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'arXiv']);"  href="https://arxiv.org/abs/1412.4314" role="button">arXiv</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Twitter', 'PDF']);"  href="https://arxiv.org/pdf/1412.4314v2.pdf" role="button">arXiv hosted PDF</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Chang, Joseph Chee, and Chu-Cheng Lin.
+</span><span class='line'>"Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus."
+</span><span class='line'>arXiv preprint arXiv:1412.4314 (2014).</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@article{chang2014recurrent,
+</span><span class='line'>  title={Recurrent-Neural-Network for Language Detection on Twitter Code-Switching Corpus},
+</span><span class='line'>  author={Chang, Joseph Chee and Lin, Chu-Cheng},
+</span><span class='line'>  journal={arXiv preprint arXiv:1412.4314},
+</span><span class='line'>  year={2014}
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Hangman Game Solver based on Language Models]]></title>
+    <link href="http://josephcc.github.com/hangman/"/>
+    <updated>2012-11-04T21:14:00-08:00</updated>
+    <id>http://josephcc.github.com/hangman</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve recently wrote a program for solving sentence-based hangman game automatically. Here&#8217;s a post
+explaining my approach using the British National Corpus, <a href="http://www.speech.sri.com/projects/srilm/">srilm</a>
+language model and hidden Markov model.</p>
+
+<h2>The Hangman Game</h2>
+
+<p>Last week, my friend <a href="http://itszero.github.com">Zero Cho</a> was asked to write a program that solves the
+game of hangman automatically. The rules are
+simple: the questions are short sentences or phrases with their characters
+concealed, i.e. replaced with an underscore, while spaces and punctuations are revealed. The solving
+process is an interactive process in which the solver program will guess a letter, and the question
+system will reveal its locations. If you guessed 3 letters that are not in the sentence,
+you fail the question.</p>
+
+<p>For example, the initial hint for the answer <code>it's a sunny day</code> is <code>__'_ _ _____ ___</code>,
+if a solver program guesses <code>y</code>, the system will respond with <code>__'_ _ ____y __y</code>.</p>
+
+<!--more-->
+
+
+<p>My friend Zero used a statistical approach that first guesses vows with highest frequencies until the first correct
+guess. With one vow revealed, he then repeatedly choose the word with the most portion revealed to
+continue guessing. His approach to guessing a half-revealed word is also statistical, namely to find the
+most frequent English word that matches the pattern.  His method is explained
+in detail in his recent <a href="http://itszero.github.com/blog/2012/10/29/my-way-to-write-a-hangman-ai/">blog post</a>.</p>
+
+<p>The shortcoming of this approach is that it lacks consideration for correlations between words in the
+sentences. For example, even the word <code>sorry</code> has a higher frequency than <code>sunny</code>, the latter is more
+likely to appear before the word <code>day</code>. In my attempt, I trained a
+<a href="http://en.wikipedia.org/wiki/Language_model">Language Model</a> to capture such correlations, and use
+<a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model</a> to guess every word in the sentence
+simultaneously.</p>
+
+<h2>Language Model</h2>
+
+<p>I use the state-of-the-art <a href="http://www.speech.sri.com/projects/srilm/">srilm</a> package to train my
+language model on a portion of the British National Corpus (BNC). For those who are familiar with srilm,
+the parameters I&#8217;ve used include order-5, Kneser-Ney discount, and interpolation. I use SWIG to
+integrate srilm (in C) with my main program written in Python.</p>
+
+<p>A language model is a statistical model that defines the probability of a sequence of words using
+probability distribution trained on a free text corpus.</p>
+
+<p>For example, given a sequence of words $w_1, w_2, w_3, &#8230;, w_n$, the unigram (one-word) language model
+calculates the probability of such sequence as
+$$P(w<em>{1}w</em>{2}w<em>{3}&#8230;w</em>{n}) := P(w_1) * P(w_2) * P(w_3) * &#8230; * P(w_n)$$
+this is sometimes called an order-1 language model. The word probability can be calculated by counting
+its appearances in the corpus:
+$$ P(w) := \frac { count(w) } { |\ corpus\ | } $$
+An order-2 language model, or bigram language model, defines the sequence probability using conditional
+probability:
+$$P(w<em>{1}w</em>{2}w<em>{3}&#8230;w</em>{n}) := P(w_1) * P(w_2|w_1) * P(w_3|w_2) * &#8230; * P(w_n|w<em>{n-1})$$
+intuitively, conditional probability can be calculated as:
+$$ P(w_a|w_b) := \frac { count(w</em>{b}w_{a}) } { count(w_b) } $$
+Generally, higher order produces better results but also suffers more severely on the out-of-vocabulary problem
+and therefore sometimes needs to fall back to lower order conditional probabilities. Many theories have been
+proposed to improve the performance of language models, including absolute discount estimation, good turing,
+Kneser-Ney smoothing. Formal definition of language model can be found on
+<a href="http://en.wikipedia.org/wiki/Language_model">Wikipedia</a>.</p>
+
+<h2>Hidden Markov Model</h2>
+
+<p>Hidden Markov model is a statistical model that solves a sequence of hidden states given a sequence of
+observations, state transition probability distribution, and emission probability distribution. For
+example, in speech recognition, the recorded audio speech is the observation, the actual text are the
+hidden states. Another example is the optical character recognition (OCR) where the scanned images are
+the observations. Emission probability distribution indicates the probability from state to observation,
+i.e., from text to audio or image. Language model is commonly used for state transition probability
+distribution.</p>
+
+<p>In the case solving the Hangman game, the hidden states are the English words in the answer sentences, e.g., <code>it's</code>, <code>a</code>,
+<code>sunny</code>, <code>day</code>, and the observations are some half-revealed sequences, e.g., <code>__'s</code>, <code>_</code>, <code>s_nny</code>, <code>__y</code>.
+The state transition probability is calculated by the trained language model, e.g., $P(day | sunny)$ in
+a order-1 language model. I define the emission probability as the normalize probability of all the
+English words that matches the half-revealed pattern, e.g., normalized $P(day), P(pay), P(bay), P(hey),
+P(may), &#8230;, etc$. for state <code>__y</code>, and zero otherwise. With the transition and emission probabilities defined, we
+can use the Viterbi dynamic programming algorithm to calculate the optimal state sequence.</p>
+
+<p>Formal definition and more information on HMM can be found on
+Wikipedia pages <a href="http://en.wikipedia.org/wiki/Hidden_Markov_model">here</a> and
+<a href="http://en.wikipedia.org/wiki/Viterbi_algorithm">here</a>, or in a slide I made when I was TA for a NLP course
+<a href="http://hadoop.nlpweb.org/~bizkit/lab3/vtb_example/">here</a> (in Chinese).</p>
+
+<h2>Algorithm</h2>
+
+<p>It is obvious that to run the hidden Markov model on a fully concealed sequence will yield bad results.
+Therefore, at stage one my solver also start by guessing high frequency letters. Instead of
+guessing vows only, I also use consonants, hoping that revealing some consonants will help the second
+stage. The sorted list begins with <code>e, a, i, s, r, n, t, o</code>, &#8230;, etc. This
+process stops until it had made one wrong guesses or have revealed more than four letters.</p>
+
+<p>In the second stage, the trained hidden Markov model will tag the half-revealed words with English word
+sequence that yield the highest language model probability and word frequencies. The solver will then
+guess the letter that appears in most words. This process repeats until all characters are
+revealed, and the number of failed guesses are recorded.</p>
+
+<h2>Results</h2>
+
+<p>Here are three examples and results. The interactive guessing progress and some internal states are
+shown in the three tables below.</p>
+
+<h3>&#8220;describe what is needed&#8221;</h3>
+
+<p>stage   |errors |hint   | HMM prediction| guess
+&#8212;&#8211;   |&#8212;&#8212;-    |&#8212;-   |&#8212;&#8212;-    | &#8212;&#8211;
+1   |0  |<code>________ ____ __ ______</code>  | N/A   | e
+1   |0  |<code>_e_____e ____ __ _ee_e_</code>  | N/A   | a
+1   |0  |<code>_e_____e __a_ __ _ee_e_</code>  | N/A   | i
+1   |0  |<code>_e___i_e __a_ i_ _ee_e_</code>  | N/A   | s
+1   |0  |<code>_es__i_e __a_ is _ee_e_</code>  | N/A   | r
+2   |0  |<code>_es_ri_e __a_ is _ee_e_</code>  | <strong>describe what is needed</strong>   | d
+2   |0  |<code>des_ri_e __a_ is _eeded</code>  | <strong>describe what is needed</strong>   | n
+2   |0  |<code>des_ri_e __a_ is needed</code>  | <strong>describe what is needed</strong>   | t
+2   |0  |<code>des_ri_e __at is needed</code>  | <strong>describe what is needed</strong>   | t
+2   |0  |<code>descri_e __at is needed</code>  | <strong>describe what is needed</strong>   | hbw (abrv.)
+2   |0  |<code>describe what is needed</code>  | (solved)  |
+<br/></p>
+
+<h3>&#8220;an honor roll of online options&#8221;</h3>
+
+<table>
+<thead>
+<tr>
+<th>stage   </th>
+<th>errors </th>
+<th>hint   </th>
+<th> HMM prediction</th>
+<th> guesses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1   </td>
+<td>0  </td>
+<td><code>__ _____ ____ __ ______ _______</code>  </td>
+<td>N/A    </td>
+<td> eaisr</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>a_ ____r r___ __ ___i_e ___i__s</code>  </td>
+<td>at honor roll of police options    </td>
+<td> o</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>a_ _o_or ro__ o_ o__i_e o__io_s</code>  </td>
+<td>at honor roll of office options    </td>
+<td> n</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>an _onor ro__ o_ on_ine o__ions</code>  </td>
+<td><strong>an honor roll of online options</strong>    </td>
+<td> l</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>an _onor roll o_ online o__ions</code>  </td>
+<td><strong>an honor roll of online options</strong>    </td>
+<td> t</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>an _onor roll o_ online o_tions</code>  </td>
+<td><strong>an honor roll of online options</strong>    </td>
+<td> hpf</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>0  </td>
+<td><code>an honor roll of online options</code>  </td>
+<td>(solved)   </td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>This one shows HMM produces different results as more characters are revealed.
+<br/></p>
+
+<h3>&#8220;members of the supreme court&#8221;</h3>
+
+<table>
+<thead>
+<tr>
+<th>stage   </th>
+<th>errors </th>
+<th>hint   </th>
+<th> HMM prediction</th>
+<th> guesses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1   </td>
+<td>0  </td>
+<td><code>_______ __ ___ _______ _____</code> </td>
+<td> N/A   </td>
+<td> e</td>
+</tr>
+<tr>
+<td>1   </td>
+<td>0  </td>
+<td><code>_e__e__ __ __e ____e_e _____</code> </td>
+<td> N/A   </td>
+<td> a</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>1  </td>
+<td><code>_e__e__ __ __e ____e_e _____</code> </td>
+<td> <strong>members of the supreme court</strong>  </td>
+<td> rstoumchpbf</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>1  </td>
+<td><code>members of the supreme court</code> </td>
+<td>   </td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>This last one really shows the power of language model. With only <code>e</code> revealed, the HMM process was able to guess the correct result.</p>
+
+<h2>Improvements</h2>
+
+<p>For stage one, instead of using just the highest frequency letters, conditional probability can also be
+a factor for choosing the next letter. For example, if <code>s</code> is revealed as the second to last character
+in some words, <code>t</code> and <code>e</code> may likely to be the last letter of such words.</p>
+
+<p>For the two stages, we can decide to advance from stage 1 to 2 base on different factors instead of
+heuristically. These may include the confident of the HMM results, the percentage of letters revealed,
+the before mentioned conditional probabilities and more. Global optimization approaches can be used to
+find good parameters to determine the timing to start stage two.  Alternatively, we can treat the two
+stages as different strategies and use genetic algorithm to apply them alternately.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TermMine]]></title>
+    <link href="http://josephcc.github.com/ACL-termmine/"/>
+    <updated>2012-07-08T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/ACL-termmine</id>
+    <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
+translation pairs of terms from the web. We used a small set of terms and
+translations to gather mixed-code text from the web to train a CRF model that
+can identify translation pairs at run-time.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>In this paper, we present a new method for learning to finding translations and
+transliterations on the Web for a given term. The approach involves using a
+small set of terms and translations to obtain mixed-code snippets from a search
+engine, and automatically annotating the snippets with tags and features for
+training a conditional random field model. At run-time, the model is used to
+extracting translation candidates for a given term. Preliminary experiments and
+evaluation show our method cleanly combining various features, resulting in a
+system that outperforms previous work.</p>
+
+<h2>Download</h2>
+
+<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
+<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
+</span><span class='line'>Learning to find translations and transliterations on the web.
+</span><span class='line'>In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
+</span><span class='line'>Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:2012:LFT:2390665.2390698,
+</span><span class='line'> author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
+</span><span class='line'> title = {Learning to Find Translations and Transliterations on the Web},
+</span><span class='line'> booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics},
+</span><span class='line'> series = {ACL '12},
+</span><span class='line'> year = {2012},
+</span><span class='line'> location = {Jeju Island, Korea},
+</span><span class='line'> pages = {130--134},
+</span><span class='line'> numpages = {5},
+</span><span class='line'> url = {http://dl.acm.org/citation.cfm?id=2390665.2390698},
+</span><span class='line'> acmid = {2390698},
+</span><span class='line'> publisher = {Association for Computational Linguistics},
+</span><span class='line'> address = {Stroudsburg, PA, USA},
+</span><span class='line'>} </span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git: Remove (un-add) files from last commit]]></title>
+    <link href="http://josephcc.github.com/git-reverse-amend/"/>
+    <updated>2012-04-27T03:07:00-07:00</updated>
+    <id>http://josephcc.github.com/git-reverse-amend</id>
+    <content type="html"><![CDATA[<p>A lot of times we use <code>git commit --amend</code> to add the files that we have forgotten to the last
+commit (usually HEAD), or simply to fix typos in its commit message. However, you can&#8217;t remove, or un-add,
+committed files from the latest commit with <code>git commit --amend</code>. Here&#8217;s how:</p>
+
+<!-- more -->
+
+
+<ul>
+<li>Point your HEAD to the commit prior to the latest commit, without touching the index nor the working
+tree:</li>
+</ul>
+
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>git reset --soft HEAD
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Now your <code>HEAD</code> points to the commit prior to the lastest commit, your <code>ORIG_HEAD</code> points to the latest
+commit, and your working tree and staging area is the same as the latest commit. Now we unstage all the
+changes from the staging area (or index), and add the files you originally intended to commit:</li>
+</ul>
+
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>git reset HEAD .
+</span><span class='line'>git add &lt;files&gt;
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Finally, commit the staged files and reuse the metadata of the wrong commit:</li>
+</ul>
+
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>git commit -c ORIG_HEAD
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p> you can always you <code>git rebase</code> to turn back time.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Linux Kernel: Module debugging with gdb]]></title>
+    <link href="http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
+    <updated>2011-12-05T21:12:00-08:00</updated>
+    <id>http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb</id>
+    <content type="html"><![CDATA[<p>This is post continues my previous post on
+<a href="http://joe.cat/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
+and explain how to do the same for debugging kernel modules.</p>
+
+<!-- more -->
+
+
+<p>此篇文章延續前文 ，簡單介紹如何使用 gdb / kgdb 對核心模組 (kernel module)
+進行即時的 debugging。</p>
+
+<p>The previous post explained how to use QEMU, kgdb and gdb to debug the Linux
+kernel in realtime. Adding parameters to <code>.config</code>, debug information is
+included in <code>vmlinux</code>, so that in gdb you can press <code>l</code> to list currently
+running kernel codes. However, kernel modules are dynamically loaded, even with
+the <code>-g</code> compile flag, the debug information is not loaded with <code>vmlinux</code>
+into gdb.</p>
+
+<p>在先前的文章中，介紹了如何使用 qemu、kgdb、gdb 對核心進行動態的
+debugging，並在編譯核心時在 vmlinux 中包含 debug information，使 debug
+時能夠直接瀏覽原始碼以及對變數進行存取。然而，kernel module
+是在核心之外的，因次就算編譯時加上 -g GCCFLAG 也無法直接在 gdb 中存取其
+debug information。</p>
+
+<p>To solve this issue, we need to use the <code>add-symbol-file</code> to let gdb read
+additional debug information. Since in my setup, gdb and the dynamically
+loaded kernel module are executing on different machines, there&#8217;s no way for gdb
+to know kernel module&#8217;s location in the memory after executing <code>insmod</code>. Here&#8217;s
+my solution:</p>
+
+<p>要解決這個問題，需要使用 gdb 中的 add-symbol-file 命令來讀入包含 debug
+information 的 kernel module。gdb 與核心、模組是執行在完全不同的電腦上，因次
+gdb 是無法直接得知 insmod 之後 kernel module 被載入到記憶體中的位置，也讓
+module debugging 變得比較 tricky 一點。以下是我的作法：</p>
+
+<ol>
+<li>In the kernel module, add a break point stub in <code>init_module</code>, so that the
+kernel is immediately stopped when the module is loaded for us to add more break
+points.</li>
+<li>When compiling the module, use <code>-g -O0</code> to produce debug information and
+prevent optimization.</li>
+<li>With the VM connected to gdb, use <code>insmod</code> to load the module. The VM will
+stop at <code>init_module</code>, use <code>c</code> in gdb to continue running the kernel for now.</li>
+<li>You can now find the module&#8217;s location in memory in the file
+<code>/sys/modules/&lt;module_name&gt;/sections/.text</code>. Copy it, and use other break points
+to stop the kernel without reloading the module.</li>
+<li>In gdb, execute <code>add-symbol-file &lt;module&gt; &lt;location&gt;</code> to load the debug
+information.</li>
+</ol>
+
+
+<p><a href="http://www.flickr.com/photos/bizkit/5233432557/" title="Screen shot
+2010-12-05 at 4.55.43 PM by bizkit@tw, on Flickr"><img
+src="http://farm6.staticflickr.com/5163/5233432557_a05d118698_z.jpg" width="640"
+height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
+
+<p>Now you can list and step through module code in gdb.</p>
+
+<p>Ref: http://www.linuxjournal.com/article/4525?page=0,1</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git: Displaying commit tree with NerdTool]]></title>
+    <link href="http://josephcc.github.com/nerdtool-commit-tree/"/>
+    <updated>2011-11-30T17:26:00-08:00</updated>
+    <id>http://josephcc.github.com/nerdtool-commit-tree</id>
+    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/bizkit/6291809011/" title="P1030408 by bizkit@tw, on Flickr"><img
+src="http://farm7.staticflickr.com/6233/6291809011_58ca7d80bc.jpg" width="500" height="347"
+alt="P1030408"></a></p>
+
+<p>I was in a private hackathon with <a href="http://www.facebook.com/itsftt">ftt</a> and
+<a href="http://www.facebook.com/itszero">Zero</a> last weekend, coding a new Android Taipei tour guide app, and we
+were looking for a way to display in real-time our commit tree on a big screen. We ended up using
+NerdTool to render the commit tree. Not only did the result looks pretty cool, it has also proven to be
+quite helpful when trying to rebase/merge different branches.</p>
+
+<!-- more -->
+
+
+<p>這幾天和 ftt 跟 傑洛 聚在一起 hackthon ， 想了一個方法用大螢幕即時顯示 git 的 commit
+tree，看起來很有趣， 在 merge 不同 branch 的時候也十分實用。 我們用的程式是 NerdTool，它跟 GeekTool
+類似， 是一個可以把任一 command 的 output 顯示在桌面上。 我最早是在 LifeHacker 發現的， 最大的差別在
+NerdTool 可以正確的顯示 ASCII colors。</p>
+
+<p><a href="http://mutablecode.com/apps/nerdtool">NerdTool</a> is an application that allows you to display shell
+script output on your desktop, and unlike the popular
+<a href="http://projects.tynsoe.org/en/geektool/">GeekTool</a>, NerdTool support ASCII colors.</p>
+
+<p><a href="http://www.flickr.com/photos/bizkit/6291810655/" title="P1030409 by bizkit@tw, on Flickr"><img
+src="http://farm7.staticflickr.com/6219/6291810655_0dbd160a39.jpg" width="500" height="375"
+alt="P1030409"></a></p>
+
+<p>So we&#8217;ve clone an additional copy of our git repo from BitBucket, and set NerdTool to run <code>git pull</code> and
+<code>git log</code> every five seconds:</p>
+
+<p>我們先從 bitbucket 上另外 clone 了一份 repo 下來專門用來 watch commit 的變動， 接著讓 NerdTool
+三秒跑一次 git pull 並用樹狀圖顯示 log 在桌面上：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span><span class="nb">cd</span> ~/.gitwatch/&lt;repo_name&gt; <span class="p">;</span>
+</span><span class='line'>git pull <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span> &gt; /dev/null <span class="p">;</span>
+</span><span class='line'>date <span class="p">;</span>
+</span><span class='line'>git logpretty <span class="p">|</span> head -47
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><a href="http://www.flickr.com/photos/bizkit/6291827075/" title="Screen Shot 2011-10-30 at 2.11.47 AM by
+bizkit@tw, on Flickr"><img src="http://farm7.staticflickr.com/6056/6291827075_442edc4367.jpg"
+width="500" height="461" alt="Screen Shot 2011-10-30 at 2.11.47 AM"></a></p>
+
+<p><code>git logpretty</code> is my git alias, setup as following:
+git 設定的 alias:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span><span class="nv">logpretty</span> <span class="o">=</span> log --abbrev-commit <span class="se">\ </span>
+</span><span class='line'>--decorate --graph --color --date-order <span class="se">\</span>
+</span><span class='line'>--pretty<span class="o">=</span> <span class="se">\ </span>
+</span><span class='line'><span class="s2">&quot;format:%Cblue%h\%Cred%an:%Creset\&quot;%Cgreen%s%Cblue\&quot;\ %Creset%ar&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The final result:</p>
+
+<p><a href="http://www.flickr.com/photos/bizkit/6291957695/" title="gggg by bizkit@tw, on Flickr"><img
+src="http://farm7.staticflickr.com/6226/6291957695_915e406f17_z.jpg" width="640" height="400"
+alt="gggg"></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Linux Kernel: Hooking System Calls on 2.6+]]></title>
+    <link href="http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6/"/>
+    <updated>2011-10-23T22:03:00-07:00</updated>
+    <id>http://josephcc.github.com/linux-kernel-dev-hooking-system-calls-2-dot-6</id>
+    <content type="html"><![CDATA[<p>This post explains how to add, or override, system calls by loading custom
+kernel modules using system call hooking techniques. This
+is sometimes called system call hijacking, and is used by viruses and rootkits.</p>
+
+<!-- more -->
+
+
+<p> The mechanism is not
+difficult to understand, you basically need to find the location of the kernel
+system call table, override an entry with a function inside your kernel module.
+At the end of you function you call the original system call and return with its
+returned value, so that user-space processes is not aware of any changes.</p>
+
+<p>This is a very dangerous technique since every process running on the machine
+will be effected. So obviously Linux kernel does not reveal the location of the
+call table to kernel modules. This post is not intended to explain how to
+exploit the kernel to find the location of the call table, but rather recompiles
+the kernel once to reveal the location for an alternative development process.
+With the ability to hook system calls, you won&#8217;t need to recompile and reboot
+the kernel every time you want to change something, you can simply reload the
+kernel module.</p>
+
+<p>What I actually did was that I added a new system call to the kernel first,
+expose the system call table, and dynamically hooking my system call by loading
+kernel modules at runtime.</p>
+
+<p>修課的作業要求在核心新增一個 system call
+提供一個分析記憶體狀態的介面，不過助教學長說我們也可以寫成 kernel
+module，於是便起了在 kernel module 中寫 system call
+的想法。查了一下，要達到這樣的效果要靠 system call hooking 來達成，也就是去
+hijack 目前存在的 system call，讓所有程式在呼叫該 system call 時都會變成執行到
+module 中的某個 function，該 function 最後會再去呼叫正常的 system call routine。</p>
+
+<p>目前的計畫是在 kernel 中新增一個 system call 來給自己的 module 來
+hijack，不知道會不會是很沒有道理開發模式。
+這是篇是今晚的筆記，雖然內容不多，但在精神不濟的時刻，相信我更需要做點筆記。:p</p>
+
+<h2>Adding a new system call</h2>
+
+<p>There are already many tutorials that explain how to add system calls to the
+kernel. The ones I read are <a href="http://140.120.13.13/~s9356048/OSLab/">the tutorial from Advance Defence Lab</a> in
+Chinese and <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">The Linux Kernel Module Programming Guide</a> in English.</p>
+
+<p>今天讀了幾篇簡單的 tutorial，分別是介紹如何新增 system call 以及撰寫自己的
+kernel module。並實際寫了一個簡單的 hello world kernel module。不得不說「寫
+syscall 與 kernel
+module」或許聽起來很嚇人，但其實不難入門。當然真正難的一定是在入門之後。</p>
+
+<p>新增 system call 的部份看了實驗室學長以及阿怪寫的兩篇 tutorial <a href="http://140.120.13.13/~s9356048/OSLab/">1</a>
+，大概了解一下狀況，後來參考 The Linux Kernel Module
+Programming Guide <a href="http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">2</a> 寫了一個簡單的 hello world 模組。</p>
+
+<h2>Exposing the system call table</h2>
+
+<p>Even though starting from 2.6, the kernel no longer exposes <code>sys_call_table</code> to
+modules, there are probably techniques you can use <a href="http://www.epanastasi.com/?page_id=52">exploits</a> to find it. On
+your own machine, the easiest way is to add the following lines to the kernel
+(<code>arch/x86/kernel/i386_ksyms_32.c</code>) and boot into the recompiled kernel:</p>
+
+<p>在 2.6 版本的核心中，為了保護系統免於 kernel rootkit 的攻擊， <code>sys_call_table</code>
+不再能被 kernel module 中所任意存取。在 insmod 的時候便會發生 symbol not found
+的錯誤而失敗。雖然還是有許多 hacking 方式可以取的 <code>sys_call_table</code>
+<a href="http://www.epanastasi.com/?page_id=52">3</a>，但本人實在白的發亮（又弱的可以），所以直接修改 kernel 的程式碼來把
+<code>sys_call_table</code> export 成 global。只要在 arch/x86/kernel/i386_ksyms_32.c
+加入以下兩行就可以了：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="k">extern</span> <span class="kt">void</span><span class="o">*</span> <span class="n">sys_call_table</span><span class="p">[];</span>
+</span><span class='line'><span class="n">EXPORT_SYMBOL</span><span class="p">(</span><span class="n">sys_call_table</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now kernel modules will be able to access system call table via
+<code>sys_call_table</code>. However, in many distro, the table is in read only stats, so
+make sure you also have the following in your kernel <code>.config</code> file.</p>
+
+<p>如此一來，kernel module 內便可以存取 <code>sys_call_table</code>。但在 2.6 許多 distro
+預設的狀況下 system call table 是唯讀的，因此在上述的第二步便會失敗。只要在
+.config 裡將 CONFIG_DEBUG_RODATA 設為 n 後便可以成功的 hook 到 system calls。</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="n">CONFIG_DEBUG_RODATA</span><span class="o">=</span><span class="n">n</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>System call hooking</h2>
+
+<p>Finally, the actual syscall hooking process is done in a kernel module with the
+following code:</p>
+
+<p>System call hooking 的機制是在 kernel module 中，透過 sys_call_table
+這個陣列來取得某個 syscall 的位置。備份後，將其改為自行撰寫的
+function。用程式碼的方式來呈現或許會更清楚：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="n">original_sys_exit</span> <span class="o">=</span> <span class="n">sys_call_table</span><span class="p">[</span><span class="n">__NR_exit</span><span class="p">];</span>
+</span><span class='line'><span class="n">sys_call_table</span><span class="p">[</span><span class="n">__NR_exit</span><span class="p">]</span> <span class="o">=</span> <span class="n">fake_exit_function</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The above code locates the location of the <code>exit()</code> system call, backs up to
+<code>original_sys_exit</code>, and overwrites it with <code>fake_exit_function</code> pointer. At the
+end of the <code>fake_exit_function()</code> a function all to the original <code>exit()</code> is
+made, so that the user-space process can terminate correctly. More information
+on system call hooking can be found on <a href="http://www.linuxjournal.com/article/4378">Linux Journal</a></p>
+
+<p>指到自行撰寫的 function
+接著，在 our_fake_exit_function 撰寫要 hook 的程式碼，並在 function
+結束前呼叫備份的 original_sys_exit 便完成 hooking 的動作。詳細的 System call
+hooking 步驟以及範例可以在 Linux Journal 的一篇文章<a href="http://www.linuxjournal.com/article/4378">4</a>中找到。</p>
+
+<h2>References</h2>
+
+<ol>
+<li>http://140.120.13.13/~s9356048/OSLab/</li>
+<li>http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html</li>
+<li>http://www.epanastasi.com/?page_id=52</li>
+<li>http://www.linuxjournal.com/article/4378</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Linux Kernel: Debugging with QEMU and kgdb]]></title>
+    <link href="http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb/"/>
+    <updated>2011-10-17T07:49:00-07:00</updated>
+    <id>http://josephcc.github.com/linux-kernel-dev-debug-qemu-kgdb</id>
+    <content type="html"><![CDATA[<p>This post is my study note from the past few days. It includes 1) Configuring and installing Debian on
+the QEMU virtual machine. 2) Compiling a Linux kernel that supports KGDB and initrd. 3) Using gdb and
+KGDB for real-time kernel debugging.</p>
+
+<!-- more -->
+
+
+<p>這篇文章是這幾天摸索的心得，其實還沒包含如何去玩 kernel debugging ，因為我還不會XD。
+文章分成三個部份：1. 設定與安裝 Debian 於 QEMU 虛擬機器、2. 編譯 Linux 支援 kgdb 的核心以及 initrd、3.
+使用 gdb/kgdb 做核心除錯。</p>
+
+<p>There are many online tutorials that boot a pre-compiled kernel image with busybox to boot in QEMU.
+However, my school project requires me to examine the physical memory while running Firefox, a more
+complete operating system is needed.</p>
+
+<p>網路上許多 kgdb 的教學都是拿編好的 kernel image 搭配 busybox 來載入 QEMU
+開機，但這次學校作業內容包含執行 Firefox，所以需要跑在一個較完整的作業系統上。</p>
+
+<h2>Setup QEMU VM</h2>
+
+<p>First, we need to create a HDD image with <code>qemu-img</code>:</p>
+
+<p>首先，要在安裝一份運行再 QEMU 上的 Debian 系統，第一步是用 qemu-img 產生一份硬碟 image：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu-img create -f qcow2 image.qcow2 5G
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This will create a 5GB image with the qcow2 format, which incrementally
+increase the image size as you put more files on it. <code>qemu-img</code> also provide
+snapshotting, store directly inside the image file.</p>
+
+<p>這樣會產生一個容量為 5Gb 的硬碟檔案，映像檔的格式為
+qcow2，會隨著硬碟的使用長大映像檔的大小。另外，qemu-img 也提供了硬碟 snapshot
+的功能，而且是直接存在 image 內：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu-img snapshot -c snapshot_name image.qcow2  // create snapshot
+</span><span class='line'>qemu-img snapshot -l image.qcow2                // list all snapshots
+</span><span class='line'>qemu-img snapshot -a snapshot_name image.qcow2  // apply snapshot
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>After generating the disk image, setup QEMU to boot from a Debian install disk:</p>
+
+<p>產生好硬碟檔之後，讓 QEMU 從抓好的 Debian 安裝光碟開機：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu -boot d -cdrom debian.iso -hda image.qcow2
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Somehow the <code>-boot</code> parameters of QEMU looks a bit similar to DOS, you use <code>c</code>
+for disk, <code>d</code> for cdrom, and <code>a</code> or <code>b</code> for floppy. <code>-cdrom</code> and <code>-hda</code> are
+used to indicate CD and HD images. After booted to the Debian-installer, follow
+normal steps of installing a Debian system. QEMU will automatically provide a
+DHCP server for you VM.</p>
+
+<p>QEMU 的參數長得白癡中帶點很可愛，-boot 控制開機裝置，不知道為什麼要接的是類似
+Windows 裝置命名習慣（C代表硬碟開機、D代表光碟、A/B代表軟碟），-cdrom/-hda
+用來指定光碟/硬碟印象擋，十分直覺。執行指令後變可以按照正常程序安裝 Debian
+系統，QEMU 會自動模擬一個 DHCP 伺服器來餵網路到 VM
+內部。</p>
+
+<p>Finally, use the command to boot your VM:
+安裝完畢之後便可以開機：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu -boot c -hda image.qcow2
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here are some boot options that might come in handy:</p>
+
+<p>看到 Debian 系統正確開機，第一步驟便完成了。另外列幾個我常用 QEMU 參數。</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>-k en-us    // keyboard layout
+</span><span class='line'>-m size     // memory size
+</span><span class='line'>-redir tcp:2222::22
+</span><span class='line'>            // tunnel port <span class="m">2222</span> to VM<span class="err">&#39;</span>s port <span class="m">22</span> <span class="k">for</span> remote ssh
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Compiling the Kernel</h2>
+
+<p>I&#8217;m not really going to explain the process of compiling the Linux kernel, but
+if you use the <code>.config</code> file from Debian kernel packages, its pretty difficult
+to fail. I&#8217;m using the <code>linux-source-2.6.32</code> and the <code>linux-header-2.6.32</code>
+packages from Debian.</p>
+
+<p>詳細如何編譯核心不在本文的範疇內，不過如果使用 Debian patch 好的 kernel source
+以及 .config大概很難失敗。我用 aptitude 安裝了 linux-source-2.6.32 以及
+linux-header-2.6.32 用來編譯，只遇到了三個小問題，一個是 kernel 的
+bug，一個是很小的 include 問題，最後一個我忘了XDDDD。寫筆記果然對我很重要orz</p>
+
+<p>You can find the compile settings file in <code>linux-headers-2.6.32/.config</code>, copy
+it to the source directory <code>linux-source-2.6.32</code>. To enable kernel support for
+KGDB debugging, append the following lines to the config file:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span><span class="nv">CONFIG_DEBUG_INFO</span><span class="o">=</span>y
+</span><span class='line'><span class="nv">CONFIG_KGDB</span><span class="o">=</span>y
+</span><span class='line'><span class="nv">CONFIG_KGDB_SERIAL_CONSOLE</span><span class="o">=</span>y
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Apply <a href="https://gist.github.com/703480">this patch</a> to prevent the KGDB error
+with message <code>trace API error 0x2</code>, and run <code>make</code> to compile the kernel image. Finally, run the following commands to generate <code>initrd</code>:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>make modules
+</span><span class='line'>sudo make modules_install
+</span><span class='line'>mkinitramfs -o initrd-2.6.32 <span class="m">2</span>.6.32
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The last command will install the module files under <code>/lib/modules</code>. Now you
+will have produced three files that you will need in next step, they are <code>initrd-2.6.32</code>, <code>vmlinux</code> and <code>arch/i386/boot/bzImage</code>.</p>
+
+<ul>
+<li>從 linux-headers-2.6.32/ 將 .config 複製到 linux-source-2.6.32，並加入 “CONFIG_DEBUG_INFO=y” “CONFIG_KGDB=y” “CONFIG_KGDB_SERIAL_CONSOLE=y” 三行設定。</li>
+<li>Apply 這個 patch 不然之後連 kgdb 的時候會出現 “ trace API error 0x2.” 錯誤。</li>
+<li>執行 make 產生 kernel image</li>
+<li>執行 make modules ; sudo make modules_install ; mkinitramfs -o initrd-2.6.32 2.6.32 產生 initrd。</li>
+</ul>
+
+
+<p>最後一步驟會把 modules 安裝到 /lib/modules/ 下面，不喜歡的話可能要設定一下 make
+/ mkinitramfs
+的參數。做到這裡，你會產生三個接下來會用到的檔案：initrd-2.6.32、vmlinux、arch/i386/boot/bzImage。</p>
+
+<h2>Connecting gdb to the Linux kernel</h2>
+
+<p>In the last step, we will use QEMU&#8217;s built-in boot loader instead of grub, and setup the required kernel parameters for KGDB:</p>
+
+<p>最後一個步驟，我們要跳過 grub ，直接用 qemu 內建*的 boot loader (?) 從參數指定 kernel image 來開機，並傳入 kgdb 的參數：</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>qemu <span class="se">\</span>
+</span><span class='line'>    -hda hd.image <span class="se">\ </span>
+</span><span class='line'>    -serial <span class="s2">&quot;tcp::4321,serve&quot;</span>
+</span><span class='line'>    -initrd initrd-2.6.32 <span class="se">\</span>
+</span><span class='line'>    -kernel bzImage <span class="se">\ </span>
+</span><span class='line'>    -append <span class="s2">&quot;root=/dev/sda kgdboc=ttyS0 kgdbwait&quot;</span> <span class="se">\ </span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>During boot, the VM will hang on:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>QEMU waiting <span class="k">for</span> connection on tcp:0.0.0.0:4321,server
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>On the host machine, run <code>gdb vmlinux</code> and execute
+<code>target remote localhost:4321</code> to connect to the kernel.</p>
+
+<p>執行之後 qemu 會顯示上述訊息
+並 hang 住，接著執行 gdb vmlinux，並輸入 target remote localhost:4321
+便會繼續開機，並在預設的 breakpoint 停下：</p>
+
+<p><a href="http://www.flickr.com/photos/bizkit/5184827612/" title="Picture 6 by
+bizkit@tw, on Flickr"><img
+src="http://farm5.staticflickr.com/4153/5184827612_2e77a093f1_z.jpg"
+width="575" height="584" alt="Picture 6"></a></p>
+
+<h2>Debugging with KGDB</h2>
+
+<p>Once connected your VM will continue booting and stop only if you have setup
+some break points. You can then use <code>l</code> to view currently running kernel
+source, use <code>n</code> to step through kernel code, or use <code>b</code> to add a new break
+point. For example, if you execute <code>b printk</code>, the kernel will break before
+every kernel messages, and you can use <code>c</code> to continue running the kernel until
+before the next message is printed.</p>
+
+<p>接著你就可以使用 l 來看 kernel source code、用 n 來 step through code、用 b
+設定 breakpoints。例如：設定 b printk，就可以看到每一次執行 continue
+變會多印出一行 kernel message ～</p>
+
+<p>Unlike debugging userspace programs, you cannot use C-c in gdb to stop the
+kernel, so if no break points are setuped before booting, there&#8217;s almost no way
+to stop the kernel. However, you can stop the kernel with a software inturrupt
+by adding the following to your code:</p>
+
+<p>與一般 process 不同，我不能在 gdb 中按 C-c 來把 kernel
+的執行中斷。因此，如果沒有在一開始預設 break point 設定其他 break point
+便讓執行 continue 的話，便無法再次成功中斷 kernel。找到的解決方法是在需要 debug
+的區域自行加上 ”break point”。(比較正確的說法好像是：在程式碼中加入 debug
+stub，讓執行到該位置時開始 debug 程序。對於 kgdb / gdb
+的運作模式並不是狠清楚，無法詳細描述）
+只要在想要 debug 區段的開頭加上:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span></span><span class="k">asm</span><span class="p">(</span> <span class="s">&quot; int $3&quot;</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>便會在執行到該區段時 issue 一個 debug/breakpoint interrupt，中斷 kernel 的執行。接著就可以在 gdb 中 step through code，或是動態的加入新的 breakpoints。</p>
+]]></content>
+  </entry>
+  
+</feed>
