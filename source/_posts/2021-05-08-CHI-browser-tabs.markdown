@@ -68,6 +68,7 @@ Downloads
 
 Media Coverage
 ----------------------
+- Mashable: [Stop trying to work in multiple browser tabs. It's terrible for your focus.](https://mashable.com/article/too-many-tabs-open)
 - Fast Company: [The twisted psychology of browser tabs—and why we can't get rid of them](https://www.fastcompany.com/90635776/the-twisted-psychology-of-browser-tabs-and-why-we-cant-get-rid-of-them)
 - MetroNews UK: [Suffer from "tab overload"? Scientists study why we have so many open](https://metro.co.uk/2021/05/10/suffer-from-tab-overload-scientists-study-why-we-have-so-many-open-14540577/amp/)
 - Inc.: [Stressed Out by Your 87 Open Browser Tabs? New Science Offers a Fix](https://www.inc.com/jessica-stillman/productivity-browser-tabs-carnegie-mellon.html)
