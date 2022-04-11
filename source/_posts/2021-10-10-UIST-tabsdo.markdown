@@ -69,6 +69,7 @@ Presentation (UIST 2021)
 Downloads
 ----------------------
 <a class="btn btn-default" href="/images/papers/tabs.do.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabsDo', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3472749.3474777" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TabsDo', 'ACM']);"  role="button">ACM Digital Library</a>
 
 Media Coverage
 ----------------------
