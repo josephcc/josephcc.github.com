@@ -11,11 +11,11 @@ toc: false
 
 
 <div style='display: flex; margin-top: 48px;'>
-<div style='width: 340px;'>
-{% include custom/asides/contact.html %}
-</div>
 <div style='flex-grow: 1;'>
 {% include custom/asides/map.html %}
+</div>
+<div style='width: 340px; padding-left: 24px; padding-top: 12px;'>
+{% include custom/asides/contact.html %}
 </div>
 </div>
 
