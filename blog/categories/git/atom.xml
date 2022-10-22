@@ -4,11 +4,11 @@
   <title><![CDATA[Category: git | Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2022-10-22T13:36:29-07:00</updated>
+  <updated>2022-10-22T13:55:26-07:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
-    <email><![CDATA[josephcc@cmu.edu]]></email>
+    <email><![CDATA[josephc->allenai*org]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -31,17 +31,11 @@ tree:</li>
 </ul>
 
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;git reset --soft HEAD&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}</p>
+
+<p>git reset --soft HEAD</p>
+
+<p>{% endcodeblock %}</p>
 
 <ul>
 <li>Now your <code>HEAD</code> points to the commit prior to the lastest commit, your <code>ORIG_HEAD</code> points to the latest
@@ -50,36 +44,23 @@ changes from the staging area (or index), and add the files you originally inten
 </ul>
 
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;git reset HEAD .  &lt;br/&gt;
-</span><span class='line'>git add &lt;files&gt;&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}</p>
+
+<p>git reset HEAD .  <br/>
+git add <files></p>
+
+<p>{% endcodeblock %}</p>
 
 <ul>
 <li>Finally, commit the staged files and reuse the metadata of the wrong commit:</li>
 </ul>
 
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;git commit -c ORIG_HEAD&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}</p>
+
+<p>git commit -c ORIG_HEAD</p>
+
+<p>{% endcodeblock %}</p>
 
 <p> you can always you <code>git rebase</code> to turn back time.</p>
 ]]></content>
@@ -122,23 +103,14 @@ alt="P1030409"></a></p>
 <p>我們先從 bitbucket 上另外 clone 了一份 repo 下來專門用來 watch commit 的變動， 接著讓 NerdTool
 三秒跑一次 git pull 並用樹狀圖顯示 log 在桌面上：</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;cd ~/.gitwatch/&lt;repo_name&gt; <span class="p">;</span>
-</span><span class='line'>git pull <span class="m">2</span>&gt;<span class="p">&amp;</span>amp<span class="p">;</span><span class="m">1</span> &gt; /dev/null <span class="p">;</span>
-</span><span class='line'>date <span class="p">;</span>
-</span><span class='line'>git logpretty <span class="p">|</span> head -47&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}</p>
+
+<p>cd ~/.gitwatch/<repo_name> ;
+git pull 2>&amp;1 > /dev/null ;
+date ;
+git logpretty | head -47</p>
+
+<p>{% endcodeblock %}</p>
 
 <p><a href="http://www.flickr.com/photos/bizkit/6291827075/" title="Screen Shot 2011-10-30 at 2.11.47 AM by
 bizkit@tw, on Flickr"><img src="http://farm7.staticflickr.com/6056/6291827075_442edc4367.jpg"
@@ -147,23 +119,14 @@ width="500" height="461" alt="Screen Shot 2011-10-30 at 2.11.47 AM"></a></p>
 <p><code>git logpretty</code> is my git alias, setup as following:
 git 設定的 alias:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;logpretty <span class="o">=</span> log --abbrev-commit <span class="se">\</span>
-</span><span class='line'>--decorate --graph --color --date-order <span class="se">\</span>
-</span><span class='line'>--pretty<span class="o">=</span> <span class="se">\</span>
-</span><span class='line'><span class="s2">&quot;format:%Cblue%h\%Cred%an:%Creset\&quot;%Cgreen%s%Cblue\&quot;\ %Creset%ar&quot;</span>&lt;/p&gt;
-</span><span class='line'>
-</span><span class='line'>&lt;p&gt;
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock lang:bash %}</p>
+
+<p>logpretty = log --abbrev-commit \
+--decorate --graph --color --date-order \
+--pretty= \
+"format:%Cblue%h\%Cred%an:%Creset\"%Cgreen%s%Cblue\"\ %Creset%ar"</p>
+
+<p>{% endcodeblock %}</p>
 
 <p>The final result:</p>
 
