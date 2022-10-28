@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Information Retrieval | Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/blog/categories/information-retrieval/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2022-10-22T13:55:26-07:00</updated>
+  <updated>2022-10-28T14:43:01-07:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,211 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Threddy]]></title>
+    <link href="http://josephcc.github.com/UIST-Threddy/"/>
+    <updated>2022-10-29T07:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-Threddy</id>
+    <content type="html"><![CDATA[<p>Reviewing the literature to understand relevant past work is a critical part of
+research. However, as the scientific literature grows the challenges for users
+to find and make sense of the many different threads of research grow as well.
+In this work we explore a tool integrated into users' reading process that
+helps them with leveraging authors' existing summarization of prior research
+threads such as in related work sections.  We developed Threddy that supports
+efficient extraction and organization of threads along with supporting evidence
+as scientists read research articles. The system then recommends further
+relevant articles based on user-created threads.  Our lab study showed that
+Threddy helps scientists to follow and curate research threads without breaking
+out of their flow of reading, collect relevant papers and clips, and discover
+interesting new articles to further grow threads.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Reviewing the literature to understand relevant threads of past work is a
+critical part of research and vehicle for learning. However, as the scientific
+literature grows the challenges for users to find and make sense of the many
+different threads of research grow as well. Previous work has helped scholars
+to find and group papers with citation information or textual similarity using
+standalone tools or overview visualizations. Instead, in this work we explore a
+tool integrated into users' reading process that helps them with leveraging
+authors' existing summarization of threads, typically in introduction or
+related work sections, in order to situate their own work's contributions. To
+explore this we developed a prototype that supports efficient extraction and
+organization of threads along with supporting evidence as scientists read
+research articles. The system then recommends further relevant articles based
+on user-created threads. We evaluate the system in a lab study and find that it
+helps scientists to follow and curate research threads without breaking out of
+their flow of reading, collect relevant papers and clips, and discover
+interesting new articles to further grow threads.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/threddy.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Threddy', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/2208.03455" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Threddy', 'arXiv']);"  role="button">arXiv</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Hyeonsu B. Kang, Joseph Chee Chang, Yongsung Kim, Aniket Kittur
+"Threddy: An Interactive System for Personalized Thread-based Exploration and Organization of Scientific Literature"
+In Proceedings of the 35th ACM User Interface Software and Technology Symposium: UIST 2022.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{kang2022threddy,
+ title={Threddy: An Interactive System for Personalized Thread-based Exploration and Organization of Scientific Literature},
+ author={Kang, Hyeonsu B and Chang, Joseph Chee and Kim, Yongsung and Kittur, Aniket},
+ booktitle = {},
+ series = {UIST '22},
+ year = {2022},
+ location = {Bend, OR, USA},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fuse]]></title>
+    <link href="http://josephcc.github.com/UIST-Fuse/"/>
+    <updated>2022-10-29T06:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-Fuse</id>
+    <content type="html"><![CDATA[<p>While people can fluidly collect, make sense of  and organize information
+across many online sources in their minds to make informed decisions, the
+amount of online information can be overwhelming and exceed people's working
+memory.  We introduce Fuse, a browser extension that combined low-cost
+collection with lightweight organization of web content in a compact card-based
+sidebar.  Fuse helps users simultaneously extract key web content and structure
+it in a lightweight and visual way.  A 22-month public deployment and
+interviews provide longitudinal insights into the collecting, externalization
+and  structuring behaviors of real-world users conducting information foraging
+tasks.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>People spend a significant amount of time trying to make sense of the internet,
+collecting content from a variety of sources and organizing it to make
+decisions and achieve their goals. While humans are able to fluidly iterate on
+collecting and organizing information in their minds, existing tools and
+approaches introduce significant friction into the process. We introduce Fuse,
+a browser extension that externalizes users' working memory by combining
+low-cost collection with lightweight organization of content in a compact
+card-based sidebar that is always available. Fuse helps users simultaneously
+extract key web content and structure it in a lightweight and visual way. We
+discuss how these affordances help users externalize more of their mental model
+into the system (e.g., saving, annotating, and structuring items) and support
+fast reviewing and resumption of task contexts. Our 22-month public deployment
+and follow-up interviews provide longitudinal insights into the structuring
+behaviors of real-world users conducting information foraging tasks.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/fuse.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Fuse', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/2208.14861" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Fuse', 'arXiv']);"  role="button">arXiv</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Kuznetsov, Andrew, Joseph Chee Chang, Nathan Hahn, Napol Rachatasumrit, Bradley Breneisen, Julina Coupland, and Aniket Kittur.
+"Fuse: In-Situ Sensemaking Support in the Browser."
+In Proceedings of the 35th ACM User Interface Software and Technology Symposium: UIST 2022.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{kuznetsov2022fuse,
+ title={Fuse: In-Situ Sensemaking Support in the Browser},
+ author={Kuznetsov, Andrew and Chang, Joseph Chee and Hahn, Nathan and Rachatasumrit, Napol and Breneisen, Bradley and Coupland, Julina and Kittur, Aniket},
+ booktitle = {},
+ series = {UIST '22},
+ year = {2022},
+ location = {Bend, OR, USA},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wigglite]]></title>
+    <link href="http://josephcc.github.com/UIST-Wigglite/"/>
+    <updated>2022-10-29T05:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-Wigglite</id>
+    <content type="html"><![CDATA[<p>Users conducting online sensemaking tasks face the challenge of capturing the
+information they find for later use without interrupting their flow.
+Specifically, as people collect information, they also need to triaging support
+such as how urgent a topic is to follow up on, or rating a piece of evidence as
+a "pro" or "con," which helps scaffold subsequent deeper exploration.  However,
+current approaches incur a high cost, often requiring users to select, copy,
+context switch, paste, and annotate information.  In this work, we explore a
+new interaction technique called "wiggling," which can be used to fluidly
+collect, organize, and rate information during early sensemaking stages with a
+single gesture. Through implementation and user evaluation, we found that
+wiggling helped participants accurately collect information and encode their
+mental context with a 58% reduction in operational cost while being 24% faster
+compared to a common baseline.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Consumers conducting comparison shopping, researchers making sense of
+competitive space, and developers looking for code snippets online all face the
+challenge of capturing the information they find for later use without
+interrupting their current flow. In addition, during many learning and
+exploration tasks, people need to externalize their mental context, such as
+estimating how urgent a topic is to follow up on, or rating a piece of evidence
+as a "pro" or "con," which helps scaffold subsequent deeper exploration.
+However, current approaches incur a high cost, often requiring users to select,
+copy, context switch, paste, and annotate information in a separate document
+without offering specific affordances that capture their mental context. In
+this work, we explore a new interaction technique called "wiggling," which can
+be used to fluidly collect, organize, and rate information during early
+sensemaking stages with a single gesture. Wiggling involves rapid
+back-and-forth movements of a pointer or up-and-down scrolling on a smartphone,
+which can indicate the information to be collected and its valence, using a
+single, light-weight gesture that does not interfere with other interactions
+that are already available. Through implementation and user evaluation, we
+found that wiggling helped participants accurately collect information and
+encode their mental context with a 58% reduction in operational cost while
+being 24% faster compared to a common baseline.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/wigglite.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Wigglite', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/2208.00496" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Wigglite', 'arXiv']);"  role="button">arXiv</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Michael Xieyang Liu, Andrew Kuznetsov, Yongsung Kim, Joseph Chee Chang, Aniket Kittur, Brad A Myers
+"Wigglite: Low-cost Information Collection and Triage"
+In Proceedings of the 35th ACM User Interface Software and Technology Symposium: UIST 2022.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{liu2022wigglite,
+ title={Wigglite: Low-cost Information Collection and Triage},
+ author={Liu, Michael Xieyang and Kuznetsov, Andrew and Kim, Yongsung and Chang, Joseph Chee and Kittur, Aniket and Myers, Brad A.},
+ booktitle = {},
+ series = {UIST '22},
+ year = {2022},
+ location = {Bend, OR, USA},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+}
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tabs.do]]></title>
@@ -199,210 +404,6 @@ ACM, New York, NY, USA, 15 pages. DOI: http://dx.doi.org/10.1145/
  acmid = {3445585},
  publisher = {ACM},
  address = {New York, NY, USA},
-}
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mesh]]></title>
-    <link href="http://josephcc.github.com/UIST-mesh/"/>
-    <updated>2020-10-20T08:00:00-07:00</updated>
-    <id>http://josephcc.github.com/UIST-mesh</id>
-    <content type="html"><![CDATA[<p>Consumers can choose from many different products and base their decisions on
-the tens of thousands of online evidence about each of their options.  However,
-to synthesize this information into confident decisions can incur high
-interaction and cognitive costs. Online information is scattered across
-different sources, and evidence such as reviews can be subjective and
-conflicting, requiring users to interpret them under their personal context. We
-introduce Mesh, which scaffolds users in iteratively building up a better
-understanding of both their choices by evaluating evidence gathered across
-sources. Lab and field deployment studies found that Mesh significantly reduces
-the costs of gathering and evaluating evidence and scaffolds decision-making
-through personalized criteria enabling users to gain deeper insights from data
-to make confident purchase decisions.</p>
-
-<!--more-->
-
-
-<h2>Abstract</h2>
-
-<p>While there is an enormous amount of information online for making decisions
-such as choosing a product, restaurant, or school, it can be costly for users
-to synthesize that information into confident decisions. Information for users'
-many different criteria needs to be gathered from many different sources into a
-structure where they can be compared and contrasted. The usefulness of each
-criterion for differentiating potential options can be opaque to users, and
-evidence such as reviews may be subjective and conflicting, requiring users to
-interpret each under their personal context. We introduce Mesh, which
-scaffolds users in iteratively building up a better understanding of both their
-criteria and options by evaluating evidence gathered across sources in the
-context of consumer decision making. Mesh bridges the gap between decision
-support systems that typically have rigid structures and the fluid and dynamic
-process of exploratory search, changing the cost structure to provide
-increasing payoffs with greater user investment. Our lab and field deployment
-studies found evidence that Mesh significantly reduces the costs of
-gathering and evaluating evidence and scaffolds decision-making through
-personalized criteria enabling users to gain deeper insights from data.</p>
-
-<h2>Video Figure</h2>
-
-<h4>5-minute virtual conference presentation</h4>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LNASh9rq9-I?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
-<h4>3-minute video abstract</h4>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NqriHlTfVhU?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
-<h2>Download</h2>
-
-<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/mesh.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'PDF']);" role="button">PDF Download</a>
-<a class="btn btn-default" href="https://dl.acm.org/doi/10.1145/3379337.3415865" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Mesh', 'ACM']);"  role="button">ACM Digital Library</a></p>
-
-<h2>Citation</h2>
-
-<pre><code>Joseph Chee Chang, Nathan Hahn, Aniket Kittur.
-Mesh: Scaffolding Comparison Tables for Online Decision Making.
-In Proceedings of the 33rd ACM User Interface Software and Technology Symposium: UIST 2020.
-</code></pre>
-
-<h2>Bibtex</h2>
-
-<pre><code>@article{chang2020mesh,
-  title={Mesh: Scaffolding Comparison Tables for Online Decision Making},
-  author={Chang, Joseph Chee and Hahn, Nathan, and Kittur, Aniket},
-  booktitle = {Proceedings of the 33rd ACM User Interface Software and Technology Symposium},
-  series = {UIST'20},
-  year={2020}
-}
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SearchLens]]></title>
-    <link href="http://josephcc.github.com/IUI-searchlens/"/>
-    <updated>2019-03-17T08:00:00-07:00</updated>
-    <id>http://josephcc.github.com/IUI-searchlens</id>
-    <content type="html"><![CDATA[<p>Whether figuring out where to eat in an unfamiliar city or deciding which
-apartment to live in, reviews and forum posts are often a significant factor in
-online decision making. However, making sense of these rich repositories of
-diverse opinions can be prohibitively effortful, searchers need to sift through
-a large number of reviews to characterize each item based on aspects that they
-care about. We introduce a novel system, SearchLens, where searchers build up a
-collection of composable and reusable "Lenses" that reflect their different
-latent interests. Also, the Lenses allowed the system to generate personalized
-interfaces with visual explanations that promote transparency and enable
-in-depth exploration.</p>
-
-<!--more-->
-
-
-<h2>Abstract</h2>
-
-<p>Whether figuring out where to eat in an unfamiliar city or deciding which
-apartment to live in, consumer generated data (i.e. reviews and forum posts)
-are often an important influence in online decision making. To make sense of
-these rich repositories of diverse opinions, searchers need to sift through a
-large number of reviews to characterize each item based on aspects that they
-care about. We introduce a novel system, SearchLens, where searchers build up a
-collection of "Lenses" that reflect their different latent interests, and
-compose the Lenses to find relevant items across different contexts. Based on
-the Lenses, SearchLens generates personalized interfaces with visual
-explanations that promotes transparency and enables deeper exploration. While
-prior work found searchers may not wish to put in effort specifying their goals
-without immediate and sufficient benefits, results from a controlled lab study
-suggest that our approach incentivized participants to express their interests
-more richly than in a baseline condition, and a field study showed that
-participants found benefits in SearchLens while conducting their own tasks.</p>
-
-<h2>Video Figure</h2>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dXcTtHMa2DQ?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
-<h2>Download</h2>
-
-<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/searchlens.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'PDF']);" role="button">PDF Download</a>
-<a class="btn btn-default" href="https://dl.acm.org/citation.cfm?id=3302321" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'SearchLens', 'ACM']);"  role="button">ACM Digital Library</a></p>
-
-<h2>Citation</h2>
-
-<pre><code>SearchLens: Composing and Capturing Complex User Interests for Exploratory Search.
-Joseph Chee Chang, Nathan Hahn, Adam Perer, Aniket Kittur.
-In Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces: IUI 2019.
-</code></pre>
-
-<h2>Bibtex</h2>
-
-<pre><code>@article{chang2019searchlens,
-  title={SearchLens: Composing and Capturing Complex User Interests for Exploratory Search},
-  author={Chang, Joseph Chee and Hahn, Nathan, and Perer, Adam and Kittur, Aniket},
-  booktitle = {Proceedings of the 2019 ACM 24th Annual Meeting of the Intelligent User Interfaces},
-  series = {IUI'19},
-  year={2019}
-}
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Solvent]]></title>
-    <link href="http://josephcc.github.com/CSCW-solvent/"/>
-    <updated>2018-11-03T08:00:00-07:00</updated>
-    <id>http://josephcc.github.com/CSCW-solvent</id>
-    <content type="html"><![CDATA[<p>Analogies in distant domains often lead to scientific discoveries. However, it
-can be prohibitively difficult for researchers to find useful analogies from
-unfamiliar domains as search engines poorly support it. We introduce Solvent, a
-mixed-initiative system where annotators structure abstracts of academic papers
-into different aspects and use a semantic model to find analogies among
-research papers and across different domains. These results demonstrate a new
-path towards computationally supported knowledge sharing in research
-communities.</p>
-
-<!--more-->
-
-
-<h2>Abstract</h2>
-
-<p>Scientific discoveries are often driven by finding analogies in distant
-domains, but the growing number of papers makes it difficult to find relevant
-ideas in a single discipline, let alone distant analogies in other domains. To
-provide computational support for finding analogies across domains, we
-introduce Solvent, a mixed-initiative system where humans annotate aspects of
-research papers that denote their background (the high-level problems being
-addressed), purpose (the specific problems being addressed), mechanism (how
-they achieved their purpose), and findings (what they learned/achieved), and a
-computational model constructs a semantic representation from these annotations
-that can be used to find analogies among the research papers. We demonstrate
-that this system finds more analogies than baseline information-retrieval
-approaches; that annotators and annotations can generalize beyond domain; and
-that the resulting analogies found are useful to experts. These results
-demonstrate a novel path towards computationally supported knowledge sharing in
-research communities.</p>
-
-<h2>Downloads</h2>
-
-<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/solvent.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Solvent', 'PDF']);" role="button">PDF Download</a></p>
-
-<h2>Citation</h2>
-
-<pre><code>Joel Chan, Joseph Chee Chang, Tom Hope, Dafna Shahaf, Aniket Kittur. 2018.
-Solvent: A Mixed Initiative System for Finding Analogies between Research Papers
-In Proceedings of the 2018 ACM Human-Computer Interaction: CSCW 2018.
-</code></pre>
-
-<h2>Bibtex</h2>
-
-<pre><code>@article{chan2018solvent,
-  title={SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers},
-  author={CHAN, JOEL and CHANG, JOSEPH CHEE and HOPE, TOM and SHAHAF, DAFNA and KITTUR, ANIKET},
-  booktitle = {Proceedings of the 2018 ACM Human-Computer Interaction: CSCW},
-  series = {CSCW'18},
-  year={2018}
 }
 </code></pre>
 ]]></content>

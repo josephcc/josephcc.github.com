@@ -4,7 +4,7 @@
   <title><![CDATA[Category: UIST | Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/blog/categories/uist/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2022-10-22T13:55:26-07:00</updated>
+  <updated>2022-10-28T14:43:01-07:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,211 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Threddy]]></title>
+    <link href="http://josephcc.github.com/UIST-Threddy/"/>
+    <updated>2022-10-29T07:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-Threddy</id>
+    <content type="html"><![CDATA[<p>Reviewing the literature to understand relevant past work is a critical part of
+research. However, as the scientific literature grows the challenges for users
+to find and make sense of the many different threads of research grow as well.
+In this work we explore a tool integrated into users' reading process that
+helps them with leveraging authors' existing summarization of prior research
+threads such as in related work sections.  We developed Threddy that supports
+efficient extraction and organization of threads along with supporting evidence
+as scientists read research articles. The system then recommends further
+relevant articles based on user-created threads.  Our lab study showed that
+Threddy helps scientists to follow and curate research threads without breaking
+out of their flow of reading, collect relevant papers and clips, and discover
+interesting new articles to further grow threads.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Reviewing the literature to understand relevant threads of past work is a
+critical part of research and vehicle for learning. However, as the scientific
+literature grows the challenges for users to find and make sense of the many
+different threads of research grow as well. Previous work has helped scholars
+to find and group papers with citation information or textual similarity using
+standalone tools or overview visualizations. Instead, in this work we explore a
+tool integrated into users' reading process that helps them with leveraging
+authors' existing summarization of threads, typically in introduction or
+related work sections, in order to situate their own work's contributions. To
+explore this we developed a prototype that supports efficient extraction and
+organization of threads along with supporting evidence as scientists read
+research articles. The system then recommends further relevant articles based
+on user-created threads. We evaluate the system in a lab study and find that it
+helps scientists to follow and curate research threads without breaking out of
+their flow of reading, collect relevant papers and clips, and discover
+interesting new articles to further grow threads.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/threddy.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Threddy', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/2208.03455" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Threddy', 'arXiv']);"  role="button">arXiv</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Hyeonsu B. Kang, Joseph Chee Chang, Yongsung Kim, Aniket Kittur
+"Threddy: An Interactive System for Personalized Thread-based Exploration and Organization of Scientific Literature"
+In Proceedings of the 35th ACM User Interface Software and Technology Symposium: UIST 2022.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{kang2022threddy,
+ title={Threddy: An Interactive System for Personalized Thread-based Exploration and Organization of Scientific Literature},
+ author={Kang, Hyeonsu B and Chang, Joseph Chee and Kim, Yongsung and Kittur, Aniket},
+ booktitle = {},
+ series = {UIST '22},
+ year = {2022},
+ location = {Bend, OR, USA},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fuse]]></title>
+    <link href="http://josephcc.github.com/UIST-Fuse/"/>
+    <updated>2022-10-29T06:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-Fuse</id>
+    <content type="html"><![CDATA[<p>While people can fluidly collect, make sense of  and organize information
+across many online sources in their minds to make informed decisions, the
+amount of online information can be overwhelming and exceed people's working
+memory.  We introduce Fuse, a browser extension that combined low-cost
+collection with lightweight organization of web content in a compact card-based
+sidebar.  Fuse helps users simultaneously extract key web content and structure
+it in a lightweight and visual way.  A 22-month public deployment and
+interviews provide longitudinal insights into the collecting, externalization
+and  structuring behaviors of real-world users conducting information foraging
+tasks.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>People spend a significant amount of time trying to make sense of the internet,
+collecting content from a variety of sources and organizing it to make
+decisions and achieve their goals. While humans are able to fluidly iterate on
+collecting and organizing information in their minds, existing tools and
+approaches introduce significant friction into the process. We introduce Fuse,
+a browser extension that externalizes users' working memory by combining
+low-cost collection with lightweight organization of content in a compact
+card-based sidebar that is always available. Fuse helps users simultaneously
+extract key web content and structure it in a lightweight and visual way. We
+discuss how these affordances help users externalize more of their mental model
+into the system (e.g., saving, annotating, and structuring items) and support
+fast reviewing and resumption of task contexts. Our 22-month public deployment
+and follow-up interviews provide longitudinal insights into the structuring
+behaviors of real-world users conducting information foraging tasks.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/fuse.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Fuse', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/2208.14861" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Fuse', 'arXiv']);"  role="button">arXiv</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Kuznetsov, Andrew, Joseph Chee Chang, Nathan Hahn, Napol Rachatasumrit, Bradley Breneisen, Julina Coupland, and Aniket Kittur.
+"Fuse: In-Situ Sensemaking Support in the Browser."
+In Proceedings of the 35th ACM User Interface Software and Technology Symposium: UIST 2022.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{kuznetsov2022fuse,
+ title={Fuse: In-Situ Sensemaking Support in the Browser},
+ author={Kuznetsov, Andrew and Chang, Joseph Chee and Hahn, Nathan and Rachatasumrit, Napol and Breneisen, Bradley and Coupland, Julina and Kittur, Aniket},
+ booktitle = {},
+ series = {UIST '22},
+ year = {2022},
+ location = {Bend, OR, USA},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wigglite]]></title>
+    <link href="http://josephcc.github.com/UIST-Wigglite/"/>
+    <updated>2022-10-29T05:00:00-07:00</updated>
+    <id>http://josephcc.github.com/UIST-Wigglite</id>
+    <content type="html"><![CDATA[<p>Users conducting online sensemaking tasks face the challenge of capturing the
+information they find for later use without interrupting their flow.
+Specifically, as people collect information, they also need to triaging support
+such as how urgent a topic is to follow up on, or rating a piece of evidence as
+a "pro" or "con," which helps scaffold subsequent deeper exploration.  However,
+current approaches incur a high cost, often requiring users to select, copy,
+context switch, paste, and annotate information.  In this work, we explore a
+new interaction technique called "wiggling," which can be used to fluidly
+collect, organize, and rate information during early sensemaking stages with a
+single gesture. Through implementation and user evaluation, we found that
+wiggling helped participants accurately collect information and encode their
+mental context with a 58% reduction in operational cost while being 24% faster
+compared to a common baseline.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Consumers conducting comparison shopping, researchers making sense of
+competitive space, and developers looking for code snippets online all face the
+challenge of capturing the information they find for later use without
+interrupting their current flow. In addition, during many learning and
+exploration tasks, people need to externalize their mental context, such as
+estimating how urgent a topic is to follow up on, or rating a piece of evidence
+as a "pro" or "con," which helps scaffold subsequent deeper exploration.
+However, current approaches incur a high cost, often requiring users to select,
+copy, context switch, paste, and annotate information in a separate document
+without offering specific affordances that capture their mental context. In
+this work, we explore a new interaction technique called "wiggling," which can
+be used to fluidly collect, organize, and rate information during early
+sensemaking stages with a single gesture. Wiggling involves rapid
+back-and-forth movements of a pointer or up-and-down scrolling on a smartphone,
+which can indicate the information to be collected and its valence, using a
+single, light-weight gesture that does not interfere with other interactions
+that are already available. Through implementation and user evaluation, we
+found that wiggling helped participants accurately collect information and
+encode their mental context with a 58% reduction in operational cost while
+being 24% faster compared to a common baseline.</p>
+
+<h2>Downloads</h2>
+
+<p><a class="btn btn-default" href="http://josephcc.github.com/images/papers/wigglite.pdf" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Wigglite', 'PDF']);" role="button">PDF Download</a>
+<a class="btn btn-default" href="https://arxiv.org/abs/2208.00496" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'Wigglite', 'arXiv']);"  role="button">arXiv</a></p>
+
+<h2>Citation</h2>
+
+<pre><code>Michael Xieyang Liu, Andrew Kuznetsov, Yongsung Kim, Joseph Chee Chang, Aniket Kittur, Brad A Myers
+"Wigglite: Low-cost Information Collection and Triage"
+In Proceedings of the 35th ACM User Interface Software and Technology Symposium: UIST 2022.
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<pre><code>@article{liu2022wigglite,
+ title={Wigglite: Low-cost Information Collection and Triage},
+ author={Liu, Michael Xieyang and Kuznetsov, Andrew and Kim, Yongsung and Chang, Joseph Chee and Kittur, Aniket and Myers, Brad A.},
+ booktitle = {},
+ series = {UIST '22},
+ year = {2022},
+ location = {Bend, OR, USA},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+}
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mesh]]></title>
