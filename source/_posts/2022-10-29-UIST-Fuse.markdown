@@ -14,7 +14,7 @@ categories: ['UIST', 'HCI', 'Sensemaking', 'Search', 'Information Retrieval', 'I
 span: 12
 project: true
 img: "/images/projects/fuse.jpeg"
-imgStyleIndex: 'width: 50%; float: right; margin-left: 28px; border: 1px solid lightgray;'
+imgStyleIndex: 'width: 51%; float: right; margin-left: 28px; border: 1px solid lightgray;'
 imgStylePost: 'width: 80%; margin-left: auto; margin-right: auto; margin-top: 28px; border: 1px solid lightgray;'
 
 ---
