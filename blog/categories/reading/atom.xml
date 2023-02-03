@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Reading | Joseph Chee Chang]]></title>
+  <link href="http://josephcc.github.com/blog/categories/reading/atom.xml" rel="self"/>
+  <link href="http://josephcc.github.com/"/>
+  <updated>2023-02-03T15:30:50-08:00</updated>
+  <id>http://josephcc.github.com/</id>
+  <author>
+    <name><![CDATA[Joseph Chee Chang]]></name>
+    <email><![CDATA[josephc->allenai*org]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CiteSee]]></title>
+    <link href="http://josephcc.github.com/CHI-citesee/"/>
+    <updated>2023-04-23T08:10:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-citesee</id>
+    <content type="html"><![CDATA[<p> CiteSee provides a personalized paper reading experience by visually
+ augmenting inline citations based on their connections to the current user
+ based on their reading history, paper library, and publication records.
+ During literature review sessions, CiteSee allows users to prioritize their
+ exploration to focus first on inline citations most relevant to their recent
+ readings. It also highlights inline citations to familiar papers, allowing
+ users to keep track of their exploration and better contexturalize the current
+ paper. Lab and field studies showed CiteSee can improve better paper discovery
+ via inline citations, and allowed participants to have better situational
+ awareness when conducting real-world literature reviews.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>When reading a scholarly article, inline citations help researchers
+contextualize the current article and discover relevant prior work. However, it
+can be challenging to prioritize and make sense of the hundreds of citations
+encountered during literature reviews. This paper introduces CiteSee, a paper
+reading tool that leverages a user's publishing, reading, and saving activities
+to provide personalized visual augmentations and context around citations.
+First, CiteSee connects the current paper to familiar contexts by surfacing
+known citations a user had cited or opened. Second, CiteSee helps users
+prioritize their exploration by highlighting relevant but unknown citations
+based on saving and reading history. We conducted a lab study that suggests
+CiteSee is significantly more effective for paper discovery than three
+baselines. A field deployment study shows CiteSee helps participants keep
+track of their explorations and leads to better situational awareness and
+increased paper discovery via inline citation when conducting real-world
+literature reviews.</p>
+
+<h2>Presentation (SIGCHI 2023)</h2>
+
+<p>coming soon...</p>
+
+<h2>Downloads</h2>
+
+<p>coming soon...</p>
+
+<h2>Citation</h2>
+
+<pre><code>Joseph Chee Chang, Amy X. Zhang, Jonathan Bragg, Andrew Head, Kyle
+Lo, Doug Downey, and Daniel S. Weld. 2023.
+CiteSee: Augmenting Citations in Scientific Papers with Persistent and Personalized Historical Context.
+In Proceedings of the 2023 CHI Conference on Human Factors in Computing
+Systems (CHI ’23), April 23–28, 2023, Hamburg, Germany. ACM, New York,
+NY, USA, Article 111, 15 pages. https://doi.org/10.1145/3544548.3580847
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<p>coming soon</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Relatedly]]></title>
+    <link href="http://josephcc.github.com/CHI-relatedly/"/>
+    <updated>2023-04-23T08:05:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-relatedly</id>
+    <content type="html"><![CDATA[<p>Scientific breakthroughs often rely upon scholars synthesizing many published
+work into broad overviews and rich insights to identify gaps in the current
+literature.  However, survey articles require significant time and effort to
+synthesize and can quickly become outdated. Researchers in fast-paced
+disciplines also rely on the related work section to better understand the
+background when reading a paper.  While related work sections also summarizes
+multiple prior work, they typically provide partial views of the larger
+research domain. Relatedly explore how a system in which users can quickly
+explore and read related work sections extracted across many papers can help
+scholars gain richer and more comprehensive overviews of fast-paced domains.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Scholars who want to research a scientific topic must take time to read,
+extract meaning, and identify connections across many papers. As scientific
+literature grows, this becomes increasingly challenging. Meanwhile, authors
+summarize prior research in papers' related work sections, though this is
+scoped to support a single paper. A formative study found that while reading
+multiple related work paragraphs helps overview a topic, it is hard to navigate
+overlapping and diverging references and research foci.  In this work, we
+design a system, Relatedly, that scaffolds exploring and reading multiple
+related work paragraphs on a topic, with features including dynamic re-ranking
+and highlighting to spotlight unexplored dissimilar information, auto-generated
+descriptive paragraph headings, and low-lighting of redundant information. From
+a within-subjects user study (n=15), we found that scholars generate more
+coherent, insightful, and comprehensive topic outlines using Relatedly compared
+to a baseline paper list.</p>
+
+<h2>Presentation (SIGCHI 2023)</h2>
+
+<p>coming soon...</p>
+
+<h2>Downloads</h2>
+
+<p>coming soon...</p>
+
+<h2>Citation</h2>
+
+<pre><code>Srishti Palani, Aakanksha Naik, Doug Downey, Amy X. Zhang, Jonathan
+Bragg, and Joseph Chee Chang. 2023. Relatedly: Scaffolding Literature
+Reviews with Existing Related Work Sections. In Proceedings of the 2023
+CHI Conference on Human Factors in Computing Systems (CHI ’23), April
+23–28, 2023, Hamburg, Germany. ACM, New York, NY, USA, 19 pages.
+https://doi.org/10.1145/3544548.3580841
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<p>coming soon</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ComLittee]]></title>
+    <link href="http://josephcc.github.com/CHI-comlittee/"/>
+    <updated>2023-04-23T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-comlittee</id>
+    <content type="html"><![CDATA[<p>Significant research has been devoted to creating systems that help scholars
+discover relevant papers.  While recent approaches have also shown benefits in
+highlighting relevant authors to improve paper discovery, these systems do not
+capture and utilize users' evolving knowledge of authors.  We introduce
+ComLittee, a literature discovery system that supports author-centric
+exploration.  ComLittee supports author discovery to curation of a
+comittee of authors relevant to a research topic of interests based on existing
+paper recommendation systems.  In our evaluation, we demonstrate how ComLittee
+leads to a higher efficiency, quality, and novelty in author discovery that
+also improves paper discovery.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>In order to help scholars understand and follow a research topic, significant
+research has been devoted to creating systems that help scholars discover
+relevant papers and authors.  Recent approaches have shown the usefulness of
+highlighting relevant authors while scholars engage in paper discovery.
+However, these systems do not capture and utilize users' evolving knowledge of
+authors.  We reflect on the design space and introduce ComLittee, a literature
+discovery system that supports author-centric exploration.  In contrast to
+paper-centric interaction in prior systems, ComLittee's author-centric
+interaction supports curation of research threads from individual authors,
+finding new authors and papers with combined signals from a paper recommender
+and the curated authors' authorship graphs, and understanding them in the
+context of those signals.  In a within-subjects experiment that compares to an
+author-highlighting approach, we demonstrate how ComLittee leads to a higher
+efficiency, quality, and novelty in author discovery that also improves paper
+discovery.</p>
+
+<h2>Presentation (SIGCHI 2023)</h2>
+
+<p>coming soon...</p>
+
+<h2>Downloads</h2>
+
+<p>coming soon...</p>
+
+<h2>Citation</h2>
+
+<pre><code>Hyeonsu B. Kang, Nouran Soliman, Matt Latzke, Joseph Chee Chang, and Jonathan
+Bragg. 2023. ComLittee: Literature Discovery with Personal Elected Author
+Committees. In Proceedings of the 2023 CHI Conference on Human Factors in
+Computing Systems (CHI ’23), April 23–28, 2023, Hamburg, Germany. ACM,
+New York, NY, USA, 20 pages. https://doi.org/10.1145/3544548.3581371
+</code></pre>
+
+<h2>Bibtex</h2>
+
+<p>coming soon</p>
+]]></content>
+  </entry>
+  
+</feed>

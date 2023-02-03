@@ -4,7 +4,7 @@
   <title><![CDATA[Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2022-10-28T15:15:08-07:00</updated>
+  <updated>2023-02-03T15:30:50-08:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -12,6 +12,204 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CiteSee]]></title>
+    <link href="http://josephcc.github.com/CHI-citesee/"/>
+    <updated>2023-04-23T08:10:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-citesee</id>
+    <content type="html"><![CDATA[<p> CiteSee provides a personalized paper reading experience by visually
+ augmenting inline citations based on their connections to the current user
+ based on their reading history, paper library, and publication records.
+ During literature review sessions, CiteSee allows users to prioritize their
+ exploration to focus first on inline citations most relevant to their recent
+ readings. It also highlights inline citations to familiar papers, allowing
+ users to keep track of their exploration and better contexturalize the current
+ paper. Lab and field studies showed CiteSee can improve better paper discovery
+ via inline citations, and allowed participants to have better situational
+ awareness when conducting real-world literature reviews.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>When reading a scholarly article, inline citations help researchers
+contextualize the current article and discover relevant prior work. However, it
+can be challenging to prioritize and make sense of the hundreds of citations
+encountered during literature reviews. This paper introduces CiteSee, a paper
+reading tool that leverages a user&#8217;s publishing, reading, and saving activities
+to provide personalized visual augmentations and context around citations.
+First, CiteSee connects the current paper to familiar contexts by surfacing
+known citations a user had cited or opened. Second, CiteSee helps users
+prioritize their exploration by highlighting relevant but unknown citations
+based on saving and reading history. We conducted a lab study that suggests
+CiteSee is significantly more effective for paper discovery than three
+baselines. A field deployment study shows CiteSee helps participants keep
+track of their explorations and leads to better situational awareness and
+increased paper discovery via inline citation when conducting real-world
+literature reviews.</p>
+
+<h2>Presentation (SIGCHI 2023)</h2>
+
+<p>coming soon&#8230;</p>
+
+<h2>Downloads</h2>
+
+<p>coming soon&#8230;</p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Chee Chang, Amy X. Zhang, Jonathan Bragg, Andrew Head, Kyle
+</span><span class='line'>Lo, Doug Downey, and Daniel S. Weld. 2023.
+</span><span class='line'>CiteSee: Augmenting Citations in Scientific Papers with Persistent and Personalized Historical Context.
+</span><span class='line'>In Proceedings of the 2023 CHI Conference on Human Factors in Computing
+</span><span class='line'>Systems (CHI ’23), April 23–28, 2023, Hamburg, Germany. ACM, New York,
+</span><span class='line'>NY, USA, Article 111, 15 pages. https://doi.org/10.1145/3544548.3580847</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<p>coming soon</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Relatedly]]></title>
+    <link href="http://josephcc.github.com/CHI-relatedly/"/>
+    <updated>2023-04-23T08:05:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-relatedly</id>
+    <content type="html"><![CDATA[<p>Scientific breakthroughs often rely upon scholars synthesizing many published
+work into broad overviews and rich insights to identify gaps in the current
+literature.  However, survey articles require significant time and effort to
+synthesize and can quickly become outdated. Researchers in fast-paced
+disciplines also rely on the related work section to better understand the
+background when reading a paper.  While related work sections also summarizes
+multiple prior work, they typically provide partial views of the larger
+research domain. Relatedly explore how a system in which users can quickly
+explore and read related work sections extracted across many papers can help
+scholars gain richer and more comprehensive overviews of fast-paced domains.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>Scholars who want to research a scientific topic must take time to read,
+extract meaning, and identify connections across many papers. As scientific
+literature grows, this becomes increasingly challenging. Meanwhile, authors
+summarize prior research in papers&#8217; related work sections, though this is
+scoped to support a single paper. A formative study found that while reading
+multiple related work paragraphs helps overview a topic, it is hard to navigate
+overlapping and diverging references and research foci.  In this work, we
+design a system, Relatedly, that scaffolds exploring and reading multiple
+related work paragraphs on a topic, with features including dynamic re-ranking
+and highlighting to spotlight unexplored dissimilar information, auto-generated
+descriptive paragraph headings, and low-lighting of redundant information. From
+a within-subjects user study (n=15), we found that scholars generate more
+coherent, insightful, and comprehensive topic outlines using Relatedly compared
+to a baseline paper list.</p>
+
+<h2>Presentation (SIGCHI 2023)</h2>
+
+<p>coming soon&#8230;</p>
+
+<h2>Downloads</h2>
+
+<p>coming soon&#8230;</p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Srishti Palani, Aakanksha Naik, Doug Downey, Amy X. Zhang, Jonathan
+</span><span class='line'>Bragg, and Joseph Chee Chang. 2023. Relatedly: Scaffolding Literature
+</span><span class='line'>Reviews with Existing Related Work Sections. In Proceedings of the 2023
+</span><span class='line'>CHI Conference on Human Factors in Computing Systems (CHI ’23), April
+</span><span class='line'>23–28, 2023, Hamburg, Germany. ACM, New York, NY, USA, 19 pages.
+</span><span class='line'>https://doi.org/10.1145/3544548.3580841</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<p>coming soon</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ComLittee]]></title>
+    <link href="http://josephcc.github.com/CHI-comlittee/"/>
+    <updated>2023-04-23T08:00:00-07:00</updated>
+    <id>http://josephcc.github.com/CHI-comlittee</id>
+    <content type="html"><![CDATA[<p>Significant research has been devoted to creating systems that help scholars
+discover relevant papers.  While recent approaches have also shown benefits in
+highlighting relevant authors to improve paper discovery, these systems do not
+capture and utilize users&#8217; evolving knowledge of authors.  We introduce
+ComLittee, a literature discovery system that supports author-centric
+exploration.  ComLittee supports author discovery to curation of a
+comittee of authors relevant to a research topic of interests based on existing
+paper recommendation systems.  In our evaluation, we demonstrate how ComLittee
+leads to a higher efficiency, quality, and novelty in author discovery that
+also improves paper discovery.</p>
+
+<!--more-->
+
+
+<h2>Abstract</h2>
+
+<p>In order to help scholars understand and follow a research topic, significant
+research has been devoted to creating systems that help scholars discover
+relevant papers and authors.  Recent approaches have shown the usefulness of
+highlighting relevant authors while scholars engage in paper discovery.
+However, these systems do not capture and utilize users&#8217; evolving knowledge of
+authors.  We reflect on the design space and introduce ComLittee, a literature
+discovery system that supports author-centric exploration.  In contrast to
+paper-centric interaction in prior systems, ComLittee&#8217;s author-centric
+interaction supports curation of research threads from individual authors,
+finding new authors and papers with combined signals from a paper recommender
+and the curated authors&#8217; authorship graphs, and understanding them in the
+context of those signals.  In a within-subjects experiment that compares to an
+author-highlighting approach, we demonstrate how ComLittee leads to a higher
+efficiency, quality, and novelty in author discovery that also improves paper
+discovery.</p>
+
+<h2>Presentation (SIGCHI 2023)</h2>
+
+<p>coming soon&#8230;</p>
+
+<h2>Downloads</h2>
+
+<p>coming soon&#8230;</p>
+
+<h2>Citation</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Hyeonsu B. Kang, Nouran Soliman, Matt Latzke, Joseph Chee Chang, and Jonathan
+</span><span class='line'>Bragg. 2023. ComLittee: Literature Discovery with Personal Elected Author
+</span><span class='line'>Committees. In Proceedings of the 2023 CHI Conference on Human Factors in
+</span><span class='line'>Computing Systems (CHI ’23), April 23–28, 2023, Hamburg, Germany. ACM,
+</span><span class='line'>New York, NY, USA, 20 pages. https://doi.org/10.1145/3544548.3581371</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Bibtex</h2>
+
+<p>coming soon</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Threddy]]></title>
@@ -1651,198 +1849,6 @@ heuristically. These may include the confident of the HMM results, the percentag
 the before mentioned conditional probabilities and more. Global optimization approaches can be used to
 find good parameters to determine the timing to start stage two.  Alternatively, we can treat the two
 stages as different strategies and use genetic algorithm to apply them alternately.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TermMine]]></title>
-    <link href="http://josephcc.github.com/ACL-termmine/"/>
-    <updated>2012-07-08T08:00:00-07:00</updated>
-    <id>http://josephcc.github.com/ACL-termmine</id>
-    <content type="html"><![CDATA[<p>TermMine is an information extraction system that can automatically mine
-translation pairs of terms from the web. We used a small set of terms and
-translations to gather mixed-code text from the web to train a CRF model that
-can identify translation pairs at run-time.</p>
-
-<!--more-->
-
-
-<h2>Abstract</h2>
-
-<p>In this paper, we present a new method for learning to finding translations and
-transliterations on the Web for a given term. The approach involves using a
-small set of terms and translations to obtain mixed-code snippets from a search
-engine, and automatically annotating the snippets with tags and features for
-training a conditional random field model. At run-time, the model is used to
-extracting translation candidates for a given term. Preliminary experiments and
-evaluation show our method cleanly combining various features, resulting in a
-system that outperforms previous work.</p>
-
-<h2>Download</h2>
-
-<p><a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'PDF']);"  href="http://www.aclweb.org/anthology/P12-2026" role="button">ACLWeb Hosted PDF</a>
-<a class="btn btn-default" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'TermMine', 'ACM']);"  href="http://dl.acm.org/citation.cfm?id=2390665.2390698" role="button">ACM Digital Library</a></p>
-
-<h2>Citation</h2>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Joseph Z. Chang, Jason S. Chang, and Jyh-Shing Roger Jang. 2012.
-</span><span class='line'>Learning to find translations and transliterations on the web.
-</span><span class='line'>In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics.
-</span><span class='line'>Association for Computational Linguistics, Stroudsburg, PA, USA, 130-134.</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Bibtex</h2>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>@inproceedings{Chang:2012:LFT:2390665.2390698,
-</span><span class='line'> author = {Chang, Joseph Z. and Chang, Jason S. and Jang, Jyh-Shing Roger},
-</span><span class='line'> title = {Learning to Find Translations and Transliterations on the Web},
-</span><span class='line'> booktitle = {Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics},
-</span><span class='line'> series = {ACL '12},
-</span><span class='line'> year = {2012},
-</span><span class='line'> location = {Jeju Island, Korea},
-</span><span class='line'> pages = {130--134},
-</span><span class='line'> numpages = {5},
-</span><span class='line'> url = {http://dl.acm.org/citation.cfm?id=2390665.2390698},
-</span><span class='line'> acmid = {2390698},
-</span><span class='line'> publisher = {Association for Computational Linguistics},
-</span><span class='line'> address = {Stroudsburg, PA, USA},
-</span><span class='line'>} </span></code></pre></td></tr></table></div></figure>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git: Remove (un-add) files from last commit]]></title>
-    <link href="http://josephcc.github.com/git-reverse-amend/"/>
-    <updated>2012-04-27T03:07:00-07:00</updated>
-    <id>http://josephcc.github.com/git-reverse-amend</id>
-    <content type="html"><![CDATA[<p>A lot of times we use <code>git commit --amend</code> to add the files that we have forgotten to the last
-commit (usually HEAD), or simply to fix typos in its commit message. However, you can&#8217;t remove, or un-add,
-committed files from the latest commit with <code>git commit --amend</code>. Here&#8217;s how:</p>
-
-<!-- more -->
-
-
-<ul>
-<li>Point your HEAD to the commit prior to the latest commit, without touching the index nor the working
-tree:</li>
-</ul>
-
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>git reset --soft HEAD
-</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>Now your <code>HEAD</code> points to the commit prior to the lastest commit, your <code>ORIG_HEAD</code> points to the latest
-commit, and your working tree and staging area is the same as the latest commit. Now we unstage all the
-changes from the staging area (or index), and add the files you originally intended to commit:</li>
-</ul>
-
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>git reset HEAD .
-</span><span class='line'>git add &lt;files&gt;
-</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>Finally, commit the staged files and reuse the metadata of the wrong commit:</li>
-</ul>
-
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span></span>git commit -c ORIG_HEAD
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p> you can always you <code>git rebase</code> to turn back time.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linux Kernel: Module debugging with gdb]]></title>
-    <link href="http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb/"/>
-    <updated>2011-12-05T21:12:00-08:00</updated>
-    <id>http://josephcc.github.com/linux-kernel-dev-module-debugging-gdb-kdgb</id>
-    <content type="html"><![CDATA[<p>This is post continues my previous post on
-<a href="http://joe.cat/blog/2011/10/17/linux-kernel-dev-debug-qemu-kgdb/">Kernel Debugging with gdb</a>,
-and explain how to do the same for debugging kernel modules.</p>
-
-<!-- more -->
-
-
-<p>此篇文章延續前文 ，簡單介紹如何使用 gdb / kgdb 對核心模組 (kernel module)
-進行即時的 debugging。</p>
-
-<p>The previous post explained how to use QEMU, kgdb and gdb to debug the Linux
-kernel in realtime. Adding parameters to <code>.config</code>, debug information is
-included in <code>vmlinux</code>, so that in gdb you can press <code>l</code> to list currently
-running kernel codes. However, kernel modules are dynamically loaded, even with
-the <code>-g</code> compile flag, the debug information is not loaded with <code>vmlinux</code>
-into gdb.</p>
-
-<p>在先前的文章中，介紹了如何使用 qemu、kgdb、gdb 對核心進行動態的
-debugging，並在編譯核心時在 vmlinux 中包含 debug information，使 debug
-時能夠直接瀏覽原始碼以及對變數進行存取。然而，kernel module
-是在核心之外的，因次就算編譯時加上 -g GCCFLAG 也無法直接在 gdb 中存取其
-debug information。</p>
-
-<p>To solve this issue, we need to use the <code>add-symbol-file</code> to let gdb read
-additional debug information. Since in my setup, gdb and the dynamically
-loaded kernel module are executing on different machines, there&#8217;s no way for gdb
-to know kernel module&#8217;s location in the memory after executing <code>insmod</code>. Here&#8217;s
-my solution:</p>
-
-<p>要解決這個問題，需要使用 gdb 中的 add-symbol-file 命令來讀入包含 debug
-information 的 kernel module。gdb 與核心、模組是執行在完全不同的電腦上，因次
-gdb 是無法直接得知 insmod 之後 kernel module 被載入到記憶體中的位置，也讓
-module debugging 變得比較 tricky 一點。以下是我的作法：</p>
-
-<ol>
-<li>In the kernel module, add a break point stub in <code>init_module</code>, so that the
-kernel is immediately stopped when the module is loaded for us to add more break
-points.</li>
-<li>When compiling the module, use <code>-g -O0</code> to produce debug information and
-prevent optimization.</li>
-<li>With the VM connected to gdb, use <code>insmod</code> to load the module. The VM will
-stop at <code>init_module</code>, use <code>c</code> in gdb to continue running the kernel for now.</li>
-<li>You can now find the module&#8217;s location in memory in the file
-<code>/sys/modules/&lt;module_name&gt;/sections/.text</code>. Copy it, and use other break points
-to stop the kernel without reloading the module.</li>
-<li>In gdb, execute <code>add-symbol-file &lt;module&gt; &lt;location&gt;</code> to load the debug
-information.</li>
-</ol>
-
-
-<p><a href="http://www.flickr.com/photos/bizkit/5233432557/" title="Screen shot
-2010-12-05 at 4.55.43 PM by bizkit@tw, on Flickr"><img
-src="http://farm6.staticflickr.com/5163/5233432557_a05d118698_z.jpg" width="640"
-height="266" alt="Screen shot 2010-12-05 at 4.55.43 PM"></a></p>
-
-<p>Now you can list and step through module code in gdb.</p>
-
-<p>Ref: http://www.linuxjournal.com/article/4525?page=0,1</p>
 ]]></content>
   </entry>
   
