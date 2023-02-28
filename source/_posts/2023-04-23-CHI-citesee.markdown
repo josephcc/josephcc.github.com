@@ -60,7 +60,7 @@ coming soon...
 
 Downloads
 ----------------------
-coming soon...
+<a class="btn btn-default" href="https://arxiv.org/abs/2302.07302" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'CiteSee', 'arXiv']);"  role="button">arXiv</a>
 
 Citation
 ----------------------
