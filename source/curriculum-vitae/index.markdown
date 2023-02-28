@@ -27,14 +27,6 @@ toc: false
 </iframe>
 </div>
 
-
-
-<a href="/curriculum-vitae/joseph_chang_resume.pdf" onclick="_gaq.push(['_trackEvent', 'CV', 'Download', 'PDF']);">Download PDF</a>
-<iframe src="/curriculum-vitae/joseph_chang_resume.pdf" style='width: 100%; height: 800px; border: 1px darkgray solid;'>
-  Resume
-</iframe>
-
-
 <div>
   {% include custom/asides/recent_activities.html %}
 </div>
