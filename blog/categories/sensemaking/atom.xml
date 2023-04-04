@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sensemaking | Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/blog/categories/sensemaking/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2023-02-27T20:09:28-08:00</updated>
+  <updated>2023-04-04T02:03:46-07:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -18,7 +18,10 @@
     <link href="http://josephcc.github.com/CHI-citesee/"/>
     <updated>2023-04-23T08:10:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-citesee</id>
-    <content type="html"><![CDATA[<p> CiteSee provides a personalized paper reading experience by visually
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER AWARD</em></strong>
+<br/></p>
+
+<p> CiteSee provides a personalized paper reading experience by visually
  augmenting inline citations based on their connections to the current user
  based on their reading history, paper library, and publication records.
  During literature review sessions, CiteSee allows users to prioritize their

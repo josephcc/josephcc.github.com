@@ -4,7 +4,7 @@
   <title><![CDATA[Joseph Chee Chang]]></title>
   <link href="http://josephcc.github.com/atom.xml" rel="self"/>
   <link href="http://josephcc.github.com/"/>
-  <updated>2023-02-27T20:09:28-08:00</updated>
+  <updated>2023-04-04T02:03:46-07:00</updated>
   <id>http://josephcc.github.com/</id>
   <author>
     <name><![CDATA[Joseph Chee Chang]]></name>
@@ -18,7 +18,10 @@
     <link href="http://josephcc.github.com/CHI-citesee/"/>
     <updated>2023-04-23T08:10:00-07:00</updated>
     <id>http://josephcc.github.com/CHI-citesee</id>
-    <content type="html"><![CDATA[<p> CiteSee provides a personalized paper reading experience by visually
+    <content type="html"><![CDATA[<p><strong><em><i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER AWARD</em></strong>
+<br/></p>
+
+<p> CiteSee provides a personalized paper reading experience by visually
  augmenting inline citations based on their connections to the current user
  based on their reading history, paper library, and publication records.
  During literature review sessions, CiteSee allows users to prioritize their
@@ -516,6 +519,7 @@ limitations of a task-centric approach to tab management.</p>
 <ul>
 <li>Mashable: <a href="https://mashable.com/article/too-many-tabs-open">Stop trying to work in multiple browser tabs. It&#8217;s terrible for your focus.</a></li>
 <li>Fast Company: <a href="https://www.fastcompany.com/90635776/the-twisted-psychology-of-browser-tabs-and-why-we-cant-get-rid-of-them">The twisted psychology of browser tabs—and why we can&#8217;t get rid of them</a></li>
+<li>Make Use Of: <a href="https://www.makeuseof.com/chrome-extensions-manage-too-many-tabs/">5 More Chrome Extensions to Manage the &#8220;Too Many Tabs&#8221; Problem</a></li>
 <li>MetroNews UK: <a href="https://metro.co.uk/2021/05/10/suffer-from-tab-overload-scientists-study-why-we-have-so-many-open-14540577/amp/">Suffer from &#8220;tab overload&#8221;? Scientists study why we have so many open</a></li>
 <li>Inc.: <a href="https://www.inc.com/jessica-stillman/productivity-browser-tabs-carnegie-mellon.html">Stressed Out by Your 87 Open Browser Tabs? New Science Offers a Fix</a></li>
 <li>HackerNews: <a href="https://news.ycombinator.com/item?id=27095701">When the Tab Comes Due: Challenges in the Cost Structure of Browser Tab Usage</a></li>
