@@ -19,6 +19,8 @@ imgStylePost: 'width: 60%; margin-left: auto; margin-right: auto; margin-top: 28
 
 ---
 
+***<i class="fa fa-trophy" aria-hidden="true"></i> BEST PAPER AWARD***
+<br/>
 
  CiteSee provides a personalized paper reading experience by visually
  augmenting inline citations based on their connections to the current user
