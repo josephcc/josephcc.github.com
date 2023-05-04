@@ -63,6 +63,12 @@ coming soon...
 Downloads
 ----------------------
 <a class="btn btn-default" href="https://arxiv.org/abs/2302.07302" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'CiteSee', 'arXiv']);"  role="button">arXiv</a>
+<a class="btn btn-default" href="https://dl.acm.org/doi/abs/10.1145/3544548.3580847" target='_blank' onclick="_gaq.push(['_trackEvent', 'Paper', 'CiteSee', 'ACM']);"  role="button">ACM Digital Library</a>
+
+Other Formats
+----------------------
+- [AI2 Blog](https://blog.allenai.org/citesee-e0f9e9d46569)
+- [Tweet Thread](https://twitter.com/josephcc/status/1648064961284018178)
 
 Citation
 ----------------------
